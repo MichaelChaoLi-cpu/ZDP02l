@@ -66,3 +66,15 @@ slurm-*.out
 # Secrets
 # ========================
 .env
+
+# BEGIN manuscript revision workspace
+.codex/skills/
+Rev/*
+!Rev/docs/
+Rev/docs/*
+!Rev/docs/revisionchanges.md
+!Rev/revision/
+Rev/revision/*
+!Rev/revision/response-draft.md
+# END manuscript revision workspace
+

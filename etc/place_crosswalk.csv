@@ -1,0 +1,24 @@
+COUNTRY,place_name,unit_type
+1,Argentina,country
+2,Australia,country
+3,Brazil,country
+4,Egypt,country
+5,Germany,country
+6,India,country
+7,Indonesia,country
+8,Israel,country
+9,Japan,country
+10,Kenya,country
+11,Mexico,country
+12,Nigeria,country
+13,Philippines,country
+14,Poland,country
+16,South Africa,country
+17,Spain,country
+18,Tanzania,country
+19,Turkey,country
+20,United Kingdom,country
+22,United States,country
+23,Sweden,country
+24,Hong Kong,region
+25,China,country
