@@ -36,6 +36,70 @@ This approach quantifies the linear relationship between the rural-urban residen
      - Before: ""
      - After: " OLS is retained as the primary model because its coefficient is directly interpretable in scale points and because it is widely used in prior well-being research. As an ordinal robustness check, life satisfaction is grouped into four ordered categories—0–4 (low), 5–6 (moderate), 7–8 (high), and 9–10 (very high)—and a proportional-odds logit model is estimated on the same common sample with the same covariates and place fixed effects. We test the proportional-odds assumption for rural residence and, when it is rejected, interpret a partial proportional-odds model that allows the rural coefficient to vary across cumulative thresholds; a model using all 11 original outcome categories is retained as a sensitivity analysis."
 
+### part-02
+
+- Location: Results > Robustness of Findings, opening paragraph beginning 'The main findings regarding'
+- Reason: Report the validated four-category ordered-logit robustness result, the rejected proportional-odds assumption, and the qualified partial-proportional-odds interpretation requested by Reviewer 2.
+- Kila decisions: KILA-D-20260825-006, KILA-D-20260825-012, KILA-D-20260825-013
+- Mode: `replace`
+- Timestamp: 2026-08-26T00:25:44Z
+- Author: Kila
+- Markup SHA-256 before: `b23708fccb5b17e333215ff099074546d88783fcd5e59c962e451c48540d9a8e`
+- Markup SHA-256 after: `f3bc2de7b1595e6851435312bb5830617dd5cc2bdc5f902eb2b94958e5854914`
+- Revision IDs: `281`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260826T092544375441.reviewer-2-comment-9.part-02.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Before:
+
+~~~~text
+The main findings regarding the rural-urban life satisfaction gap remain robust when using alternative well-being outcomes.
+~~~~
+
+- After:
+
+~~~~text
+In the four-category ordinal robustness analysis on the common sample (N = 183,685), the proportional-odds model yielded an odds ratio of 1.069 for rural residence (95% cluster-t interval: 1.018 to 1.122), but the proportional-odds assumption was rejected (F(2, 21) = 6.74, p = 0.005). We therefore interpret the partial proportional-odds specification: its expected category-score average marginal effect was 0.015 (95% cluster-t interval: -0.001 to 0.032), and the threshold-specific estimates varied in direction. The small positive average estimate is directionally consistent with the primary OLS result, but the ordinal analysis does not support a uniform upward shift across the outcome distribution. The main findings regarding the rural-urban life satisfaction gap remain robust when using alternative well-being outcomes.
+~~~~
+
+- Minimal tracked fragments:
+  1. `insert`
+     - Before: ""
+     - After: "In the four-category ordinal robustness analysis on the common sample (N = 183,685), the proportional-odds model yielded an odds ratio of 1.069 for rural residence (95% cluster-t interval: 1.018 to 1.122), but the proportional-odds assumption was rejected (F(2, 21) = 6.74, p = 0.005). We therefore interpret the partial proportional-odds specification: its expected category-score average marginal effect was 0.015 (95% cluster-t interval: -0.001 to 0.032), and the threshold-specific estimates varied in direction. The small positive average estimate is directionally consistent with the primary OLS result, but the ordinal analysis does not support a uniform upward shift across the outcome distribution. "
+
+### part-04
+
+- Location: Results > Robustness of Findings, opening paragraph after the sentence introducing alternative-outcome robustness and before its Happiness example
+- Reason: Link the concise main-text ordinal result to the verified standalone supplementary tables containing the threshold-specific PPO estimates and original 0–10 sensitivity analysis.
+- Kila decisions: KILA-D-20260825-006, KILA-D-20260825-012, KILA-D-20260825-013, KILA-D-20260826-003
+- Mode: `replace`
+- Timestamp: 2026-08-26T07:16:35Z
+- Author: Kila
+- Markup SHA-256 before: `f3bc2de7b1595e6851435312bb5830617dd5cc2bdc5f902eb2b94958e5854914`
+- Markup SHA-256 after: `10a66f4a24da6744ce0e6f2d3521060a7f0efa2c53a737d262ba939a5cce0f22`
+- Revision IDs: `282`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260826T161635569331.reviewer-2-comment-9.part-04.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Before:
+
+~~~~text
+The main findings regarding the rural-urban life satisfaction gap remain robust when using alternative well-being outcomes.
+~~~~
+
+- After:
+
+~~~~text
+The main findings regarding the rural-urban life satisfaction gap remain robust when using alternative well-being outcomes. Threshold-specific partial proportional-odds estimates and the original 0–10 sensitivity analysis are reported in Supplementary Tables S1 and S2.
+~~~~
+
+- Minimal tracked fragments:
+  1. `insert`
+     - Before: ""
+     - After: " Threshold-specific partial proportional-odds estimates and the original 0–10 sensitivity analysis are reported in Supplementary Tables S1 and S2."
+
 ## reviewer-1/comment-2
 
 ### part-01

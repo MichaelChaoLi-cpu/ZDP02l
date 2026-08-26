@@ -1018,3 +1018,137 @@ Close reviewer-1/comment-2 in the revision plan and authorize its single targete
 ### Follow-Up
 
 Set reviewer-1/comment-2 to done, append the procedure execution log, and route the authorized targeted Git checkpoint through manage-git-workflow.
+
+## KILA-D-20260826-003: Use a standalone manuscript-styled supplementary Word document
+
+- Event SHA-256: e7e5346c4ab090444f13b80db7bfaab1c3d17f9aa9074f46ad24883a9ceedc78
+- Recorded at: 2026-08-26T09:39:43+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision-loop
+- Reviewer ID: reviewer-2
+- Comment ID: comment-9
+- Decision type: supplement-deliverable-structure
+- Source skill: build-revision-plan
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: None recorded
+- Object SHA-256: None recorded
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Add at least an ordered logit robustness check for the bounded 0-10 outcome, with detailed results placed outside the concise main text.
+
+### Decision Context
+
+The ordered-logit robustness requires detailed threshold-specific and eleven-category sensitivity outputs outside the concise main-text report; additional reviewer items may later contribute supplementary tables and figures.
+
+### Kila Recommendation
+
+Maintain one standalone supplementary Word document that inherits the main manuscript's visual style and is organized primarily around numbered tables and figures, with concise captions and notes.
+
+### Options Presented
+
+- Create a standalone manuscript-styled supplementary Word document for tables and figures.
+
+### Human Decision
+
+The Supplementary Materials must be a separate Word document, visually consistent with the main manuscript, and should consist mainly of tables and figures.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Create and maintain a separate supplementary DOCX as the shared destination for detailed robustness tables and figures; keep the main manuscript concise and synchronize captions, numbering, notes, and cross-references.
+
+### Affected Manuscript Sections
+
+- Supplementary Materials
+- Main-manuscript cross-references
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.supplementary.docx
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Update the revision plan, then create the standalone supplementary DOCX by inheriting styles and page settings from the current clean manuscript before adding the ordered-model table.
+
+## KILA-D-20260826-004: Approve ordered-logit response and implementation
+
+- Event SHA-256: 98cf2e4c0a83449dd8bc29e4d6c32b7c37c73e9df44698b96294bfea0c66019c
+- Recorded at: 2026-08-26T16:34:00+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision-loop
+- Reviewer ID: reviewer-2
+- Comment ID: comment-9
+- Decision type: implementation-and-response-approval
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260825-013
+- Decision object: Rev/revision/response-draft.md
+- Object SHA-256: fc751e04e997801d8752c7ea44e5d877727173eec554c87ed420b0888998cc90
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Include at least an ordered logit robustness check for the bounded 0-10 outcome.
+
+### Decision Context
+
+The manuscript methods and Results edits, standalone Supplementary Tables S1-S2, fresh-clean verification, and the complete Reviewer 2 Comment 9 response block were presented for the human review gate.
+
+### Kila Recommendation
+
+Approve the verified implementation and response if they accurately preserve OLS as primary, report the qualified ordinal evidence, and direct detailed results to the standalone supplement.
+
+### Options Presented
+
+- Approve the verified response and close the comment
+- Request revisions before closing the comment
+
+### Human Decision
+
+The human explicitly approved the pending Reviewer 2 Comment 9 response and the verified manuscript and supplementary implementation it summarizes.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Close Reviewer 2 Comment 9 in the revision plan and authorize its single targeted Git checkpoint under the revision procedure.
+
+### Affected Manuscript Sections
+
+- Analytical Approach
+- Results > Robustness of Findings
+- Supplementary Materials
+- Response to Reviewers > Reviewer 2 Comment 9
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/revision/ZDP02l.supplementary.docx
+- Rev/revision/response-draft.md
+- Rev/docs/revisionchanges.md
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Set Reviewer 2 Comment 9 to done, append the procedure execution log, and route the authorized targeted Git checkpoint through manage-git-workflow.

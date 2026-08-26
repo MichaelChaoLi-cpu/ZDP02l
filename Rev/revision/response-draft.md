@@ -400,11 +400,13 @@ The revised figure reads:
 The authors should include at least an ordered logit model as a robustness check.
 
 **Response:**
-[Response pending.]
+Thank you for this important suggestion. We retain OLS as the primary model because its coefficient is directly interpretable in life-satisfaction scale points and because OLS is widely used in prior well-being research. We add an ordered-logit robustness analysis on the same common sample and with the same covariates and place fixed effects. Life satisfaction is grouped into four ordered categories (0–4, 5–6, 7–8, and 9–10). The proportional-odds model yields an odds ratio of 1.069 (95% cluster-t interval: 1.018 to 1.122), but the proportional-odds assumption is rejected (F(2, 21) = 6.74, p = 0.005). We therefore report and interpret a partial proportional-odds specification. Its expected category-score average marginal effect is 0.015 (95% cluster-t interval: -0.001 to 0.032), and the threshold-specific estimates vary in direction. Accordingly, we describe the small positive average estimate as directionally consistent with the primary OLS result, while explicitly avoiding a claim of a uniform upward shift across the outcome distribution. Threshold-specific estimates and the original 0–10 sensitivity analysis are reported in standalone Supplementary Tables S1 and S2.
 
-> [Exact revised text quoted from the fresh clean manuscript]
+The revised manuscript reads:
 
-(Lines/Pages: human verification required)
+> In the four-category ordinal robustness analysis on the common sample (N = 183,685), the proportional-odds model yielded an odds ratio of 1.069 for rural residence (95% cluster-t interval: 1.018 to 1.122), but the proportional-odds assumption was rejected (F(2, 21) = 6.74, p = 0.005). We therefore interpret the partial proportional-odds specification: its expected category-score average marginal effect was 0.015 (95% cluster-t interval: -0.001 to 0.032), and the threshold-specific estimates varied in direction. The small positive average estimate is directionally consistent with the primary OLS result, but the ordinal analysis does not support a uniform upward shift across the outcome distribution. The main findings regarding the rural-urban life satisfaction gap remain robust when using alternative well-being outcomes. Threshold-specific partial proportional-odds estimates and the original 0–10 sensitivity analysis are reported in Supplementary Tables S1 and S2.
+
+(Page 27, lines 586–597)
 
 ## Comment 10
 
