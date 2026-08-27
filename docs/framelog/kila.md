@@ -1858,3 +1858,261 @@ Reviewer 1 / Comment 10 can be marked done, with the three manuscript revisions 
 ### Follow-Up
 
 Mark reviewer-1/comment-10 done, validate the revision plan, and route the authorized Git checkpoint through manage-git-workflow when that skill is available.
+
+## KILA-D-20260827-009: Approve reviewer-2/comment-10 part-01 measurement-definition replacement
+
+- Event SHA-256: 32252a410d7aa409e4bc0e0ac59401e1e0fd4aa39ae22547fe27ab1a9c5e6cd3
+- Recorded at: 2026-08-27T13:14:38+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-2
+- Comment ID: comment-10
+- Decision type: measurement-clarification
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.clean.docx
+- Object SHA-256: 759d67dd294019d822029e9506b8096f84152a9b46e252f40b348bc7a3ccbd44
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Clarify whether the Social Capital Index component z-scores were calculated within each country/place or across the pooled sample.
+
+### Decision Context
+
+The primary Social Capital Index construction is already locked under KILA-D-20260825-003 and validated in code and outputs. The proposed Data and Measurement sentence was verified as unique and outside all six EndNote fields in the current fresh clean.
+
+### Kila Recommendation
+
+Replace the single ambiguous construction sentence with the exact approved common-sample, direction-aligned, within-analytical-place standardization, equal-weight definition.
+
+### Options Presented
+
+- Approve the exact reviewer-2/comment-10 part-01 replacement.
+
+### Human Decision
+
+The human approves reviewer-2/comment-10 part-01 exactly as proposed: state that the three direction-aligned components are z-standardized within each analytical place on the common sample and averaged with equal weights.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The manuscript will explicitly define the primary Social Capital Index construction and resolve the reviewer ambiguity while reserving pooled standardization for a later sensitivity-analysis clarification.
+
+### Affected Manuscript Sections
+
+- Data and Measurement > Social Support and Control Variables
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/docs/revisionplan.md
+- Rev/docs/revisionchanges.md
+- scripts/run_batch_a_core_path.py
+- reports/batch_a_core/model_specification.json
+
+### Follow-Up
+
+Run the field-safe tracked dry run, apply only the approved sentence if structural checks pass, regenerate a fresh clean copy, and complete semantic and full-render verification before proposing part-02.
+
+## KILA-D-20260827-010: Approve reviewer-2/comment-10 part-02 pooled-index sensitivity clarification
+
+- Event SHA-256: ed6ef0075d5e21dd16fc43f06094ca26c91924188144309cca40b1d5dd511f43
+- Recorded at: 2026-08-27T15:07:22+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-2
+- Comment ID: comment-10
+- Decision type: robustness-clarification
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.clean.docx
+- Object SHA-256: 983479bb34c1ae47e3a7abc9de4278f07423e3a18451ba3f901ff48d24d1f719
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Clarify whether Social Capital Index z-scores were calculated within each place or across the full sample, including how the alternative construction was assessed.
+
+### Decision Context
+
+The primary within-place Social Capital Index and pooled-standardization sensitivity are already locked and analytically validated. The proposed Methodology sentence was verified as unique in the current fresh clean and located in one simple text run outside all EndNote fields.
+
+### Kila Recommendation
+
+Add the exact approved sentence identifying pooled common-sample standardization as a separate sensitivity analysis while retaining within-place standardization as the primary definition.
+
+### Options Presented
+
+- Approve the exact reviewer-2/comment-10 part-02 Methodology insertion.
+
+### Human Decision
+
+The human approves reviewer-2/comment-10 part-02 exactly as proposed: add a Methodology sentence stating that the final OLS specification was re-estimated with the same direction-aligned components standardized across the pooled common sample rather than within each analytical place.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The manuscript will distinguish the pooled-standardization sensitivity from the primary within-place Social Capital Index construction and directly address the reviewer's ambiguity.
+
+### Affected Manuscript Sections
+
+- Methodology > Robustness Checks
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Apply and verify one field-safe true tracked replacement for reviewer-2/comment-10 part-02, then regenerate fresh clean and propose the next part.
+
+## KILA-D-20260827-011: Approve pooled Social Capital Index Results sentence
+
+- Event SHA-256: b56a71beff92829bd1aef621b64b8ce46b3a59a9a3eb23b8e0868e5bc7a5f78c
+- Recorded at: 2026-08-27T15:29:17+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-2
+- Comment ID: comment-10
+- Decision type: robustness-results-reporting
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.clean.docx
+- Object SHA-256: e5a4ef4a8c91dcd8a48bf1b7060b4a8e2673ca6836efecb6d95e9e6154ef35a2
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Clarify whether Social Capital Index standardization across the pooled sample versus within analytical places changes the substantive result.
+
+### Decision Context
+
+The primary within-place standardized Social Capital Index and the pooled common-sample sensitivity are analytically validated. The proposed Results sentence compares the rounded fully adjusted rural residence coefficient and CR2/Satterthwaite interval across those specifications.
+
+### Kila Recommendation
+
+Add the exact proposed Results sentence reporting the pooled-index sensitivity beside the primary within-place-standardized specification.
+
+### Options Presented
+
+- Approve reviewer-2/comment-10 part-03 exactly as proposed.
+
+### Human Decision
+
+The human approves reviewer-2/comment-10 part-03 exactly as proposed, including the pooled-index and primary coefficient and interval comparison and the conclusion that direction and interval inference are unchanged.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The Results section will directly show that the alternative Social Capital Index standardization leaves the fully adjusted rural residence estimate and interval conclusion unchanged.
+
+### Affected Manuscript Sections
+
+- Results > Robustness of Findings
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Apply and verify one field-safe true tracked insertion for reviewer-2/comment-10 part-03, regenerate fresh clean, then update only the matching response block under the verified-comment exception.
+
+## KILA-D-20260827-012: Approve reviewer-2/comment-10 response and implementation
+
+- Event SHA-256: a403a460551252e1d9937a54c90c00e6fc036f10454b1ec7cb8098e4995dd0ba
+- Recorded at: 2026-08-27T16:06:40+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-2
+- Comment ID: comment-10
+- Decision type: response-approval
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260827-011
+- Decision object: Rev/revision/response-draft.md
+- Object SHA-256: 21dfd4060f1003722440ce200342dcac6aed4a1dde639a8991dd1507f058d383
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Clarify whether Social Capital Index z-scores are calculated within each country or across the full sample.
+
+### Decision Context
+
+All three Reviewer 2 Comment 10 manuscript parts passed fresh-clean, semantic, structural, and full-render verification, and the corresponding response block is at the human-review gate.
+
+### Kila Recommendation
+
+Approve the verified response block and close Reviewer 2 Comment 10.
+
+### Options Presented
+
+- Approve the response and implementation.
+- Request a revision before closure.
+
+### Human Decision
+
+The human approved the Reviewer 2 Comment 10 response and the verified implementation without requesting changes.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Close Reviewer 2 Comment 10 as done and authorize its scoped Git checkpoint routing.
+
+### Affected Manuscript Sections
+
+- Response to Reviewer 2, Comment 10
+- Data and Measurement
+- Methodology
+- Results
+
+### Related Artifacts
+
+- Rev/revision/response-draft.md
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Update the revision plan row to done and route the authorized comment-scoped Git checkpoint.

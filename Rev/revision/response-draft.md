@@ -440,9 +440,23 @@ The revised manuscript reads:
 It must be clarified whether z-scores were calculated within each country or across the full sample.
 
 **Response:**
-[Response pending.]
+Thank you for raising this important point. We now state explicitly that the primary Social Capital Index is constructed on the common sample by first coding People Help, Has Confidant, and Trust People in a common direction so that higher values indicate stronger social capital, then z-standardizing each component within each analytical place and averaging the three standardized scores with equal weights. We also add a separate sensitivity analysis that standardizes the same direction-aligned components across the pooled common sample. The pooled-index specification produced a fully adjusted rural-residence coefficient of +0.065 (95% CR2/Satterthwaite interval: 0.002 to 0.127), compared with +0.065 (0.001 to 0.129) in the primary within-place-standardized specification; therefore, the direction and interval conclusion were unchanged.
 
-"[Exact revised text quoted from the fresh clean manuscript]"
+The revised *Data and Measurement* section reads:
+
+"This continuous index is constructed on the common sample by coding People Help, Has Confidant, and Trust People so that higher values consistently indicate stronger social capital, z-standardizing each component within each analytical place, and averaging the three standardized scores with equal weights."
+
+(Lines/Pages: human verification required)
+
+The revised *Methodology* section reads:
+
+"As a separate Social Capital Index sensitivity analysis, we re-estimated the final OLS specification using an index formed by standardizing the same direction-aligned components across the pooled common sample rather than within each analytical place."
+
+(Lines/Pages: human verification required)
+
+The revised *Results* section reads:
+
+"Using the pooled common-sample Social Capital Index produced a fully adjusted rural residence coefficient of +0.065 (95% CR2/Satterthwaite interval: 0.002 to 0.127), compared with +0.065 (0.001 to 0.129) in the primary within-place-standardized specification; thus, the direction and interval conclusion were unchanged."
 
 (Lines/Pages: human verification required)
 

@@ -1163,3 +1163,107 @@ In the separate non-mediator sensitivity analysis that ranked household-income b
      - Before: ""
      - After: "In the separate non-mediator sensitivity analysis that ranked household-income brackets within rural and urban respondents in each analytical place, the fully adjusted rural residence coefficient was +0.063 (95% CR2/Satterthwaite interval: 0.002 to 0.124), compared with +0.065 (0.001 to 0.129) in the primary specification; thus, the positive association and interval conclusion were unchanged. "
 
+## reviewer-2/comment-10
+
+### part-01
+
+- Location: Data and Measurement > Social Support and Control Variables, paragraph beginning 'Social support, a key mechanism...'
+- Reason: Clarify whether Social Capital Index components are standardized within each analytical place or across the pooled sample, and state the direction and equal-weight construction.
+- Kila decisions: KILA-D-20260825-003, KILA-D-20260827-009
+- Mode: `replace`
+- Timestamp: 2026-08-27T04:15:58Z
+- Author: Kila
+- Markup SHA-256 before: `19450941efcc93cb9492ecdb1ba1a4ee593146c41acaa6cba41c3af6c17985d6`
+- Markup SHA-256 after: `ff58d067a8bf19257ef37b7da51de2cb7141319c2e49782eac69dd19f6588372`
+- Revision IDs: `355, 356, 357, 358`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260827T131558354012.reviewer-2-comment-10.part-01.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Before:
+
+~~~~text
+This continuous index is constructed by averaging three z-scored social relationship variables: People Help, Has Confidant, and Trust People.
+~~~~
+
+- After:
+
+~~~~text
+This continuous index is constructed on the common sample by coding People Help, Has Confidant, and Trust People so that higher values consistently indicate stronger social capital, z-standardizing each component within each analytical place, and averaging the three standardized scores with equal weights.
+~~~~
+
+- Minimal tracked fragments:
+  1. `insert`
+     - Before: ""
+     - After: "on the common sample "
+  2. `replace`
+     - Before: "averaging three z-scored social relationship variables:"
+     - After: "coding"
+  3. `insert`
+     - Before: ""
+     - After: " so that higher values consistently indicate stronger social capital, z-standardizing each component within each analytical place, and averaging the three standardized scores with equal weights"
+
+### part-02
+
+- Location: Methodology > Robustness Checks, paragraph beginning 'As a separate non-mediator sensitivity analysis', after the survey-weight comparison
+- Reason: Distinguish the pooled common-sample Social Capital Index sensitivity from the primary within-place standardization and directly clarify both z-score constructions for the reviewer.
+- Kila decisions: KILA-D-20260825-003, KILA-D-20260827-010
+- Mode: `replace`
+- Timestamp: 2026-08-27T06:12:09Z
+- Author: Kila
+- Markup SHA-256 before: `ff58d067a8bf19257ef37b7da51de2cb7141319c2e49782eac69dd19f6588372`
+- Markup SHA-256 after: `89ac87db4f7091b70de341f22a40531d73c02f6e6196dcf29db0c09024c5a405`
+- Revision IDs: `359`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260827T151210018578.reviewer-2-comment-10.part-02.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Before:
+
+~~~~text
+This comparison assesses whether accounting for sampling probabilities and non-response biases substantially alters the magnitude or statistical significance of the rural-urban life satisfaction coefficients or the identified mediating mechanisms.
+~~~~
+
+- After:
+
+~~~~text
+This comparison assesses whether accounting for sampling probabilities and non-response biases substantially alters the magnitude or statistical significance of the rural-urban life satisfaction coefficients or the identified mediating mechanisms. As a separate Social Capital Index sensitivity analysis, we re-estimated the final OLS specification using an index formed by standardizing the same direction-aligned components across the pooled common sample rather than within each analytical place.
+~~~~
+
+- Minimal tracked fragments:
+  1. `insert`
+     - Before: ""
+     - After: " As a separate Social Capital Index sensitivity analysis, we re-estimated the final OLS specification using an index formed by standardizing the same direction-aligned components across the pooled common sample rather than within each analytical place."
+
+### part-03
+
+- Location: Results > Robustness of Findings, paragraph ending 'did not unduly influence the findings.'
+- Reason: Report the verified pooled common-sample Social Capital Index sensitivity beside the primary within-place-standardized specification and show that the coefficient direction and interval conclusion are unchanged.
+- Kila decisions: KILA-D-20260825-003, KILA-D-20260827-009, KILA-D-20260827-010, KILA-D-20260827-011
+- Mode: `replace`
+- Timestamp: 2026-08-27T06:30:32Z
+- Author: Kila
+- Markup SHA-256 before: `89ac87db4f7091b70de341f22a40531d73c02f6e6196dcf29db0c09024c5a405`
+- Markup SHA-256 after: `0b1b38b9510a0f6e8a99e54429779607e7fb2e632051bc23dfba9605afe3052f`
+- Revision IDs: `360`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260827T153032282574.reviewer-2-comment-10.part-03.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Before:
+
+~~~~text
+This consistency, detailed in Table 6 and visually summarized in Figure 8, indicates that potential sampling biases or non-representativeness did not unduly influence the findings.
+~~~~
+
+- After:
+
+~~~~text
+This consistency, detailed in Table 6 and visually summarized in Figure 8, indicates that potential sampling biases or non-representativeness did not unduly influence the findings. Using the pooled common-sample Social Capital Index produced a fully adjusted rural residence coefficient of +0.065 (95% CR2/Satterthwaite interval: 0.002 to 0.127), compared with +0.065 (0.001 to 0.129) in the primary within-place-standardized specification; thus, the direction and interval conclusion were unchanged.
+~~~~
+
+- Minimal tracked fragments:
+  1. `insert`
+     - Before: ""
+     - After: " Using the pooled common-sample Social Capital Index produced a fully adjusted rural residence coefficient of +0.065 (95% CR2/Satterthwaite interval: 0.002 to 0.127), compared with +0.065 (0.001 to 0.129) in the primary within-place-standardized specification; thus, the direction and interval conclusion were unchanged."
+
