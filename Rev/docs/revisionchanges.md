@@ -702,3 +702,464 @@ A further limitation is that, although the multilevel robustness model partially
      - Before: ""
      - After: "A further limitation is that, although the multilevel robustness model partially pools place-specific rural associations, the analysis includes only 23 places and lacks harmonized place-level covariates; it therefore cannot identify which contextual factors generate the observed heterogeneity. "
 
+## reviewer-1/comment-6
+
+### part-01
+
+- Location: Methodology > Sequential Model Specifications for Life Satisfaction, paragraph beginning 'Six sequential OLS regression models...'
+- Reason: Resolve the reviewer's variable-role concern by removing Income Security Feelings from the Model 3 baseline socioeconomic control block and including it only in the Model 5 economic-insecurity mechanism block.
+- Kila decisions: KILA-D-20260825-001
+- Mode: `replace`
+- Timestamp: 2026-08-26T08:12:26Z
+- Author: Kila
+- Markup SHA-256 before: `10a66f4a24da6744ce0e6f2d3521060a7f0efa2c53a737d262ba939a5cce0f22`
+- Markup SHA-256 after: `11c2c559738c4418a82fcab3ae586abb18fdfdc5b8cecaf5e5634478a549603a`
+- Revision IDs: `283, 284, 285, 286, 287, 288, 289, 290, 291, 292, 293, 294, 295, 296, 297, 298`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260826T171226504849.reviewer-1-comment-6.part-01.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Before:
+
+~~~~text
+Model 3 (M3) further refines the specification by adding socioeconomic controls to the demographic variables. These include Education Level and Income Security Feelings, which captures subjective financial comfort (An et al., 2025; Wei et al., 2024; Zhang et al., 2025). Subsequently, Model 4 (M4) introduces country fixed effects cCOUNTRY. These effects account for unobserved, time-invariant country-specific characteristics (Counted et al., 2024; Godoy et al., 2024; Zhao et al., 2022) that might influence both residential patterns and life satisfaction (Chaplitskaya et al., 2024; Counted et al., 2024; Lu et al., 2025), thereby isolating within-country variations. Model 5 (M5) expands upon the previous specifications by introducing variables related to economic insecurity, which are hypothesized to mediate the rural-urban life satisfaction gap. These variables include Expense Worry and Within-Country Income Percentile.
+~~~~
+
+- After:
+
+~~~~text
+Model 3 (M3) further refines the specification by adding Education Level as a socioeconomic control. Income Security Feelings is classified as an economic insecurity mechanism variable rather than a baseline socioeconomic control (An et al., 2025; Wei et al., 2024; Zhang et al., 2025). Subsequently, Model 4 (M4) introduces country fixed effects cCOUNTRY. These effects account for unobserved, time-invariant country-specific characteristics (Counted et al., 2024; Godoy et al., 2024; Zhao et al., 2022) that might influence both residential patterns and life satisfaction (Chaplitskaya et al., 2024; Counted et al., 2024; Lu et al., 2025), thereby isolating within-country variations. Model 5 (M5) expands upon the previous specifications by introducing variables related to economic insecurity, which are hypothesized to mediate the rural-urban life satisfaction gap. These variables include Income Security Feelings, Expense Worry, and Within-Country Income Percentile.
+~~~~
+
+- Minimal tracked fragments:
+  1. `delete`
+     - Before: "socioeconomic controls to the demographic variables. These include "
+     - After: ""
+  2. `replace`
+     - Before: "and"
+     - After: "as a socioeconomic control."
+  3. `delete`
+     - Before: ","
+     - After: ""
+  4. `replace`
+     - Before: "which"
+     - After: "is"
+  5. `replace`
+     - Before: "captures"
+     - After: "classified"
+  6. `replace`
+     - Before: "subjective"
+     - After: "as"
+  7. `replace`
+     - Before: "financial"
+     - After: "an"
+  8. `replace`
+     - Before: "comfort"
+     - After: "economic insecurity mechanism variable rather than a baseline socioeconomic control"
+  9. `insert`
+     - Before: ""
+     - After: "Income Security Feelings, "
+  10. `insert`
+     - Before: ""
+     - After: ","
+
+### part-02
+
+- Location: Data and Measurement > Economic Insecurity Measures, paragraph beginning 'Economic insecurity is a crucial mediating mechanism...'
+- Reason: Separate measurement definitions from descriptive results while preserving the approved unique economic-insecurity role of Income Security Feelings and the existing EndNote citation fields.
+- Kila decisions: KILA-D-20260825-001, KILA-D-20260826-005
+- Mode: `replace`
+- Timestamp: 2026-08-26T12:48:12Z
+- Author: Kila
+- Markup SHA-256 before: `11c2c559738c4418a82fcab3ae586abb18fdfdc5b8cecaf5e5634478a549603a`
+- Markup SHA-256 after: `266f338a752b063602a85a5a3effbcb39fa0dbab9c2702c93e2e3554b825f8f2`
+- Revision IDs: `299, 300, 301, 302, 303, 304, 305, 306, 307, 308, 309, 310, 311, 312, 313, 314, 315, 316, 317, 318, 319, 320, 321`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260826T214812302865.reviewer-1-comment-6.part-02.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Before:
+
+~~~~text
+Income Security Feelings, measured on a 1–4 scale (An et al., 2025; Gautam & Andersen, 2016; Wang et al., 2015), showed rural respondents with a mean of 2.75 (SD=0.94) and urban respondents with a mean of 2.98 (SD=0.89). For Expense Worry, measured on a 0–10 scale (An et al., 2025; Lu & Horlu, 2017; Wang et al., 2015), rural respondents reported a mean of 5.65 (SD=3.48), while urban respondents reported 6.07 (SD=3.33). Similarly, rural respondents had an average Within-Country Income Percentile of 0.48 (SD=0.28), compared to urban respondents at 0.53 (SD=0.29). Notably, rural respondents reported lower values than their urban counterparts for both Expense Worry and Within-Country Income Percentile. A comprehensive overview of these descriptive statistics is provided in Table 1.
+~~~~
+
+- After:
+
+~~~~text
+Income Security Feelings is measured on a 1–4 scale (An et al., 2025; Gautam & Andersen, 2016; Wang et al., 2015), and Expense Worry is measured on a 0–10 scale (An et al., 2025; Lu & Horlu, 2017; Wang et al., 2015). Table 1 reports descriptive statistics for these measures and Within-Country Income Percentile by rural-urban residence.
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: ","
+     - After: " is"
+  2. `delete`
+     - Before: "showed rural respondents with a mean of 2.75 (SD=0.94) "
+     - After: ""
+  3. `delete`
+     - Before: " urban respondents with a mean of 2.98 (SD=0.89). For"
+     - After: ""
+  4. `replace`
+     - Before: ","
+     - After: " is"
+  5. `delete`
+     - Before: ", rural respondents reported a mean of 5.65 (SD=3.48), while urban respondents reported 6.07 (SD=3.33)"
+     - After: ""
+  6. `replace`
+     - Before: "Similarly,"
+     - After: "Table"
+  7. `replace`
+     - Before: "rural"
+     - After: "1"
+  8. `replace`
+     - Before: "respondents"
+     - After: "reports"
+  9. `replace`
+     - Before: "had"
+     - After: "descriptive"
+  10. `replace`
+     - Before: "an average Within-Country Income Percentile of 0.48 (SD=0.28), compared to urban respondents at 0.53 (SD=0.29). Notably, rural respondents reported lower values than their urban counterparts"
+     - After: "statistics"
+  11. `replace`
+     - Before: "both"
+     - After: "these"
+  12. `replace`
+     - Before: "Expense Worry"
+     - After: "measures"
+  13. `insert`
+     - Before: ""
+     - After: " by rural-urban residence"
+  14. `delete`
+     - Before: " A comprehensive overview of these descriptive statistics is provided in Table 1."
+     - After: ""
+
+### part-03
+
+- Location: Methodology > Mechanism Analysis, paragraph beginning 'A dedicated mechanism analysis is conducted...'
+- Reason: Include Income Security Feelings in the economic-insecurity mechanism block and use the canonical names of all three indicators consistently.
+- Kila decisions: KILA-D-20260825-001, KILA-D-20260826-006
+- Mode: `replace`
+- Timestamp: 2026-08-26T13:18:54Z
+- Author: Kila
+- Markup SHA-256 before: `266f338a752b063602a85a5a3effbcb39fa0dbab9c2702c93e2e3554b825f8f2`
+- Markup SHA-256 after: `6ea89f6fb95cb8560c7a50d13fab0e145705350dd6e7acc690fc559c3b124f3c`
+- Revision IDs: `322, 323, 324, 325`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260826T221854614206.reviewer-1-comment-6.part-03.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Before:
+
+~~~~text
+First, economic insecurity indicators, specifically Expenses Worry and Income Percentile, are added.
+~~~~
+
+- After:
+
+~~~~text
+First, economic insecurity indicators, specifically Income Security Feelings, Expense Worry, and Within-Country Income Percentile, are added.
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "Expenses"
+     - After: "Income Security Feelings, Expense"
+  2. `insert`
+     - Before: ""
+     - After: ","
+  3. `insert`
+     - Before: ""
+     - After: " Within-Country"
+
+### part-04
+
+- Location: Methodology > Economic Insecurity Analysis, paragraph beginning 'Separate OLS models are estimated...'
+- Reason: Use the locked economic-insecurity mechanism roles and canonical variable names consistently in the dependent-variable list.
+- Kila decisions: KILA-D-20260825-001, KILA-D-20260826-007
+- Mode: `replace`
+- Timestamp: 2026-08-26T13:41:08Z
+- Author: Kila
+- Markup SHA-256 before: `6ea89f6fb95cb8560c7a50d13fab0e145705350dd6e7acc690fc559c3b124f3c`
+- Markup SHA-256 after: `d89b0fe643560bc7231cb68edcd2c3e942aa6213ccc714f119ddb954181df09e`
+- Revision IDs: `326, 327, 328, 329`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260826T224108424453.reviewer-1-comment-6.part-04.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Before:
+
+~~~~text
+To this end, the analysis employs Income Feelings, Expenses Worry, and Income Percentile as dependent variables.
+~~~~
+
+- After:
+
+~~~~text
+To this end, the analysis employs Income Security Feelings, Expense Worry, and Within-Country Income Percentile as dependent variables.
+~~~~
+
+- Minimal tracked fragments:
+  1. `insert`
+     - Before: ""
+     - After: "Security "
+  2. `replace`
+     - Before: "Expenses"
+     - After: "Expense"
+  3. `insert`
+     - Before: ""
+     - After: " Within-Country"
+
+### part-05
+
+- Location: Data and Measurement > Social Support and Control Variables, paragraph beginning 'Social support, a key mechanism...'
+- Reason: Separate Social Capital Index measurement from descriptive results by replacing repeated rural-urban sample sizes and moments with a direct Table 1 cross-reference.
+- Kila decisions: KILA-D-20260827-001
+- Mode: `replace`
+- Timestamp: 2026-08-27T00:03:00Z
+- Author: Kila
+- Markup SHA-256 before: `d89b0fe643560bc7231cb68edcd2c3e942aa6213ccc714f119ddb954181df09e`
+- Markup SHA-256 after: `645590b0cd48a0f9416c6f2ba772202cc2577e6eb5d6b3939a5094c521f92886`
+- Revision IDs: `330, 331, 332, 333, 334, 335, 336, 337, 338, 339, 340, 341, 342, 343, 344, 345`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260827T090301000942.reviewer-1-comment-6.part-05.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Before:
+
+~~~~text
+Among rural respondents (n = 110,988), the Social Capital Index had a mean of -0.02 (SD = 0.60), while urban respondents (n = 95,675) showed a mean of 0.02 (SD = 0.57), as detailed in Table 1.
+~~~~
+
+- After:
+
+~~~~text
+Descriptive statistics for the Social Capital Index by rural-urban residence are reported in Table 1.
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "Among"
+     - After: "Descriptive"
+  2. `replace`
+     - Before: "rural"
+     - After: "statistics"
+  3. `replace`
+     - Before: "respondents (n = 110,988),"
+     - After: "for"
+  4. `replace`
+     - Before: "had"
+     - After: "by"
+  5. `replace`
+     - Before: "a"
+     - After: "rural-urban"
+  6. `replace`
+     - Before: "mean"
+     - After: "residence"
+  7. `replace`
+     - Before: "of"
+     - After: "are"
+  8. `replace`
+     - Before: "-0.02 (SD = 0.60), while urban respondents (n = 95,675) showed a mean of 0.02 (SD = 0.57), as detailed"
+     - After: "reported"
+
+### part-06
+
+- Location: Data and Measurement > Social Support and Control Variables, control-variable paragraph beginning 'To account for fundamental population heterogeneity...'
+- Reason: Separate the Age measurement definition from descriptive results already reported in Table 1.
+- Kila decisions: KILA-D-20260827-002
+- Mode: `replace`
+- Timestamp: 2026-08-27T00:34:30Z
+- Author: Kila
+- Markup SHA-256 before: `645590b0cd48a0f9416c6f2ba772202cc2577e6eb5d6b3939a5094c521f92886`
+- Markup SHA-256 after: `0c7ed6d5467a31743a9127fd4fc584993614b72fae04ea37678dde196c762b5f`
+- Revision IDs: `346, 347, 348, 349`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260827T093431002126.reviewer-1-comment-6.part-06.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Before:
+
+~~~~text
+Age, measured in years, includes 207,099 observations; rural respondents had a mean of 44.5 (SD = 17.4), while urban respondents had a mean of 47.3 (SD = 17.7).
+~~~~
+
+- After:
+
+~~~~text
+Age is measured in years.
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: ","
+     - After: " is"
+  2. `delete`
+     - Before: ", includes 207,099 observations; rural respondents had a mean of 44"
+     - After: ""
+  3. `delete`
+     - Before: "5 (SD = 17.4), while urban respondents had a mean of 47.3 (SD = 17.7)."
+     - After: ""
+
+### part-07
+
+- Location: Data and Measurement > Social Support and Control Variables, control-variable paragraph beginning 'To account for fundamental population heterogeneity...'
+- Reason: Separate the Gender category and coding definition from the observation count already reported in Table 1.
+- Kila decisions: KILA-D-20260827-003
+- Mode: `replace`
+- Timestamp: 2026-08-27T00:47:37Z
+- Author: Kila
+- Markup SHA-256 before: `0c7ed6d5467a31743a9127fd4fc584993614b72fae04ea37678dde196c762b5f`
+- Markup SHA-256 after: `356a1572dd32741511795397f66b1c4347d8a262266e00e03d0b559a12be66b0`
+- Revision IDs: `350`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260827T094737546363.reviewer-1-comment-6.part-07.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Before:
+
+~~~~text
+Gender is a categorical variable covering 207,770 observations, with male respondents coded as 1 and female respondents as 2.
+~~~~
+
+- After:
+
+~~~~text
+Gender is a categorical variable, with male respondents coded as 1 and female respondents as 2.
+~~~~
+
+- Minimal tracked fragments:
+  1. `delete`
+     - Before: " covering 207,770 observations"
+     - After: ""
+
+### part-08
+
+- Location: Data and Measurement > Social Support and Control Variables, control-variable paragraph beginning 'To account for fundamental population heterogeneity...'
+- Reason: Separate the Education ordinal-category definition from the observation count already reported in Table 1.
+- Kila decisions: KILA-D-20260827-004
+- Mode: `replace`
+- Timestamp: 2026-08-27T00:58:09Z
+- Author: Kila
+- Markup SHA-256 before: `356a1572dd32741511795397f66b1c4347d8a262266e00e03d0b559a12be66b0`
+- Markup SHA-256 after: `8e6af3f7169698420ae628efd75a745fcde5a64504e0874ad5db03d769bb2675`
+- Revision IDs: `351`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260827T095809415445.reviewer-1-comment-6.part-08.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Before:
+
+~~~~text
+Education level is an ordinal variable covering 205,891 observations categorized into three levels: low, medium, and high.
+~~~~
+
+- After:
+
+~~~~text
+Education level is an ordinal variable categorized into three levels: low, medium, and high.
+~~~~
+
+- Minimal tracked fragments:
+  1. `delete`
+     - Before: " covering 205,891 observations"
+     - After: ""
+
+## reviewer-1/comment-10
+
+### part-01
+
+- Location: Data and Measurement > Economic Insecurity Measures, paragraph beginning 'Economic insecurity is...'
+- Reason: Clarify that Within-Country Income Percentile is a derived measure and state its source variable, income-period exception, within-place ranking, construction timing, and direction.
+- Kila decisions: KILA-D-20260825-002, KILA-D-20260827-005
+- Mode: `replace`
+- Timestamp: 2026-08-27T01:21:57Z
+- Author: Kila
+- Markup SHA-256 before: `8e6af3f7169698420ae628efd75a745fcde5a64504e0874ad5db03d769bb2675`
+- Markup SHA-256 after: `a7242030cdbed2bc2db7d57ebc695e069b654bc8485a3cd19718938fb4a80ebe`
+- Revision IDs: `352`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260827T102157730406.reviewer-1-comment-10.part-01.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Before:
+
+~~~~text
+Table 1 reports descriptive statistics for these measures and Within-Country Income Percentile by rural-urban residence.
+~~~~
+
+- After:
+
+~~~~text
+Within-Country Income Percentile is constructed from the GFS household-income bracket variable (INCOME_Y1), which records monthly household income (annual household income in the United States and Australia), by ranking respondents within each analytical place in the full processed sample before the common complete-case restriction; higher values indicate a higher within-place income rank. Table 1 reports descriptive statistics for these measures and Within-Country Income Percentile by rural-urban residence.
+~~~~
+
+- Minimal tracked fragments:
+  1. `insert`
+     - Before: ""
+     - After: "Within-Country Income Percentile is constructed from the GFS household-income bracket variable (INCOME_Y1), which records monthly household income (annual household income in the United States and Australia), by ranking respondents within each analytical place in the full processed sample before the common complete-case restriction; higher values indicate a higher within-place income rank. "
+
+### part-02
+
+- Location: Methodology > Robustness Checks, paragraph beginning 'We evaluate the potential impact of survey design...'
+- Reason: Describe the reviewer-requested place-by-rural/urban income-percentile sensitivity while preventing a mechanically conditioned measure from being interpreted as a mediator.
+- Kila decisions: KILA-D-20260825-002, KILA-D-20260827-006
+- Mode: `replace`
+- Timestamp: 2026-08-27T02:01:05Z
+- Author: Kila
+- Markup SHA-256 before: `a7242030cdbed2bc2db7d57ebc695e069b654bc8485a3cd19718938fb4a80ebe`
+- Markup SHA-256 after: `32ac354ada7af8268a261902a64d40716152cab8c7985a82a3d0bf02f9f8bced`
+- Revision IDs: `353`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260827T110105982719.reviewer-1-comment-10.part-02.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Before:
+
+~~~~text
+We evaluate the potential impact of survey design and population representativeness on the results. To achieve this, we compare WLS models with unweighted OLS estimates (Fanfan et al., 2025; Hu et al., 2025; Lankila et al., 2013). Specifically, the full model M6 for life satisfaction is re-estimated using the sample survey weights. These post-stratification weights (Counted et al., 2024; Mahmud & Riley, 2021; Wang et al., 2015) are designed to ensure the sample accurately reflects the demographic composition of target populations within each country (Counted et al., 2024; Hammond et al., 2026; Lu et al., 2025). The results from these weighted models are then compared against the unweighted OLS estimates from the same model specification. This comparison assesses whether accounting for sampling probabilities and non-response biases substantially alters the magnitude or statistical significance of the rural-urban life satisfaction coefficients or the identified mediating mechanisms.
+~~~~
+
+- After:
+
+~~~~text
+As a separate non-mediator sensitivity analysis, we also re-estimated the final OLS specification after ranking the household-income bracket variable separately within rural and urban respondents in each analytical place; because this group-specific percentile is mechanically conditioned on rural-urban residence, it was not entered as a mediator. We evaluate the potential impact of survey design and population representativeness on the results. To achieve this, we compare WLS models with unweighted OLS estimates (Fanfan et al., 2025; Hu et al., 2025; Lankila et al., 2013). Specifically, the full model M6 for life satisfaction is re-estimated using the sample survey weights. These post-stratification weights (Counted et al., 2024; Mahmud & Riley, 2021; Wang et al., 2015) are designed to ensure the sample accurately reflects the demographic composition of target populations within each country (Counted et al., 2024; Hammond et al., 2026; Lu et al., 2025). The results from these weighted models are then compared against the unweighted OLS estimates from the same model specification. This comparison assesses whether accounting for sampling probabilities and non-response biases substantially alters the magnitude or statistical significance of the rural-urban life satisfaction coefficients or the identified mediating mechanisms.
+~~~~
+
+- Minimal tracked fragments:
+  1. `insert`
+     - Before: ""
+     - After: "As a separate non-mediator sensitivity analysis, we also re-estimated the final OLS specification after ranking the household-income bracket variable separately within rural and urban respondents in each analytical place; because this group-specific percentile is mechanically conditioned on rural-urban residence, it was not entered as a mediator. "
+
+### part-03
+
+- Location: Results > Robustness of Findings, paragraph beginning 'To assess robustness, survey weights were applied...'
+- Reason: Report the verified place-by-rural/urban income-percentile sensitivity estimate and interval alongside the primary OLS result.
+- Kila decisions: KILA-D-20260825-002, KILA-D-20260827-007
+- Mode: `replace`
+- Timestamp: 2026-08-27T03:31:22Z
+- Author: Kila
+- Markup SHA-256 before: `32ac354ada7af8268a261902a64d40716152cab8c7985a82a3d0bf02f9f8bced`
+- Markup SHA-256 after: `19450941efcc93cb9492ecdb1ba1a4ee593146c41acaa6cba41c3af6c17985d6`
+- Revision IDs: `354`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260827T123122598544.reviewer-1-comment-10.part-03.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Before:
+
+~~~~text
+To assess robustness, survey weights were applied in WLS models, which generally confirmed the direction and statistical significance of the main associations.
+~~~~
+
+- After:
+
+~~~~text
+In the separate non-mediator sensitivity analysis that ranked household-income brackets within rural and urban respondents in each analytical place, the fully adjusted rural residence coefficient was +0.063 (95% CR2/Satterthwaite interval: 0.002 to 0.124), compared with +0.065 (0.001 to 0.129) in the primary specification; thus, the positive association and interval conclusion were unchanged. To assess robustness, survey weights were applied in WLS models, which generally confirmed the direction and statistical significance of the main associations.
+~~~~
+
+- Minimal tracked fragments:
+  1. `insert`
+     - Before: ""
+     - After: "In the separate non-mediator sensitivity analysis that ranked household-income brackets within rural and urban respondents in each analytical place, the fully adjusted rural residence coefficient was +0.063 (95% CR2/Satterthwaite interval: 0.002 to 0.124), compared with +0.065 (0.001 to 0.129) in the primary specification; thus, the positive association and interval conclusion were unchanged. "
+

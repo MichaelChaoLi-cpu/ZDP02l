@@ -1,11 +1,13 @@
 # Response to reviewers and editors of manuscript number [MANUSCRIPT ID]
 
 Note: All quoted manuscript text must match the fresh clean version exactly.
-All line and page numbers refer to that same version and require human
-verification when they cannot be derived reliably.
-Factual explanations prefer the simple present, and each response keeps a
-consistent local tense unless chronology requires otherwise. Exact manuscript
-quotations remain verbatim.
+Every quoted manuscript paragraph is presented as plain text rather than a
+Markdown block quote, enclosed in straight double quotation marks, and
+immediately followed by the exact marker `(Lines/Pages: human verification
+required)`. The marker remains until a human verifies the final
+line and page locations. Factual explanations prefer the simple present, and
+each response keeps a consistent local tense unless chronology requires
+otherwise. Exact manuscript quotations remain verbatim.
 
 # Revision Summary
 
@@ -42,7 +44,7 @@ The reviewers recommend performing robustness checks, including alternative mode
 **Response:**
 [Response pending.]
 
-> [Exact revised text quoted from the fresh clean manuscript]
+"[Exact revised text quoted from the fresh clean manuscript]"
 
 (Lines/Pages: human verification required)
 
@@ -56,7 +58,7 @@ Overall, this study is very interesting and clearly written. The author(s) provi
 **Response:**
 [Response pending.]
 
-> [Exact revised text quoted from the fresh clean manuscript]
+"[Exact revised text quoted from the fresh clean manuscript]"
 
 (Lines/Pages: human verification required)
 
@@ -68,7 +70,7 @@ a. The author(s) used a sequential decomposition strategy to examine the mechani
 **Response:**
 [Response pending.]
 
-> [Exact revised text quoted from the fresh clean manuscript]
+"[Exact revised text quoted from the fresh clean manuscript]"
 
 (Lines/Pages: human verification required)
 
@@ -79,21 +81,27 @@ b. Currently, the sequential regression models (with country level fixed effects
 **Response:**
 Thank you for this important suggestion. We agree that the nested data structure and cross-place heterogeneity require explicit treatment. The revised *Analytical Approach* now places fixed effects in every primary OLS model, uses place-clustered CR2 standard errors with Satterthwaite corrections, and adds a Webb six-point wild-cluster score-bootstrap check for the focal rural-residence coefficient. We retain place-fixed-effects OLS as the primary specification because the estimand is the within-place rural–urban association and the included places are not treated as a random sample from a broader population. We also add a correlated random-intercept and rural-random-slope Gaussian multilevel model on the same common sample as a robustness and heterogeneity analysis.
 
-> All primary models include place fixed effects and use place-clustered CR2 standard errors with Satterthwaite degrees-of-freedom corrections (Fanfan et al., 2025; Hu et al., 2025; Lu et al., 2025) to account for within-place dependence (da Silva et al., 2024; Wei et al., 2024; Zhao et al., 2022) and the small number of place clusters (da Silva et al., 2024; Lu et al., 2025; Tsurumi et al., 2021). For the focal rural-residence coefficient, we additionally report a Webb six-point wild-cluster score-bootstrap check (Casini et al., 2021; Wei et al., 2024; Yu et al., 2022). Place fixed effects remain the primary specification because the estimand is the within-place rural-urban association and the included places are not treated as a random sample from a broader population (da Silva et al., 2024; Lu et al., 2025; Tsurumi et al., 2021). As a robustness and heterogeneity analysis, we estimate a Gaussian linear mixed model with correlated place random intercepts and rural random slopes on the same common sample and with the same full individual-level covariates as the primary final model, thereby partially pooling place-specific rural associations (da Silva et al., 2024; Wei et al., 2024; Zhao et al., 2022).
+"All primary models include place fixed effects and use place-clustered CR2 standard errors with Satterthwaite degrees-of-freedom corrections (Fanfan et al., 2025; Hu et al., 2025; Lu et al., 2025) to account for within-place dependence (da Silva et al., 2024; Wei et al., 2024; Zhao et al., 2022) and the small number of place clusters (da Silva et al., 2024; Lu et al., 2025; Tsurumi et al., 2021). For the focal rural-residence coefficient, we additionally report a Webb six-point wild-cluster score-bootstrap check (Casini et al., 2021; Wei et al., 2024; Yu et al., 2022). Place fixed effects remain the primary specification because the estimand is the within-place rural-urban association and the included places are not treated as a random sample from a broader population (da Silva et al., 2024; Lu et al., 2025; Tsurumi et al., 2021). As a robustness and heterogeneity analysis, we estimate a Gaussian linear mixed model with correlated place random intercepts and rural random slopes on the same common sample and with the same full individual-level covariates as the primary final model, thereby partially pooling place-specific rural associations (da Silva et al., 2024; Wei et al., 2024; Zhao et al., 2022)."
+
+(Lines/Pages: human verification required)
 
 The common-sample audit also shows that all 23 places include both rural and urban respondents and that the smallest place contains 1,310 complete observations; thus, no place is excluded by a small-sample threshold. The revised *Country-Level Heterogeneity* section states:
 
-> The multilevel robustness model complements them by partially pooling place-specific rural associations through correlated place random intercepts and rural random slopes. In the common sample, all 23 places include both rural and urban respondents and contain at least 1,310 complete observations, so no place is excluded by a small-sample threshold.
+"The multilevel robustness model complements them by partially pooling place-specific rural associations through correlated place random intercepts and rural random slopes. In the common sample, all 23 places include both rural and urban respondents and contain at least 1,310 complete observations, so no place is excluded by a small-sample threshold."
+
+(Lines/Pages: human verification required)
 
 The multilevel fixed rural association is 0.068 points (95% small-cluster *t* interval: 0.013 to 0.124), close to the fully adjusted place-fixed-effects OLS estimate. The random-slope standard deviation is 0.111, and the partially pooled place-specific slopes range from −0.095 to 0.348. We therefore present the multilevel model as complementary evidence of heterogeneity rather than as a replacement for the primary OLS specification:
 
-> In the multilevel robustness model with correlated place random intercepts and rural random slopes, the fixed rural association is 0.068 points on the 0-10 life-satisfaction scale (95% small-cluster t interval: 0.013 to 0.124), close to the fully adjusted place-fixed-effects OLS estimate. The rural random-slope standard deviation is 0.111, and the partially pooled place-specific rural slopes range from -0.095 to 0.348. These results indicate heterogeneity in both the magnitude and direction of the rural association across places, while the positive fixed association is broadly directionally consistent with the primary OLS result. The multilevel estimates therefore complement rather than replace the within-place fixed-effects specification.
+"In the multilevel robustness model with correlated place random intercepts and rural random slopes, the fixed rural association is 0.068 points on the 0-10 life-satisfaction scale (95% small-cluster t interval: 0.013 to 0.124), close to the fully adjusted place-fixed-effects OLS estimate. The rural random-slope standard deviation is 0.111, and the partially pooled place-specific rural slopes range from -0.095 to 0.348. These results indicate heterogeneity in both the magnitude and direction of the rural association across places, while the positive fixed association is broadly directionally consistent with the primary OLS result. The multilevel estimates therefore complement rather than replace the within-place fixed-effects specification."
+
+(Lines/Pages: human verification required)
 
 Finally, the revised *Limitations and Future Studies* section makes clear that partial pooling does not identify the contextual sources of heterogeneity:
 
-> A further limitation is that, although the multilevel robustness model partially pools place-specific rural associations, the analysis includes only 23 places and lacks harmonized place-level covariates; it therefore cannot identify which contextual factors generate the observed heterogeneity.
+"A further limitation is that, although the multilevel robustness model partially pools place-specific rural associations, the analysis includes only 23 places and lacks harmonized place-level covariates; it therefore cannot identify which contextual factors generate the observed heterogeneity."
 
-(Lines 322–336, 440–444, 569–577, and 858–861; Pages 15–16, 21, 26–27, and 39.)
+(Lines/Pages: human verification required)
 
 ## Comment 3
 
@@ -102,7 +110,7 @@ b. The steps in the “Sequential Model Specifications for Life Satisfaction” 
 **Response:**
 [Response pending.]
 
-> [Exact revised text quoted from the fresh clean manuscript]
+"[Exact revised text quoted from the fresh clean manuscript]"
 
 (Lines/Pages: human verification required)
 
@@ -113,7 +121,7 @@ c. The authors conducted an independent “Economic Insecurity Analysis”, wher
 **Response:**
 [Response pending.]
 
-> [Exact revised text quoted from the fresh clean manuscript]
+"[Exact revised text quoted from the fresh clean manuscript]"
 
 (Lines/Pages: human verification required)
 
@@ -125,7 +133,7 @@ a. Overall, there are a lot of details, such as the description of data preproce
 **Response:**
 [Response pending.]
 
-> [Exact revised text quoted from the fresh clean manuscript]
+"[Exact revised text quoted from the fresh clean manuscript]"
 
 (Lines/Pages: human verification required)
 
@@ -136,7 +144,7 @@ b. There are some organizational issue as well: some of the focal independent an
 **Response:**
 [Response pending.]
 
-> [Exact revised text quoted from the fresh clean manuscript]
+"[Exact revised text quoted from the fresh clean manuscript]"
 
 (Lines/Pages: human verification required)
 
@@ -147,7 +155,7 @@ c. If I am not mistaken, the sample sizes are somehow inconsistent across models
 **Response:**
 [Response pending.]
 
-> [Exact revised text quoted from the fresh clean manuscript]
+"[Exact revised text quoted from the fresh clean manuscript]"
 
 (Lines/Pages: human verification required)
 
@@ -159,7 +167,7 @@ a. The authors may consider adding a table/figure of the unadjusted differences 
 **Response:**
 [Response pending.]
 
-> [Exact revised text quoted from the fresh clean manuscript]
+"[Exact revised text quoted from the fresh clean manuscript]"
 
 (Lines/Pages: human verification required)
 
@@ -170,7 +178,7 @@ b. Please be extremely careful about the term “country” in the manuscript. H
 **Response:**
 [Response pending.]
 
-> [Exact revised text quoted from the fresh clean manuscript]
+"[Exact revised text quoted from the fresh clean manuscript]"
 
 (Lines/Pages: human verification required)
 
@@ -179,9 +187,23 @@ b. Please be extremely careful about the term “country” in the manuscript. H
 c. Regarding the “Within-Country Income Percentile” measure, I am not sure how it was collected in the survey. Moreover, according to the “relative income comparisons” reasoning in the “Introduction” section, it might be better to use the percentiles within the rural and urban population separately.
 
 **Response:**
-[Response pending.]
+Thank you for this helpful comment. We now clarify that Within-Country Income Percentile is not a directly collected survey percentile but is derived from the GFS household-income bracket variable by ranking respondents within each analytical place. The revised measure description also states the relevant income-reference periods, construction sample, timing, and direction. We retain this within-place percentile as the primary mechanism measure because a percentile calculated separately within rural and urban groups is mechanically conditioned on rural-urban residence. To address the reviewer’s suggestion directly, we add the group-specific percentile as a separate non-mediator sensitivity analysis using the same common sample, covariates, and place fixed effects as the primary final OLS model. The resulting rural-residence coefficient is +0.063 (95% CR2/Satterthwaite interval: 0.002 to 0.124), compared with +0.065 (0.001 to 0.129) in the primary specification; therefore, the positive association and interval conclusion are unchanged.
 
-> [Exact revised text quoted from the fresh clean manuscript]
+The revised *Data and Measurement* section reads:
+
+"Within-Country Income Percentile is constructed from the GFS household-income bracket variable (INCOME_Y1), which records monthly household income (annual household income in the United States and Australia), by ranking respondents within each analytical place in the full processed sample before the common complete-case restriction; higher values indicate a higher within-place income rank."
+
+(Lines/Pages: human verification required)
+
+The revised *Methodology* section reads:
+
+"As a separate non-mediator sensitivity analysis, we also re-estimated the final OLS specification after ranking the household-income bracket variable separately within rural and urban respondents in each analytical place; because this group-specific percentile is mechanically conditioned on rural-urban residence, it was not entered as a mediator."
+
+(Lines/Pages: human verification required)
+
+The revised *Results* section reads:
+
+"In the separate non-mediator sensitivity analysis that ranked household-income brackets within rural and urban respondents in each analytical place, the fully adjusted rural residence coefficient was +0.063 (95% CR2/Satterthwaite interval: 0.002 to 0.124), compared with +0.065 (0.001 to 0.129) in the primary specification; thus, the positive association and interval conclusion were unchanged."
 
 (Lines/Pages: human verification required)
 
@@ -192,7 +214,7 @@ d. Tables and figures appear somewhat redundant in certain places, such as Figur
 **Response:**
 [Response pending.]
 
-> [Exact revised text quoted from the fresh clean manuscript]
+"[Exact revised text quoted from the fresh clean manuscript]"
 
 (Lines/Pages: human verification required)
 
@@ -205,11 +227,13 @@ Thank you for noting this labeling issue. We verified that source country code 2
 
 The revised figure reads:
 
-> China
->
-> Figure 3. Share of rural residence by country
+"China"
 
-(Page/line: Page 51, Figure 3; caption at line 943)
+(Lines/Pages: human verification required)
+
+"Figure 3. Share of rural residence by country"
+
+(Lines/Pages: human verification required)
 
 ## Comment 13
 
@@ -218,7 +242,7 @@ f. The reference line crossed the subtitle in Figure 5.
 **Response:**
 [Response pending.]
 
-> [Exact revised text quoted from the fresh clean manuscript]
+"[Exact revised text quoted from the fresh clean manuscript]"
 
 (Lines/Pages: human verification required)
 
@@ -229,7 +253,7 @@ g. Are there any differences between Figures 4 and 6?
 **Response:**
 [Response pending.]
 
-> [Exact revised text quoted from the fresh clean manuscript]
+"[Exact revised text quoted from the fresh clean manuscript]"
 
 (Lines/Pages: human verification required)
 
@@ -240,7 +264,7 @@ h. Some claims in the manuscript appear somewhat overstated, such as “global e
 **Response:**
 [Response pending.]
 
-> [Exact revised text quoted from the fresh clean manuscript]
+"[Exact revised text quoted from the fresh clean manuscript]"
 
 (Lines/Pages: human verification required)
 
@@ -251,7 +275,7 @@ i. The “Policy Implications” subsection is too long and, in some places, app
 **Response:**
 [Response pending.]
 
-> [Exact revised text quoted from the fresh clean manuscript]
+"[Exact revised text quoted from the fresh clean manuscript]"
 
 (Lines/Pages: human verification required)
 
@@ -262,7 +286,7 @@ j. The “Limitations and Future Studies” subsection is also too long.
 **Response:**
 [Response pending.]
 
-> [Exact revised text quoted from the fresh clean manuscript]
+"[Exact revised text quoted from the fresh clean manuscript]"
 
 (Lines/Pages: human verification required)
 
@@ -281,7 +305,7 @@ Major comments
 **Response:**
 [Response pending.]
 
-> [Exact revised text quoted from the fresh clean manuscript]
+"[Exact revised text quoted from the fresh clean manuscript]"
 
 (Lines/Pages: human verification required)
 
@@ -295,7 +319,7 @@ The authors write: “its size decreased after including income security feeling
 **Response:**
 [Response pending.]
 
-> [Exact revised text quoted from the fresh clean manuscript]
+"[Exact revised text quoted from the fresh clean manuscript]"
 
 (Lines/Pages: human verification required)
 
@@ -308,7 +332,7 @@ This mixing of roles hides where the real explanatory power comes from.
 **Response:**
 [Response pending.]
 
-> [Exact revised text quoted from the fresh clean manuscript]
+"[Exact revised text quoted from the fresh clean manuscript]"
 
 (Lines/Pages: human verification required)
 
@@ -321,7 +345,7 @@ They should conduct a proper mediation analysis using SEM or path analysis, wher
 **Response:**
 [Response pending.]
 
-> [Exact revised text quoted from the fresh clean manuscript]
+"[Exact revised text quoted from the fresh clean manuscript]"
 
 (Lines/Pages: human verification required)
 
@@ -335,7 +359,7 @@ In particular, the idea that social capital works as a “buffer” or “compen
 **Response:**
 [Response pending.]
 
-> [Exact revised text quoted from the fresh clean manuscript]
+"[Exact revised text quoted from the fresh clean manuscript]"
 
 (Lines/Pages: human verification required)
 
@@ -348,7 +372,7 @@ This is an important limitation. The mediation mechanisms may differ depending o
 **Response:**
 [Response pending.]
 
-> [Exact revised text quoted from the fresh clean manuscript]
+"[Exact revised text quoted from the fresh clean manuscript]"
 
 (Lines/Pages: human verification required)
 
@@ -360,7 +384,7 @@ The forest plot only lists countries ordered by effect size. It does not show wh
 **Response:**
 [Response pending.]
 
-> [Exact revised text quoted from the fresh clean manuscript]
+"[Exact revised text quoted from the fresh clean manuscript]"
 
 (Lines/Pages: human verification required)
 
@@ -374,7 +398,7 @@ Minor comments
 **Response:**
 [Response pending.]
 
-> [Exact revised text quoted from the fresh clean manuscript]
+"[Exact revised text quoted from the fresh clean manuscript]"
 
 (Lines/Pages: human verification required)
 
@@ -388,11 +412,13 @@ Thank you for identifying this issue. We verified that source country code 25 co
 
 The revised figure reads:
 
-> China
->
-> Figure 3. Share of rural residence by country
+"China"
 
-(Page/line: Page 51, Figure 3; caption at line 943)
+(Lines/Pages: human verification required)
+
+"Figure 3. Share of rural residence by country"
+
+(Lines/Pages: human verification required)
 
 ## Comment 9
 
@@ -404,9 +430,9 @@ Thank you for this important suggestion. We retain OLS as the primary model beca
 
 The revised manuscript reads:
 
-> In the four-category ordinal robustness analysis on the common sample (N = 183,685), the proportional-odds model yielded an odds ratio of 1.069 for rural residence (95% cluster-t interval: 1.018 to 1.122), but the proportional-odds assumption was rejected (F(2, 21) = 6.74, p = 0.005). We therefore interpret the partial proportional-odds specification: its expected category-score average marginal effect was 0.015 (95% cluster-t interval: -0.001 to 0.032), and the threshold-specific estimates varied in direction. The small positive average estimate is directionally consistent with the primary OLS result, but the ordinal analysis does not support a uniform upward shift across the outcome distribution. The main findings regarding the rural-urban life satisfaction gap remain robust when using alternative well-being outcomes. Threshold-specific partial proportional-odds estimates and the original 0–10 sensitivity analysis are reported in Supplementary Tables S1 and S2.
+"In the four-category ordinal robustness analysis on the common sample (N = 183,685), the proportional-odds model yielded an odds ratio of 1.069 for rural residence (95% cluster-t interval: 1.018 to 1.122), but the proportional-odds assumption was rejected (F(2, 21) = 6.74, p = 0.005). We therefore interpret the partial proportional-odds specification: its expected category-score average marginal effect was 0.015 (95% cluster-t interval: -0.001 to 0.032), and the threshold-specific estimates varied in direction. The small positive average estimate is directionally consistent with the primary OLS result, but the ordinal analysis does not support a uniform upward shift across the outcome distribution. The main findings regarding the rural-urban life satisfaction gap remain robust when using alternative well-being outcomes. Threshold-specific partial proportional-odds estimates and the original 0–10 sensitivity analysis are reported in Supplementary Tables S1 and S2."
 
-(Page 27, lines 586–597)
+(Lines/Pages: human verification required)
 
 ## Comment 10
 
@@ -416,7 +442,7 @@ It must be clarified whether z-scores were calculated within each country or acr
 **Response:**
 [Response pending.]
 
-> [Exact revised text quoted from the fresh clean manuscript]
+"[Exact revised text quoted from the fresh clean manuscript]"
 
 (Lines/Pages: human verification required)
 
@@ -428,7 +454,7 @@ The discussion should compare countries where rural areas show advantages (e.g.,
 **Response:**
 [Response pending.]
 
-> [Exact revised text quoted from the fresh clean manuscript]
+"[Exact revised text quoted from the fresh clean manuscript]"
 
 (Lines/Pages: human verification required)
 
@@ -440,6 +466,6 @@ Policy recommendations should be more directly based on the study’s findings r
 **Response:**
 [Response pending.]
 
-> [Exact revised text quoted from the fresh clean manuscript]
+"[Exact revised text quoted from the fresh clean manuscript]"
 
 (Lines/Pages: human verification required)

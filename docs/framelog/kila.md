@@ -1152,3 +1152,709 @@ Close Reviewer 2 Comment 9 in the revision plan and authorize its single targete
 ### Follow-Up
 
 Set Reviewer 2 Comment 9 to done, append the procedure execution log, and route the authorized targeted Git checkpoint through manage-git-workflow.
+
+## KILA-D-20260826-005: Condense economic-insecurity measure description
+
+- Event SHA-256: 4ba1f7bef3ff7c669eec6b3ce6a446f3b9d1376e03ae84342423105b66e74dd5
+- Recorded at: 2026-08-26T21:46:12+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-6
+- Decision type: manuscript-organization
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.clean.docx
+- Object SHA-256: 6d3487e276082d5e884367015cfb9164383db9633672a73ebdb459a60995ef15
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Clarify the organization of focal, mechanism, and control variables and separate measurement description from descriptive results.
+
+### Decision Context
+
+The Economic Insecurity Measures paragraph correctly groups Income Security Feelings with the mechanism indicators but mixes scale definitions with rural-urban descriptive results already reported in Table 1.
+
+### Kila Recommendation
+
+Retain the Income Security Feelings and Expense Worry scale definitions and EndNote citation fields; replace the repeated rural-urban means and comparative interpretation with one concise Table 1 cross-reference.
+
+### Options Presented
+
+- Apply the proposed continuous five-sentence replacement while preserving the EndNote fields.
+
+### Human Decision
+
+Approved the proposed replacement and explicitly authorized tracked changes on both sides of the preserved EndNote citation fields.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The measurement paragraph retains construct definitions and citations while moving duplicated descriptive evidence to Table 1, reducing the mixing of measurement and results.
+
+### Affected Manuscript Sections
+
+- Data and Measurement > Economic Insecurity Measures
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/revisionchanges.md
+
+### Follow-Up
+
+Apply reviewer-1/comment-6 part-02 with a field-safe tracked edit, regenerate fresh clean, and verify the paragraph and page rendering.
+
+## KILA-D-20260826-006: Approve complete economic-insecurity mechanism list
+
+- Event SHA-256: 455381623e56949ffc451c1818b92e3b765b4d5dc2d72668491d94f34fc2b536
+- Recorded at: 2026-08-26T22:17:58+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-6
+- Decision type: variable-role-clarification
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.clean.docx
+- Object SHA-256: acf38d59ddf82399ef8f6cc6a0892702fabc7a833fc847a4d999bcbe6f40cc1f
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Clarify the organization and roles of focal, mechanism, and control variables, especially Income Security Feelings.
+
+### Decision Context
+
+The Mechanism Analysis paragraph lists only Expenses Worry and Income Percentile as economic-insecurity indicators, omitting Income Security Feelings despite the previously locked unique mechanism role and using two noncanonical variable labels.
+
+### Kila Recommendation
+
+Replace the single mechanism-list sentence with the complete canonical list: Income Security Feelings, Expense Worry, and Within-Country Income Percentile.
+
+### Options Presented
+
+- Apply the proposed one-sentence tracked replacement.
+
+### Human Decision
+
+Approved reviewer-1/comment-6 part-03 exactly as proposed.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The Mechanism Analysis section consistently identifies all three economic-insecurity mechanism variables and uses the same canonical names as the measurement section.
+
+### Affected Manuscript Sections
+
+- Methodology > Mechanism Analysis
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/revisionchanges.md
+
+### Follow-Up
+
+Run a field-safe tracked dry run, apply the minimal sentence replacement if safe, regenerate fresh clean, and verify semantic and visual output.
+
+## KILA-D-20260826-007: Approve canonical dependent-variable names in economic insecurity analysis
+
+- Event SHA-256: c573ce37e21f8bc9773525a99fdbddd861486e5fa4c372e00a8551d13c154d6d
+- Recorded at: 2026-08-26T22:40:04+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-6
+- Decision type: variable-role-clarification
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.clean.docx
+- Object SHA-256: 98302954a33d5a08517e816ed31fc6ccd406b54babbaa9545a6e5245d872cdc3
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Clarify the organization and roles of focal, mechanism, and control variables, especially Income Security Feelings.
+
+### Decision Context
+
+The Economic Insecurity Analysis paragraph still names the three dependent variables as Income Feelings, Expenses Worry, and Income Percentile, which is inconsistent with the locked economic-insecurity mechanism set and the canonical names already used in the measurement, sequential-model, and mechanism-analysis sections.
+
+### Kila Recommendation
+
+Replace the single dependent-variable-list sentence with the canonical names Income Security Feelings, Expense Worry, and Within-Country Income Percentile.
+
+### Options Presented
+
+- Apply the proposed one-sentence tracked replacement.
+
+### Human Decision
+
+Approved reviewer-1/comment-6 part-04 exactly as proposed.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The Economic Insecurity Analysis section uses the same canonical dependent-variable names and mechanism roles as the rest of the manuscript.
+
+### Affected Manuscript Sections
+
+- Methodology > Economic Insecurity Analysis
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/revisionchanges.md
+
+### Follow-Up
+
+Run a field-safe tracked dry run, apply the minimal sentence replacement if safe, regenerate fresh clean, and verify semantic and visual output.
+
+## KILA-D-20260827-001: Approve replacing Social Capital descriptive results with Table 1 cross-reference
+
+- Event SHA-256: 609b4fdefe3e561fac6c56f979016d27b4b393d1f4273c975fc8c9239cf2fe41
+- Recorded at: 2026-08-27T09:01:37+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-6
+- Decision type: manuscript-organization
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.clean.docx
+- Object SHA-256: 11ec1511dfaa2189198740a459fa47110f33593777155a105eb4b6aa25dc29fd
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Reviewer 1 asks the authors to separate focal, mechanism, and control-variable roles and avoid mixing measurement description with descriptive results or methodology.
+
+### Decision Context
+
+The Social Support and Control Variables measurement paragraph currently mixes the Social Capital Index definition with rural-urban descriptive sample sizes, means, and standard deviations.
+
+### Kila Recommendation
+
+Replace only the exact rural-urban descriptive-statistics sentence with a concise Table 1 cross-reference, preserving the surrounding index definition, citations, and Table 1 formatting.
+
+### Options Presented
+
+- Keep the detailed rural-urban sample sizes, means, and standard deviations in the measurement paragraph.
+- Replace the detailed statistics with a direct Table 1 cross-reference.
+
+### Human Decision
+
+The human explicitly approved part-05: replace the rural-urban Social Capital Index descriptive-statistics sentence with 'Descriptive statistics for the Social Capital Index by rural-urban residence are reported in Table 1.'
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The measurement paragraph will no longer duplicate result-like descriptive numbers while readers retain a direct route to the full statistics in Table 1.
+
+### Affected Manuscript Sections
+
+- Data and Measurement > Social Support and Control Variables
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/docs/revisionplan.md
+- Rev/docs/revisionchanges.md
+
+### Follow-Up
+
+Apply the approved replacement as field-safe true tracked changes, regenerate a fresh clean copy, and complete structural and full-render verification.
+
+## KILA-D-20260827-002: Approve retaining Age measurement definition while removing descriptive results
+
+- Event SHA-256: 50883d3ec556a26ea933c9a90cd1b78e811d3ac8c69594d78e8b4a2c57c58bbe
+- Recorded at: 2026-08-27T09:33:25+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-6
+- Decision type: manuscript-organization
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.clean.docx
+- Object SHA-256: ef247a9a93660b71b05607d7faf955bfdbfffbba45c5d71b6c5d2d57bb1dee4e
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Reviewer 1 asks the authors to separate focal, mechanism, and control-variable roles and avoid mixing measurement description with descriptive results or methodology.
+
+### Decision Context
+
+The control-variable paragraph currently combines the Age measurement definition with its observation count and rural-urban means and standard deviations, while Table 1 already reports the descriptive statistics.
+
+### Kila Recommendation
+
+Replace only the exact Age sentence with 'Age is measured in years.', preserving the surrounding control-variable definitions, EndNote field, and Table 1 cross-reference.
+
+### Options Presented
+
+- Keep the observation count and rural-urban Age moments in the measurement paragraph.
+- Retain only the Age measurement definition and rely on Table 1 for descriptive statistics.
+
+### Human Decision
+
+The human explicitly approved part-06: replace the Age sentence containing the observation count and rural-urban means and standard deviations with 'Age is measured in years.'
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The control-variable paragraph will distinguish the Age measurement definition from descriptive results while Table 1 continues to provide the sample statistics.
+
+### Affected Manuscript Sections
+
+- Data and Measurement > Social Support and Control Variables
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/docs/revisionplan.md
+- Rev/docs/revisionchanges.md
+
+### Follow-Up
+
+Apply the approved replacement as field-safe true tracked changes, regenerate a fresh clean copy, and complete structural and full-render verification.
+
+## KILA-D-20260827-003: Approve removing Gender observation count while preserving coding definition
+
+- Event SHA-256: f6f5036bf8c9b84b31bca32841589401c95a1d5bef8a5ba449c91122203b9a2c
+- Recorded at: 2026-08-27T09:46:58+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-6
+- Decision type: manuscript-organization
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.clean.docx
+- Object SHA-256: 8eaf3772338b120ad6cc3276eb0cfb3c8a308f76734dc098d4d6cf3248c1d439
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Reviewer 1 asks the authors to separate focal, mechanism, and control-variable roles and avoid mixing measurement description with descriptive results or methodology.
+
+### Decision Context
+
+The control-variable paragraph combines the Gender category and coding definition with an observation count that Table 1 already reports.
+
+### Kila Recommendation
+
+Replace only the exact Gender sentence with Gender is a categorical variable, with male respondents coded as 1 and female respondents as 2., preserving the category and coding definitions, surrounding EndNote field, and Table 1 cross-reference.
+
+### Options Presented
+
+- Keep the observation count in the Gender measurement sentence.
+- Remove the observation count while retaining the Gender category and coding definitions.
+
+### Human Decision
+
+The human explicitly approved part-07: remove the Gender observation count while preserving the category and coding definitions.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The control-variable paragraph will distinguish the Gender category and coding definition from descriptive results while Table 1 continues to provide the observation count.
+
+### Affected Manuscript Sections
+
+- Data and Measurement > Social Support and Control Variables
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/docs/revisionplan.md
+- Rev/docs/revisionchanges.md
+
+### Follow-Up
+
+Apply the approved replacement as field-safe true tracked changes, regenerate a fresh clean copy, and complete structural and full-render verification.
+
+## KILA-D-20260827-004: Approve removing Education observation count while preserving ordinal categories
+
+- Event SHA-256: 6c13b572a5693a86f394eec3c25fd9e5bbd738707d5da9c367efa06a4c1d2b11
+- Recorded at: 2026-08-27T09:57:16+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-6
+- Decision type: manuscript-organization
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.clean.docx
+- Object SHA-256: c20a39cc3a20d33e038cd91da1184ca8c8b13c3f2163ae8a8002eb2688e6161f
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Reviewer 1 asks the authors to separate focal, mechanism, and control-variable roles and avoid mixing measurement description with descriptive results or methodology.
+
+### Decision Context
+
+The control-variable paragraph combines the Education ordinal-variable and category definitions with an observation count that Table 1 already reports.
+
+### Kila Recommendation
+
+Replace only the exact Education sentence with Education level is an ordinal variable categorized into three levels: low, medium, and high., preserving the ordinal-variable definition, three category labels, surrounding EndNote field, and Table 1 cross-reference.
+
+### Options Presented
+
+- Keep the observation count in the Education measurement sentence.
+- Remove the observation count while retaining the ordinal-variable definition and the low, medium, and high category labels.
+
+### Human Decision
+
+The human explicitly approved part-08: remove the Education observation count while preserving the ordinal-variable definition and category labels.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The control-variable paragraph will distinguish the Education ordinal-category definition from descriptive results while Table 1 continues to provide the observation count.
+
+### Affected Manuscript Sections
+
+- Data and Measurement > Social Support and Control Variables
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/docs/revisionplan.md
+- Rev/docs/revisionchanges.md
+
+### Follow-Up
+
+Apply the approved replacement as field-safe true tracked changes, regenerate a fresh clean copy, and complete structural and full-render verification.
+
+## KILA-D-20260827-005: Approve clarifying construction of Within-Country Income Percentile
+
+- Event SHA-256: 427763efba32900fb4b9cb74d4989ae54a81d375ead5d0694c5fa9a2eca3b932
+- Recorded at: 2026-08-27T10:21:07+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-10
+- Decision type: measurement-clarification
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.clean.docx
+- Object SHA-256: 6356e2109b3a1fab9077415da20fda9f5bdb1ec6cef575384e72fd4c80ea5601
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Reviewer 1 asks how Within-Country Income Percentile was collected and suggests separate rural and urban percentiles.
+
+### Decision Context
+
+The current Economic Insecurity Measures paragraph names Within-Country Income Percentile but does not state that it is derived from INCOME_Y1, how it is ranked, when it is constructed, or what higher values mean. The earlier decision keeps place-level percentile as the primary mechanism measure and reserves place-by-rural/urban percentile for a non-mediator sensitivity analysis.
+
+### Kila Recommendation
+
+Insert one construction sentence after the two subjective-scale definitions and before the Table 1 cross-reference, while deferring the group-specific sensitivity description to a later independent manuscript part.
+
+### Options Presented
+
+- Insert the exact approved construction sentence and preserve the existing Table 1 sentence.
+
+### Human Decision
+
+Approve reviewer-1/comment-10 part-01: clarify that Within-Country Income Percentile is derived from the GFS household-income bracket variable, ranked within analytical place in the full processed sample before the common complete-case restriction, with higher values indicating higher within-place income rank; retain place-level percentile as the primary mechanism measure and defer group-specific sensitivity wording.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The measurement paragraph will distinguish the derived percentile from a directly collected survey item and state its source variable, income-period exception, grouping unit, construction timing, and direction without yet adding robustness results.
+
+### Affected Manuscript Sections
+
+- Data and Measurement > Economic Insecurity Measures
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/docs/revisionplan.md
+- Rev/docs/revisionchanges.md
+
+### Follow-Up
+
+Apply the approved sentence as a field-safe true tracked insertion, regenerate a fresh clean copy, and verify structure and full rendering.
+
+## KILA-D-20260827-006: Approve non-mediator income-percentile sensitivity wording
+
+- Event SHA-256: fa13dd851430432403b4b91b3f17761e333e722dafe9b7c19a8295b4835fd36a
+- Recorded at: 2026-08-27T10:58:16+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-10
+- Decision type: robustness-clarification
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.clean.docx
+- Object SHA-256: 972d28f8f5b9fc0ae765860103de0e0ac27ccfe17cf6df0da0b57d7e79df4969
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Clarify and implement the rural/urban-specific income-percentile suggestion without treating a measure conditioned on rural-urban residence as a mediator.
+
+### Decision Context
+
+Reviewer 1 asks whether income percentiles should be calculated separately within rural and urban populations. The locked strategy retains within-place income percentile as the primary mechanism measure and uses place-by-rural/urban percentile only as a non-mediator sensitivity.
+
+### Kila Recommendation
+
+Add one minimal Robustness Checks sentence describing re-estimation of the final OLS specification with income brackets ranked separately within rural and urban respondents in each analytical place, and explicitly state that the alternative percentile is not entered as a mediator.
+
+### Options Presented
+
+- Approve the exact non-mediator sensitivity methods sentence proposed for reviewer-1/comment-10 part-02.
+
+### Human Decision
+
+The human approved reviewer-1/comment-10 part-02 exactly as proposed.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The Robustness Checks section will distinguish the place-by-rural/urban percentile sensitivity from the primary within-place mediator definition and prevent a mechanically conditioned measure from being interpreted as a mediator.
+
+### Affected Manuscript Sections
+
+- Methodology > Robustness Checks
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/docs/revisionplan.md
+- Rev/docs/revisionchanges.md
+
+### Follow-Up
+
+Run the field-safe tracked dry run, apply only the approved sentence if structural checks pass, regenerate a fresh clean copy, and complete structural and full-render verification.
+
+## KILA-D-20260827-007: Approve group-specific income-percentile sensitivity result wording
+
+- Event SHA-256: 6453ab9f7a0b4622469d32040e4f9fbc79d289774e737f0b0e77d157966fc79c
+- Recorded at: 2026-08-27T12:30:36+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-10
+- Decision type: robustness-interpretation
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.clean.docx
+- Object SHA-256: 9ae8560630ae7f8741aedf0e6f7f4de812368bd8cbda337c16f4069bee2bb76b
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Report whether the reviewer-requested rural/urban-specific income-percentile sensitivity preserves the primary conclusion.
+
+### Decision Context
+
+The verified Batch A common-sample OLS output reports a final rural coefficient of 0.06299 with a CR2/Satterthwaite interval of 0.00178 to 0.12420 when income brackets are ranked separately within rural and urban respondents in each analytical place, compared with 0.06476 and 0.00079 to 0.12873 in the primary specification.
+
+### Kila Recommendation
+
+Add one minimal Results sentence comparing the group-specific percentile sensitivity estimate and interval with the primary specification, while retaining its non-mediator interpretation.
+
+### Options Presented
+
+- Approve the exact reviewer-1/comment-10 part-03 Results sentence.
+
+### Human Decision
+
+Approve reviewer-1/comment-10 part-03 exactly as proposed, reporting the group-specific sensitivity coefficient and interval alongside the primary OLS estimate and stating that the positive association and interval conclusion are unchanged.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Results will transparently report that the place-by-rural/urban income-percentile sensitivity yields a nearly identical positive fully adjusted rural coefficient with the same interval conclusion as the primary OLS specification.
+
+### Affected Manuscript Sections
+
+- Results > Robustness of Findings
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/docs/revisionplan.md
+- Rev/docs/revisionchanges.md
+
+### Follow-Up
+
+Run the field-safe tracked dry run, apply only the approved Results sentence if structural checks pass, regenerate a fresh clean copy, and complete semantic and full-render verification.
+
+## KILA-D-20260827-008: Approve reviewer-1/comment-10 response and implementation
+
+- Event SHA-256: 91f377793c0606e366555b0b9321c38d0fa9a1740a895d60f58e667d587b33f9
+- Recorded at: 2026-08-27T12:50:42+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-10
+- Decision type: response-approval
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260827-007
+- Decision object: Rev/revision/response-draft.md
+- Object SHA-256: 8fc8830cc45bcaac6191a885504506d7f1d7913c88197d68bf40b37faac11ec6
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Clarify how Within-Country Income Percentile was obtained and address the suggestion to calculate percentiles separately within rural and urban populations.
+
+### Decision Context
+
+All three approved manuscript parts for reviewer-1/comment-10 are present in the verified fresh clean, and the single response block accurately summarizes the source and construction clarification, the non-mediator group-specific sensitivity design, and its result comparison.
+
+### Kila Recommendation
+
+Approve the verified response block and close reviewer-1/comment-10.
+
+### Options Presented
+
+- Approve the Reviewer 1 / Comment 10 response block as written.
+
+### Human Decision
+
+The human approves the Reviewer 1 / Comment 10 response block as written and confirms that the implemented manuscript revisions and response adequately address the reviewer comment.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Reviewer 1 / Comment 10 can be marked done, with the three manuscript revisions and their verified response retained as the final treatment of this comment.
+
+### Affected Manuscript Sections
+
+- Data and Measurement > Economic Insecurity Measures
+- Methodology > Robustness Checks
+- Results > Robustness of Findings
+- Response to Reviewer 1 > Comment 10
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/revision/response-draft.md
+- Rev/docs/revisionplan.md
+- Rev/docs/revisionchanges.md
+
+### Follow-Up
+
+Mark reviewer-1/comment-10 done, validate the revision plan, and route the authorized Git checkpoint through manage-git-workflow when that skill is available.
