@@ -2116,3 +2116,2489 @@ Close Reviewer 2 Comment 10 as done and authorize its scoped Git checkpoint rout
 ### Follow-Up
 
 Update the revision plan row to done and route the authorized comment-scoped Git checkpoint.
+
+## KILA-D-20260827-013: Approve parallel path methods replacement
+
+- Event SHA-256: a706d64c0b989532297ea038c01260e8f3ae4fd06a21efa70d731f49c9bb797e
+- Recorded at: 2026-08-27T20:48:17+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-1
+- Decision type: method-specification-wording
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.clean.docx
+- Object SHA-256: 8053ff23484909dfb2ae3bee89a58955a4f78d7ddb45be9d51662a0d35ad3174
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Replace the unsupported sequential OLS mechanism description with the validated formal path specification and bound all direct and indirect quantities to cross-sectional association language.
+
+### Decision Context
+
+The current Mechanism Analysis opening paragraph still presents sequential OLS coefficient tracking as mediation evidence, while the locked and validated analysis is a parallel observed-variable path model on the common sample with place-fixed-effects and joint place-cluster-aware inference. The underlying model choice is already recorded in KILA-D-20260825-011.
+
+### Kila Recommendation
+
+Apply the exact approved paragraph as one field-safe true tracked replacement, preserving neighboring structure and stopping if Word fields prevent a safe minimal patch.
+
+### Options Presented
+
+- Approve the exact Reviewer 1 Comment 1 part-01 paragraph.
+
+### Human Decision
+
+The human approves Reviewer 1 Comment 1 part-01 exactly as proposed: specify the common-sample parallel observed-variable path model, four parallel pathways, shared controls and place fixed effects, direct and indirect association summaries, CR2/Satterthwaite inference, 4,999 joint Webb draws, and the noncausal cross-sectional interpretation boundary.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Methodology will describe the formal validated path analysis instead of treating sequential coefficient attenuation as mediation evidence, while avoiding causal, partial-mediation, and full-mediation claims.
+
+### Affected Manuscript Sections
+
+- Methodology > Mechanism Analysis
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/docs/revisionplan.md
+- Rev/docs/revisionchanges.md
+
+### Follow-Up
+
+Run the tracked-change dry run, apply only the approved paragraph if field and structure checks pass, regenerate a fresh clean copy, and complete semantic and full-render verification.
+
+## KILA-D-20260827-014: Authorize field-safe split for path methods paragraph
+
+- Event SHA-256: 1bed50ec7786e38a00c8b9cc8bcb879d23b7ee0a8de3813a7810d2ef5bd626a0
+- Recorded at: 2026-08-27T20:54:21+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-1
+- Decision type: field-safe-method-wording
+- Source skill: execute-procedure
+- Entry type: revision
+- Supersedes: KILA-D-20260827-013
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.clean.docx
+- Object SHA-256: 8053ff23484909dfb2ae3bee89a58955a4f78d7ddb45be9d51662a0d35ad3174
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Replace unsupported sequential OLS mediation wording with the validated parallel path specification without corrupting or deleting the existing EndNote field.
+
+### Decision Context
+
+The exact whole-paragraph dry run approved under KILA-D-20260827-013 was safely blocked because the changed span crossed the existing EndNote field displayed as Fanfan et al. 2025, Hu et al. 2025, and Zhao et al. 2022.
+
+### Kila Recommendation
+
+Preserve the EndNote field after the phrase primary OLS specification and execute the paragraph as two separately logged, sequentially verified field-safe subparts.
+
+### Options Presented
+
+- Preserve the field and authorize the two-part field-safe implementation.
+- Manually remove or reposition the field in Word before retrying the original one-span replacement.
+
+### Human Decision
+
+The human selected the recommended first option: preserve the existing EndNote field after primary OLS specification and authorize two separately logged, sequentially verified field-safe tracked subparts.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The final visible paragraph will contain the approved parallel path specification and cross-sectional interpretation boundary while retaining an intact EndNote field in a semantically appropriate position.
+
+### Affected Manuscript Sections
+
+- Methodology > Mechanism Analysis
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/docs/revisionplan.md
+- Rev/docs/revisionchanges.md
+
+### Follow-Up
+
+Apply and verify part-01a before the EndNote field, regenerate a fresh clean copy, then apply and verify part-01b after the field and regenerate the final fresh clean copy.
+
+## KILA-D-20260827-015: Approve run-safe opening wording for path methods paragraph
+
+- Event SHA-256: 74a599c85b9b77a455b99ea3e110fcd80747542c6a54c8535d1361e204b5b218
+- Recorded at: 2026-08-27T21:17:25+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-1
+- Decision type: run-safe-method-wording
+- Source skill: execute-procedure
+- Entry type: revision
+- Supersedes: KILA-D-20260827-014
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.clean.docx
+- Object SHA-256: 8053ff23484909dfb2ae3bee89a58955a4f78d7ddb45be9d51662a0d35ad3174
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Replace unsupported sequential-regression mediation wording with a formally specified, noncausal pathway analysis while preserving the existing EndNote field and Word run structure.
+
+### Decision Context
+
+The previously authorized field-safe two-part route remained blocked because the opening replacement crossed a complex run containing a rendered page break. A five-part route was validated sequentially on a temporary markup copy; the first part changes only the opening simple run and preserves the complex run and EndNote field.
+
+### Kila Recommendation
+
+Approve and apply only the exact run-safe part-01a opening wording, then verify it before presenting part-01b.
+
+### Options Presented
+
+- Approve reviewer-1/comment-1 part-01a exactly as proposed.
+- Reject or revise part-01a before any live markup write.
+
+### Human Decision
+
+The human approves reviewer-1/comment-1 part-01a exactly as proposed. The opening will describe economic insecurity and social capital as statistical pathways linking rural residence to life satisfaction and will explicitly state that the analysis does not attempt to identify underlying drivers. Only part-01a is authorized in this turn.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The opening sentence will remove unsupported causal mediation language while preserving the complex page-break run; later model, inference, and connector changes remain subject to separate human approval.
+
+### Affected Manuscript Sections
+
+- Methodology > Mechanism Analysis
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/docs/revisionplan.md
+- Rev/docs/revisionchanges.md
+
+### Follow-Up
+
+Apply only part-01a as true tracked changes, regenerate fresh clean, verify semantic and visual integrity, then present part-01b for human review.
+
+## KILA-D-20260827-016: Approve field-safe parallel path specification before EndNote citation
+
+- Event SHA-256: 90e1ef1b5d729c3fa4235b4594371f1ca1745a8d442e744679a7b298621a0b2a
+- Recorded at: 2026-08-27T21:37:21+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-1
+- Decision type: field-safe-method-wording
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.clean.docx
+- Object SHA-256: 658b882672974a98d88d0146d90b9f31ee77f015c570541d5cc8c49268bbcf5a
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Replace the sequential OLS description with the validated common-sample parallel observed-variable path specification while preserving the EndNote field.
+
+### Decision Context
+
+Part-01a is implemented and verified. The next simple run immediately before the existing EndNote field can be replaced without crossing or rebuilding the field.
+
+### Kila Recommendation
+
+Approve the exact part-01b replacement and apply only this part.
+
+### Options Presented
+
+- Approve the exact part-01b wording.
+- Reject or revise part-01b before any live markup write.
+
+### Human Decision
+
+The human approves reviewer-1/comment-1 part-01b exactly as proposed. Only the simple text immediately before the EndNote field is authorized for replacement in this turn; part-01c through part-01e remain unauthorized.
+
+### Human-Provided Rationale
+
+Not provided.
+
+### Expected Revision Effect
+
+The methods paragraph will specify N = 183,685, the four parallel first-stage pathways, the simultaneous outcome equation, shared controls and place fixed effects, while preserving the existing EndNote citation field.
+
+### Affected Manuscript Sections
+
+- Methodology > Mechanism Analysis
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/docs/revisionchanges.md
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Apply and verify only part-01b as true tracked changes, regenerate fresh clean, then present part-01c for human review.
+
+## KILA-D-20260827-017: Approve post-EndNote path reporting and inference wording
+
+- Event SHA-256: 7347476cf87808bcc250058ccac086c0c4614b40a1f04b315fa56daada837966
+- Recorded at: 2026-08-27T21:52:53+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-1
+- Decision type: field-safe-method-wording
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.clean.docx
+- Object SHA-256: 613e1fe32da8fb46e12c3eca1cce5e33545fd7c07ad48777b46f32732bdd9bd6
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Replace the remaining sequential-regression description after the EndNote citation with the validated path-model reporting, clustered inference, joint bootstrap, and cross-sectional noncausal interpretation wording.
+
+### Decision Context
+
+Part-01b is implemented and verified. The next continuous text begins immediately after the preserved EndNote field and ends before the existing tracked variable-list runs, so it can be replaced without crossing either structure.
+
+### Kila Recommendation
+
+Approve the exact part-01c replacement and apply only this part.
+
+### Options Presented
+
+- Approve the exact part-01c wording.
+- Reject or revise part-01c before any live markup write.
+
+### Human Decision
+
+The human approves reviewer-1/comment-1 part-01c exactly as proposed. Only the continuous text immediately after the preserved EndNote field and before the existing tracked variable-list runs is authorized for replacement in this turn; part-01d and part-01e remain unauthorized.
+
+### Human-Provided Rationale
+
+Not provided.
+
+### Expected Revision Effect
+
+The methods paragraph will report the four specific indirect associations, total indirect, direct, and total associations; specify place-clustered CR2/Satterthwaite inference and 4,999 joint Webb bootstrap draws; and state the cross-sectional noncausal interpretation boundary while preserving the EndNote field and variable-list revisions.
+
+### Affected Manuscript Sections
+
+- Methodology > Mechanism Analysis
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/docs/revisionchanges.md
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Apply and verify only part-01c as true tracked changes, regenerate fresh clean, then present part-01d for human review.
+
+## KILA-D-20260827-018: Approve sequential-connector removal
+
+- Event SHA-256: 68f108f132cc3da3e1eec31cc9f46425b92b4d4607d2394be340b6f0db0f0b4f
+- Recorded at: 2026-08-27T22:15:03+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-1
+- Decision type: field-safe-method-wording
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.clean.docx
+- Object SHA-256: 0dfae4585d4f0e6c10373b0dbc71f20989757f9c2492dee0360535d7f234affc
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Remove the remaining sequential-addition connector from the Mechanism Analysis opening paragraph while preserving the tracked pathway names and the Social Capital Index wording.
+
+### Decision Context
+
+Part-01c is implemented and verified. The remaining simple connector still describes sequential addition immediately after the tracked economic-insecurity variable list; the validated run-aware route can replace only that connector without crossing the surrounding earlier revisions.
+
+### Kila Recommendation
+
+Approve the exact part-01d connector replacement and apply only this part.
+
+### Options Presented
+
+- Approve replacement of comma are added period Subsequently comma the with semicolon the.
+- Reject or revise part-01d before any live markup write.
+
+### Human Decision
+
+The human approves reviewer-1/comment-1 part-01d exactly as proposed. Only the simple connector immediately after the tracked economic-insecurity variable list is authorized for replacement in this turn; part-01e remains unauthorized.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The accepted paragraph will describe the three economic-insecurity pathways and the Social Capital Index in one parallel construction instead of implying sequential model-block addition.
+
+### Affected Manuscript Sections
+
+- Methodology > Mechanism Analysis
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/docs/revisionchanges.md
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Apply and verify only part-01d as true tracked changes, regenerate fresh clean, then present part-01e for human review.
+
+## KILA-D-20260827-019: Approve fourth-pathway wording
+
+- Event SHA-256: 464bb854a26bf1c46963451453e5cfa44c2d814556fc3d2664c38a528e6ca996
+- Recorded at: 2026-08-27T22:21:48+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-1
+- Decision type: field-safe-method-wording
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.clean.docx
+- Object SHA-256: 265b55d03d29c10feb9bee5324f5fa543fa538afc842c065cfb3ed7b6ef93100
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Clarify in the Mechanism Analysis opening paragraph that the Social Capital Index is the fourth parallel pathway.
+
+### Decision Context
+
+Parts 01a through 01d are implemented and verified. The final simple run still says that the Social Capital Index is incorporated, which can imply a sequential block rather than the locked four-pathway parallel specification.
+
+### Kila Recommendation
+
+Approve the exact part-01e final-run replacement and apply only this part.
+
+### Options Presented
+
+- Approve replacement of is incorporated with is modeled as the fourth pathway.
+- Reject or revise part-01e before any live markup write.
+
+### Human Decision
+
+The human approves reviewer-1/comment-1 part-01e exactly as proposed. Only the final simple run in the opening Mechanism Analysis paragraph is authorized for replacement in this turn.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The completed opening paragraph will consistently describe three economic-insecurity pathways and the Social Capital Index as four parallel pathways.
+
+### Affected Manuscript Sections
+
+- Methodology > Mechanism Analysis
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/docs/revisionchanges.md
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Apply and verify only part-01e as true tracked changes, regenerate fresh clean, then audit the next independently executable Reviewer 1 Comment 1 manuscript part.
+
+## KILA-D-20260827-020: Approve obsolete sequential-paragraph deletion
+
+- Event SHA-256: d248c5533a3613709de0732a1fc902817b29457338ada69f38c07bca297cb74e
+- Recorded at: 2026-08-27T22:31:38+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-1
+- Decision type: method-paragraph-deletion
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.clean.docx
+- Object SHA-256: 50f8689e4f7d0ff1ee05c048a964d32d90b8a896ae344124762a1f3042339f08
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Remove the complete obsolete sequential attenuation and mediating-role paragraph, including its three EndNote citation groups.
+
+### Decision Context
+
+Parts 01a through 01e are implemented and verified. The next complete Mechanism Analysis paragraph still describes coefficient attenuation as the primary indicator of mediation and endorses sequential decomposition, conflicting with the locked parallel observed-variable path model. Exact deletion is the minimum accurate revision. The paragraph contains three EndNote citation groups represented by six nested field beginnings, so the agent-side safe-edit dry run is structurally blocked.
+
+### Kila Recommendation
+
+Delete the exact complete paragraph in Microsoft Word with Track Changes enabled, including all three EndNote fields, then save the same markup path for fresh-clean verification.
+
+### Options Presented
+
+- Human manually deletes the complete paragraph and its three EndNote citation groups in Word with Track Changes enabled.
+- Retain the obsolete paragraph, which is not recommended because it conflicts with the validated parallel-path specification.
+
+### Human Decision
+
+The human approves deleting the exact complete paragraph, including all three EndNote citation groups. This approval locks the content decision; because the safe-edit script blocks field-crossing changes, the human remains responsible for the Word edit and save, followed by agent fresh-clean verification.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Remove the unsupported sequential attenuation, mediating-role, and sequential-decomposition rationale together with the citations attached only to that obsolete paragraph.
+
+### Affected Manuscript Sections
+
+- Methodology > Mechanism Analysis
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/docs/revisionplan.md
+- Rev/docs/revisionchanges.md
+
+### Follow-Up
+
+Human deletes the exact paragraph in Word with Track Changes enabled, saves Rev/revision/ZDP02l.rev.markup.docx, and reports completion; the agent then regenerates fresh clean and verifies the deletion before any response write.
+
+## KILA-D-20260828-001: Confirm part-02 Word deletion saved
+
+- Event SHA-256: e451d49937581d0373f797707c817312db913a509bd756fee670497e2cf074a3
+- Recorded at: 2026-08-28T08:11:20+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-1
+- Decision type: human-word-edit-completion
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260827-020
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: b35ad23947aebed33e7aa0763780fdce351531e1aa50fc3a3b35a7fd00a6cd2d
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Implement the approved complete paragraph deletion in Word, including all three EndNote citation fields, and save the same markup path.
+
+### Decision Context
+
+The human previously approved exact deletion of the obsolete second Mechanism Analysis paragraph including its three EndNote citation groups. The safe agent editor could not cross those fields, so implementation was assigned to the human in Microsoft Word with Track Changes enabled. The current markup now has a new SHA-256, size, and modification time relative to the pre-edit artifact.
+
+### Kila Recommendation
+
+Treat the human report as completion of the manual edit, generate a fresh clean copy from the newly saved markup, and verify the exact deletion and document layout before any response write.
+
+### Options Presented
+
+- Accept the reported Word save and proceed to fresh-clean structural, semantic, and visual verification.
+- Return to Word if fresh-clean verification shows retained target text, broken fields, or layout defects.
+
+### Human Decision
+
+The human confirms that reviewer-1/comment-1 part-02 was deleted and saved in the markup document. This is a completion report for the manual implementation of KILA-D-20260827-020, not yet an assessment of the resulting clean document.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The fresh accepted-view manuscript should omit the entire obsolete sequential attenuation and mediating-role paragraph and its three associated EndNote citation groups while preserving the surrounding Mechanism Analysis structure.
+
+### Affected Manuscript Sections
+
+- Methodology > Mechanism Analysis
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Regenerate Rev/revision/ZDP02l.rev.clean.docx from the current markup, verify zero remaining revisions in clean, confirm the exact paragraph is absent and surrounding text is intact, render and inspect the affected pages, then update the revision plan.
+
+## KILA-D-20260828-002: Approve removal of formal mediator wording from title
+
+- Event SHA-256: 093a256f64d83eeeaed7476b48fda5f01212cefcc12ebd0445497b79f6a9faf3
+- Recorded at: 2026-08-28T08:32:05+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-1
+- Decision type: title-interpretation-boundary
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: b35ad23947aebed33e7aa0763780fdce351531e1aa50fc3a3b35a7fd00a6cd2d
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Replace unsupported sequential-regression mediation claims with wording consistent with the formal parallel path analysis and its cross-sectional interpretation boundary.
+
+### Decision Context
+
+The current title identifies economic insecurity and social support as mediators, while the locked parallel path analysis is cross-sectional and supports conditional direct and indirect associations rather than a formal causal mediator identity. The proposed part changes only the unsupported title phrase and reserves the separate global-coverage wording for later reviewer items.
+
+### Kila Recommendation
+
+Replace only 'as Mediators of' with 'in' in the manuscript title, preserving all other title wording for later comment-specific review.
+
+### Options Presented
+
+- Accept the exact minimal title replacement.
+- Retain the existing formal mediator wording.
+
+### Human Decision
+
+The human approves reviewer-1/comment-1 part-03: replace the exact current title with 'The Rural Happiness Paradox: Economic Insecurity and Social Support in Global Rural-Urban Well-being Disparities'. This locks removal of the formal mediator identity while preserving 'Global' for later coverage-boundary review.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Remove an unsupported formal mediation claim from the title while leaving the title structure and later global-scope issue unchanged.
+
+### Affected Manuscript Sections
+
+- Title
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/docs/revisionplan.md
+- Rev/docs/revisionchanges.md
+
+### Follow-Up
+
+Apply one minimal true tracked title replacement, regenerate fresh clean, and verify title text and first-page layout before planning the next part.
+
+## KILA-D-20260828-003: Approve Abstract OLS and parallel path method sentence
+
+- Event SHA-256: 198cd169d9991fcb0a6e5aeeceb84b7684bd8fb5a8b9ac1a11cc3529be1a4cd0
+- Recorded at: 2026-08-28T08:46:21+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-1
+- Decision type: abstract-method-description
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: a9725b443c8e715789c6b93f3682dd7a4200e1fab06f2bd531536da0fab43053
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Replace the sequential decomposition description with a formal mechanism strategy while avoiding unsupported causal mediation claims.
+
+### Decision Context
+
+The Abstract still describes the mechanism strategy as sequential multivariate regression with country fixed effects. The validated specification instead retains OLS as the primary model, uses place fixed effects and place-clustered inference, and adds a parallel observed-variable path model whose direct and indirect quantities are interpreted as conditional cross-sectional associations.
+
+### Kila Recommendation
+
+Replace only the Abstract's third sentence with the approved present-tense sentence describing primary OLS and the parallel path model; leave the following potential-mediators sentence for a separate part.
+
+### Options Presented
+
+- Accept the exact one-sentence Abstract method replacement.
+- Retain the existing sequential-regression method sentence.
+
+### Human Decision
+
+The human approves reviewer-1/comment-1 part-04: replace the exact third sentence of the Abstract with the proposed sentence that presents OLS with place fixed effects and place-clustered inference together with a parallel observed-variable path model for conditional direct and indirect associations.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Align the Abstract's method summary with the validated primary OLS and formal parallel path analyses without claiming causal mediation or changing the next sentence.
+
+### Affected Manuscript Sections
+
+- Abstract
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/docs/revisionplan.md
+- Rev/docs/revisionchanges.md
+
+### Follow-Up
+
+Apply one minimal true tracked sentence replacement, regenerate fresh clean, verify the Abstract text and first-page layout, then propose the next separate Abstract part.
+
+## KILA-D-20260828-004: Approve Abstract four-pathway sentence
+
+- Event SHA-256: 889635a7bc87a382c726d9d6c65a0fb70d9d02016cf9d062c25bd8e9ab5060b2
+- Recorded at: 2026-08-28T09:06:35+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-1
+- Decision type: abstract-pathway-description
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: 3d1496e8dbafd58f025b240befe14a066164d753ca63d14f6716657505988969
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Replace unsupported potential-mediator wording in the Abstract with an exact list of the four validated parallel statistical pathways.
+
+### Decision Context
+
+The Abstract still labels only economic insecurity and social support as potential mediators and omits Within-Country Income Percentile as a distinct validated pathway. The locked analysis instead estimates four parallel observed-variable pathways and interprets them as conditional cross-sectional statistical associations.
+
+### Kila Recommendation
+
+Replace only the Abstract fourth sentence with the approved present-tense four-pathway sentence and leave the following result sentence for a separate part.
+
+### Options Presented
+
+- Accept the exact one-sentence four-pathway replacement.
+- Retain the existing potential-mediators sentence.
+
+### Human Decision
+
+The human approves reviewer-1/comment-1 part-05: replace the exact Abstract sentence with the proposed sentence listing Income Security Feelings, Expense Worry, Within-Country Income Percentile, and the Social Capital Index as four parallel statistical pathways linking rural residence to life satisfaction.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Align the Abstract pathway description with the validated parallel path model, include all four pathways, and avoid a formal causal-mediation claim.
+
+### Affected Manuscript Sections
+
+- Abstract
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/docs/revisionplan.md
+- Rev/docs/revisionchanges.md
+
+### Follow-Up
+
+Apply one minimal true tracked sentence replacement, regenerate fresh clean, verify the Abstract text and first-page layout, then propose the next separate manuscript part.
+
+## KILA-D-20260828-005: Approve Abstract parallel-path result sentence
+
+- Event SHA-256: 956094311408f31cdcff6fa0a27e181eee83181b99580e0e0f60cd48bf5fe804
+- Recorded at: 2026-08-28T09:14:31+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-1
+- Decision type: abstract-path-result-interpretation
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: c960f1ffea3744a98bc77219a30bf9721e0a141ca16e6fad02fcb766cfa73122
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Replace the unsupported explanatory and buffering claims with the validated direct, specific-indirect, and total-association pattern using noncausal language.
+
+### Decision Context
+
+The Abstract still claims that economic insecurity significantly explains a rural disadvantage and that social support buffers the gap. The validated parallel path model instead shows a positive conditional direct rural association, four negative indirect point estimates, only the Income Security Feelings specific pathway with all reported intervals excluding zero, and a total rural association whose intervals cross zero.
+
+### Kila Recommendation
+
+Replace only the Abstract mechanism-result sentence with the approved parallel-path result sentence and leave the preceding overall rural-disadvantage sentence for a separate result-direction audit.
+
+### Options Presented
+
+- Accept the exact one-sentence parallel-path result replacement.
+- Retain the existing explanatory and buffering sentence.
+
+### Human Decision
+
+The human approves reviewer-1/comment-1 part-06: replace the exact Abstract mechanism-result sentence with the proposed sentence reporting a positive conditional direct association, four negative indirect point estimates, the uniquely nonzero Income Security Feelings pathway, and a total rural association not distinguishable from zero.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Align the Abstract mechanism result with the validated path estimates and uncertainty while removing unsupported causal explanation and buffering language.
+
+### Affected Manuscript Sections
+
+- Abstract
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/docs/revisionplan.md
+- Rev/docs/revisionchanges.md
+- reports/batch_a_core/path_effects.csv
+
+### Follow-Up
+
+Apply one minimal true tracked sentence replacement, regenerate fresh clean, verify the Abstract text and first-page layout, then propose the next separate manuscript part.
+
+## KILA-D-20260828-006: Approve Abstract primary OLS result sentence
+
+- Event SHA-256: 15878a25a01813c12f9c60650e30af0b541cdf69b081cc8f4d2d31f51912e214
+- Recorded at: 2026-08-28T09:31:08+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-1
+- Decision type: result-reporting
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: dca15d510a00d0db7df01c5ea8be31f1b6f428e475cfc131b463940bb72d3352
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Align the Abstract result direction and magnitude with the validated primary OLS specification while keeping the parallel-path total-association statement conceptually separate.
+
+### Decision Context
+
+The live Abstract describes a slight rural disadvantage after adjustment, but the validated fully adjusted primary OLS model estimates a positive rural association of 0.064758 with a CR2/Satterthwaite 95% confidence interval from 0.000791 to 0.128726.
+
+### Kila Recommendation
+
+Replace only the inaccurate Abstract result-direction sentence with the approved primary OLS estimate and interval using noncausal association language.
+
+### Options Presented
+
+- Accept the exact one-sentence primary OLS correction.
+- Retain the inaccurate rural-disadvantage sentence.
+
+### Human Decision
+
+The human approves reviewer-1/comment-1 part-07: replace the exact Abstract rural-disadvantage sentence with the proposed sentence reporting a slightly positive fully adjusted primary OLS association of 0.065 on the 0–10 scale and a 95% confidence interval from 0.001 to 0.129.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Correct the Abstract result direction, quantify the primary OLS estimate, and preserve the distinction between the conditional fully adjusted coefficient and the total rural association from the parallel path model.
+
+### Affected Manuscript Sections
+
+- Abstract
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/docs/revisionplan.md
+- Rev/docs/revisionchanges.md
+- reports/batch_a_core/ols_sequence_rural.csv
+
+### Follow-Up
+
+Apply one minimal true tracked sentence replacement, regenerate fresh clean, verify the Abstract text and layout, then propose the next manuscript part.
+
+## KILA-D-20260828-007: Approve primary OLS subsection heading
+
+- Event SHA-256: b3323ef93daad8eca1b7a02afac933cdba82f94ae7fd362b7d64729c2d372142
+- Recorded at: 2026-08-28T09:42:21+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-1
+- Decision type: method-labeling
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: 72327857b5d8de190e3315522732ae90abddb65b5227eeee0d23d461acc47ee2
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Distinguish the primary OLS specification section from the formal path-model mechanism analysis requested by the reviewer.
+
+### Decision Context
+
+The live Methodology heading still labels the primary OLS adjustment sequence as Sequential Model Specifications for Life Satisfaction, while the formal mechanism analysis is now presented separately as a parallel observed-variable path model.
+
+### Kila Recommendation
+
+Replace only the obsolete subsection heading with Primary OLS Specifications for Life Satisfaction and leave the paragraph below for separate part-level revision.
+
+### Options Presented
+
+- Accept the exact heading replacement.
+- Retain the sequential-model heading.
+
+### Human Decision
+
+The human approves reviewer-1/comment-1 part-08: replace the exact Methodology subsection heading Sequential Model Specifications for Life Satisfaction with Primary OLS Specifications for Life Satisfaction.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Clarify that the subsection presents the primary OLS adjustment sequence rather than treating sequential coefficient changes as the formal mechanism test.
+
+### Affected Manuscript Sections
+
+- Methodology
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/docs/revisionplan.md
+- Rev/docs/revisionchanges.md
+
+### Follow-Up
+
+Apply one minimal true tracked heading replacement, regenerate fresh clean, verify heading style and layout, then propose the next paragraph-level manuscript part.
+
+## KILA-D-20260828-008: Approve four-model primary OLS opening sentence
+
+- Event SHA-256: 1f03f46af9a01efb25206a72306afcef9633c0ed397a6765c06d14a376b3b08c
+- Recorded at: 2026-08-28T09:54:40+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-1
+- Decision type: methodology-model-specification
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: e0c452481a32503574978f41680065dd214e1f0b68e8afbe3b1c25423f67a594
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Correct the Methodology model count and describe the locked common-sample and place-fixed-effects design.
+
+### Decision Context
+
+Reviewer 1 Comment 1 requires replacing obsolete six-model sequential wording with the validated four-model primary OLS specification.
+
+### Kila Recommendation
+
+Replace only the first sentence below Primary OLS Specifications for Life Satisfaction with the approved four-model wording.
+
+### Options Presented
+
+- Replace the first sentence with the proposed four-model common-sample/place-fixed-effects wording.
+
+### Human Decision
+
+Approved reviewer-1/comment-1 part-09 exactly as proposed.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The Methodology opening sentence will accurately identify M1 through M4, the prespecified common complete-case sample, and place fixed effects in every specification without changing the rest of the paragraph.
+
+### Affected Manuscript Sections
+
+- Methodology > Primary OLS Specifications for Life Satisfaction
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Apply and verify one true tracked sentence replacement, regenerate fresh clean, then propose the next sentence-level part.
+
+## KILA-D-20260828-009: Approve descriptive OLS model-block sentence
+
+- Event SHA-256: 6927de847700d5e28c3888d9406907fae822d8a5d7889a6fd0f433392b68da5e
+- Recorded at: 2026-08-28T10:08:51+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-1
+- Decision type: methodology-model-interpretation
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: bb284371173724f6ff274a6fa8d10cb3c2316b2beaa7dac1fea568252e165f4c
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Describe the nested OLS additions accurately while reserving indirect-association estimation for the parallel path model.
+
+### Decision Context
+
+Reviewer 1 Comment 1 requires removing the unsupported implication that the nested primary OLS sequence itself evaluates mediation.
+
+### Kila Recommendation
+
+Replace only the second sentence below Primary OLS Specifications for Life Satisfaction with the approved descriptive variable-block wording.
+
+### Options Presented
+
+- Replace the second sentence with the proposed demographic/socioeconomic, economic-security, and Social Capital Index block description.
+
+### Human Decision
+
+Approved reviewer-1/comment-1 part-10 exactly as proposed.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The Methodology will describe the three added variable blocks without presenting the primary OLS sequence as a mediation test; surrounding sentences remain unchanged.
+
+### Affected Manuscript Sections
+
+- Methodology > Primary OLS Specifications for Life Satisfaction
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Apply and verify one true tracked sentence replacement, regenerate fresh clean, then propose the next sentence-level part.
+
+## KILA-D-20260828-010: Separate nested OLS description from indirect-association estimation
+
+- Event SHA-256: 50b8853b6f99a5bff9da7d420460d7b6e4694540d0504837e26983f709b638c6
+- Recorded at: 2026-08-28T10:26:36+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-1
+- Decision type: methodology-model-interpretation
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: f5da0554034359ca9cb8f450f79bec8d3b5d912359f02785d2ac94bfc2544fa6
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Clarify that the nested OLS specifications describe coefficient changes across prespecified covariate blocks and do not themselves estimate indirect associations.
+
+### Decision Context
+
+Reviewer 1 Comment 1 requires the primary nested OLS sequence to be distinguished from the separately estimated formal mechanism analysis.
+
+### Kila Recommendation
+
+Replace only the third sentence below Primary OLS Specifications for Life Satisfaction with the approved wording that separates descriptive coefficient change from parallel-path indirect-association estimation.
+
+### Options Presented
+
+- Replace the third sentence exactly as proposed and leave the first two and all later sentences unchanged.
+
+### Human Decision
+
+Approved reviewer-1/comment-1 part-11 exactly as proposed.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The Methodology will describe the nested OLS sequence as descriptive and reserve indirect-association estimation for the separately estimated parallel path model.
+
+### Affected Manuscript Sections
+
+- Methodology > Primary OLS Specifications for Life Satisfaction
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Apply and verify one true tracked sentence replacement, regenerate fresh clean, then propose the next sentence-level part.
+
+## KILA-D-20260828-011: Approve M1 place-fixed-effects description
+
+- Event SHA-256: 51c2985a4318dfd117ff119f7e316afbf779319645cd834db41b7d685fd05696
+- Recorded at: 2026-08-28T10:38:22+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-1
+- Decision type: methodology-model-specification
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: bc7a16b27e0045e8c40c9f9497e1801fcc0d4100bc2f2ffad2f187f9795ec0f0
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Correct the M1 sentence so that it states the predictor and the place fixed effects without changing adjacent sentences.
+
+### Decision Context
+
+Reviewer 1 Comment 1 requires each primary OLS specification to be described consistently with the validated model sequence. The current M1 sentence incorrectly states that Rural Residence is the only predictor even though place fixed effects are included in every primary model.
+
+### Kila Recommendation
+
+Replace only the exact M1 sentence with the approved concise wording and leave the preceding outcome sentence and all later model-description sentences unchanged.
+
+### Options Presented
+
+- Replace the M1 sentence exactly as proposed.
+
+### Human Decision
+
+Approved reviewer-1/comment-1 part-12 exactly as proposed.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The Methodology will align the M1 description with the validated primary specification and remove the incorrect only-predictor limitation.
+
+### Affected Manuscript Sections
+
+- Methodology > Primary OLS Specifications for Life Satisfaction
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Apply and verify one true tracked sentence replacement, regenerate fresh clean, then propose the next sentence-level part.
+
+## KILA-D-20260828-012: Approve M2 control-block description
+
+- Event SHA-256: 4f3beaa2305770debfb158506d44da52c95e6a123e9a1ecb85d5dfb8053a7837
+- Recorded at: 2026-08-28T10:50:03+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-1
+- Decision type: methodology-model-specification
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: 2960471f8ddab7498e55001d39c6ee1dfad73922de4a2185153c8383357233a5
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Correct the M2 sentence so that it lists the complete validated control block without changing adjacent sentences.
+
+### Decision Context
+
+Reviewer 1 Comment 1 requires the four-model OLS sequence to match the validated specifications. The current M2 sentence omits Education Level and describes the added block as demographic only, although M2 adds demographic and socioeconomic controls.
+
+### Kila Recommendation
+
+Replace only the exact M2 sentence with the approved wording that lists Age, Gender, Marital Status, Employment Status, and Education Level as demographic and socioeconomic controls.
+
+### Options Presented
+
+- Replace the M2 sentence exactly as proposed.
+
+### Human Decision
+
+Approved reviewer-1/comment-1 part-13 exactly as proposed.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The Methodology will align the M2 description with the validated model-building code and correctly classify the added block as demographic and socioeconomic controls.
+
+### Affected Manuscript Sections
+
+- Methodology > Primary OLS Specifications for Life Satisfaction
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Apply and verify one true tracked sentence replacement, regenerate fresh clean, then propose the next sentence-level part.
+
+## KILA-D-20260828-013: Approve deletion of inaccurate M1/M2 summary
+
+- Event SHA-256: 8641f64f60ec3a71284371498e6f492b375316ddfd42001e327fc9a5b69dbf30
+- Recorded at: 2026-08-28T11:02:07+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-1
+- Decision type: methodology-model-specification
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: e30b9d37a1fbddd580e942cb89710cd4ebc02b428408f4a13ef2d00bd6d5ad17
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Human explicitly approved reviewer-1/comment-1 part-14.
+
+### Decision Context
+
+The sentence immediately after the revised M2 description incorrectly calls M1 unadjusted even though M1 includes place fixed effects, and it describes M2 as only demographically adjusted even though M2 contains demographic and socioeconomic controls.
+
+### Kila Recommendation
+
+Delete only the inaccurate and redundant summary sentence; preserve the revised M1 and M2 sentences, the following M3 sentence, all later text, and the response.
+
+### Options Presented
+
+- Delete the exact sentence as proposed.
+
+### Human Decision
+
+Approved reviewer-1/comment-1 part-14 exactly as proposed.
+
+### Human-Provided Rationale
+
+Not provided.
+
+### Expected Revision Effect
+
+The Methodology will no longer mischaracterize M1 or M2, while the accurate adjacent model descriptions remain intact.
+
+### Affected Manuscript Sections
+
+- Methodology > Primary OLS Specifications for Life Satisfaction
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Apply and verify one true tracked sentence deletion, regenerate fresh clean, then propose the next sentence-level part.
+
+## KILA-D-20260828-014: Approve corrected M3 economic-security block description
+
+- Event SHA-256: beafc5b10701d256ef4c83bc0f8c30d2a621424d0aacfaa17554b9771690cc3c
+- Recorded at: 2026-08-28T11:18:18+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-1
+- Decision type: methodology-model-specification
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: 33beb6d19afc53381938d48af42fd4338470a97abca37dd85e73c178b51f5836
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Human explicitly approved reviewer-1/comment-1 part-15.
+
+### Decision Context
+
+The current M3 sentence says that M3 adds Education Level, but Education Level is already included in M2. The validated four-model sequence defines M3 as M2 plus Income Security Feelings, Expense Worry, and Within-Country Income Percentile.
+
+### Kila Recommendation
+
+Replace only the inaccurate M3 sentence with the approved description of the three economic-security measures; preserve the preceding M1 and M2 sentences, the following Income Security Feelings classification sentence and its EndNote fields, all later model text, and the response.
+
+### Options Presented
+
+- Replace the M3 sentence exactly as proposed.
+
+### Human Decision
+
+Approved reviewer-1/comment-1 part-15 exactly as proposed.
+
+### Human-Provided Rationale
+
+Not provided.
+
+### Expected Revision Effect
+
+The Methodology will align M3 with the validated four-model sequence and avoid duplicating Education Level across M2 and M3.
+
+### Affected Manuscript Sections
+
+- Methodology > Primary OLS Specifications for Life Satisfaction
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Apply and verify one minimal true tracked sentence replacement, regenerate fresh clean, then propose the next sentence-level part.
+
+## KILA-D-20260828-015: Approve corrected M4 Social Capital Index description
+
+- Event SHA-256: bacd8f188aa305423aa863eabfc7ef2950bf17a1047ef5c333e20ca0dd597fae
+- Recorded at: 2026-08-28T11:55:00+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-1
+- Decision type: methodology-model-specification
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: c1c5dd6cc4cd03f86e1027f6ceafd7a0e3d529e606d815a05b3693f2779d38ee
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Human explicitly approved reviewer-1/comment-1 part-16.
+
+### Decision Context
+
+The current M4 sentence incorrectly says that M4 introduces country fixed effects, although the validated four-model sequence includes place fixed effects in every specification and defines M4 as M3 plus the Social Capital Index. The obsolete c_COUNTRY expression is stored as an inline OMML object.
+
+### Kila Recommendation
+
+Replace only the complete inaccurate M4 sentence, including its obsolete c_COUNTRY OMML object, with the approved Social Capital Index description; preserve the two immediately following EndNote-bearing sentences and all later model text for separate part-level review.
+
+### Options Presented
+
+- Replace the complete M4 sentence exactly as proposed, including removal of the obsolete inline OMML object.
+
+### Human Decision
+
+Approved reviewer-1/comment-1 part-16 exactly as proposed.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The Methodology will align M4 with the validated four-model primary OLS sequence while preserving adjacent citations and later unreviewed text.
+
+### Affected Manuscript Sections
+
+- Methodology > Primary OLS Specifications for Life Satisfaction
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Apply and verify one true tracked complete-sentence replacement, regenerate fresh clean, then propose the next sentence-level part.
+
+## KILA-D-20260828-016: Approve deletion of misleading M4-specific fixed-effects sentence
+
+- Event SHA-256: efe783cb005b98fa961bf763dc5e36770eced6f65590a021c6af0c0d6a77f528
+- Recorded at: 2026-08-28T14:08:55+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-1
+- Decision type: manuscript-deletion
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: 5b10f306e278f2c3bd299fe2c3f33c15a827f96a5ed86a63ded704498cfc78f2
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Reviewer 1 asks the authors to replace sequential OLS attenuation claims with a formally specified mechanism approach and align the primary model sequence with the validated specification.
+
+### Decision Context
+
+The sentence immediately following the corrected M4 Social Capital Index description explains place fixed effects as though they are introduced specifically at M4, although every primary OLS specification already includes place fixed effects. The complete sentence contains two EndNote citation fields.
+
+### Kila Recommendation
+
+Delete only the complete misleading sentence and its two EndNote fields; preserve the corrected M4 sentence, legacy M5/M6 text, and all later content for separate part-level review.
+
+### Options Presented
+
+- Delete the complete sentence exactly as proposed, including both EndNote citation fields.
+
+### Human Decision
+
+Approved reviewer-1/comment-1 part-17 exactly as proposed.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The Methodology will no longer imply that place fixed effects are introduced specifically at M4, while adjacent model descriptions remain available for separate review.
+
+### Affected Manuscript Sections
+
+- Methodology > Primary OLS Specifications for Life Satisfaction
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Apply and verify one true tracked sentence deletion, regenerate fresh clean, and propose the next part.
+
+## KILA-D-20260828-017: Approve deletion of legacy M5 mediation sentence
+
+- Event SHA-256: 1055c7404cf1dd83ae64ed21662c66380830306440eb57d63f23f946d9f536a5
+- Recorded at: 2026-08-28T15:05:25+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-1
+- Decision type: manuscript-deletion
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: dd91048f72fdd2fa45a2cc46740d0a5ac84a9296954876c507b218b855acb815
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Reviewer 1 asks the authors to replace sequential OLS attenuation claims with a formally specified mechanism approach and align the primary model sequence with the validated specification.
+
+### Decision Context
+
+The validated primary OLS sequence ends at M4, and indirect associations are estimated separately in the parallel path model. The first legacy M5 sentence reintroduces the superseded six-model mediation framing immediately after corrected M4.
+
+### Kila Recommendation
+
+Delete only the first legacy M5 sentence; preserve corrected M4, the following sentence beginning These variables include, all remaining legacy M5/M6 text, later content, and the response for separate part-level review.
+
+### Options Presented
+
+- Delete the first legacy M5 sentence exactly as proposed.
+
+### Human Decision
+
+Approved reviewer-1/comment-1 part-18 exactly as proposed.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The Methodology will no longer reintroduce M5 as a mediation model immediately after the validated four-model primary OLS sequence, while adjacent legacy sentences remain available for separate review.
+
+### Affected Manuscript Sections
+
+- Methodology > Primary OLS Specifications for Life Satisfaction
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Apply and verify one true tracked sentence deletion, regenerate fresh clean, and propose the next part.
+
+## KILA-D-20260828-018: Approve deletion of redundant economic-security sentence
+
+- Event SHA-256: e49f17c9da3cd7e88b096d2f75c4b0af6a6470fe1e2906b9fd6214358a16bdf0
+- Recorded at: 2026-08-28T15:41:54+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-1
+- Decision type: manuscript-deletion
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: 3a7dd300b3c56617f3e7ed6a48abe54531aebeb3eaa1db11209d30190acfc356
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Reviewer 1 requested a clearer and more coherent account of the modeling strategy; this part removes a redundant legacy sentence from the superseded M5/M6 sequence.
+
+### Decision Context
+
+The three economic-security measures are already specified accurately in M3. After deletion of the legacy M5 framing, this sentence is an orphaned and redundant M5 detail immediately following corrected M4.
+
+### Kila Recommendation
+
+Delete only the exact sentence naming Income Security Feelings, Expense Worry, and Within-Country Income Percentile; preserve corrected M4, the following EndNote-bearing sentence beginning This model retains, the remaining legacy text, and the response.
+
+### Options Presented
+
+- Delete the exact redundant sentence as proposed.
+
+### Human Decision
+
+Approved reviewer-1/comment-1 part-19 exactly as proposed.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The Methodology will move directly from corrected M4 to the remaining legacy controls sentence without repeating variables already specified in M3, while all adjacent content remains available for separate review.
+
+### Affected Manuscript Sections
+
+- Methodology > Primary OLS Specifications for Life Satisfaction
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Apply and verify one true tracked sentence deletion, regenerate fresh clean, and propose the next part.
+
+## KILA-D-20260828-019: Authorize agent-executed native Word deletion for overlapping revision
+
+- Event SHA-256: 19752aaebc59145c148a6ec7b9a67deacc421497aebfbb6f70b26423b37a1080
+- Recorded at: 2026-08-28T15:52:46+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-1
+- Decision type: unsafe-structure-handling
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: 3a7dd300b3c56617f3e7ed6a48abe54531aebeb3eaa1db11209d30190acfc356
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+After the structural blocker was explained, the human explicitly authorized the agent to perform the deletion directly.
+
+### Decision Context
+
+The bounded editor cannot delete part-19 because two fragments of the approved sentence remain inside earlier tracked insertions. The agent disclosed that forcing the bounded edit would create unsupported nested revisions and routed the part to manual Word handling.
+
+### Kila Recommendation
+
+Use Microsoft Word's native Track Changes engine on a recoverable copy, verify the resulting OOXML and accepted view, and promote only if prior revisions, EndNote fields, formulas, tables, and media remain intact.
+
+### Options Presented
+
+- Authorize the agent to perform the exact one-sentence deletion through Word's native tracked-edit behavior.
+
+### Human Decision
+
+The human explicitly authorizes the agent to directly delete reviewer-1/comment-1 part-19 despite the bounded editor blocker.
+
+### Human-Provided Rationale
+
+The human wants the approved deletion completed without a separate manual Word step.
+
+### Expected Revision Effect
+
+The exact redundant sentence is removed from the accepted view while Word resolves overlap with earlier unaccepted insertions using its native revision model; adjacent content remains unchanged.
+
+### Affected Manuscript Sections
+
+- Methodology > Primary OLS Specifications for Life Satisfaction
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Test on a copy, promote only after structural verification, regenerate fresh clean, render both final DOCX files, and report any unavoidable revision-history normalization.
+
+## KILA-D-20260828-020: Approve deletion of redundant legacy controls sentence
+
+- Event SHA-256: cf55f9ff93af904c4508aa58fa57ff8281a660e1a4887ca94e5559679527d2ef
+- Recorded at: 2026-08-28T16:22:18+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-1
+- Decision type: manuscript-deletion
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: bcd5a1e03b04cd4078da0b3dd7f7bc27150cbfaed50cb63c22abe8cf61148a4e
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Reviewer 1 requested a clearer and more coherent modeling strategy; this part removes a redundant and inaccurate legacy controls sentence from the superseded M5 sequence.
+
+### Decision Context
+
+The validated primary OLS sequence already states that every specification includes place fixed effects. After removal of legacy M5, the target sentence is redundant, inaccurately says country fixed effects, and no longer describes a distinct model.
+
+### Kila Recommendation
+
+Delete only the exact complete sentence and its EndNote citation field group; preserve corrected M4, the following sentence beginning This step assesses, all remaining legacy M6 text, and the response.
+
+### Options Presented
+
+- Delete the exact EndNote-bearing sentence as proposed.
+
+### Human Decision
+
+Approved reviewer-1/comment-1 part-20 exactly as proposed.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The Methodology will move directly from corrected M4 to the preserved This step assesses sentence, removing a redundant country-fixed-effects claim while leaving remaining M6 text for separate review.
+
+### Affected Manuscript Sections
+
+- Methodology > Primary OLS Specifications for Life Satisfaction
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Apply and verify one true tracked sentence deletion including its EndNote field group, regenerate fresh clean, and propose the next part.
+
+## KILA-D-20260828-021: Approve deletion of orphaned legacy M5 rationale sentence
+
+- Event SHA-256: 19a7b4f2a865d539dbcc5cfed277ce221dd7e36f15d7c261cb2e125961e047a7
+- Recorded at: 2026-08-28T16:48:37+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-1
+- Decision type: manuscript-deletion
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: 9205157bb328fcb030753a7631b1e7630003a0679f80cd8952d0316bcfde7455
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Reviewer 1 requested a clearer and more coherent modeling strategy; this part removes an orphaned legacy rationale sentence from the superseded M5 sequence.
+
+### Decision Context
+
+The sentence begins with This step but the legacy M5 block it referred to has already been removed. The validated specification places the three economic-security measures in M3 and estimates indirect associations separately in the parallel path model, so the sentence is now orphaned and ambiguous.
+
+### Kila Recommendation
+
+Delete only the exact sentence beginning This step assesses; preserve corrected M4, the complete following legacy M6 sentence, all later content, and the response.
+
+### Options Presented
+
+- Delete the exact orphaned sentence as proposed.
+
+### Human Decision
+
+Approved reviewer-1/comment-1 part-21 exactly as proposed.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The Methodology will move directly from corrected M4 to the remaining legacy M6 sentence, removing an ambiguous M5 rationale while leaving M6 and later text for separate review.
+
+### Affected Manuscript Sections
+
+- Methodology > Primary OLS Specifications for Life Satisfaction
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Apply and verify one true tracked sentence deletion, regenerate fresh clean, and propose the next part.
+
+## KILA-D-20260828-022: Approve deletion of legacy M6 specification sentence
+
+- Event SHA-256: 061b9d65757bb83a5c6fe3d63862aefaf1d0f867ded3ad9f7dd88b604e53dc31
+- Recorded at: 2026-08-28T17:24:25+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-1
+- Decision type: manuscript-deletion
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: 7b03968fd4c3a22d9507ee5decd76a89c773292df6b3939588363d44963c9ee2
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Reviewer 1 requested a clearer and more appropriate formal mechanism strategy in place of the superseded sequential M5/M6 framing.
+
+### Decision Context
+
+The validated primary OLS sequence ends at M4. Corrected M4 already adds the Social Capital Index to M3, which already contains the three economic-security measures; the remaining M6 sentence therefore names a nonexistent model, duplicates the validated full specification, and inaccurately refers to country fixed effects.
+
+### Kila Recommendation
+
+Delete only the exact legacy M6 sentence; preserve corrected M4, the complete following This comprehensive model sentence, all later content, and the response.
+
+### Options Presented
+
+- Delete the exact legacy M6 sentence as proposed.
+
+### Human Decision
+
+Approved reviewer-1/comment-1 part-22 exactly as proposed.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The Methodology will move directly from corrected M4 to the preserved This comprehensive model sentence, removing the nonexistent M6 specification while leaving the remaining legacy mediation rationale for separate review.
+
+### Affected Manuscript Sections
+
+- Methodology > Primary OLS Specifications for Life Satisfaction
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Apply and verify one true tracked sentence deletion, regenerate fresh clean, and propose the next part.
+
+## KILA-D-20260828-023: Approve deletion of orphaned combined-mediation sentence
+
+- Event SHA-256: 6cc5903a2feff8d58f440cb8deda12d836844ee391c88c9879d0473a4a38e46f
+- Recorded at: 2026-08-28T17:48:47+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-1
+- Decision type: manuscript-deletion
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: cbf7278067d2eb45a1b3ca24c06166bea32a83f2752740f0c881fc95519f0655
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Reviewer 1 requested a clearer and more appropriate formal mechanism strategy in place of unsupported sequential-OLS mediation claims.
+
+### Decision Context
+
+After deletion of the legacy M6 sentence, the phrase This comprehensive model has no remaining referent. The validated nested OLS sequence is descriptive, while the parallel path model reports conditional direct and indirect associations without identifying causal combined mediation.
+
+### Kila Recommendation
+
+Delete only the exact orphaned combined-mediation sentence; preserve corrected M4, the complete following attenuation sentence, all later content, and the response.
+
+### Options Presented
+
+- Delete the exact orphaned combined-mediation sentence as proposed.
+
+### Human Decision
+
+Approved reviewer-1/comment-1 part-23 exactly as proposed.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The Methodology will move directly from corrected M4 to the preserved attenuation sentence, removing an orphaned and unsupported combined-mediation claim while leaving later legacy prose for separate review.
+
+### Affected Manuscript Sections
+
+- Methodology > Primary OLS Specifications for Life Satisfaction
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Apply and verify one true tracked sentence deletion, regenerate fresh clean, and propose the next part.
+
+## KILA-D-20260828-024: Approve deletion of unsupported OLS attenuation claim
+
+- Event SHA-256: 73548b1140a15a16d85f52f36806c1ac2c2a43bc0d3845b12757cbc3798a7695
+- Recorded at: 2026-08-28T18:10:01+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-1
+- Decision type: manuscript-deletion
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: 701464439617ce964e425a103827515f0dc62cfda74c0b815dfa80890b53cb4e
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Reviewer 1 requested a formal mechanism strategy instead of unsupported inference from sequential OLS coefficient changes.
+
+### Decision Context
+
+The current four-model OLS sequence is descriptive. Coefficient attenuation across nested specifications does not quantify explanatory power and cannot identify mechanisms; conditional indirect associations are estimated separately in the parallel path model.
+
+### Kila Recommendation
+
+Delete only the exact attenuation sentence and its following one-space bridge; preserve corrected M4, the following basic-form sentence, all later content, and the response.
+
+### Options Presented
+
+- Delete the exact attenuation sentence as proposed.
+
+### Human Decision
+
+Approved reviewer-1/comment-1 part-24 exactly as proposed.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The Methodology will move directly from corrected M4 to the model-form sentence without claiming that nested OLS attenuation quantifies mechanism explanatory power.
+
+### Affected Manuscript Sections
+
+- Methodology > Primary OLS Specifications for Life Satisfaction
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Apply and verify one true tracked sentence deletion, regenerate fresh clean, audit remaining legacy mechanism claims, and propose the next part.
+
+## KILA-D-20260828-025: Approve Robustness Checks association-only opening
+
+- Event SHA-256: 0cbcd48fadf6ae2f8a260704d9a5bbe114f56ca854fa7b90ffbaaa62d435c930
+- Recorded at: 2026-08-28T18:31:38+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-1
+- Decision type: manuscript-replacement
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: 608e1e9cfa0448ecfd7585ea564c1dacac7da84b9d38779721b687395ac900bc
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Reviewer 1 requires a formal mechanism strategy rather than unsupported mechanism claims from regression specifications.
+
+### Decision Context
+
+The current Robustness Checks opening says alternative outcomes assess both the rural-urban association and its mediating mechanisms, although the alternative-outcome models do not re-estimate the parallel path indirect associations.
+
+### Kila Recommendation
+
+Replace only the opening sentence so that the alternative-outcome checks assess consistency of the rural-urban association; preserve the following legacy M6 sentence for its separately bounded correction.
+
+### Options Presented
+
+- Replace the exact opening sentence as proposed.
+
+### Human Decision
+
+Approve reviewer-1/comment-1 part-25 exactly as proposed.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The Robustness Checks opening will no longer claim that alternative outcomes test mediating mechanisms.
+
+### Affected Manuscript Sections
+
+- Methodology > Robustness Checks
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Apply and verify one true tracked replacement, regenerate fresh clean, then complete the remaining Comment 1 part audit.
+
+## KILA-D-20260828-026: Approve Reviewer 1 Comment 1 remaining batch
+
+- Event SHA-256: f20ac4c18129c1183c1d371c3ae254044f6466c96ca684353889c4e644008598
+- Recorded at: 2026-08-28T18:57:31+09:00
+- Revision workspace: Rev
+- Revision stage: iterative-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-1
+- Decision type: batch-revision-approval
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: 3dc4d1900e88ea406fbac18b6abe76be9b448c78f3b457fb5311dc5f884a645a
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Reviewer 1 requests a formal mechanism strategy and correction of unsupported claims based on nested OLS coefficient changes.
+
+### Decision Context
+
+The post-part-25 audit resolves the remaining Comment 1 work into exact parts 26-49 covering manuscript text, Table 4 and Figure 6, the standalone Supplement title, and the response block. Each part remains subject to exact-match, tracked-edit, fresh-clean, provenance, and visual-verification gates.
+
+### Kila Recommendation
+
+Approve the exact batch packet in Rev/docs/reviewer-1-comment-1-batch-approval.md and execute sequentially without pausing unless a safety gate fails.
+
+### Options Presented
+
+- Approve reviewer-1/comment-1 parts 26-49 exactly as listed.
+
+### Human Decision
+
+Approved reviewer-1/comment-1 parts 26-49; execute the full packet sequentially.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The manuscript, main display, supplement title, and response will be synchronized to the validated OLS and parallel path results while removing unsupported mediation and rural-buffer claims.
+
+### Affected Manuscript Sections
+
+- Methodology; Results; Discussion; Policy Implications; Limitations; Conclusion; Table 4; Figure 6; Supplementary Materials; Response
+
+### Related Artifacts
+
+- Rev/docs/reviewer-1-comment-1-batch-approval.md
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/revision/response-draft.md
+
+### Follow-Up
+
+Execute parts 26-49 one at a time; stop only if a safety or exact-match gate fails.
+
+## KILA-D-20260829-001: Approve consolidated execution exceptions for Reviewer 1 Comment 1
+
+- Event SHA-256: f9727f2e056185ca2adb8a605d40732d9ca81c31b7a601006857179ad4cf524f
+- Recorded at: 2026-08-29T12:30:36+09:00
+- Revision workspace: Rev
+- Revision stage: manuscript-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-1
+- Decision type: supplemental-exception-approval
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/docs/revisionplan.md
+- Object SHA-256: 04ceebb55ecb0c858547035a26a3a9f51f1065c0689a7f54e2b2bfcf76737fab
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Replace legacy mechanism and policy claims, synchronize the formal path-analysis display, remove redundant Figure 6, and avoid repeated part-by-part human interaction.
+
+### Decision Context
+
+The remaining approved packet contains native EndNote-field deletions, a Table 4 replacement, a Figure 6 drawing deletion, and consequential downstream figure renumbering that cannot all be performed through the safe tracked-text editor.
+
+### Kila Recommendation
+
+Approve one consolidated exception bundle: machine-execute all safe text and supplement-title edits continuously; human performs all native EndNote/table/drawing operations in one Word opening; agent renumbers later figures and performs one final consolidated review.
+
+### Options Presented
+
+- Approve the consolidated exception bundle and one-opening execution cadence.
+- Retain the unsafe objects and omit the dependent replacements.
+
+### Human Decision
+
+The human approves the complete consolidated exception bundle for Reviewer 1 Comment 1, including deletion of the listed native EndNote citation fields, replacement of Table 4, deletion of Figure 6, renumbering of later figures and references, continuous machine execution without per-part approval, one human Word opening, and one final consolidated review.
+
+### Human-Provided Rationale
+
+The human does not want the manuscript revised through repeated part-by-part interactions.
+
+### Expected Revision Effect
+
+Parts 39-48 can be completed as one auditable bundle while preserving machine safety boundaries and minimizing human Word openings; part 49 follows one final verified clean review.
+
+### Affected Manuscript Sections
+
+- Discussion
+- Policy Implications
+- Limitations and Future Studies
+- Conclusion
+- Tables and Figures
+- Supplementary Materials
+
+### Related Artifacts
+
+- Rev/docs/reviewer-1-comment-1-batch-approval.md
+- Rev/docs/revisionplan.md
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.supplementary.docx
+
+### Follow-Up
+
+Execute safe machine-owned changes continuously, then request one human Word save for the consolidated native-field/table/drawing operations before the single final clean review.
+
+## KILA-D-20260829-002: Approve final technical exception bundle for Reviewer 1 Comment 1
+
+- Event SHA-256: db49a6ff58ff60ca8c372c8aff35426ec08b624c29cb5afa4693d470d4200e26
+- Recorded at: 2026-08-29T12:43:41+09:00
+- Revision workspace: Rev
+- Revision stage: manuscript-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-1
+- Decision type: supplemental-technical-exception-approval
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/docs/revisionplan.md
+- Object SHA-256: 235330cc5ccb11bad24ffb39a28a1c7b5365ed75fc7c136a79f9b89e98045dfb
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Complete the already approved Reviewer 1 Comment 1 bundle without repeated part-by-part approval while preserving native EndNote fields and tracked-document structure.
+
+### Decision Context
+
+Execution found three final Word-structure exceptions after the earlier consolidated approval: the approved part-40 suffix crosses a rendered-page-break run, the approved part-41 paragraph crosses differently styled Table 4/Figure 6 references while retaining two citation fields, and two figure-number references lie inside prior tracked insertions parts 32 and 33.
+
+### Kila Recommendation
+
+Authorize one final technical exception bundle so all three exceptions are handled in the same single human Word opening and all remaining safe edits continue automatically.
+
+### Options Presented
+
+- Approve the final technical exception bundle and one-opening cadence.
+
+### Human Decision
+
+The human approves the final technical exception bundle: human handling of the approved part-40 suffix, complete approved part-41 paragraph while preserving its two native citation groups, and Figure 8 to Figure 7 plus Figure 8b to Figure 7b changes inside prior tracked insertions parts 32 and 33, all in the same single Word opening.
+
+### Human-Provided Rationale
+
+The human prefers one consolidated execution instead of repeated part-by-part modification.
+
+### Expected Revision Effect
+
+All remaining safe machine edits can proceed continuously, followed by one combined human Word operation and one final fresh-clean review.
+
+### Affected Manuscript Sections
+
+- Discussion
+- Results
+- Tables and Figures
+
+### Related Artifacts
+
+- Rev/docs/revisionplan.md
+- Rev/docs/reviewer-1-comment-1-batch-approval.md
+- Rev/revision/ZDP02l.rev.markup.docx
+
+### Follow-Up
+
+Execute all remaining safe machine-owned edits, then issue one combined human Word checklist.
+
+## KILA-D-20260829-003: Human reports consolidated Word operation complete
+
+- Event SHA-256: 05b99f5e2883e9950e1f387fe770d4a74d48573b3b9adf7e31758f37ebc7f9a1
+- Recorded at: 2026-08-29T12:57:39+09:00
+- Revision workspace: Rev
+- Revision stage: manuscript-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-1
+- Decision type: human-edit-completion-report
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260829-002
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: 9924853b706d6e1aad0e1090e595dcba03d74f873956017b867d4be40a53f44a
+- Implementation owner: human
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Complete all remaining human-owned Reviewer 1 Comment 1 operations in one markup save before one fresh-clean consolidated review.
+
+### Decision Context
+
+The approved final technical exception bundle assigned the remaining part-40 through part-44 text and citation-field work, Table 4 replacement, Figure 6 deletion, and two prior-insertion figure-reference corrections to one human Word opening.
+
+### Kila Recommendation
+
+Report completion only after saving the same markup path with Track Changes enabled.
+
+### Options Presented
+
+- Complete and save the consolidated Word operation.
+
+### Human Decision
+
+The human reports that the Reviewer 1 Comment 1 consolidated Word operation is completed and saved.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The current markup should contain every approved human-owned change and can proceed to fresh-clean provenance and consolidated verification if the saved artifact validates.
+
+### Affected Manuscript Sections
+
+- Discussion
+- Policy Implications
+- Results
+- Tables and Figures
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/reviewer-1-comment-1-human-word-checklist.md
+
+### Follow-Up
+
+Verify that the current markup changed after the machine-safe checkpoint and contains every approved operation; regenerate clean only if verification succeeds.
+
+## KILA-D-20260829-004: Authorize agent-operated Word implementation for consolidated bundle
+
+- Event SHA-256: b3a6804f799abca6a45afd2e4e0fa01e4c746435c22b7865df4cc968b9a591a8
+- Recorded at: 2026-08-29T13:03:14+09:00
+- Revision workspace: Rev
+- Revision stage: manuscript-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-1
+- Decision type: implementation-ownership-revision
+- Source skill: execute-procedure
+- Entry type: revision
+- Supersedes: KILA-D-20260829-002
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: 9924853b706d6e1aad0e1090e595dcba03d74f873956017b867d4be40a53f44a
+- Implementation owner: agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Complete the exact eight-item Reviewer 1 Comment 1 Word bundle while preserving native tracking, retained citation fields, manuscript structure, and the approved wording.
+
+### Decision Context
+
+The previously approved consolidated bundle assigned native EndNote-field deletions, complex field-preserving paragraph replacements, Table 4 replacement, Figure 6 deletion, and two prior-insertion figure-reference corrections to one human Word opening. Two reported saves did not change the workspace target, so the human reviewed the complete eight-item checklist and changed implementation ownership.
+
+### Kila Recommendation
+
+Use Microsoft Word's native Track Changes engine on a recoverable candidate, promote only after exact semantic and structural checks, then generate one fresh clean and consolidated review.
+
+### Options Presented
+
+- Authorize the agent to perform the complete reviewed Word checklist directly.
+
+### Human Decision
+
+The human accepts every proposed operation in the displayed eight-item checklist and explicitly authorizes the agent to execute the complete bundle directly.
+
+### Human-Provided Rationale
+
+The human wants the already reviewed consolidated work completed without another manual Word pass.
+
+### Expected Revision Effect
+
+The agent may use Microsoft Word native automation to implement the exact approved text, citation-field deletions, Table 4 replacement, Figure 6 removal, and two remaining figure-number corrections, subject to backup, exact-match, structural, and fresh-clean review gates.
+
+### Affected Manuscript Sections
+
+- Discussion
+- Policy Implications
+- Results
+- Tables and Figures
+
+### Related Artifacts
+
+- Rev/docs/reviewer-1-comment-1-human-word-checklist.md
+- Rev/revision/ZDP02l.rev.markup.docx
+
+### Follow-Up
+
+Create a recoverable pre-edit backup, execute the exact Word-native bundle, verify and promote the candidate, regenerate fresh clean, perform consolidated review, and update only the Reviewer 1 Comment 1 response block if all gates pass.
+
+## KILA-D-20260829-005: Approve Reviewer 1 Comment 1 response and close comment
+
+- Event SHA-256: 4f4dba76e8af117ce16be19fbddfe395b733047f41d048d2cb56e5f063f61a68
+- Recorded at: 2026-08-29T14:37:17+09:00
+- Revision workspace: Rev
+- Revision stage: response-review
+- Reviewer ID: reviewer-1
+- Comment ID: comment-1
+- Decision type: response-approval
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260829-004
+- Decision object: Rev/revision/response-draft.md
+- Object SHA-256: b2796eae08a9266938158ed9188dc7075b97efea6082eabe1b12a44fb2c8df11
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Replace unsupported sequential-decomposition mediation claims with a formal, explicitly noncausal pathway analysis and explain the revised modeling strategy.
+
+### Decision Context
+
+All approved Reviewer 1 Comment 1 manuscript parts, display changes, fresh-clean verification, and the targeted response block are complete. The response contains five exact fresh-clean quotations with the required human-verification marker.
+
+### Kila Recommendation
+
+Approve the verified response block, mark part 49 and Reviewer 1 Comment 1 complete, and proceed to the per-comment checkpoint.
+
+### Options Presented
+
+- Approve the complete Reviewer 1 Comment 1 response and close the comment.
+
+### Human Decision
+
+The human explicitly approves the complete Reviewer 1 Comment 1 response block and accepts the manuscript-response implementation as adequate.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Part 49 and Reviewer 1 Comment 1 can be marked done; no further manuscript or response change is required for this comment.
+
+### Affected Manuscript Sections
+
+- Response to Reviewers > Reviewer 1 > Comment 1
+- Methodology, Results, Discussion, Policy Implications, Limitations, Conclusion, Table 4, and Figures 6-7
+
+### Related Artifacts
+
+- Rev/revision/response-draft.md
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/docs/revisionchanges.md
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Mark the plan row done, append the execution log, and route the per-comment Git checkpoint through manage-git-workflow if available.
