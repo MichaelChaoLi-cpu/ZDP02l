@@ -1065,6 +1065,167 @@ Education level is an ordinal variable categorized into three levels: low, mediu
      - Before: " covering 205,891 observations"
      - After: ""
 
+### part-09-table
+
+- Location: Main manuscript Table 2
+- Reason: Replace the obsolete six-model baseline OLS display with the approved four-model common-sample primary OLS specifications.
+- Kila decisions: KILA-D-20260829-006, KILA-D-20260829-007, KILA-D-20260829-009
+- Mode: human-applied true tracked table replacement in Microsoft Word
+- Timestamp: 2026-08-29T15:48:53+09:00
+- Author: human
+- Markup SHA-256 before: `f0da7ed1cafff69a988c513e8a156eb947878e2ec81470a38dd64f57c91064d5`
+- Markup SHA-256 after: `43f850a2054b3f15b7d4157d2a0ec070989368e01a219c2b1b9af8c6163551af`
+- Revision IDs: old-table deletion wrappers span `1115`–`1434` (`189` unique cell-level wrappers plus `16` row deletions); new-table insertion wrappers span `1438`–`1569` (`80` unique cell-level wrappers plus `8` row insertions)
+- Backup: no new agent backup; the immediately preceding verified markup is preserved at `/private/tmp/zdp02l-r1c1-isolated-v7r4.docx` with the recorded before hash
+- Before:
+
+~~~~text
+Table 2: Baseline OLS models for life satisfaction regressed on rural residence
+Columns: Variable, M1, M2, M3, M4, M5, M6
+Rural-Urban Residence: -0.109***, -0.091***, +0.040***, +0.060***, +0.063***, +0.060***
+Standard errors: (0.012), (0.011), (0.011), (0.011), (0.011), (0.010)
+Additional rows: Income Feelings, Expenses Worry, Income Percentile, Social Capital Index, N, R², Country FE, Weighted
+N: 185,923 in all six models
+R²: 0.000, 0.043, 0.128, 0.180, 0.227, 0.245
+Country FE: No, No, No, Yes, Yes, Yes
+Weighted: No in all six models
+~~~~
+
+- After:
+
+~~~~text
+Table 2. Primary OLS specifications for life satisfaction
+Specification | M1 | M2 | M3 | M4
+Rural coefficient | +0.026 | +0.027 | +0.064 | +0.065
+95% CI | [-0.096, 0.148] | [-0.074, 0.129] | [-0.010, 0.139] | [0.001, 0.129]
+N | 183,685 | 183,685 | 183,685 | 183,685
+Within R² | 0.000 | 0.034 | 0.171 | 0.220
+Place fixed effects | Yes | Yes | Yes | Yes
+Added block | Rural residence | Controls | Economic-security measures | Social Capital Index
+~~~~
+
+- Verification: Track Changes remains enabled. All `16` legacy rows carry row-deletion semantics and the legacy accepted-view cell text is absent; all `8` replacement rows carry row-insertion semantics. The accepted replacement is an exact `8 × 5` match to `Rev/docs/reviewer-1-comment-6-table2-template.docx`, including all coefficients, intervals, sample sizes, Within R² values, fixed-effects entries, and added-block labels. The package is a valid DOCX and contains `1,511` valid unique revision wrappers.
+
+### part-10-figure-image
+
+- Location: Main manuscript Figure 4 drawing
+- Reason: Replace the obsolete six-model sequential-coefficient image with the approved four-model primary OLS coefficient plot while preserving the original drawing extent.
+- Kila decisions: KILA-D-20260829-006, KILA-D-20260829-007, KILA-D-20260829-009
+- Mode: human-applied true tracked drawing replacement in Microsoft Word
+- Timestamp: 2026-08-29T15:48:53+09:00
+- Author: human
+- Markup SHA-256 before: `f0da7ed1cafff69a988c513e8a156eb947878e2ec81470a38dd64f57c91064d5`
+- Markup SHA-256 after: `43f850a2054b3f15b7d4157d2a0ec070989368e01a219c2b1b9af8c6163551af`
+- Revision IDs: old drawing deletion `1687`; new drawing insertion `1688`
+- Backup: no new agent backup; the immediately preceding verified markup is preserved at `/private/tmp/zdp02l-r1c1-isolated-v7r4.docx` with the recorded before hash
+- Before:
+
+~~~~text
+Legacy Figure 4 image SHA-256: 699bb8b869704ff730d8d4f90721dea093c5f06ecc3c175a0f65a1ca2efddcbe
+Drawing extent: 5486400 × 2713055 EMU
+~~~~
+
+- After:
+
+~~~~text
+Approved Figure 4 image SHA-256: 9390a3ceafa5f4345aafe6ed94d7274767eb53936c5f38d94d435c87aa0577c5
+Drawing extent: 5486400 × 2713055 EMU
+~~~~
+
+- Verification: the old drawing is wholly inside tracked deletion `1687`; the replacement drawing is wholly inside tracked insertion `1688`; the replacement media payload exactly matches `Rev/revision/Figure4.primary_ols.png`; the original drawing extent is preserved. The legacy caption remained unchanged in the human save and is completed separately as the already approved safe tracked-text part `part-10-figure-caption`.
+
+### part-11-results
+
+- Location: Results > Adjusted Rural-Urban Life Satisfaction Association, paragraph beginning `Table 2 presents`
+- Reason: Replace the obsolete six-model Results narrative with the approved four-model common-sample OLS results, uncertainty, block sequence, and non-mediation interpretation.
+- Kila decisions: KILA-D-20260829-006, KILA-D-20260829-009, KILA-D-20260829-010
+- Mode: human-applied true tracked paragraph replacement in Microsoft Word
+- Timestamp: 2026-08-29T16:08:00Z
+- Author: Chao Li
+- Markup SHA-256 before: `43f850a2054b3f15b7d4157d2a0ec070989368e01a219c2b1b9af8c6163551af`
+- Markup SHA-256 after: `3ee767c67c61f52a64c476be93b65ecd1053e4ec572e43ca58eae3e133ef0a08`
+- Revision IDs: insertion `594`; deletion `595`
+- Backup: no new agent backup; the preceding verified state is identified by the recorded before hash
+- Paragraph properties preserved: verified; the paragraph remains in the same Results location and preserves the unchanged bold `Table 2` prefix and terminal period outside the replacement wrappers
+- Endnote hyperlinks preserved: verified structurally; the target contains no hyperlink or field object
+- Before:
+
+~~~~text
+Table 2 presents the baseline OLS models, which are visually summarized in Figure 4. These initial specifications consistently reveal a small, negative, and statistically significant association between rural residence and life satisfaction. In Model M1, which included only the binary rural residence indicator, the coefficient for rural residence was -0.109 (SE = 0.012, p < 0.001), indicating that rural residents reported lower life satisfaction compared to their urban counterparts. This negative association persisted in Model M2, where, after adjusting for basic demographic characteristics, the rural residence coefficient was -0.091 (SE = 0.011, p < 0.001). This demonstrates that the initial disadvantage for rural residents remains statistically significant even after accounting for these demographic factors. The coefficient for rural residence systematically changes as additional control variables are introduced. Subsequently, the coefficient shifted to 0.040 in Model M3, following the addition of socioeconomic characteristics, such as education level and feelings of income security. It further increased to 0.060 in Model M4, which incorporated country fixed effects. This progression demonstrates that accounting for demographic, socioeconomic, and national-level contextual factors significantly alters the estimated association between rural residence and life satisfaction, highlighting the importance of these contextual elements.
+~~~~
+
+- After:
+
+~~~~text
+Table 2 presents the four primary OLS specifications, which are visually summarized in Figure 4. All four models use the same common complete-case sample (N = 183,685), include place fixed effects, and use place-clustered CR2/Satterthwaite inference. The rural-residence coefficient is +0.026 in M1 (95% CI: -0.096 to 0.148), +0.027 in M2 (-0.074 to 0.129), +0.064 in M3 (-0.010 to 0.139), and +0.065 in M4 (0.001 to 0.129). The main coefficient change occurs when Income Security Feelings, Expense Worry, and Within-Country Income Percentile are added as the economic-security block in M3; adding the Social Capital Index in M4 changes the estimate only slightly. This nested sequence is descriptive and is not interpreted as mediation evidence.
+~~~~
+
+- Verification: accepted view matches the approved paragraph exactly once; the obsolete paragraph is absent from accepted view; Word records the replacement as one insertion and one deletion while retaining the unchanged paragraph prefix and punctuation. The valid markup retains Track Changes and has `1,513` unique revision wrappers before the final caption part.
+
+### part-10-figure-caption
+
+- Location: Main manuscript Figure 4 caption
+- Reason: Complete the approved Figure 4 update by replacing the legacy six-model caption with the exact four-model CR2/Satterthwaite caption.
+- Kila decisions: KILA-D-20260829-006, KILA-D-20260829-007, KILA-D-20260829-009
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T07:10:49Z
+- Author: Kila
+- Markup SHA-256 before: `3ee767c67c61f52a64c476be93b65ecd1053e4ec572e43ca58eae3e133ef0a08`
+- Markup SHA-256 after: `aee57ee1d741508fd8eedaa79eb687c5331980e03dba737a74a7e49dd56ccd11`
+- Revision IDs: `1699, 1700, 1701, 1702, 1703, 1704, 1705, 1706, 1707, 1708, 1709, 1710`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T161050090849.reviewer-1-comment-6.part-10-figure-caption.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `30b6ee3812e6ba7e1d83ced0596ec9233e22436e17286f0a2b4f5c67fa813ed9`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Figure 4. Rural–urban coefficient across sequential life satisfaction models
+~~~~
+
+- After:
+
+~~~~text
+Figure 4. Rural-residence coefficients across the four primary OLS specifications. Error bars show 95% CR2/Satterthwaite confidence intervals.
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "Rural–urban"
+     - After: "Rural-residence"
+  2. `replace`
+     - Before: "coefficient"
+     - After: "coefficients"
+  3. `replace`
+     - Before: "sequential"
+     - After: "the"
+  4. `replace`
+     - Before: "life"
+     - After: "four"
+  5. `replace`
+     - Before: "satisfaction"
+     - After: "primary"
+  6. `replace`
+     - Before: "models"
+     - After: "OLS specifications. Error bars show 95% CR2/Satterthwaite confidence intervals."
+
+### consolidated-review-parts-01-11
+
+- Scope: Reviewer 1 / Comment 6, all `11` distinct manuscript locations (Methodology model roles; Economic Insecurity Measures; Mechanism Analysis; Economic Insecurity Analysis; Social Capital Index organization; Age; Gender; Education; Table 2; Figure 4 image/caption; Results narrative)
+- Review timestamp: 2026-08-29T16:13:00+09:00
+- Final markup SHA-256: `aee57ee1d741508fd8eedaa79eb687c5331980e03dba737a74a7e49dd56ccd11`
+- Fresh clean SHA-256: `c4395b7bd597dc59e818e9b5f4234ec6dd2cdf3be4f4649d59aaceeb8734993c`
+- Source immutability: verified; the markup hash, size, and modification time were unchanged throughout clean generation and consolidated review.
+- Structural verification: both files are valid DOCX packages; markup retains Track Changes with `1,525` unique revision wrappers; clean contains zero revision wrappers with Track Changes disabled; clean preserves `178` field beginnings and `178` field instructions, `11` nonempty OMML objects, `7` tables, `7` drawings, and `7` media payloads.
+- Semantic verification: all `11` approved locations occur in the fresh clean with their current accepted wording; the obsolete six-model Results paragraph, legacy Table 2, legacy Figure 4 image, and legacy Figure 4 caption are absent. The replacement Table 2 is an exact `8 × 5` match to the approved template. The replacement Figure 4 media SHA-256 is `9390a3ceafa5f4345aafe6ed94d7274767eb53936c5f38d94d435c87aa0577c5`.
+- Visual verification: the fresh clean rendered to `56` pages and the markup to `73` pages. Every page was reviewed through contact sheets; the affected clean pages `22`, `39`, and `47` and markup pages `26`, `54`, and `64` were also inspected at original detail. No clipping, overlap, missing content, malformed field display, displaced table/figure, or new layout defect was found.
+- Outcome: all approved manuscript parts for Reviewer 1 / Comment 6 are complete and verified. The response may now be drafted from this exact fresh clean; human approval of that response remains required.
+
 ## reviewer-1/comment-10
 
 ### part-01

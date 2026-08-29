@@ -164,9 +164,45 @@ a. Overall, there are a lot of details, such as the description of data preproce
 b. There are some organizational issue as well: some of the focal independent and mediator variables are messed with control variables at one place or another. For instance, “Income Security Feelings” (added in M3) serves as a socioeconomic control, not as a measure of economic insecurity (added in M5): in “Data and Measurement” section, it is somehow grouped under the category “Economic Insecurity Measures”. And the measure description, descriptive results and methodology were also mixed together in ways that are quite unexpected.
 
 **Response:**
-[Response pending.]
+Thank you for identifying this organizational inconsistency. We have revised the Data and Measurement, Methodology, and Results sections so that variable definitions, model roles, and empirical findings are presented separately and consistently. Income Security Feelings is now treated throughout as one of the three economic-security measures and as a pathway variable; it is no longer included in the baseline demographic and socioeconomic control block. The four primary OLS specifications now use a common complete-case sample and add the economic-security block only in M3, followed by the Social Capital Index in M4. The nested OLS sequence is explicitly described as descriptive, while indirect associations are estimated separately in the parallel path model. We also removed repeated descriptive statistics from the measurement prose, retained concise variable definitions, and directed readers to Table 1. Finally, the revised Results paragraph, Table 2, and Figure 4 now report the same four-model sequence, estimates, confidence intervals, and inferential framework.
 
-"[Exact revised text quoted from the fresh clean manuscript]"
+"Four primary OLS models, M1 through M4, are estimated on the prespecified common complete-case sample, with place fixed effects included in every specification. These models progressively add demographic and socioeconomic controls, three economic-security measures, and the Social Capital Index. This nested sequence describes how the rural-residence coefficient changes as the prespecified covariate blocks are added; indirect associations are estimated separately in the parallel path model."
+
+(Lines/Pages: human verification required)
+
+"It is assessed using three distinct indicators from the GFS: Income Security Feelings, Expense Worry, and Within-Country Income Percentile (An et al., 2025; Godoy et al., 2024; Lu & Horlu, 2017). Income Security Feelings is measured on a 1–4 scale (An et al., 2025; Gautam & Andersen, 2016; Wang et al., 2015), and Expense Worry is measured on a 0–10 scale (An et al., 2025; Lu & Horlu, 2017; Wang et al., 2015)."
+
+(Lines/Pages: human verification required)
+
+"In the first-stage equations, Rural Residence predicts Income Security Feelings, Expense Worry, Within-Country Income Percentile, and the Social Capital Index; in the outcome equation, Life Satisfaction is regressed on Rural Residence and all four pathway variables simultaneously. The four pathways are modeled in parallel rather than as a serial causal sequence, and every equation includes the same demographic and socioeconomic controls and place fixed effects as the primary OLS specification (Fanfan et al., 2025; Hu et al., 2025; Zhao et al., 2022)."
+
+(Lines/Pages: human verification required)
+
+"To this end, the analysis employs Income Security Feelings, Expense Worry, and Within-Country Income Percentile as dependent variables."
+
+(Lines/Pages: human verification required)
+
+"Descriptive statistics for the Social Capital Index by rural-urban residence are reported in Table 1."
+
+(Lines/Pages: human verification required)
+
+"Age is measured in years."
+
+(Lines/Pages: human verification required)
+
+"Education level is an ordinal variable categorized into three levels: low, medium, and high."
+
+(Lines/Pages: human verification required)
+
+"Table 2 presents the four primary OLS specifications, which are visually summarized in Figure 4. All four models use the same common complete-case sample (N = 183,685), include place fixed effects, and use place-clustered CR2/Satterthwaite inference. The rural-residence coefficient is +0.026 in M1 (95% CI: -0.096 to 0.148), +0.027 in M2 (-0.074 to 0.129), +0.064 in M3 (-0.010 to 0.139), and +0.065 in M4 (0.001 to 0.129). The main coefficient change occurs when Income Security Feelings, Expense Worry, and Within-Country Income Percentile are added as the economic-security block in M3; adding the Social Capital Index in M4 changes the estimate only slightly. This nested sequence is descriptive and is not interpreted as mediation evidence."
+
+(Lines/Pages: human verification required)
+
+"Table 2. Primary OLS specifications for life satisfaction"
+
+(Lines/Pages: human verification required)
+
+"Figure 4. Rural-residence coefficients across the four primary OLS specifications. Error bars show 95% CR2/Satterthwaite confidence intervals."
 
 (Lines/Pages: human verification required)
 

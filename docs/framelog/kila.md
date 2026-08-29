@@ -4602,3 +4602,392 @@ Part 49 and Reviewer 1 Comment 1 can be marked done; no further manuscript or re
 ### Follow-Up
 
 Mark the plan row done, append the execution log, and route the per-comment Git checkpoint through manage-git-workflow if available.
+
+## KILA-D-20260829-006: Approve consolidated Results Table 2 and Figure 4 overlap bundle
+
+- Event SHA-256: d78168c4d0ffade1f7c85483af3ecc8ffe8c8031ae8c00ec56c5145d6ba51740
+- Recorded at: 2026-08-29T15:00:49+09:00
+- Revision workspace: Rev
+- Revision stage: revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-6
+- Decision type: cross-comment-consolidated-edit
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/docs/revisionplan.md
+- Object SHA-256: 838e771b33cdbd14a6d729fd16d574e4ee119bae519187bfb75aececa5e57cbf
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Resolve the remaining contradiction between the revised economic-insecurity role and the obsolete six-model Results and displays.
+
+### Decision Context
+
+Reviewer 1 Comment 6 requires a unique variable role for Income Security Feelings, while the live Results paragraph, Table 2, and Figure 4 still reproduce the obsolete six-model specification also targeted by Reviewer 1 Comment 3.
+
+### Kila Recommendation
+
+Replace the Results paragraph and rebuild Table 2 and Figure 4 together from the validated four-model common-sample OLS sequence, then reuse the same implementation as shared evidence for Comments 6 and 3.
+
+### Options Presented
+
+- Approve the complete three-location consolidated overlap bundle.
+
+### Human Decision
+
+The human approved the complete Reviewer 1 Comment 6 consolidated overlap bundle covering Results, Table 2, and Figure 4.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The manuscript will consistently classify Income Security Feelings as an economic-insecurity pathway variable, present only M1 through M4 with place fixed effects in every model, and eliminate the obsolete six-model Results and displays.
+
+### Affected Manuscript Sections
+
+- Results > Adjusted Rural-Urban Life Satisfaction Association
+- Table 2
+- Figure 4
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/revisionplan.md
+- Rev/revision/response-draft.md
+
+### Follow-Up
+
+Apply the approved three-location tracked bundle, regenerate one fresh clean, verify all three locations, and draft Reviewer 1 Comment 6 response.
+
+## KILA-D-20260829-007: Approve human-owned Table 2 and Figure 4 operation
+
+- Event SHA-256: 64a30a8164a0a0cefa23c7040b2373ec01bc61b39a5ef90fd8e65e228cd1b04f
+- Recorded at: 2026-08-29T15:16:15+09:00
+- Revision workspace: Rev
+- Revision stage: revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-6
+- Decision type: human-owned-object-operation
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/docs/reviewer-1-comment-6-word-checklist.md
+- Object SHA-256: 25f968a7752ca4c26ddbae8e4f499c0cba06f579f9a12bc29221090a1b2af30b
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Resolve the remaining Table 2 and Figure 4 object replacements for the approved Reviewer 1 Comment 6 overlap bundle.
+
+### Decision Context
+
+The approved four-model overlap bundle requires replacing Word Table 2 and Figure 4 objects, which the controlled markup editor cannot safely perform.
+
+### Kila Recommendation
+
+Approve one consolidated human Word operation using the prepared template, PNG, and checklist; keep the Results paragraph agent-owned.
+
+### Options Presented
+
+- Approve the consolidated human-owned object bundle.
+
+### Human Decision
+
+The human approves the consolidated human-owned Table 2 and Figure 4 replacement bundle.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The human replaces Table 2 and Figure 4 once with Track Changes on; after the saved markup is reported, the agent applies the approved Results text and performs one fresh-clean review.
+
+### Affected Manuscript Sections
+
+- Results
+- Table 2
+- Figure 4
+
+### Related Artifacts
+
+- Rev/docs/reviewer-1-comment-6-table2-template.docx
+- Rev/revision/Figure4.primary_ols.png
+- Rev/revision/ZDP02l.rev.markup.docx
+
+### Follow-Up
+
+Human follows the checklist, saves the same markup path, and reports the exact completion phrase.
+
+## KILA-D-20260829-008: Authorize agent to perform Table 2 and Figure 4 replacement
+
+- Event SHA-256: 99b33c87e8987a309c80b3423c04d12b5b72d3430e71a6f54e5ee4c49f2657be
+- Recorded at: 2026-08-29T15:19:38+09:00
+- Revision workspace: Rev
+- Revision stage: revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-6
+- Decision type: implementation-owner-change
+- Source skill: execute-procedure
+- Entry type: revision
+- Supersedes: KILA-D-20260829-007
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: f0da7ed1cafff69a988c513e8a156eb947878e2ec81470a38dd64f57c91064d5
+- Implementation owner: agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Complete the approved Table 2 and Figure 4 object replacements in the markup manuscript.
+
+### Decision Context
+
+The prior supplemental decision assigned the unsupported Table 2 and Figure 4 object replacements to a human Word operation.
+
+### Kila Recommendation
+
+Keep unsupported Word object replacement human-owned because the controlled markup editor has no safe table or drawing replacement mode.
+
+### Options Presented
+
+- Authorize the agent to perform the object replacements.
+
+### Human Decision
+
+The human authorizes the agent to perform the approved Table 2 and Figure 4 replacements.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The requested implementation owner changes from the human to the agent, subject to the controlling revision workflow and available safe Word tooling.
+
+### Affected Manuscript Sections
+
+- Table 2
+- Figure 4
+
+### Related Artifacts
+
+- Rev/docs/reviewer-1-comment-6-table2-template.docx
+- Rev/revision/Figure4.primary_ols.png
+
+### Follow-Up
+
+Controller evaluates whether the authorized operation is supported; if not, the human-only operation remains required and no markup write occurs.
+
+## KILA-D-20260829-009: Confirm saved Table 2 and Figure 4 object replacements
+
+- Event SHA-256: 1b36115844545e72a99bb8d893dfef4e8807382d69f299fe2b8edb249f78baa7
+- Recorded at: 2026-08-29T15:56:49+09:00
+- Revision workspace: Rev
+- Revision stage: revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-6
+- Decision type: implementation-confirmation
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260829-008
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: 43f850a2054b3f15b7d4157d2a0ec070989368e01a219c2b1b9af8c6163551af
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Complete the approved four-model Table 2 and Figure 4 replacement for Reviewer 1 Comment 6.
+
+### Decision Context
+
+The human reports that the consolidated Word object operation has been completed and saved. Structural inspection verifies the approved tracked Table 2 replacement and exact Figure 4 PNG replacement; the Figure 4 caption remains at its legacy wording and can be completed as an already approved safe tracked-text edit.
+
+### Kila Recommendation
+
+Accept the verified Table 2 and Figure 4 image operations, complete the already approved Figure 4 caption and Results paragraph with the controlled tracked-text editor, then perform one consolidated fresh-clean review.
+
+### Options Presented
+
+- Confirm the saved human Word object operation and finish the two approved text locations by agent.
+
+### Human Decision
+
+The human confirms that the Word object operation is completed and saved; the verified table and figure image are accepted for continuation, with the omitted approved caption to be completed by the agent.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The formal markup retains the exact approved four-model Table 2 and Figure 4 image; the agent completes the approved caption and Results text before one consolidated clean and response review.
+
+### Affected Manuscript Sections
+
+- Results
+- Table 2
+- Figure 4
+
+### Related Artifacts
+
+- Rev/docs/reviewer-1-comment-6-table2-template.docx
+- Rev/revision/Figure4.primary_ols.png
+- Rev/revision/ZDP02l.rev.markup.docx
+
+### Follow-Up
+
+Apply the approved Figure 4 caption and Results paragraph as separate controlled tracked-text parts, regenerate one fresh clean, and complete consolidated semantic and visual review.
+
+## KILA-D-20260829-010: Confirm approved Results paragraph replacement
+
+- Event SHA-256: f22afc9487f68d6fccd83e787911f8f41e4983c284f57daf80526c32419ae295
+- Recorded at: 2026-08-29T16:09:53+09:00
+- Revision workspace: Rev
+- Revision stage: revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-6
+- Decision type: implementation-confirmation
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260829-009
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: 3ee767c67c61f52a64c476be93b65ecd1053e4ec572e43ca58eae3e133ef0a08
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Replace the obsolete six-model Results paragraph with the approved four-model common-sample OLS paragraph for Reviewer 1 Comment 6.
+
+### Decision Context
+
+The human reports completion of the previously routed Results paragraph replacement. Structural inspection confirms the exact approved four-model text in accepted view with one tracked insertion and one tracked deletion; Table 2 and the Figure 4 image remain correct. The Figure 4 caption remains the only pending manuscript location.
+
+### Kila Recommendation
+
+Accept the verified Results replacement, apply the already approved safe Figure 4 caption with the controlled editor, then generate one fresh clean for consolidated review.
+
+### Options Presented
+
+- Confirm the human Results replacement and continue with the pending caption and fresh-clean review.
+
+### Human Decision
+
+The human confirms the Results paragraph replacement is complete; machine inspection verifies that it exactly implements the approved text.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The accepted manuscript presents the four primary OLS specifications, common sample, CR2/Satterthwaite intervals, coefficient sequence, and descriptive non-mediation boundary exactly as approved.
+
+### Affected Manuscript Sections
+
+- Results > Adjusted Rural-Urban Life Satisfaction Association
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/reviewer-1-comment-6-final-word-checklist.md
+
+### Follow-Up
+
+Record the human Results part, apply the approved Figure 4 caption with the controlled editor, regenerate a fresh clean, and complete consolidated semantic and visual review.
+
+## KILA-D-20260829-011: Approve Reviewer 1 Comment 6 response and implementation
+
+- Event SHA-256: 84196e8a0d5310234d6cf5d4b4088bb854dd0b18b777011c65e9b706a1f2cb78
+- Recorded at: 2026-08-29T16:29:22+09:00
+- Revision workspace: Rev
+- Revision stage: response-review
+- Reviewer ID: reviewer-1
+- Comment ID: comment-6
+- Decision type: response-approval
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260829-010
+- Decision object: Rev/revision/response-draft.md
+- Object SHA-256: a8c9ceef59592ba6f7cfdf1ed83da9fce189e1a111cf0d0b0a3f662ace0efff3
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Resolve the organizational inconsistency between focal variables, economic-insecurity pathways, controls, measurement descriptions, methods, results, Table 2, and Figure 4.
+
+### Decision Context
+
+The fresh-clean manuscript bundle for Reviewer 1 Comment 6 has passed structural, semantic, and full visual review, and the response block contains ten exact quotations from that verified clean manuscript.
+
+### Kila Recommendation
+
+Accept the verified implementation and response, close Reviewer 1 Comment 6, and proceed to the next eligible revision item.
+
+### Options Presented
+
+- Approve the complete Comment 6 response and implementation.
+
+### Human Decision
+
+The human approves the complete Reviewer 1 Comment 6 response and accepts the implemented manuscript revision.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Reviewer 1 Comment 6 is closed as fully addressed; the plan advances from human_review_required to done.
+
+### Affected Manuscript Sections
+
+- Data and Measurement
+- Methodology
+- Results
+- Table 2
+- Figure 4
+- Response to Reviewer 1
+
+### Related Artifacts
+
+- Rev/revision/response-draft.md
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Mark Reviewer 1 Comment 6 done, append the execution log, and report the missing manage-git-workflow checkpoint skill.
