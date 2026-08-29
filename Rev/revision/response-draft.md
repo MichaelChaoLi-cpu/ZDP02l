@@ -211,10 +211,38 @@ Thank you for identifying this organizational inconsistency. We have revised the
 c. If I am not mistaken, the sample sizes are somehow inconsistent across models/tables (?). Is it due to missing values in the data? Anyway, this may make the comparison of results across models/tables questionable.
 
 **Response:**
-[Response pending.]
+Thank you for identifying this sample-comparability issue. We audited missingness and every model denominator, clarified the distinction between the processed source, variable-specific descriptive samples, the locked primary complete-case sample, and outcome-specific sensitivity samples, and aligned the related Methods, Results, Tables 1, 3, 5, and 6, Figure 7, and Supplementary Table S3. The four primary OLS specifications, the parallel path model, the three economic-security models, and the weighted/unweighted M4 comparison now use the same prespecified complete-case sample (N = 183,685), so comparisons within those model sequences are not driven by changing respondents. Alternative-outcome models report their exact complete-case Ns and include a same-respondent three-outcome sensitivity (N = 183,128). Supplementary Table S3 documents the complete construction sequence and overlapping variable-level missingness. This revision addresses the source of the apparent inconsistency while retaining variable-specific descriptive denominators where appropriate.
 
-"[Exact revised text quoted from the fresh clean manuscript]"
+The comment resulted in 19 distinct manuscript and supplementary locations (the approved 18-part bundle plus one Results heading scope correction); under the response quotation tier, the following 10 passages are representative of the revised Data and Measurement, Methodology, Results, table-note, and figure-note locations:
 
+"Following comprehensive data cleaning and preprocessing, the processed dataset comprised 207,919 respondents across 23 analytical places. Missing values were not replaced for the regression analyses. The four primary life-satisfaction specifications and the parallel path model use one prespecified complete-case sample of 183,685 respondents (88.3% of the processed dataset), defined by jointly observed life satisfaction, rural-urban residence, the three economic-security measures, all three Social Capital Index components, age, gender, marital status, employment, education, and analytical place. Table 1 instead reports variable-specific descriptive Ns among respondents with observed rural-urban classification; therefore, its row denominators may exceed the primary regression N. Supplementary Table S3 documents sample construction, missingness, and exact denominators for the sensitivity models."
+(Lines/Pages: human verification required)
+
+"Four primary OLS models, M1 through M4, are estimated on the prespecified common complete-case sample (N = 183,685; 23 analytical places), with place fixed effects included in every specification. Holding respondents constant across M1–M4 ensures that coefficient changes reflect added covariate blocks rather than changes in the analyzed sample."
+(Lines/Pages: human verification required)
+
+"Each economic-security outcome is regressed on Rural-Urban Residence, Age, Gender, Marital Status, Employment, and Education, with place fixed effects. All three models use the same common complete-case sample (N = 183,685) and place-clustered CR2/Satterthwaite inference, so their rural-residence estimates are directly comparable."
+(Lines/Pages: human verification required)
+
+"To assess whether the primary rural-urban association is consistent across related measures of subjective well-being, we conduct robustness checks using alternative outcomes. The fully adjusted M4 specification is re-estimated with Happiness and Wellbeing Today replacing Life Satisfaction while retaining the same covariates and place fixed effects. Each model uses the exact complete-case sample for its outcome and all M4 predictors (Happiness N = 183,938; Wellbeing Today N = 183,924), with the corresponding N reported in Table 5. A three-outcome matched complete-case sensitivity (N = 183,128) holds respondents constant across Life Satisfaction, Happiness, and Wellbeing Today. These models test the adjusted rural-residence association only; they do not estimate the indirect associations examined in the parallel path model."
+(Lines/Pages: human verification required)
+
+"On the common complete-case sample (N = 183,685), rural residence is associated with lower Income Security Feelings (b = -0.038; 95% CR2/Satterthwaite CI: -0.062 to -0.015) and a lower Within-Country Income Percentile (b = -0.046; -0.061 to -0.030). The Expense Security point estimate is also negative (b = -0.055), but its interval includes zero (-0.176 to 0.066) (Table 3; Figure 5). Thus, all three point estimates indicate lower economic security among rural respondents, while two of the three intervals exclude zero."
+(Lines/Pages: human verification required)
+
+"In separate fully adjusted alternative-outcome OLS models, the rural-residence point estimate is +0.052 for Happiness (95% CR2/Satterthwaite CI: -0.007 to 0.111; N = 183,938) and +0.028 for Wellbeing Today (-0.033 to 0.090; N = 183,924) (Table 5; Figure 7a). Both point estimates are positive, but their intervals include zero. On the same three-outcome matched sample (N = 183,128), the corresponding estimates are +0.052 (-0.007 to 0.111) and +0.028 (-0.034 to 0.090), while the Life Satisfaction estimate is +0.065 (0.002 to 0.129). The direction of the three estimates is therefore stable to denominator alignment, but only the Life Satisfaction interval excludes zero. These checks concern the adjusted rural-residence coefficient and do not evaluate the indirect pathways estimated for Life Satisfaction."
+(Lines/Pages: human verification required)
+
+"Survey-weighted estimation provides a further sensitivity check using exactly the same common sample as the unweighted M4 model (N = 183,685; Table 6; Figure 7c). The weighted rural-residence coefficient is +0.063 (95% CR2/Satterthwaite CI: 0.010 to 0.116), close to the unweighted estimate of +0.065 (0.001 to 0.129). Because only the weights change, this comparison is not confounded by a change in respondents, and the direction and interval conclusion are unchanged."
+(Lines/Pages: human verification required)
+
+"Notes. Each row uses respondents with observed rural-urban residence and that row’s variable, so descriptive Ns vary across variables. The Social Capital Index row uses the primary common complete-case sample (N = 183,685). These descriptive denominators are not model Ns; exact analysis Ns are reported in each model table and Supplementary Table S3."
+(Lines/Pages: human verification required)
+
+"Note. The matched-sample estimates and N = 183,128 are reported in the Results and Supplementary Table S3."
+(Lines/Pages: human verification required)
+
+"(Note: Points are adjusted residence coefficients; bars are 95% CR2/Satterthwaite confidence intervals. Panel a uses exact outcome-specific complete-case samples, panel b uses the locked common sample with large city as the reference category, and panel c compares unweighted and survey-weighted estimates on the same locked common sample.)"
 (Lines/Pages: human verification required)
 
 ## Comment 8
@@ -234,10 +262,51 @@ a. The authors may consider adding a table/figure of the unadjusted differences 
 b. Please be extremely careful about the term “country” in the manuscript. Hongkong is not a country, and it’s thus better to use other terms such as region (by the way, the inclusion of Hong Kong in the comparison also looks weird as it is quite different from other places).
 
 **Response:**
-[Response pending.]
+Thank you for identifying this important terminology issue. We completed an occurrence-by-occurrence audit of the Abstract, main text, headings, tables, figure captions and labels, and standalone Supplementary Materials. The revised manuscript uses countries and regions for the collective scope, place for analytical and model units, and country only for genuine sovereign-state contexts. It now states explicitly that the sample contains 22 countries plus Hong Kong as a region, yielding 23 analytical places, while retaining `COUNTRY` only as the original source-data field name. We also synchronized the within-place income label and the place terminology in the tables, figures, and Supplementary Materials. Because this comment affected 46 distinct locations, the following 15 quotations represent the required sample across the Abstract, Introduction, Methods, Results, Discussion, tables, and figure captions.
 
-"[Exact revised text quoted from the fresh clean manuscript]"
+"This study investigates its prevalence and mechanisms using extensive survey data from the Global Flourishing Study (GFS), covering 22 countries and Hong Kong as a region (23 analytical places)."
+(Lines/Pages: human verification required)
 
+"To address these gaps, the present study uses survey data spanning countries and regions to conduct a structured comparative analysis of rural-urban well-being differences."
+(Lines/Pages: human verification required)
+
+"Analyzing a diverse sample of 22 countries and Hong Kong as a region (23 analytical places), this research moves beyond localized observations to provide robust empirical evidence on whether rural residents consistently experience comparable or higher life satisfaction across varied global contexts."
+(Lines/Pages: human verification required)
+
+"First, it provides an empirical examination across countries and regions of the Rural Happiness Paradox using harmonized survey data from multiple countries and one region."
+(Lines/Pages: human verification required)
+
+"The dataset includes observations from 22 countries and Hong Kong, which the GFS samples separately and which we treat as a region, yielding 23 analytical places across various continents and providing a broad perspective on the interplay between residential environment and well-being (Li et al., 2026)."
+(Lines/Pages: human verification required)
+
+"Within-Place Income Percentile is constructed from the GFS household-income bracket variable (INCOME_Y1), which records monthly household income (annual household income in the United States and Australia), by ranking respondents within each analytical place in the full processed sample before the common complete-case restriction; higher values indicate a higher within-place income rank."
+(Lines/Pages: human verification required)
+
+"Here, COUNTRY is retained only as the source-data field name."
+(Lines/Pages: human verification required)
+
+"Place-Level Heterogeneity"
+(Lines/Pages: human verification required)
+
+"To systematically explore how the rural-urban life satisfaction association varies across analytical places, an OLS regression analysis is conducted separately by place."
+(Lines/Pages: human verification required)
+
+"A place-level forest plot (Figure 6) reveals this substantial variation in the rural-urban life satisfaction gap."
+(Lines/Pages: human verification required)
+
+"This study provides an assessment across countries and regions of rural-urban differences in life satisfaction and of four measured statistical pathways linking rural residence to life satisfaction."
+(Lines/Pages: human verification required)
+
+"Significant cross-place differences exist in rural-urban well-being associations (Chaplitskaya et al., 2024; Counted et al., 2024; Tsurumi et al., 2021)."
+(Lines/Pages: human verification required)
+
+"Within-Place Income Percentile (0–1)"
+(Lines/Pages: human verification required)
+
+"Figure 3. Share of rural residence by analytical place"
+(Lines/Pages: human verification required)
+
+"Figure 6. Place-level forest plot and composite rural-urban comparison"
 (Lines/Pages: human verification required)
 
 ## Comment 10

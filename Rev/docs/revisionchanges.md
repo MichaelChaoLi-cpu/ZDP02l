@@ -4602,3 +4602,3053 @@ The results do not show that stronger rural social capital eliminated a disadvan
 - Timestamp: 2026-08-29T14:31:00+09:00
 - Artifact: `Rev/revision/ZDP02l.rev.clean.docx`
 - Verification: the formal clean artifact itself rendered to 56 pages; Table 4 is on page 41, Figure 6 on page 50, and Figure 7 on page 51. Original-detail inspection of formal clean page 41 confirms the same legible final table layout with single-line estimate values and complete notes.
+
+## reviewer-1/comment-7
+
+### part-01
+
+- Location: Data and Measurement > Data Source and Sample, paragraph beginning `Following comprehensive data cleaning and preprocessing`
+- Reason: Distinguish the processed source, the locked primary common sample, and the variable-specific descriptive denominators used in Table 1.
+- Kila decisions: KILA-D-20260829-012, KILA-D-20260829-013
+- Mode: human-applied true tracked paragraph replacement in Microsoft Word; machine-verified
+- Timestamp: 2026-08-29T18:06:18+09:00
+- Author: Chao Li
+- Markup SHA-256 before consolidated human save: `aee57ee1d741508fd8eedaa79eb687c5331980e03dba737a74a7e49dd56ccd11`
+- Markup SHA-256 after consolidated human save: `5e143e6c06b8561c5ef5de4cd1ab0992bf9ff10e5c8a9a98f406412f19e2fd0f`
+- Revision IDs: deletion `111`; insertion `112`
+- Backup: no agent-created pre-save backup; the exact prior state is identified by its recorded SHA-256
+- Before:
+
+~~~~text
+Following comprehensive data cleaning and preprocessing, the final analytical sample comprised 207,919 adult respondents with complete information for all key variables. Specifically, for the life satisfaction variable, the sample included 110,630 rural respondents and 95,325 urban respondents (Table 1). Rural respondents reported a mean life satisfaction of 6.83 (SD = 2.72), which was slightly lower than the urban respondents' mean of 6.93 (SD = 2.36), resulting in a difference of -0.10 points (Table 1). This robust sample size not only facilitates detailed statistical analysis but also enhances the generalizability of the findings across the included countries. Table 1 provides a comprehensive overview of the data structure and initial group differences, presenting descriptive statistics for this analytical sample, including rural-urban comparisons for all key variables.
+~~~~
+
+- After:
+
+~~~~text
+Following comprehensive data cleaning and preprocessing, the processed dataset comprised 207,919 respondents across 23 analytical places. Missing values were not replaced for the regression analyses. The four primary life-satisfaction specifications and the parallel path model use one prespecified complete-case sample of 183,685 respondents (88.3% of the processed dataset), defined by jointly observed life satisfaction, rural-urban residence, the three economic-security measures, all three Social Capital Index components, age, gender, marital status, employment, education, and analytical place. Table 1 instead reports variable-specific descriptive Ns among respondents with observed rural-urban classification; therefore, its row denominators may exceed the primary regression N. Supplementary Table S3 documents sample construction, missingness, and exact denominators for the sensitivity models.
+~~~~
+
+- Verification: exact accepted text occurs once and the legacy paragraph is absent in fresh clean; paragraph style remains `Normal`; clean pages 9–10 and markup pages 9–10 render without clipping, overlap, or style drift.
+
+### part-03
+
+- Location: Data and Measurement > Life Satisfaction, bounded alternative-outcome denominator passage
+- Reason: Report the correct Table 1 descriptive denominators, outcome-specific model Ns, and three-outcome matched-sample N.
+- Kila decisions: KILA-D-20260829-012, KILA-D-20260829-013
+- Mode: human-applied true tracked bounded replacement in Microsoft Word; machine-verified
+- Timestamp: 2026-08-29T18:06:18+09:00
+- Author: Chao Li
+- Markup SHA-256 before/after: same consolidated human save recorded under `part-01`
+- Revision IDs: deletion `113`; insertion `114`
+- Before:
+
+~~~~text
+These secondary outcomes comprise 206,329 and 206,281 observations, respectively, with their full descriptive statistics detailed in Table 1. The inclusion of these alternative measures allows for an assessment of the consistency of the main findings across different facets of subjective well-being.
+~~~~
+
+- After:
+
+~~~~text
+The Table 1 descriptive comparisons include 206,233 respondents with both Happiness and residence observed and 206,181 with both Wellbeing Today and residence observed. The fully adjusted robustness models use exact outcome-specific complete-case samples of 183,938 and 183,924 respondents, respectively; a same-respondent sensitivity across all three outcomes uses N = 183,128. These alternative measures assess whether the adjusted rural-residence pattern is similar across related facets of subjective well-being.
+~~~~
+
+- Verification: exact accepted passage occurs once and both legacy sentences are absent in fresh clean; the surrounding paragraph and `Normal` style are preserved; clean and markup page 11 render correctly.
+
+### part-07
+
+- Location: Methodology > Primary OLS Specifications for Life Satisfaction, opening sentence
+- Reason: State the exact common sample and explain why holding respondents constant is required for M1–M4 coefficient comparison.
+- Kila decisions: KILA-D-20260829-012, KILA-D-20260829-013
+- Mode: human-applied confirmed re-edit across preserved prior tracked insertions in Microsoft Word; machine-verified
+- Revises prior part: `reviewer-1/comment-1#part-09`
+- Timestamp: 2026-08-29T18:06:18+09:00
+- Author: Chao Li
+- Markup SHA-256 before/after: same consolidated human save recorded under `part-01`
+- Revision structure: the current target paragraph retains 40 insertion and 55 deletion wrappers with unique IDs after Word renumbering; the previously tracked Comment 1 paragraph was not accepted or flattened
+- Before:
+
+~~~~text
+Four primary OLS models, M1 through M4, are estimated on the prespecified common complete-case sample, with place fixed effects included in every specification.
+~~~~
+
+- After:
+
+~~~~text
+Four primary OLS models, M1 through M4, are estimated on the prespecified common complete-case sample (N = 183,685; 23 analytical places), with place fixed effects included in every specification. Holding respondents constant across M1–M4 ensures that coefficient changes reflect added covariate blocks rather than changes in the analyzed sample.
+~~~~
+
+- Verification: exact accepted wording occurs once in fresh clean; the legacy bounded sentence is absent; the complete surrounding OLS paragraph remains coherent and `Normal`; clean page 16 and markup page 17 render correctly with the expected dense prior redline.
+
+### part-09
+
+- Location: Methodology > Robustness Checks, opening paragraph
+- Reason: Define outcome-specific complete cases and a same-respondent sensitivity so alternative-outcome comparisons have explicit denominators.
+- Kila decisions: KILA-D-20260829-012, KILA-D-20260829-013
+- Mode: human-applied confirmed re-edit across preserved prior tracked insertions in Microsoft Word; machine-verified
+- Revises prior parts: `reviewer-1/comment-1#part-25`, `reviewer-1/comment-1#part-27`
+- Timestamp: 2026-08-29T18:06:18+09:00
+- Author: Chao Li
+- Markup SHA-256 before/after: same consolidated human save recorded under `part-01`
+- Revision structure: the current target paragraph retains 27 insertion and 53 deletion wrappers with unique IDs after Word renumbering; the prior Comment 1 revisions remain tracked
+- Before:
+
+~~~~text
+To assess whether the primary rural-urban association is consistent across related measures of subjective well-being, we conduct robustness checks using alternative outcomes. The final four-model OLS specification is re-estimated with Happiness and Wellbeing Today replacing Life Satisfaction as the dependent variable while retaining the same covariate blocks and place fixed effects. These alternative-outcome models test whether the adjusted rural-residence association is similar across related measures; they do not estimate the indirect associations examined in the parallel path model.
+~~~~
+
+- After:
+
+~~~~text
+To assess whether the primary rural-urban association is consistent across related measures of subjective well-being, we conduct robustness checks using alternative outcomes. The fully adjusted M4 specification is re-estimated with Happiness and Wellbeing Today replacing Life Satisfaction while retaining the same covariates and place fixed effects. Each model uses the exact complete-case sample for its outcome and all M4 predictors (Happiness N = 183,938; Wellbeing Today N = 183,924), with the corresponding N reported in Table 5. A three-outcome matched complete-case sensitivity (N = 183,128) holds respondents constant across Life Satisfaction, Happiness, and Wellbeing Today. These models test the adjusted rural-residence association only; they do not estimate the indirect associations examined in the parallel path model.
+~~~~
+
+- Verification: exact accepted paragraph occurs once in fresh clean and the approved legacy bounded passage is absent; paragraph style remains `Normal`; clean pages 20–21 and markup page 25 render correctly.
+
+### part-10
+
+- Location: Results, economic-security results paragraph
+- Reason: Replace obsolete coefficients and significance claims with the validated common-sample estimates and CR2/Satterthwaite intervals.
+- Kila decisions: KILA-D-20260829-012, KILA-D-20260829-013
+- Mode: human-applied true tracked paragraph replacement in Microsoft Word; machine-verified
+- Timestamp: 2026-08-29T18:06:18+09:00
+- Author: Chao Li
+- Markup SHA-256 before/after: same consolidated human save recorded under `part-01`
+- Revision IDs: insertion `634`; deletion `635`
+- Before:
+
+~~~~text
+An analysis of economic insecurity indicators reveals that rural residents consistently report higher levels of financial precarity compared to their urban counterparts. Specifically, after accounting for country fixed effects (Table 3), rural residence was associated with significantly lower income security feelings (β = -0.042, p < 0.001), greater expense worry (β = -0.064, p < 0.001), and a lower within-country income percentile (β = -0.046, p < 0.001). This consistent pattern across all three economic well-being indicators establishes a clear economic disadvantage for rural populations, as detailed in Table 3 and visually summarized in Figure 5. Specifically, rural residence is associated with a statistically significant decrease of 0.042 in Income Security Feelings, a decrease of 0.064 in Expense Worry, and a decrease of 0.046 in Within-Country Income Percentile. These consistent patterns of economic insecurity for rural populations are clearly depicted by the coefficients and their confidence intervals in Figure 5.
+~~~~
+
+- After:
+
+~~~~text
+On the common complete-case sample (N = 183,685), rural residence is associated with lower Income Security Feelings (b = -0.038; 95% CR2/Satterthwaite CI: -0.062 to -0.015) and a lower Within-Country Income Percentile (b = -0.046; -0.061 to -0.030). The Expense Security point estimate is also negative (b = -0.055), but its interval includes zero (-0.176 to 0.066) (Table 3; Figure 5). Thus, all three point estimates indicate lower economic security among rural respondents, while two of the three intervals exclude zero.
+~~~~
+
+- Verification: exact accepted paragraph occurs once and the obsolete paragraph is absent in fresh clean; paragraph style remains `Normal`; clean pages 22–23 and markup page 28 render correctly.
+
+### part-10-results-heading-merge
+
+- Location: Results, former Heading 2 immediately above the economic-security results paragraph
+- Reason: Record the human-selected Results subsection consolidation performed in the same Word save; this was an additional structural operation beyond the approved five text replacements.
+- Kila decisions: KILA-D-20260829-013
+- Mode: human-applied true tracked heading deletion in Microsoft Word; machine-verified, with heading-scope follow-up pending
+- Timestamp: 2026-08-29T18:06:18+09:00
+- Author: Chao Li
+- Markup SHA-256 before/after: same consolidated human save recorded under `part-01`
+- Revision IDs: deletions `632`–`633`
+- Before: `Rural-Urban Differences in Economic Insecurity`
+- After: deleted; the economic-security paragraph now follows the life-satisfaction paragraph within the preceding Results subsection
+- Verification: the former heading is absent in fresh clean and the paragraph flow is visually intact. A semantic heading-scope review found that the retained subsection title `Adjusted Rural-Urban Life Satisfaction Association` is narrower than its combined life-satisfaction and economic-security content; a minimal heading correction requires separate human approval.
+
+### consolidated-human-five-text-review
+
+- Timestamp: 2026-08-29T18:29:47+09:00
+- Source markup SHA-256: `5e143e6c06b8561c5ef5de4cd1ab0992bf9ff10e5c8a9a98f406412f19e2fd0f`
+- Fresh clean SHA-256: `91846ada4ee502704abca02f0259339dd93bd6bf3f1a982c9e684e749dae03ac`
+- Structural verification: markup is a valid Word package with Track Changes enabled, 687 insertions, 878 deletions, 1,565 valid unique numeric revision IDs, and deletion text encoded as `w:delText`; fresh clean is a valid package with zero revision wrappers. The source markup remained byte-for-byte unchanged while the clean copy was regenerated.
+- Preservation verification: markup retains 216 field starts and 12 nonempty OMML objects; fresh clean retains 178 active field starts and 11 nonempty OMML objects, plus the expected seven accepted tables and seven accepted drawings.
+- Semantic verification: all five approved replacement passages occur exactly once in fresh clean and their corresponding legacy text is absent. The heading deletion also occurs exactly once. Parts 02/04/05/06/08/11/12, main-manuscript objects 13–17, and Supplementary Table S3 part 18 remain pending.
+- Visual verification: fresh clean rendered to 56 US Letter pages and markup to 74 US Letter pages. All contact sheets and affected clean pages 9–11, 16, and 20–23 plus affected markup pages 9, 11, 17, 21, 25, and 28 were inspected at original detail; no new clipping, overlap, missing glyph, broken field display, unintended blank page, or style drift was found.
+
+### part-10-results-heading-scope-fix
+
+- Location: Results, Heading 2 above the combined life-satisfaction and economic-security results
+- Reason: Make the retained subsection title accurately cover both result domains after the approved subsection merge.
+- Kila decisions: KILA-D-20260829-013, KILA-D-20260829-014
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T10:00:50Z
+- Author: Kila
+- Markup SHA-256 before: `5e143e6c06b8561c5ef5de4cd1ab0992bf9ff10e5c8a9a98f406412f19e2fd0f`
+- Markup SHA-256 after: `5040e3c1c91b2154e35c1b6f2167966c4e86d2782bd5389870f9edcc70667f81`
+- Revision IDs: `1751, 1752, 1753`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T190050821889.reviewer-1-comment-7.part-10-results-heading-scope-fix.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Adjusted Rural-Urban Life Satisfaction Association
+~~~~
+
+- After:
+
+~~~~text
+Adjusted Rural-Urban Associations with Life Satisfaction and Economic Security
+~~~~
+
+- Minimal tracked fragments:
+  1. `insert`
+     - Before: ""
+     - After: " Associations with"
+  2. `replace`
+     - Before: "Association"
+     - After: "and Economic Security"
+
+### part-02
+
+- Location: Data and Measurement > Life Satisfaction Outcome, availability sentence
+- Reason: Correct the descriptive denominator and distinguish it from the primary common sample.
+- Kila decisions: KILA-D-20260825-004, KILA-D-20260829-012
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T10:00:51Z
+- Author: Kila
+- Markup SHA-256 before: `5040e3c1c91b2154e35c1b6f2167966c4e86d2782bd5389870f9edcc70667f81`
+- Markup SHA-256 after: `ba3a488409618dda06a8c2818f9c2b825c084b65d7f8c02c1328c1c246ce34de`
+- Revision IDs: `1754, 1755, 1756, 1757, 1758, 1759, 1760, 1761, 1762, 1763, 1764, 1765, 1766, 1767, 1768, 1769, 1770, 1771`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T190051233348.reviewer-1-comment-7.part-02.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+For this key outcome, 206,050 observations were available in the analytical sample.
+~~~~
+
+- After:
+
+~~~~text
+Among respondents with both Life Satisfaction and rural-urban residence observed, 205,955 observations were available for the variable-specific descriptive comparison in Table 1 (110,630 rural and 95,325 urban); the primary regression models apply the stricter common-sample rule described above (N = 183,685).
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "For"
+     - After: "Among"
+  2. `replace`
+     - Before: "this"
+     - After: "respondents"
+  3. `replace`
+     - Before: "key"
+     - After: "with"
+  4. `replace`
+     - Before: "outcome"
+     - After: "both Life Satisfaction and rural-urban residence observed"
+  5. `replace`
+     - Before: "206"
+     - After: "205"
+  6. `replace`
+     - Before: "050"
+     - After: "955"
+  7. `replace`
+     - Before: "in"
+     - After: "for"
+  8. `replace`
+     - Before: "analytical"
+     - After: "variable-specific"
+  9. `replace`
+     - Before: "sample"
+     - After: "descriptive comparison in Table 1 (110,630 rural and 95,325 urban); the primary regression models apply the stricter common-sample rule described above (N = 183,685)"
+
+### part-04
+
+- Location: Data and Measurement > Rural-Urban Residence, first paragraph
+- Reason: Label the 110,630/95,325 counts as the life-satisfaction-and-residence descriptive subset.
+- Kila decisions: KILA-D-20260825-004, KILA-D-20260829-012
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T10:00:51Z
+- Author: Kila
+- Markup SHA-256 before: `ba3a488409618dda06a8c2818f9c2b825c084b65d7f8c02c1328c1c246ce34de`
+- Markup SHA-256 after: `0275ca6b2679cb70c57b1c51f0c52f6dc7e6f461f5c9b029c0bc7a483c51d188`
+- Revision IDs: `1772, 1773, 1774, 1775, 1776, 1777, 1778, 1779, 1780, 1781, 1782, 1783, 1784, 1785, 1786, 1787, 1788, 1789, 1790, 1791, 1792`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T190051638889.reviewer-1-comment-7.part-04.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+In the full analytical sample, 110,630 respondents, approximately 53.7%, were classified as rural, while 95,325 respondents, approximately 46.3%, were urban (Table 1).
+~~~~
+
+- After:
+
+~~~~text
+Among the 205,955 respondents with both rural-urban residence and Life Satisfaction observed, 110,630 (53.7%) were classified as rural and 95,325 (46.3%) as urban (Table 1).
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "In"
+     - After: "Among"
+  2. `replace`
+     - Before: "full"
+     - After: "205,955"
+  3. `replace`
+     - Before: "analytical"
+     - After: "respondents"
+  4. `replace`
+     - Before: "sample"
+     - After: "with both rural-urban residence and Life Satisfaction observed"
+  5. `replace`
+     - Before: "respondents, approximately "
+     - After: "("
+  6. `replace`
+     - Before: ","
+     - After: ")"
+  7. `delete`
+     - Before: ","
+     - After: ""
+  8. `replace`
+     - Before: "while"
+     - After: "and"
+  9. `replace`
+     - Before: "respondents, approximately "
+     - After: "("
+  10. `replace`
+     - Before: ","
+     - After: ")"
+  11. `replace`
+     - Before: "were"
+     - After: "as"
+
+### part-05
+
+- Location: Data and Measurement > Rural-Urban Residence, second paragraph
+- Reason: Correct and label the full residence-available descriptive denominator.
+- Kila decisions: KILA-D-20260825-004, KILA-D-20260829-012
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T10:00:51Z
+- Author: Kila
+- Markup SHA-256 before: `0275ca6b2679cb70c57b1c51f0c52f6dc7e6f461f5c9b029c0bc7a483c51d188`
+- Markup SHA-256 after: `65baad0bef6c1661c14e4fc2e64c4f44162eace1e84100e326fd78ce92798220`
+- Revision IDs: `1793, 1794, 1795, 1796, 1797, 1798, 1799`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T190052046815.reviewer-1-comment-7.part-05.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `2f0a31722c6cbcca0d6669852d4e05888b0136ae40dd80d420fd3014dc3398fb`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+In the full sample, 110,988 respondents were categorized as rural and 95,675 as urban (Table 1).
+~~~~
+
+- After:
+
+~~~~text
+In the full residence-available descriptive sample, 110,989 respondents were categorized as rural and 95,675 as urban (N = 206,664).
+~~~~
+
+- Minimal tracked fragments:
+  1. `insert`
+     - Before: ""
+     - After: "residence-available descriptive "
+  2. `replace`
+     - Before: "988"
+     - After: "989"
+  3. `replace`
+     - Before: "Table"
+     - After: "N"
+  4. `replace`
+     - Before: "1"
+     - After: "= 206,664"
+
+### part-06
+
+- Location: Data and Measurement > Social Support and Control Variables, Social Capital Index availability clause before the existing EndNote field
+- Reason: Align Social Capital Index availability with the locked common sample while leaving the existing EndNote citation field untouched.
+- Kila decisions: KILA-D-20260825-004, KILA-D-20260829-012
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T10:00:52Z
+- Author: Kila
+- Markup SHA-256 before: `65baad0bef6c1661c14e4fc2e64c4f44162eace1e84100e326fd78ce92798220`
+- Markup SHA-256 after: `3d388f28923bbde7261582a2d086f3b3816c14e972dddc1638e042ba46a699c4`
+- Revision IDs: `1800, 1801, 1802, 1803, 1804, 1805, 1806, 1807, 1808, 1809, 1810, 1811, 1812, 1813`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T190052471840.reviewer-1-comment-7.part-06.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+The index is available for 206,663 observations from the GFS
+~~~~
+
+- After:
+
+~~~~text
+Because the primary index requires all three components and the other primary-model variables, it is analyzed on the locked common complete-case sample (N = 183,685); the corresponding rural-urban descriptive row in Table 1 uses this same sample
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "The"
+     - After: "Because the primary"
+  2. `replace`
+     - Before: "is"
+     - After: "requires"
+  3. `replace`
+     - Before: "available"
+     - After: "all"
+  4. `replace`
+     - Before: "for"
+     - After: "three"
+  5. `replace`
+     - Before: "206,663"
+     - After: "components"
+  6. `replace`
+     - Before: "observations from"
+     - After: "and"
+  7. `replace`
+     - Before: "GFS"
+     - After: "other primary-model variables, it is analyzed on the locked common complete-case sample (N = 183,685); the corresponding rural-urban descriptive row in Table 1 uses this same sample"
+
+### part-08
+
+- Location: Methodology > Economic Insecurity Analysis, final four sentences
+- Reason: Use one common sample and one place-clustered inferential framework for all three economic-security equations.
+- Kila decisions: KILA-D-20260825-004, KILA-D-20260829-012
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T10:00:52Z
+- Author: Kila
+- Markup SHA-256 before: `3d388f28923bbde7261582a2d086f3b3816c14e972dddc1638e042ba46a699c4`
+- Markup SHA-256 after: `be8ddc479ac77587f6acf95c4672d21cdac274295c2fda82dd11bf8e206c8ef6`
+- Revision IDs: `1814, 1815, 1816, 1817, 1818, 1819, 1820, 1821, 1822, 1823, 1824, 1825, 1826, 1827`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T190052885011.reviewer-1-comment-7.part-08.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Each economic insecurity outcome is regressed on the binary Rural-Urban Residence indicator, with the analysis rigorously controlling for a comprehensive set of demographic and socioeconomic factors. These control variables include Age, Gender, Marital Status, Employment, and Education. Additionally, country fixed effects are incorporated to account for unobserved national-level heterogeneity. This controlled regression framework ensures that the estimated coefficients for rural residence accurately reflect the adjusted association with economic insecurity, net of both individual-level characteristics and country-specific contexts.
+~~~~
+
+- After:
+
+~~~~text
+Each economic-security outcome is regressed on Rural-Urban Residence, Age, Gender, Marital Status, Employment, and Education, with place fixed effects. All three models use the same common complete-case sample (N = 183,685) and place-clustered CR2/Satterthwaite inference, so their rural-residence estimates are directly comparable.
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "economic insecurity"
+     - After: "economic-security"
+  2. `delete`
+     - Before: "the binary "
+     - After: ""
+  3. `delete`
+     - Before: " indicator"
+     - After: ""
+  4. `delete`
+     - Before: " with the analysis rigorously controlling for a comprehensive set of demographic and socioeconomic factors. These control variables include"
+     - After: ""
+  5. `delete`
+     - Before: ". Additionally"
+     - After: ""
+  6. `replace`
+     - Before: "country"
+     - After: "with place"
+  7. `insert`
+     - Before: ""
+     - After: ". All three models use the same common complete-case sample (N = 183,685) and place-clustered CR2/Satterthwaite inference, so their rural-residence estimates"
+  8. `replace`
+     - Before: "incorporated"
+     - After: "directly"
+  9. `replace`
+     - Before: "to account for unobserved national-level heterogeneity"
+     - After: "comparable"
+  10. `delete`
+     - Before: " This controlled regression framework ensures that the estimated coefficients for rural residence accurately reflect the adjusted association with economic insecurity, net of both individual-level characteristics and country-specific contexts."
+     - After: ""
+
+### part-12
+
+- Location: Results > Robustness of Findings, bounded survey-weight passage
+- Reason: State explicitly that weighted and unweighted estimates use the same respondents and synchronize Table 6/Figure 7c references.
+- Kila decisions: KILA-D-20260825-004, KILA-D-20260829-012
+- Mode: `reedit`
+- Revises prior parts: reviewer-1/comment-1#part-34
+- Timestamp: 2026-08-29T10:00:53Z
+- Author: Kila
+- Markup SHA-256 before: `be8ddc479ac77587f6acf95c4672d21cdac274295c2fda82dd11bf8e206c8ef6`
+- Markup SHA-256 after: `8ae8842150aa0bffd518648432cfe4f6d1aac26c8b99b9baaa099197b2ccc08e`
+- Revision IDs: `830`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T190053298971.reviewer-1-comment-7.part-12.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Survey-weighted estimation provides a further sensitivity check. In the weighted common-sample final OLS model, the rural-residence coefficient is +0.063 (95% CR2/Satterthwaite CI: 0.010 to 0.116), close to the unweighted estimate of +0.065 (0.001 to 0.129). The weighting sensitivity therefore leaves the direction and interval conclusion unchanged. In the weighted parallel path model, the total indirect association is -0.027 (95% CR2 delta-method CI: -0.069 to 0.016), so it remains imprecise and is not interpreted as uniform mediation.
+~~~~
+
+- After:
+
+~~~~text
+Survey-weighted estimation provides a further sensitivity check using exactly the same common sample as the unweighted M4 model (N = 183,685; Table 6; Figure 7c). The weighted rural-residence coefficient is +0.063 (95% CR2/Satterthwaite CI: 0.010 to 0.116), close to the unweighted estimate of +0.065 (0.001 to 0.129). Because only the weights change, this comparison is not confounded by a change in respondents, and the direction and interval conclusion are unchanged. In the weighted parallel path model, the total indirect association is -0.027 (95% CR2 delta-method CI: -0.069 to 0.016), so it remains imprecise and is not interpreted as uniform mediation.
+~~~~
+
+- Minimal tracked fragments:
+  1. `delete`
+     - Before: "."
+     - After: ""
+  2. `replace`
+     - Before: "In"
+     - After: "using exactly"
+  3. `replace`
+     - Before: "weighted"
+     - After: "same"
+  4. `replace`
+     - Before: "common-sample"
+     - After: "common"
+  5. `replace`
+     - Before: "final"
+     - After: "sample"
+  6. `replace`
+     - Before: "OLS"
+     - After: "as the unweighted M4"
+  7. `insert`
+     - Before: ""
+     - After: " (N = 183"
+  8. `insert`
+     - Before: ""
+     - After: "685;"
+  9. `replace`
+     - Before: "the"
+     - After: "Table 6; Figure 7c). The weighted"
+  10. `replace`
+     - Before: "The"
+     - After: "Because"
+  11. `replace`
+     - Before: "weighting"
+     - After: "only"
+  12. `replace`
+     - Before: "sensitivity"
+     - After: "the"
+  13. `replace`
+     - Before: "therefore"
+     - After: "weights"
+  14. `replace`
+     - Before: "leaves"
+     - After: "change, this comparison is not confounded by a change in respondents, and"
+  15. `insert`
+     - Before: ""
+     - After: " are"
+
+### Consolidated review receipt: heading scope fix plus parts 02/04/05/06/08/12
+
+- Human approval: the original 18-part bundle was approved under `KILA-D-20260829-012`; the Results heading scope fix was approved under `KILA-D-20260829-014`; the post-save part-11 exception was explicitly approved on 2026-08-29 and changes only executor ownership, not wording.
+- Applied operations: `part-10-results-heading-scope-fix`, `part-02`, `part-04`, `part-05`, `part-06`, `part-08`, and controlled re-edit `part-12`.
+- Original bundle progress: `11/18` manuscript parts are now applied (`01`–`10` and `12`); the heading scope fix is an additional operation and is not counted among the 18 parts.
+- Markup source after all seven operations: `Rev/revision/ZDP02l.rev.markup.docx`; SHA-256 `8ae8842150aa0bffd518648432cfe4f6d1aac26c8b99b9baaa099197b2ccc08e`; size `1,095,460` bytes; mtime epoch `1787997653`.
+- Markup structure: valid ZIP/XML; Track Changes enabled; `1,642` revisions with valid unique numeric IDs; deletions use `w:delText`; `12` OMML objects. Structural verification passed after every sequential edit and again after the complete set.
+- Fresh clean: generated only after the seven sequential edits by accepting all tracked changes in a temporary copy and then promoting the validated result to `Rev/revision/ZDP02l.rev.clean.docx`; SHA-256 `7d260b4091026163c82e7465c074383058c6d9ff1097f7b7b40a5f91873b3367`.
+- Clean structure: zero tracked revision or move wrappers; no `w:trackRevisions`; `178` field beginnings, `178` field instructions, `11` nonempty OMML objects, `7` tables, and `7` drawings.
+- Semantic verification: all seven approved new anchors occur in the accepted view and their corresponding legacy anchors are absent. The old part-11 alternative-outcome Results sentence remains present exactly as expected for the approved human-owned exception.
+- Visual verification: LibreOffice rendered the current clean to `56` Letter pages and markup to `75` Letter pages; all pages were reviewed through contact sheets, and all affected pages were inspected at original resolution. No clipping, overlap, missing text, field-display breakage, or style drift was found. The revised Results heading wraps naturally to two complete lines without clipping.
+- Response boundary: `Rev/revision/response-draft.md` was not modified; SHA-256 `a8c9ceef59592ba6f7cfdf1ed83da9fce189e1a111cf0d0b0a3f662ace0efff3`.
+- Remaining original parts: human-owned part `11` and objects `13`–`17` will be completed in one consolidated Word opening; agent-owned part `18` will then update the standalone Supplementary Materials. The response remains deferred until the manuscript and supplement are complete and reverified.
+
+### part-11 — human-owned post-save replacement
+
+- Location: Results > Robustness of Findings, bounded alternative-outcome passage.
+- Reason: Update alternative-outcome coefficients, intervals, exact Ns, and the matched-sample interpretation.
+- Kila decisions: `KILA-D-20260825-004`, `KILA-D-20260829-012`; executor exception approved on 2026-08-29.
+- Mode: human-applied true tracked re-edit in Microsoft Word; machine-verified after the human reported that the consolidated Word operation was saved.
+- Before:
+
+~~~~text
+In separate fully adjusted alternative-outcome OLS models, the rural-residence coefficient is +0.047 for Happiness and +0.025 for Wellbeing Today (Table 5; Figure 7). These checks show positive point estimates across the two related outcomes, but they concern the adjusted rural-residence coefficient only and do not evaluate the indirect pathways estimated for Life Satisfaction.
+~~~~
+
+- After:
+
+~~~~text
+In separate fully adjusted alternative-outcome OLS models, the rural-residence point estimate is +0.052 for Happiness (95% CR2/Satterthwaite CI: -0.007 to 0.111; N = 183,938) and +0.028 for Wellbeing Today (-0.033 to 0.090; N = 183,924) (Table 5; Figure 7a). Both point estimates are positive, but their intervals include zero. On the same three-outcome matched sample (N = 183,128), the corresponding estimates are +0.052 (-0.007 to 0.111) and +0.028 (-0.034 to 0.090), while the Life Satisfaction estimate is +0.065 (0.002 to 0.129). The direction of the three estimates is therefore stable to denominator alignment, but only the Life Satisfaction interval excludes zero. These checks concern the adjusted rural-residence coefficient and do not evaluate the indirect pathways estimated for Life Satisfaction.
+~~~~
+
+- Verification: the approved passage occurs once in the fresh clean and the obsolete `+0.047`/`+0.025` passage is absent. The accepted paragraph renders correctly on clean page 26.
+
+### parts-13–17 — consolidated human-owned Word objects
+
+- Locations: Table 1 Social Capital Index row and notes; Tables 3, 5, and 6; Figure 7 image and caption.
+- Reason: Align all model objects with the locked common-sample policy, exact alternative-outcome denominators, and same-respondent weighted comparison.
+- Kila decision: `KILA-D-20260829-012`.
+- Mode: five human-applied Word object replacements with Track Changes retained; machine-verified after the human reported that the consolidated Word operation was saved. Because these were Word-native object operations, no agent-authored revision IDs are asserted.
+- Accepted object evidence:
+  - `part-13`: Table 1 Social Capital Index row is `97,800 / -0.006 / 0.656 / 85,885 / 0.007 / 0.667 / -0.013`; its note distinguishes variable-specific descriptive denominators from model Ns and identifies the primary common sample (`N = 183,685`).
+  - `part-14`: Table 3 is titled `Table 3. Adjusted rural-residence associations with economic-security outcomes`; all three columns report `N = 183,685`, with rural coefficients `-0.038`, `-0.055`, and `-0.046` and their approved CR2/Satterthwaite intervals.
+  - `part-15`: Table 5 is titled `Table 5. Fully adjusted alternative-outcome models with exact denominators`; the exact Ns are `183,685`, `183,938`, and `183,924`, and the note reports matched-sample `N = 183,128` in the Results and Supplementary Table S3.
+  - `part-16`: Table 6 is titled `Table 6. Survey-weighted and unweighted final OLS estimates on the same common sample`; both columns report `N = 183,685`.
+  - `part-17`: the accepted Figure 7 package image is byte-identical to `reports/comment7_sample_alignment/figure7_candidate.png` (SHA-256 `09cf2ac44c9277c08dcbd7d7c8808be84ab9444d27bff02757b45c7af8b3cbbb`; `4084 × 1411`, RGBA PNG). The caption title is `Figure 7. Sample-aligned robustness checks.` and the following note states the exact sample policy for panels a–c.
+
+### part-18 — standalone Supplementary Table S3
+
+- Artifact: `Rev/revision/ZDP02l.supplementary.docx`.
+- Reason: Document sample construction, overlapping variable-level missingness, exact alternative-outcome denominators, and the matched-sample denominator in one auditable table.
+- Kila decision: `KILA-D-20260829-012`.
+- Mode: agent-authored standalone Supplementary Materials update, using the existing Tables S1/S2 style and the approved CSV as the sole numerical source.
+- Before: the introduction described Tables S1 and S2 only; the standalone supplement contained two tables and no sample-alignment table.
+- After: the introduction identifies Table S3; `Table S3. Sample construction, missingness, and exact model denominators` contains Panel A (sample construction), Panel B (exact alternative-outcome denominators), and Panel C (overlapping variable-level missingness). Exact source: `reports/comment7_sample_alignment/supplementary_table_sample_alignment.csv`, SHA-256 `2e0621b5886035013c4ad9118deaec3168348307147062e23a234177b8214727`.
+- Verification: final supplementary SHA-256 `0d469820575dc7ab7fd1ef7415ba89e39d6e6adc678e5f1681344c6ccd8e9018`; valid DOCX; zero revision or move wrappers; three tables. Pandoc extraction confirmed every CSV-derived count and percentage. The four-page Letter render was inspected page by page at original detail; Table S3 starts on a new page, repeats its title and column headers across the page break, keeps rows intact, and has no clipping, overlap, missing text, or border defect.
+
+### Consolidated review receipt: reviewer-1/comment-7 parts 11 and 13–18
+
+- Timestamp: `2026-08-29T21:52:30+09:00`.
+- Human save receipt: `reviewer-1/comment-7 part-11 and objects 13-17 Word operation 已完成并保存`.
+- Original bundle progress: `18/18`; all approved parts are now implemented. The separately approved Results heading scope fix is an additional location outside the original 18-part count.
+- Final markup: `Rev/revision/ZDP02l.rev.markup.docx`; SHA-256 `272660efc06b55620b99708e3492d6568e5ac84f843e0f8a62cbf5ded51a9b9d`; size `1,269,397` bytes; mtime epoch `1788006924`.
+- Markup structure: valid ZIP/XML; Track Changes enabled; `1,898` valid unique revision wrappers; deletions use `w:delText`; `12` OMML objects.
+- Fresh clean: regenerated from that exact markup after the human save and promoted to `Rev/revision/ZDP02l.rev.clean.docx`; SHA-256 `b753d690eb68365ddb403a050f208f714f1cfc857df6b5d3719244b419431bfa`.
+- Clean structure: zero tracked revision or move wrappers; no `w:trackRevisions`; `178` field beginnings, `178` field instructions, `11` nonempty OMML objects, `7` tables, and `7` drawings.
+- Semantic verification: part 11, all four tables, and the Figure 7 caption occur in the accepted view with the approved values; the legacy part-11 estimates are absent; the Figure 7 image matches the approved source byte-for-byte.
+- Visual verification: the 56-page clean and 75-page markup were each inspected in full at original detail. Affected clean pages 26, 38, 40, 42, 43, and 51 show the approved text and objects without clipping, overlap, missing glyphs, broken fields, table defects, or figure defects. Dense redline overlays in the markup are expected tracked-change display rather than accepted-view defects.
+- Source immutability: the markup SHA-256 remained `272660efc06b55620b99708e3492d6568e5ac84f843e0f8a62cbf5ded51a9b9d` throughout fresh-clean generation and review.
+
+## reviewer-1/comment-9
+
+### part-01a
+
+- Location: Abstract, study scope
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:28Z
+- Author: Kila
+- Markup SHA-256 before: `272660efc06b55620b99708e3492d6568e5ac84f843e0f8a62cbf5ded51a9b9d`
+- Markup SHA-256 after: `98044de7b78d3212fbc4d82ba617ca427df81d145046460a316a4298d12dea8f`
+- Revision IDs: `2304, 2305, 2306, 2307, 2308`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223628349704.reviewer-1-comment-9.part-01a.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+using extensive cross-national survey data from the Global Flourishing Study (GFS), covering 22 diverse countries
+~~~~
+
+- After:
+
+~~~~text
+using extensive survey data from the Global Flourishing Study (GFS), covering 22 countries and Hong Kong as a region (23 analytical places)
+~~~~
+
+- Minimal tracked fragments:
+  1. `delete`
+     - Before: " cross-national"
+     - After: ""
+  2. `replace`
+     - Before: "diverse"
+     - After: "countries"
+  3. `replace`
+     - Before: "countries"
+     - After: "and Hong Kong as a region (23 analytical places)"
+
+### part-01b
+
+- Location: Abstract, pathway label
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `reedit`
+- Revises prior parts: reviewer-1/comment-1#part-05
+- Timestamp: 2026-08-29T13:36:28Z
+- Author: Kila
+- Markup SHA-256 before: `98044de7b78d3212fbc4d82ba617ca427df81d145046460a316a4298d12dea8f`
+- Markup SHA-256 after: `2f8b17950e834b2fe382e22e07961301c811f2787e37292e0458b1604f9a077a`
+- Revision IDs: `18`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223628803739.reviewer-1-comment-9.part-01b.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Within-Country Income Percentile
+~~~~
+
+- After:
+
+~~~~text
+Within-Place Income Percentile
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "Within-Country"
+     - After: "Within-Place"
+
+### part-01c
+
+- Location: Abstract, heterogeneity label
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:29Z
+- Author: Kila
+- Markup SHA-256 before: `2f8b17950e834b2fe382e22e07961301c811f2787e37292e0458b1604f9a077a`
+- Markup SHA-256 after: `20d625a3c5910f1f31f72069e6b4ac64bf7a8ce7777521d4c630cba1f0cbe81a`
+- Revision IDs: `2309, 2310`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223629258192.reviewer-1-comment-9.part-01c.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+country-level heterogeneity
+~~~~
+
+- After:
+
+~~~~text
+place-level heterogeneity
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "country-level"
+     - After: "place-level"
+
+### part-02a
+
+- Location: Introduction, literature-gap paragraph
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:29Z
+- Author: Kila
+- Markup SHA-256 before: `20d625a3c5910f1f31f72069e6b4ac64bf7a8ce7777521d4c630cba1f0cbe81a`
+- Markup SHA-256 after: `b551635490c4cae8125dcf07cba8fada593fad6be7b56a814b48ab2fafa11883`
+- Revision IDs: `2311, 2312`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223629715071.reviewer-1-comment-9.part-02a.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `4dc24241e26ab6183f0b6161c94260c36032c814a98259890184cf3be04ecae5`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+the present study uses cross-national survey data
+~~~~
+
+- After:
+
+~~~~text
+the present study uses survey data spanning countries and regions
+~~~~
+
+- Minimal tracked fragments:
+  1. `delete`
+     - Before: "cross-national "
+     - After: ""
+  2. `insert`
+     - Before: ""
+     - After: " spanning countries and regions"
+
+### part-02b
+
+- Location: Introduction, literature-gap paragraph
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:30Z
+- Author: Kila
+- Markup SHA-256 before: `b551635490c4cae8125dcf07cba8fada593fad6be7b56a814b48ab2fafa11883`
+- Markup SHA-256 after: `1e48fc550052f2412054d70e152ebf02d8fc11ca1c54f3bbb05d59c06563c9b6`
+- Revision IDs: `2313, 2314`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223630167060.reviewer-1-comment-9.part-02b.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `4dc24241e26ab6183f0b6161c94260c36032c814a98259890184cf3be04ecae5`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+urban residents across countries
+~~~~
+
+- After:
+
+~~~~text
+urban residents across analytical places
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "countries"
+     - After: "analytical places"
+
+### part-03a
+
+- Location: Introduction, study-scope paragraph
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:30Z
+- Author: Kila
+- Markup SHA-256 before: `1e48fc550052f2412054d70e152ebf02d8fc11ca1c54f3bbb05d59c06563c9b6`
+- Markup SHA-256 after: `2236733663d96cd15ce85fda2a669e3708ce032be814a687698a2b711a9edcc8`
+- Revision IDs: `2315, 2316, 2317, 2318`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223630611941.reviewer-1-comment-9.part-03a.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+extensive cross-national data
+~~~~
+
+- After:
+
+~~~~text
+extensive data spanning countries and regions
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "cross-national"
+     - After: "data"
+  2. `replace`
+     - Before: "data"
+     - After: "spanning countries and regions"
+
+### part-03b
+
+- Location: Introduction, study-scope paragraph
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:30Z
+- Author: Kila
+- Markup SHA-256 before: `2236733663d96cd15ce85fda2a669e3708ce032be814a687698a2b711a9edcc8`
+- Markup SHA-256 after: `51d6c7ea89f48918f0e995d3511bd54577e77494f3373d57368c0d65b061ad85`
+- Revision IDs: `2319`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223631060081.reviewer-1-comment-9.part-03b.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+a diverse sample of 22 countries
+~~~~
+
+- After:
+
+~~~~text
+a diverse sample of 22 countries and Hong Kong as a region (23 analytical places)
+~~~~
+
+- Minimal tracked fragments:
+  1. `insert`
+     - Before: ""
+     - After: " and Hong Kong as a region (23 analytical places)"
+
+### part-03c
+
+- Location: Introduction, study-scope paragraph
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:31Z
+- Author: Kila
+- Markup SHA-256 before: `51d6c7ea89f48918f0e995d3511bd54577e77494f3373d57368c0d65b061ad85`
+- Markup SHA-256 after: `3ee97d2b3fda2bb71069047c9d1ceacaf97058200ca3019b2fcfb7b4d636f70c`
+- Revision IDs: `2320, 2321`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223631506907.reviewer-1-comment-9.part-03c.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+within-country income percentile
+~~~~
+
+- After:
+
+~~~~text
+within-place income percentile
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "within-country"
+     - After: "within-place"
+
+### part-03d
+
+- Location: Introduction, study-scope paragraph
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:31Z
+- Author: Kila
+- Markup SHA-256 before: `3ee97d2b3fda2bb71069047c9d1ceacaf97058200ca3019b2fcfb7b4d636f70c`
+- Markup SHA-256 after: `f39bf758c95d4ffdf86ae52ad40c7af2285aaae216cec94a21be9db0be61b9a5`
+- Revision IDs: `2322, 2323`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223631957635.reviewer-1-comment-9.part-03d.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+country-level variations
+~~~~
+
+- After:
+
+~~~~text
+place-level variations
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "country-level"
+     - After: "place-level"
+
+### part-03e
+
+- Location: Introduction, study-scope paragraph
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:32Z
+- Author: Kila
+- Markup SHA-256 before: `f39bf758c95d4ffdf86ae52ad40c7af2285aaae216cec94a21be9db0be61b9a5`
+- Markup SHA-256 after: `e3686d2d03d4f281eb9bf0b07fcc56771e6e60f6ca1b868fb90164699655831a`
+- Revision IDs: `2324, 2325`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223632404601.reviewer-1-comment-9.part-03e.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+specific national contexts
+~~~~
+
+- After:
+
+~~~~text
+specific sampled contexts
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "national"
+     - After: "sampled"
+
+### part-04a
+
+- Location: Introduction, contribution paragraph
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:32Z
+- Author: Kila
+- Markup SHA-256 before: `e3686d2d03d4f281eb9bf0b07fcc56771e6e60f6ca1b868fb90164699655831a`
+- Markup SHA-256 after: `db9c997f9da7a8dc90a3e01917f043d597a30a50f9020639de6f321bad3d0f2b`
+- Revision IDs: `2326, 2327, 2328`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223632859138.reviewer-1-comment-9.part-04a.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+a cross-national empirical examination
+~~~~
+
+- After:
+
+~~~~text
+an empirical examination across countries and regions
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "a cross-national"
+     - After: "an"
+  2. `insert`
+     - Before: ""
+     - After: " across countries and regions"
+
+### part-04b
+
+- Location: Introduction, contribution paragraph
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:33Z
+- Author: Kila
+- Markup SHA-256 before: `db9c997f9da7a8dc90a3e01917f043d597a30a50f9020639de6f321bad3d0f2b`
+- Markup SHA-256 after: `87aafd0f64ddd41e0bca5c412ffb01e6c661b73928eeeae2bc7fb891ac62accc`
+- Revision IDs: `2329`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223633304701.reviewer-1-comment-9.part-04b.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+harmonized survey data from multiple countries
+~~~~
+
+- After:
+
+~~~~text
+harmonized survey data from multiple countries and one region
+~~~~
+
+- Minimal tracked fragments:
+  1. `insert`
+     - Before: ""
+     - After: " and one region"
+
+### part-04c
+
+- Location: Introduction, contribution paragraph
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:33Z
+- Author: Kila
+- Markup SHA-256 before: `87aafd0f64ddd41e0bca5c412ffb01e6c661b73928eeeae2bc7fb891ac62accc`
+- Markup SHA-256 after: `2588a9eaa5c3ca60bd27c1e691f8b44a71fc72cc2c93f126fa39f53e86dd37c8`
+- Revision IDs: `2330`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223633754132.reviewer-1-comment-9.part-04c.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+comparable data across countries
+~~~~
+
+- After:
+
+~~~~text
+comparable data across countries and regions
+~~~~
+
+- Minimal tracked fragments:
+  1. `insert`
+     - Before: ""
+     - After: " and regions"
+
+### part-04d
+
+- Location: Introduction, contribution paragraph
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:34Z
+- Author: Kila
+- Markup SHA-256 before: `2588a9eaa5c3ca60bd27c1e691f8b44a71fc72cc2c93f126fa39f53e86dd37c8`
+- Markup SHA-256 after: `56ec155870d246d46750a7cccae92ddc0b183ece7a024d847399a7f5544c0ad0`
+- Revision IDs: `2331, 2332`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223634202141.reviewer-1-comment-9.part-04d.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+cross-country heterogeneity
+~~~~
+
+- After:
+
+~~~~text
+cross-place heterogeneity
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "cross-country"
+     - After: "cross-place"
+
+### part-04e
+
+- Location: Introduction, contribution paragraph
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:34Z
+- Author: Kila
+- Markup SHA-256 before: `56ec155870d246d46750a7cccae92ddc0b183ece7a024d847399a7f5544c0ad0`
+- Markup SHA-256 after: `a2446833f322a45aeab7f6b3097f2a4e05a7b550b76764ebdde9b5c49afe0335`
+- Revision IDs: `2333`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223634647421.reviewer-1-comment-9.part-04e.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+across national contexts
+~~~~
+
+- After:
+
+~~~~text
+across national and regional contexts
+~~~~
+
+- Minimal tracked fragments:
+  1. `insert`
+     - Before: ""
+     - After: "and regional "
+
+### part-05a
+
+- Location: Data Source and Sample
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:34Z
+- Author: Kila
+- Markup SHA-256 before: `a2446833f322a45aeab7f6b3097f2a4e05a7b550b76764ebdde9b5c49afe0335`
+- Markup SHA-256 after: `2fced49b6dc3cfe8dcba8a06a362fb68b62c79c32c14fa0d42a4f17d18e989a6`
+- Revision IDs: `2334, 2335`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223635097568.reviewer-1-comment-9.part-05a.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+a large, multi-country survey
+~~~~
+
+- After:
+
+~~~~text
+a large survey conducted across countries and regions
+~~~~
+
+- Minimal tracked fragments:
+  1. `delete`
+     - Before: ", multi-country"
+     - After: ""
+  2. `insert`
+     - Before: ""
+     - After: " conducted across countries and regions"
+
+### part-05b
+
+- Location: Data Source and Sample
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:35Z
+- Author: Kila
+- Markup SHA-256 before: `2fced49b6dc3cfe8dcba8a06a362fb68b62c79c32c14fa0d42a4f17d18e989a6`
+- Markup SHA-256 after: `dbb70ebbaf448c844bcc46936991b3a7414eecc374c87f26e9c5e3c4c11f9a65`
+- Revision IDs: `2336, 2337, 2338, 2339`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223635566945.reviewer-1-comment-9.part-05b.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+robust cross-national comparability
+~~~~
+
+- After:
+
+~~~~text
+robust comparability across countries and regions
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "cross-national"
+     - After: "comparability"
+  2. `replace`
+     - Before: "comparability"
+     - After: "across countries and regions"
+
+### part-05c
+
+- Location: Data Source and Sample
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:35Z
+- Author: Kila
+- Markup SHA-256 before: `dbb70ebbaf448c844bcc46936991b3a7414eecc374c87f26e9c5e3c4c11f9a65`
+- Markup SHA-256 after: `8121c3fa8a1f22e8b21449245467a0d50561e7e5616bd5f6c1bbc1e78db9b96b`
+- Revision IDs: `2340, 2341, 2342, 2343, 2344`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223636027139.reviewer-1-comment-9.part-05c.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+The dataset includes observations from 22 countries located across various continents, providing a broad global perspective on the interplay between residential environment and well-being
+~~~~
+
+- After:
+
+~~~~text
+The dataset includes observations from 22 countries and Hong Kong, which the GFS samples separately and which we treat as a region, yielding 23 analytical places across various continents and providing a broad perspective on the interplay between residential environment and well-being
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "located"
+     - After: "and Hong Kong, which the GFS samples separately and which we treat as a region, yielding 23 analytical places"
+  2. `replace`
+     - Before: ","
+     - After: " and"
+  3. `delete`
+     - Before: " global"
+     - After: ""
+
+### part-06
+
+- Location: Rural-Urban Residence, first paragraph
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:36Z
+- Author: Kila
+- Markup SHA-256 before: `8121c3fa8a1f22e8b21449245467a0d50561e7e5616bd5f6c1bbc1e78db9b96b`
+- Markup SHA-256 after: `e736db137145fcb663f4a069da1c3a8c42cf220fbd505ef3e647c345b5349e62`
+- Revision IDs: `2345, 2346, 2347, 2348`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223636480392.reviewer-1-comment-9.part-06.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+across the different countries included in the study
+~~~~
+
+- After:
+
+~~~~text
+across the analytical places included in the study
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "different"
+     - After: "analytical"
+  2. `replace`
+     - Before: "countries"
+     - After: "places"
+
+### part-07
+
+- Location: Rural-Urban Residence, second paragraph
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:36Z
+- Author: Kila
+- Markup SHA-256 before: `e736db137145fcb663f4a069da1c3a8c42cf220fbd505ef3e647c345b5349e62`
+- Markup SHA-256 after: `9dc041363a0c1f2c4eda2ee7680203f9a09ee8fae2092f66dcf92b4bd2f1c698`
+- Revision IDs: `2349, 2350`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223636931380.reviewer-1-comment-9.part-07.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+across the countries included in the study (Figure 3)
+~~~~
+
+- After:
+
+~~~~text
+across the analytical places included in the study (Figure 3)
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "countries"
+     - After: "analytical places"
+
+### part-08a
+
+- Location: Economic Insecurity Measures, indicator list
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:37Z
+- Author: Kila
+- Markup SHA-256 before: `9dc041363a0c1f2c4eda2ee7680203f9a09ee8fae2092f66dcf92b4bd2f1c698`
+- Markup SHA-256 after: `c2939c920130d4ec1855855ffefe3a84eb7d062c69137ae7971d05ca8099b7f6`
+- Revision IDs: `2351, 2352`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223637379388.reviewer-1-comment-9.part-08a.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Worry, and Within-Country Income Percentile
+~~~~
+
+- After:
+
+~~~~text
+Worry, and Within-Place Income Percentile
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "Within-Country"
+     - After: "Within-Place"
+
+### part-08b
+
+- Location: Economic Insecurity Measures, construction sentence
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `reedit`
+- Revises prior parts: reviewer-1/comment-10#part-01
+- Timestamp: 2026-08-29T13:36:37Z
+- Author: Kila
+- Markup SHA-256 before: `c2939c920130d4ec1855855ffefe3a84eb7d062c69137ae7971d05ca8099b7f6`
+- Markup SHA-256 after: `b990edf93082b19e2355648f9d3eef3f718480fe9c361f2492bbcf75b21cf53e`
+- Revision IDs: `168`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223637829085.reviewer-1-comment-9.part-08b.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Within-Country Income Percentile is constructed
+~~~~
+
+- After:
+
+~~~~text
+Within-Place Income Percentile is constructed
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "Within-Country"
+     - After: "Within-Place"
+
+### part-08c
+
+- Location: Economic Insecurity Measures, Table 1 sentence
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:38Z
+- Author: Kila
+- Markup SHA-256 before: `b990edf93082b19e2355648f9d3eef3f718480fe9c361f2492bbcf75b21cf53e`
+- Markup SHA-256 after: `af670a6ec393e02e0df16aabbefe90d042e5d3996d35e71ae4387d2ff2970105`
+- Revision IDs: `2353, 2354`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223638280822.reviewer-1-comment-9.part-08c.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+measures and Within-Country Income Percentile by
+~~~~
+
+- After:
+
+~~~~text
+measures and Within-Place Income Percentile by
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "Within-Country"
+     - After: "Within-Place"
+
+### part-08d
+
+- Location: Primary OLS Specifications, M3 sentence
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `reedit`
+- Revises prior parts: reviewer-1/comment-1#part-15
+- Timestamp: 2026-08-29T13:36:38Z
+- Author: Kila
+- Markup SHA-256 before: `af670a6ec393e02e0df16aabbefe90d042e5d3996d35e71ae4387d2ff2970105`
+- Markup SHA-256 after: `ba3dccf4d55710080e1571d55049416714a108abfdb1e73a856b404c7c524e68`
+- Revision IDs: `411`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223638733261.reviewer-1-comment-9.part-08d.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Expense Worry, and Within-Country Income Percentile as the three
+~~~~
+
+- After:
+
+~~~~text
+Expense Worry, and Within-Place Income Percentile as the three
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "Within-Country"
+     - After: "Within-Place"
+
+### part-08g
+
+- Location: Mechanism Analysis, pathway list
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `reedit`
+- Revises prior parts: reviewer-1/comment-1#part-01c, reviewer-1/comment-1#part-01e
+- Timestamp: 2026-08-29T13:36:39Z
+- Author: Kila
+- Markup SHA-256 before: `ba3dccf4d55710080e1571d55049416714a108abfdb1e73a856b404c7c524e68`
+- Markup SHA-256 after: `9dda3c9e333222fce59bc90230daa318d1fe35f50bb574b01a2921df082831f5`
+- Revision IDs: `535`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223639183489.reviewer-1-comment-9.part-08g.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+pathways are Income Security Feelings, Expense Worry, and Within-Country Income Percentile;
+~~~~
+
+- After:
+
+~~~~text
+pathways are Income Security Feelings, Expense Worry, and Within-Place Income Percentile;
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "Within-Country"
+     - After: "Within-Place"
+
+### part-08i
+
+- Location: Results, economic-security paragraph
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `reedit`
+- Revises prior parts: reviewer-1/comment-7#part-10
+- Timestamp: 2026-08-29T13:36:39Z
+- Author: Kila
+- Markup SHA-256 before: `9dda3c9e333222fce59bc90230daa318d1fe35f50bb574b01a2921df082831f5`
+- Markup SHA-256 after: `e71eb1c6a89a46c17a53a77400cb9150283e2148510792ca0f2f7ffe889534c5`
+- Revision IDs: `711`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223639632256.reviewer-1-comment-9.part-08i.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+a lower Within-Country Income Percentile
+~~~~
+
+- After:
+
+~~~~text
+a lower Within-Place Income Percentile
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "Within-Country"
+     - After: "Within-Place"
+
+### part-08k
+
+- Location: Discussion opening, pathway label
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `reedit`
+- Revises prior parts: reviewer-1/comment-1#part-35
+- Timestamp: 2026-08-29T13:36:39Z
+- Author: Kila
+- Markup SHA-256 before: `e71eb1c6a89a46c17a53a77400cb9150283e2148510792ca0f2f7ffe889534c5`
+- Markup SHA-256 after: `cb9c95607ce746954a4bdfa5f07222921c72a0ac086a02058b2da7a118e09339`
+- Revision IDs: `909`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223640084224.reviewer-1-comment-9.part-08k.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+and Within-Country Income Percentile;
+~~~~
+
+- After:
+
+~~~~text
+and Within-Place Income Percentile;
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "Within-Country"
+     - After: "Within-Place"
+
+### part-08l
+
+- Location: Discussion, economic-insecurity first paragraph
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `reedit`
+- Revises prior parts: reviewer-1/comment-1#part-39b
+- Timestamp: 2026-08-29T13:36:40Z
+- Author: Kila
+- Markup SHA-256 before: `cb9c95607ce746954a4bdfa5f07222921c72a0ac086a02058b2da7a118e09339`
+- Markup SHA-256 after: `ad5a9ae01b84390e4da78150d35c5eec8da24a8163ddbe09da20d435c947d083`
+- Revision IDs: `1011`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223640537233.reviewer-1-comment-9.part-08l.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+a lower Within-Country Income Percentile
+~~~~
+
+- After:
+
+~~~~text
+a lower Within-Place Income Percentile
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "Within-Country"
+     - After: "Within-Place"
+
+### part-08m
+
+- Location: Discussion, economic-insecurity second paragraph
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `reedit`
+- Revises prior parts: reviewer-1/comment-1#part-40b
+- Timestamp: 2026-08-29T13:36:40Z
+- Author: Kila
+- Markup SHA-256 before: `ad5a9ae01b84390e4da78150d35c5eec8da24a8163ddbe09da20d435c947d083`
+- Markup SHA-256 after: `484975d87628c51d627e4089c63d2758bdc0f3cee6d41fa530cbab3a7ccb5112`
+- Revision IDs: `1073`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223640986590.reviewer-1-comment-9.part-08m.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Expense Worry and Within-Country Income Percentile
+~~~~
+
+- After:
+
+~~~~text
+Expense Worry and Within-Place Income Percentile
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "Within-Country"
+     - After: "Within-Place"
+
+### part-10a
+
+- Location: Analytical Approach, fixed-effects passage
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:41Z
+- Author: Kila
+- Markup SHA-256 before: `484975d87628c51d627e4089c63d2758bdc0f3cee6d41fa530cbab3a7ccb5112`
+- Markup SHA-256 after: `16f1e779f878121bbdb38ba302fbd70800da6ca2ebeaef431d4c5f8e61f9d71a`
+- Revision IDs: `2355, 2356, 2357, 2358, 2359, 2360`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223641459171.reviewer-1-comment-9.part-10a.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Some sequential regression models include country fixed effects
+~~~~
+
+- After:
+
+~~~~text
+All primary regression models include place fixed effects
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "Some"
+     - After: "All"
+  2. `replace`
+     - Before: "sequential"
+     - After: "primary"
+  3. `replace`
+     - Before: "country"
+     - After: "place"
+
+### part-10c
+
+- Location: Analytical Approach, fixed-effects passage
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:41Z
+- Author: Kila
+- Markup SHA-256 before: `16f1e779f878121bbdb38ba302fbd70800da6ca2ebeaef431d4c5f8e61f9d71a`
+- Markup SHA-256 after: `cb92fc5be5ae624fd7f88ff406fd84de5d48646e6a51ace067f083f4ef73382e`
+- Revision IDs: `2361, 2362`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223641921275.reviewer-1-comment-9.part-10c.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+country-specific factors
+~~~~
+
+- After:
+
+~~~~text
+place-specific factors
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "country-specific"
+     - After: "place-specific"
+
+### part-10d
+
+- Location: Analytical Approach, fixed-effects passage
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:42Z
+- Author: Kila
+- Markup SHA-256 before: `cb92fc5be5ae624fd7f88ff406fd84de5d48646e6a51ace067f083f4ef73382e`
+- Markup SHA-256 after: `a7bb3e057b9a69ab54dea7f1fe97baff478cf60924b78ced917ec2e3a0c6e658`
+- Revision IDs: `2363, 2364, 2365, 2366, 2367`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223642382088.reviewer-1-comment-9.part-10d.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+each of the 22 countries
+~~~~
+
+- After:
+
+~~~~text
+the 23 analytical places, including Hong Kong as a region
+~~~~
+
+- Minimal tracked fragments:
+  1. `delete`
+     - Before: "each of "
+     - After: ""
+  2. `replace`
+     - Before: "22"
+     - After: "23"
+  3. `replace`
+     - Before: "countries"
+     - After: "analytical places, including Hong Kong as a region"
+
+### part-10e
+
+- Location: Analytical Approach, fixed-effects passage
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:42Z
+- Author: Kila
+- Markup SHA-256 before: `a7bb3e057b9a69ab54dea7f1fe97baff478cf60924b78ced917ec2e3a0c6e658`
+- Markup SHA-256 after: `5fc88511278aa41a41307f098e856822efec60323e11940619fe40d22c6ce9f8`
+- Revision IDs: `2368, 2369`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223642835373.reviewer-1-comment-9.part-10e.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+country-level heterogeneity
+~~~~
+
+- After:
+
+~~~~text
+place-level heterogeneity
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "country-level"
+     - After: "place-level"
+
+### part-11
+
+- Location: Methodology heading
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:43Z
+- Author: Kila
+- Markup SHA-256 before: `5fc88511278aa41a41307f098e856822efec60323e11940619fe40d22c6ce9f8`
+- Markup SHA-256 after: `45b650145e8276e1c5ade0438ef2b197774355c103415e20e871dce8840e6528`
+- Revision IDs: `2370, 2371`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223643286328.reviewer-1-comment-9.part-11.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Country-Level Heterogeneity
+~~~~
+
+- After:
+
+~~~~text
+Place-Level Heterogeneity
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "Country-Level"
+     - After: "Place-Level"
+
+### part-13a
+
+- Location: Place-level heterogeneity, second methods paragraph
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:43Z
+- Author: Kila
+- Markup SHA-256 before: `45b650145e8276e1c5ade0438ef2b197774355c103415e20e871dce8840e6528`
+- Markup SHA-256 after: `024d2f6df9b4a1c6ede30fd8d495195199b1e9913d610c63860e5e60878c6644`
+- Revision IDs: `2372, 2373`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223643776444.reviewer-1-comment-9.part-13a.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+For each country
+~~~~
+
+- After:
+
+~~~~text
+For each analytical place
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "country"
+     - After: "analytical place"
+
+### reviewer-1/comment-9 log-order clarification
+
+- The consolidated Word, figure, supplement, and final-review records headed `reviewer-1/comment-9 word-native consolidated text and table bundle` through `reviewer-1/comment-9 consolidated review receipt` appear immediately after `part-13a` because that exact replacement was the first matching patch anchor when the records were inserted.
+- Those consolidated records chronologically follow all 62 safe tracked-edit specifications through `part-25a`; the consolidated operations do not alter any earlier immutable part record.
+
+### reviewer-1/comment-9 word-native consolidated text and table bundle
+
+- Locations: remaining canonical income labels in body text and Tables 3, 4, and 6; Table 1 label; Analytical Approach fixed-effects passage; Place-Level Heterogeneity first paragraph; Discussion opening; Policy Implications; Limitations; Figure 6 caption.
+- Reason: Complete the approved occurrence-by-occurrence political-geography terminology audit at locations that required Word-native handling because they cross prior revisions, tables, fields, or OMML.
+- Kila decisions: `KILA-D-20260825-007`, `KILA-D-20260829-016`.
+- Mode: Microsoft Word native Track Changes, applied as one consolidated operation after the 62 safe tracked-edit specifications.
+- Revises prior parts: terminology-only re-edits explicitly approved in the consolidated proposal; no numerical result or citation-content change.
+- Timestamp: `2026-08-29T22:44:00+09:00`.
+- Author: `Chao Li` (Microsoft Word).
+- Markup SHA-256 before: `c8a6a3dbfa224ea7e22a9247cffd7d737abd4d4ab6f695bf6b0e39cf4e61c643`.
+- Markup SHA-256 after: `5b495eb60cd5c9e02d89accc3846ca99734b056a196779410c1ccc6417679009`.
+- Revision IDs after Word save: `305, 315, 316, 317, 318, 522, 524, 525, 568, 570, 621, 622, 801, 836, 838, 1018, 1019, 1226, 1227, 1238, 1239, 1241, 1242, 1381, 1382, 1909, 2129, 2131, 2304, 2450, 2451, 2453, 2454`.
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T224400.reviewer-1-comment-9.pre-word-bundle.docx`.
+- Paragraph and run properties preserved: `true`.
+- Formula verification: the existing `c_COUNTRY` OMML object remained intact; final markup contains `12` `m:oMath` objects and the accepted clean contains `11` nonempty `m:oMath` objects plus one `m:oMathPara`.
+- Endnote verification: the endnotes story contains only the two empty separator notes. Its before/after semantic-text SHA-256 is identically `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`; tag counts are identical; hyperlinks and fields are both zero.
+- Before:
+
+~~~~text
+Seven remaining visible instances of Within-Country Income Percentile; Income Percentile (0–1); country fixed effects / country-specific / 22 countries / country-level / within-country / cross-national wording in the fixed-effects passage; the prior country-level heterogeneity paragraph; a cross-national assessment; cross-country differences; this cross-national analysis; and the Country-level Figure 6 caption.
+~~~~
+
+- After:
+
+~~~~text
+Seven corresponding instances of Within-Place Income Percentile; Within-Place Income Percentile (0–1); place fixed effects / place-specific / 23 analytical places including Hong Kong as a region / place-level / within-place / cross-place wording, followed by "Here, COUNTRY is retained only as the source-data field name."; the approved place-level heterogeneity paragraph; an assessment across countries and regions; cross-place differences; this analysis spanning countries and regions; and the Place-level Figure 6 caption.
+~~~~
+
+### reviewer-1/comment-9 part-26 — source and Word figure-label bundle
+
+- Locations: Figure 5 panel-c label and Figure 6 panel-b title in the source PNGs and embedded manuscript drawings.
+- Reason: Replace only the two technical geography labels while preserving estimates, place order, pixel dimensions, and established figure style.
+- Kila decisions: `KILA-D-20260825-007`, `KILA-D-20260829-016`.
+- Mode: reproducible source regeneration followed by Microsoft Word native tracked drawing replacement.
+- Timestamp: `2026-08-29T23:06:00+09:00`.
+- Markup SHA-256 before: `5b495eb60cd5c9e02d89accc3846ca99734b056a196779410c1ccc6417679009`.
+- Markup SHA-256 after: `a55a8ff7ad9d6e9b33c57f1a4e5611b43c28cd00eeb3cd1a17609cfee2e6939e`.
+- Revision IDs after Word save: `2442, 2443, 2448, 2449`.
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T230600.reviewer-1-comment-9.pre-figure-bundle.docx`.
+- Reproducible script: `scripts/plot_comment9_terminology_figures.py`; environment: conda `ZDP02n`.
+- Figure 5: `reports/fig_coef_econ_rural.png`; `1755 × 582`; source SHA-256 changed from `9fdb59ba71bef8c1e9a38bdff17b40d9804e7672d92188277dceec0111da1286` to `151df2913575c71dacd89800cdc9c407f7504938074f251e45cc9d6bada02a3b`; `Income Percentile (within-country, 0–1)` became `Income Percentile (within-place, 0–1)`.
+- Figure 6: `reports/fig_country_composite.png`; `1600 × 1963`; source SHA-256 changed from `9947a6555b6bcbeb22400ddf633edd8d548d6670033716fd1129dc500ab16d25` to `98d97ea99b27ef477fb5fcceefd75af29af1a04729bb52a7c9d2b9d76db2aa8d`; `Forest plot by country` became `Forest plot by place`.
+- Verification: both embedded PNG payloads are byte-identical to the final source files; all numerical values and place labels are unchanged; Figure 5 and Figure 6 were inspected at original resolution.
+
+### reviewer-1/comment-9 part-27 — standalone Supplementary Materials terminology bundle
+
+- Artifact: `Rev/revision/ZDP02l.supplementary.docx`.
+- Reason: Synchronize inference, clustering, and income-rank terminology with the main manuscript while preserving the source field name `COUNTRY`.
+- Kila decisions: `KILA-D-20260825-007`, `KILA-D-20260829-016`.
+- Mode: five exact visible-text replacements; only `word/document.xml` changed.
+- Supplement SHA-256 before: `0d469820575dc7ab7fd1ef7415ba89e39d6e6adc678e5f1681344c6ccd8e9018`.
+- Supplement SHA-256 after: `1bc27a98f6da7a8c739f2ec451ed137c48f01cb1a9f574ef61dc1ac397c1c64f`.
+- Before: two `23 country clusters`; two `CR1 country-clustered inference`; one `Within-Country Income Percentile (income_pctile)`.
+- After: two `23 place clusters`; two `CR1 place-clustered inference`; one `Within-Place Income Percentile (income_pctile)`.
+- Preserved exact source label: `Analytical Place (COUNTRY)`.
+- Verification: all five old targets are absent; all five new targets occur in their approved locations; the four-page render was inspected page by page without clipping, overlap, missing text, or style drift.
+
+### reviewer-1/comment-9 consolidated review receipt
+
+- Timestamp: `2026-08-29T23:30:00+09:00`.
+- Approved scope: all `27/27` parts in `Rev/docs/reviewer-1-comment-9-consolidated-proposal.md`.
+- Final markup: `Rev/revision/ZDP02l.rev.markup.docx`; SHA-256 `a55a8ff7ad9d6e9b33c57f1a4e5611b43c28cd00eeb3cd1a17609cfee2e6939e`.
+- Markup structure: valid ZIP/XML; Track Changes enabled; `2,059` valid unique revision wrappers (`925` insertions and `1,134` deletions); deletion text uses `w:delText`; `216` field beginnings, `178` `w:instrText`, `38` `w:delInstrText`, `12` `m:oMath`, and one `m:oMathPara`.
+- Fresh clean: `Rev/revision/ZDP02l.rev.clean.docx`; SHA-256 `1949eae65e431fb13a317d1a4ac939915976565e59d6fa13d46fb76683eed4aa`.
+- Clean structure: zero tracked revision or move wrappers; `178` field beginnings; `11` nonempty `m:oMath` objects plus one `m:oMathPara`; seven drawings.
+- Semantic verification: the canonical uppercase `Within-Place Income Percentile` occurs `18` times and the lowercase form once; all corresponding old forms are absent. The two 22-country-plus-Hong-Kong scope statements, one source-field explanation, both new heterogeneity headings, and both new figure captions occur exactly as approved. The canonical crosswalk contains 22 `country` rows and one `region` row (`Hong Kong`).
+- Visual verification: final clean and final markup each render to `56` Letter pages; all pages were reviewed via contact sheets, affected figure pages were inspected at original resolution, and no clipping, overlap, missing glyph, field-display breakage, table defect, or figure defect was found. The pre-existing blank page 49 remains unchanged from the prior clean baseline.
+- Source immutability: the final markup SHA-256 remained `a55a8ff7ad9d6e9b33c57f1a4e5611b43c28cd00eeb3cd1a17609cfee2e6939e` throughout clean generation and review.
+
+### part-13b
+
+- Location: Place-level heterogeneity, second methods paragraph
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:44Z
+- Author: Kila
+- Markup SHA-256 before: `024d2f6df9b4a1c6ede30fd8d495195199b1e9913d610c63860e5e60878c6644`
+- Markup SHA-256 after: `f70747ab7910fc2da47d7c6c9f02918930dc310982ec707f0326161ad1e30765`
+- Revision IDs: `2374, 2375`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223644293271.reviewer-1-comment-9.part-13b.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+within each national sample
+~~~~
+
+- After:
+
+~~~~text
+within each place-specific sample
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "national"
+     - After: "place-specific"
+
+### part-13c
+
+- Location: Place-level heterogeneity, second methods paragraph
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:44Z
+- Author: Kila
+- Markup SHA-256 before: `f70747ab7910fc2da47d7c6c9f02918930dc310982ec707f0326161ad1e30765`
+- Markup SHA-256 after: `8f0f52191cbd8a997811beac4dfd69a44212e6369b0aa76aa1235d3e8447b14f`
+- Revision IDs: `2376, 2377`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223644775908.reviewer-1-comment-9.part-13c.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+This country-level analysis
+~~~~
+
+- After:
+
+~~~~text
+This place-level analysis
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "country-level"
+     - After: "place-level"
+
+### part-13d
+
+- Location: Place-level heterogeneity, second methods paragraph
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:45Z
+- Author: Kila
+- Markup SHA-256 before: `8f0f52191cbd8a997811beac4dfd69a44212e6369b0aa76aa1235d3e8447b14f`
+- Markup SHA-256 after: `4a6e33f1d80a1b522320762179279975e5fb9858178a11be9e46af503edeb6a2`
+- Revision IDs: `2378, 2379`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223645343117.reviewer-1-comment-9.part-13d.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+across different national contexts
+~~~~
+
+- After:
+
+~~~~text
+across different sampled contexts
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "national"
+     - After: "sampled"
+
+### part-13e
+
+- Location: Place-level heterogeneity, second methods paragraph
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:45Z
+- Author: Kila
+- Markup SHA-256 before: `4a6e33f1d80a1b522320762179279975e5fb9858178a11be9e46af503edeb6a2`
+- Markup SHA-256 after: `ec3d3ff6ef522aff9d1c596a64ccec4d5f136d5b7d53215df8f66fd89c25c302`
+- Revision IDs: `2380, 2381`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223645840276.reviewer-1-comment-9.part-13e.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+specific countries
+~~~~
+
+- After:
+
+~~~~text
+specific places
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "countries"
+     - After: "places"
+
+### part-14
+
+- Location: Robustness Checks
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:46Z
+- Author: Kila
+- Markup SHA-256 before: `ec3d3ff6ef522aff9d1c596a64ccec4d5f136d5b7d53215df8f66fd89c25c302`
+- Markup SHA-256 after: `4bad90930d8a6600046b662b70e23a5049f7d484141449a84d272d13651c2d7e`
+- Revision IDs: `2382, 2383`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223646333258.reviewer-1-comment-9.part-14.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+target populations within each country
+~~~~
+
+- After:
+
+~~~~text
+target populations within each sampled place
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "country"
+     - After: "sampled place"
+
+### part-15
+
+- Location: Results heading
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:46Z
+- Author: Kila
+- Markup SHA-256 before: `4bad90930d8a6600046b662b70e23a5049f7d484141449a84d272d13651c2d7e`
+- Markup SHA-256 after: `b93ff01394905a10ab124480d28b06eb9482ba160e2cfe5572e0352cd7d7a437`
+- Revision IDs: `2384, 2385`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223646803058.reviewer-1-comment-9.part-15.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Cross-Country Heterogeneity
+~~~~
+
+- After:
+
+~~~~text
+Cross-Place Heterogeneity
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "Cross-Country"
+     - After: "Cross-Place"
+
+### part-16a
+
+- Location: Cross-place heterogeneity, first Results paragraph
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:47Z
+- Author: Kila
+- Markup SHA-256 before: `b93ff01394905a10ab124480d28b06eb9482ba160e2cfe5572e0352cd7d7a437`
+- Markup SHA-256 after: `b1452939d0c7775737bdd5bf199441f8f2aa7392963a33dba48fe796d47c3d18`
+- Revision IDs: `2386, 2387`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223647279108.reviewer-1-comment-9.part-16a.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+differences between countries
+~~~~
+
+- After:
+
+~~~~text
+differences between analytical places
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "countries"
+     - After: "analytical places"
+
+### part-16b
+
+- Location: Cross-place heterogeneity, first Results paragraph
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:47Z
+- Author: Kila
+- Markup SHA-256 before: `b1452939d0c7775737bdd5bf199441f8f2aa7392963a33dba48fe796d47c3d18`
+- Markup SHA-256 after: `b0760a8dd86dec23ebb9879ab52b2ede41d77d33e92b7623f6d6b39ddf640e88`
+- Revision IDs: `2388, 2389`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223647762900.reviewer-1-comment-9.part-16b.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+A country-level forest plot
+~~~~
+
+- After:
+
+~~~~text
+A place-level forest plot
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "country-level"
+     - After: "place-level"
+
+### part-16c
+
+- Location: Cross-place heterogeneity, first Results paragraph
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:48Z
+- Author: Kila
+- Markup SHA-256 before: `b0760a8dd86dec23ebb9879ab52b2ede41d77d33e92b7623f6d6b39ddf640e88`
+- Markup SHA-256 after: `673eb16ebde1809322ba0fd34783018880900e8362a171064d42030fc8db0f7f`
+- Revision IDs: `2390, 2391`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223648240650.reviewer-1-comment-9.part-16c.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+some countries show a rural advantage
+~~~~
+
+- After:
+
+~~~~text
+some places show a rural advantage
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "countries"
+     - After: "places"
+
+### part-17
+
+- Location: Cross-place heterogeneity, second Results paragraph
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:48Z
+- Author: Kila
+- Markup SHA-256 before: `673eb16ebde1809322ba0fd34783018880900e8362a171064d42030fc8db0f7f`
+- Markup SHA-256 after: `9acaca81773793711922e7228e7dadf0b12caa1f26e7c9d5d17c600abd6ba11d`
+- Revision IDs: `2392, 2393`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223648710898.reviewer-1-comment-9.part-17.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+across national settings
+~~~~
+
+- After:
+
+~~~~text
+across sampled settings
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "national"
+     - After: "sampled"
+
+### part-19
+
+- Location: Revisiting the Rural Happiness Paradox Globally
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `reedit`
+- Revises prior parts: reviewer-1/comment-1#part-36a, reviewer-1/comment-1#part-36b
+- Timestamp: 2026-08-29T13:36:49Z
+- Author: Kila
+- Markup SHA-256 before: `9acaca81773793711922e7228e7dadf0b12caa1f26e7c9d5d17c600abd6ba11d`
+- Markup SHA-256 after: `6433e3b279c059d614a28484ea97890f0fa56c6ed6f370eb53dd945854ec7e47`
+- Revision IDs: `911`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223649180491.reviewer-1-comment-9.part-19.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+in a cross-national setting
+~~~~
+
+- After:
+
+~~~~text
+in a setting spanning countries and regions
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "cross-national"
+     - After: "setting"
+  2. `replace`
+     - Before: "setting"
+     - After: "spanning countries and regions"
+
+### part-20a
+
+- Location: Context-dependent discussion, first paragraph
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:49Z
+- Author: Kila
+- Markup SHA-256 before: `6433e3b279c059d614a28484ea97890f0fa56c6ed6f370eb53dd945854ec7e47`
+- Markup SHA-256 after: `47266960662f755eaf312eca09c80e32ff91bc5b02e708dd1e2f6cf20a222fd7`
+- Revision IDs: `2394, 2395`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223649656189.reviewer-1-comment-9.part-20a.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+differences between countries
+~~~~
+
+- After:
+
+~~~~text
+differences between analytical places
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "countries"
+     - After: "analytical places"
+
+### part-20b
+
+- Location: Context-dependent discussion, first paragraph
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:50Z
+- Author: Kila
+- Markup SHA-256 before: `47266960662f755eaf312eca09c80e32ff91bc5b02e708dd1e2f6cf20a222fd7`
+- Markup SHA-256 after: `c6b028ed19df4c6100ea6b860b5fb3736a1e3d8dd570c05c5fe831fda5f8dc00`
+- Revision IDs: `2396, 2397`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223650127218.reviewer-1-comment-9.part-20b.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+per-country beta estimates
+~~~~
+
+- After:
+
+~~~~text
+place-specific beta estimates
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "per-country"
+     - After: "place-specific"
+
+### part-20c
+
+- Location: Context-dependent discussion, first paragraph
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:50Z
+- Author: Kila
+- Markup SHA-256 before: `c6b028ed19df4c6100ea6b860b5fb3736a1e3d8dd570c05c5fe831fda5f8dc00`
+- Markup SHA-256 after: `f008e6d42ffbd5310e02dea392a4608fc1a35f75f20826ed0e1545f449fd16b0`
+- Revision IDs: `2398, 2399`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223650601266.reviewer-1-comment-9.part-20c.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+highlights countries with the strongest
+~~~~
+
+- After:
+
+~~~~text
+highlights places with the strongest
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "countries"
+     - After: "places"
+
+### part-21a
+
+- Location: Context-dependent discussion, second paragraph
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:50Z
+- Author: Kila
+- Markup SHA-256 before: `f008e6d42ffbd5310e02dea392a4608fc1a35f75f20826ed0e1545f449fd16b0`
+- Markup SHA-256 after: `fc9ce9c0590bf34c8bebc99ecff83def2d79263ce27864133a0b3e4923f3762b`
+- Revision IDs: `2400, 2401`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223651073909.reviewer-1-comment-9.part-21a.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+varies considerably across countries
+~~~~
+
+- After:
+
+~~~~text
+varies considerably across sampled places
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "countries"
+     - After: "sampled places"
+
+### part-21b
+
+- Location: Context-dependent discussion, second paragraph
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:51Z
+- Author: Kila
+- Markup SHA-256 before: `fc9ce9c0590bf34c8bebc99ecff83def2d79263ce27864133a0b3e4923f3762b`
+- Markup SHA-256 after: `5883873acba12bfa2df61ceb3df7bab538977bc27ecf108f33170931197628eb`
+- Revision IDs: `2402, 2403`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223651554474.reviewer-1-comment-9.part-21b.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+national development levels
+~~~~
+
+- After:
+
+~~~~text
+broader development levels
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "national"
+     - After: "broader"
+
+### part-21c
+
+- Location: Context-dependent discussion, second paragraph
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:51Z
+- Author: Kila
+- Markup SHA-256 before: `5883873acba12bfa2df61ceb3df7bab538977bc27ecf108f33170931197628eb`
+- Markup SHA-256 after: `41859accae9947b428c3762582ca2d3a21a903048a0e873347422d8086e32396`
+- Revision IDs: `2404, 2405`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223652034263.reviewer-1-comment-9.part-21c.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+divergent patterns across countries
+~~~~
+
+- After:
+
+~~~~text
+divergent patterns across sampled places
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "countries"
+     - After: "sampled places"
+
+### part-22a
+
+- Location: Context-dependent discussion, third paragraph
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:52Z
+- Author: Kila
+- Markup SHA-256 before: `41859accae9947b428c3762582ca2d3a21a903048a0e873347422d8086e32396`
+- Markup SHA-256 after: `fac41064ea24d88d9122f5aa14c9358fa1993c210978b2ad16691fd8e69d70e7`
+- Revision IDs: `2406, 2407`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223652510809.reviewer-1-comment-9.part-22a.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+diverse national patterns
+~~~~
+
+- After:
+
+~~~~text
+diverse place-level patterns
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "national"
+     - After: "place-level"
+
+### part-22b
+
+- Location: Context-dependent discussion, third paragraph
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:52Z
+- Author: Kila
+- Markup SHA-256 before: `fac41064ea24d88d9122f5aa14c9358fa1993c210978b2ad16691fd8e69d70e7`
+- Markup SHA-256 after: `009eed933410ed743adc8aae9ccfb53250488a88b9a192db536d87b8c00eb00a`
+- Revision IDs: `2408, 2409`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223652984265.reviewer-1-comment-9.part-22b.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+country-specific characteristics
+~~~~
+
+- After:
+
+~~~~text
+place-specific characteristics
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "country-specific"
+     - After: "place-specific"
+
+### part-22c
+
+- Location: Context-dependent discussion, third paragraph
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:53Z
+- Author: Kila
+- Markup SHA-256 before: `009eed933410ed743adc8aae9ccfb53250488a88b9a192db536d87b8c00eb00a`
+- Markup SHA-256 after: `7aa4da08b506c730db2a747ca58deaf15562018afa090890d2e8166735d9a34c`
+- Revision IDs: `2410, 2411`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223653463933.reviewer-1-comment-9.part-22c.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+country-level forest plot
+~~~~
+
+- After:
+
+~~~~text
+place-level forest plot
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "country-level"
+     - After: "place-level"
+
+### part-22d
+
+- Location: Context-dependent discussion, third paragraph
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:53Z
+- Author: Kila
+- Markup SHA-256 before: `7aa4da08b506c730db2a747ca58deaf15562018afa090890d2e8166735d9a34c`
+- Markup SHA-256 after: `4e7911793d20782070f43ec9b7f97d4b0269751ad7ef6ff8786a5c78157c44b4`
+- Revision IDs: `2412, 2413`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223653937059.reviewer-1-comment-9.part-22d.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+cross-country heterogeneity
+~~~~
+
+- After:
+
+~~~~text
+cross-place heterogeneity
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "cross-country"
+     - After: "cross-place"
+
+### part-22e
+
+- Location: Context-dependent discussion, third paragraph
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:54Z
+- Author: Kila
+- Markup SHA-256 before: `4e7911793d20782070f43ec9b7f97d4b0269751ad7ef6ff8786a5c78157c44b4`
+- Markup SHA-256 after: `d42083d9c1f4330428a75821f5bcc95eeb86db3b2f8f0cd69265eff8b07be95a`
+- Revision IDs: `2414, 2415`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223654415118.reviewer-1-comment-9.part-22e.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Per-country estimates
+~~~~
+
+- After:
+
+~~~~text
+Place-specific estimates
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "Per-country"
+     - After: "Place-specific"
+
+### part-23b
+
+- Location: Policy Implications
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:54Z
+- Author: Kila
+- Markup SHA-256 before: `d42083d9c1f4330428a75821f5bcc95eeb86db3b2f8f0cd69265eff8b07be95a`
+- Markup SHA-256 after: `5d0afa567b0f88d257442e06c9c7adb43b6267828fc5740e408a38a8bba01134`
+- Revision IDs: `2416, 2417, 2418, 2419`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223654901308.reviewer-1-comment-9.part-23b.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+across countries, with some nations
+~~~~
+
+- After:
+
+~~~~text
+across sampled places, with some places
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "countries"
+     - After: "sampled places"
+  2. `replace`
+     - Before: "nations"
+     - After: "places"
+
+### part-23c
+
+- Location: Policy Implications
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:55Z
+- Author: Kila
+- Markup SHA-256 before: `5d0afa567b0f88d257442e06c9c7adb43b6267828fc5740e408a38a8bba01134`
+- Markup SHA-256 after: `54eace5ff3f862c15bf567e3d14d7c180f50924d6f729dd398378dbb8c93c452`
+- Revision IDs: `2420, 2421`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223655388261.reviewer-1-comment-9.part-23c.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+highly country-specific
+~~~~
+
+- After:
+
+~~~~text
+highly place-specific
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "country-specific"
+     - After: "place-specific"
+
+### part-23d
+
+- Location: Policy Implications
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:55Z
+- Author: Kila
+- Markup SHA-256 before: `54eace5ff3f862c15bf567e3d14d7c180f50924d6f729dd398378dbb8c93c452`
+- Markup SHA-256 after: `329805e110453cc8b7802325fe2f479d0d35d1d2d9b62f1b4d058993fc80d760`
+- Revision IDs: `2422, 2423`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223655871364.reviewer-1-comment-9.part-23d.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+each country's unique
+~~~~
+
+- After:
+
+~~~~text
+each place's unique
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "country's"
+     - After: "place's"
+
+### part-23e
+
+- Location: Policy Implications
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:56Z
+- Author: Kila
+- Markup SHA-256 before: `329805e110453cc8b7802325fe2f479d0d35d1d2d9b62f1b4d058993fc80d760`
+- Markup SHA-256 after: `2cd3e495138f2903b0495974e1e285fe8a90e163eeaadc05602c35dace672f30`
+- Revision IDs: `2424, 2425`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223656357528.reviewer-1-comment-9.part-23e.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Interventions effective in countries
+~~~~
+
+- After:
+
+~~~~text
+Interventions effective in places
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "countries"
+     - After: "places"
+
+### part-25a
+
+- Location: Figure 3 caption
+- Reason: Apply the approved political-geography terminology rule without changing numerical results or unaffected wording.
+- Kila decisions: KILA-D-20260825-007, KILA-D-20260829-016
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T13:36:56Z
+- Author: Kila
+- Markup SHA-256 before: `2cd3e495138f2903b0495974e1e285fe8a90e163eeaadc05602c35dace672f30`
+- Markup SHA-256 after: `c8a6a3dbfa224ea7e22a9247cffd7d737abd4d4ab6f695bf6b0e39cf4e61c643`
+- Revision IDs: `2426, 2427`
+- Backup: `/Users/lichao/Research/ZDP02l/Rev/revision/.kila-backups/ZDP02l.rev.markup.20260829T223656841967.reviewer-1-comment-9.part-25a.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `30b6ee3812e6ba7e1d83ced0596ec9233e22436e17286f0a2b4f5c67fa813ed9`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Figure 3. Share of rural residence by country
+~~~~
+
+- After:
+
+~~~~text
+Figure 3. Share of rural residence by analytical place
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "country"
+     - After: "analytical place"

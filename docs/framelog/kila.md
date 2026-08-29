@@ -4991,3 +4991,405 @@ Reviewer 1 Comment 6 is closed as fully addressed; the plan advances from human_
 ### Follow-Up
 
 Mark Reviewer 1 Comment 6 done, append the execution log, and report the missing manage-git-workflow checkpoint skill.
+
+## KILA-D-20260829-012: Approve Comment 7 consolidated sample-alignment bundle
+
+- Event SHA-256: afdde1be10d0a03abe4fe3e3b87f12442647a53b486ce490d65f6da8e240fba9
+- Recorded at: 2026-08-29T16:59:04+09:00
+- Revision workspace: Rev
+- Revision stage: manuscript-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-7
+- Decision type: consolidated-bundle-approval
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260825-004
+- Decision object: Rev/docs/reviewer-1-comment-7-consolidated-proposal.md
+- Object SHA-256: c7ed18cc0b3d51adc7a97a4e0c6f1fe0a0bef11237d1bc8630601344212cbf03
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Clarify whether missing data explain inconsistent sample sizes and make comparisons across models and tables credible.
+
+### Decision Context
+
+The complete Reviewer 1 Comment 7 proposal inventories 18 approved locations after validating one common primary sample, exact alternative-outcome denominators, matched-sample sensitivity, and synchronized tables and figure data.
+
+### Kila Recommendation
+
+Approve the consolidated 18-part bundle: one common sample for primary and core mechanism models, exact denominators for robustness models, matched-sample sensitivity, synchronized prose and displays, and a supplementary sample audit.
+
+### Options Presented
+
+- Approve the consolidated 18-part bundle
+
+### Human Decision
+
+The human approved the full Reviewer 1 Comment 7 consolidated 18-part bundle without changes.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The manuscript will distinguish processed, descriptive, primary common-sample, available-case sensitivity, outcome-specific, and matched-sample denominators; all primary comparisons will use a common N and all displays will report exact Ns.
+
+### Affected Manuscript Sections
+
+- Data and Measurement
+- Methodology
+- Results
+- Tables 1, 3, 5, and 6
+- Figure 7
+- Supplementary Table S3
+
+### Related Artifacts
+
+- Rev/docs/reviewer-1-comment-7-consolidated-proposal.md
+- reports/comment7_sample_alignment/sample_alignment_summary.json
+- reports/comment7_sample_alignment/figure7_candidate.png
+
+### Follow-Up
+
+Apply approved text parts sequentially, prepare one consolidated human Word object operation, add Supplementary Table S3, then generate one fresh clean for consolidated review.
+
+## KILA-D-20260829-013: Confirm Comment 7 manual text edits and Results restructuring
+
+- Event SHA-256: a987276f3eb25c719a34ac17823cfd3073a8c0111ad06d4f8ea00e7694cc617b
+- Recorded at: 2026-08-29T18:07:56+09:00
+- Revision workspace: Rev
+- Revision stage: manuscript-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-7
+- Decision type: implementation-confirmation
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260829-012
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: 5e143e6c06b8561c5ef5de4cd1ab0992bf9ff10e5c8a9a98f406412f19e2fd0f
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Address the reviewer's concern that inconsistent model and table sample sizes may compromise cross-model comparability.
+
+### Decision Context
+
+The controlled tracked-edit preflight routed parts 01, 03, 07, 09, and 10 to a human-owned Word operation because their spans contain complex runs, incompatible styles, or prior tracked-insertion boundaries.
+
+### Kila Recommendation
+
+Regenerate a fresh clean manuscript and verify the five approved passages plus the human-adjusted Results section structure before continuing the remaining bundle.
+
+### Options Presented
+
+- Apply the five exact approved replacements in one Word opening with Track Changes preserved.
+
+### Human Decision
+
+The human reports that all five human-owned replacements were completed and saved, and that the Results section division was adjusted in the same manuscript save.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The manuscript should contain the approved sample-alignment text in Data and Measurement, Methodology, and Results, with a human-selected Results subsection organization, while preserving existing tracked revisions.
+
+### Affected Manuscript Sections
+
+- Data and Measurement
+- Methodology
+- Results
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/reviewer-1-comment-7-supplemental-exception.md
+
+### Follow-Up
+
+Regenerate a fresh clean copy, verify exact text and section structure, and continue only after the human save passes structural, semantic, and visual review.
+
+## KILA-D-20260829-014: Approve Comment 7 Results heading scope correction
+
+- Event SHA-256: 307712fbaf6b9d01e2a72af97b8dd7a6740c1db66f715f78a9ccc298d108b689
+- Recorded at: 2026-08-29T18:38:27+09:00
+- Revision workspace: Rev
+- Revision stage: manuscript-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-7
+- Decision type: manuscript-scope
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260829-013
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: 5e143e6c06b8561c5ef5de4cd1ab0992bf9ff10e5c8a9a98f406412f19e2fd0f
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Clarify inconsistent sample sizes while keeping the revised Results organization coherent.
+
+### Decision Context
+
+The human merged the economic-security Results paragraph into the preceding subsection. Machine review found that the retained life-satisfaction-only heading was narrower than the combined content.
+
+### Kila Recommendation
+
+Rename the combined subsection so its title covers both life satisfaction and economic security.
+
+### Options Presented
+
+- Use Adjusted Rural-Urban Associations with Life Satisfaction and Economic Security.
+
+### Human Decision
+
+The human approved the exact proposed Results heading scope correction.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The merged Results subsection title will accurately describe both the life-satisfaction and economic-security results contained below it.
+
+### Affected Manuscript Sections
+
+- Results
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Apply the approved heading correction, then execute the seven previously approved machine-safe Comment 7 text parts before one consolidated fresh-clean review.
+
+## KILA-D-20260829-015: Approve Reviewer 1 Comment 7 response and implementation
+
+- Event SHA-256: bc5a27b7a15f6afbb0e9c141abacbc72a9439ba59ab26cc022c2bfbffc309e25
+- Recorded at: 2026-08-29T22:01:32+09:00
+- Revision workspace: Rev
+- Revision stage: response-approval
+- Reviewer ID: reviewer-1
+- Comment ID: comment-7
+- Decision type: response-implementation-approval
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260829-012
+- Decision object: Rev/revision/response-draft.md
+- Object SHA-256: b9b4bcf8ca522de25b6f6a33280c3f7f13908564619a1f95a80833d6f618a873
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+The reviewer questioned inconsistent sample sizes across models and tables and whether missingness undermined comparisons.
+
+### Decision Context
+
+The complete 18-part sample-alignment bundle, additional Results heading scope correction, fresh clean manuscript, standalone Supplementary Table S3, and the verified Reviewer 1 Comment 7 response have all been implemented and reviewed.
+
+### Kila Recommendation
+
+Accept the verified response and implementation because the primary comparisons now use a locked common sample, sensitivity denominators are explicit, and the response quotations match the fresh clean manuscript.
+
+### Options Presented
+
+- Approve the response and close Comment 7.
+- Request revisions and keep Comment 7 at human review.
+
+### Human Decision
+
+The human explicitly approved the Reviewer 1 Comment 7 response and thereby accepted the complete verified implementation.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Close Reviewer 1 Comment 7 in the revision plan and make the approved checkpoint eligible for the workflow Git handoff.
+
+### Affected Manuscript Sections
+
+- Data and Measurement
+- Methodology
+- Results
+- Tables 1, 3, 5, and 6
+- Figure 7
+- Supplementary Table S3
+- Response to Reviewers
+
+### Related Artifacts
+
+- Rev/revision/response-draft.md
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/revision/ZDP02l.supplementary.docx
+- Rev/docs/revisionchanges.md
+
+### Follow-Up
+
+Mark Reviewer 1 Comment 7 done, append the execution log, and hand off the targeted Git checkpoint to manage-git-workflow when available.
+
+## KILA-D-20260829-016: Approve consolidated political-geography terminology bundle
+
+- Event SHA-256: 115028cf341b8c21d6fa25d4c5c18d8e27c46e1d148fc545e1003418242618ca
+- Recorded at: 2026-08-29T22:27:41+09:00
+- Revision workspace: Rev
+- Revision stage: manuscript-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-9
+- Decision type: terminology-bundle-approval
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/docs/reviewer-1-comment-9-consolidated-proposal.md
+- Object SHA-256: 5ef08504e1d4476ccf8a1435fef29dbcef3b94acd8de51b6d4fd0fe389ed1900
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Use country terminology carefully, do not classify Hong Kong as a country, and explain its inclusion as a separately sampled region.
+
+### Decision Context
+
+The complete occurrence-level audit resolved Reviewer 1 Comment 9 into 27 approved manuscript, table, figure, and supplementary terminology parts with an explicit no-change ledger and predeclared Word-native exception routing.
+
+### Kila Recommendation
+
+Approve the complete 27-part controlled terminology bundle and execute it continuously with place terminology for analytical units, countries and regions for collective scope, and protected sovereign-state and source-variable uses.
+
+### Options Presented
+
+- Approve reviewer-1/comment-9 consolidated terminology bundle.
+
+### Human Decision
+
+Approved reviewer-1/comment-9 consolidated terminology bundle in full, including parts 01-27, identified prior-revision terminology re-edits, and the predeclared consolidated Word-native routing for the c_COUNTRY OMML/EndNote passage and Figure 5/6 drawing objects if required.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The manuscript and supplement consistently distinguish countries, Hong Kong as a region, and analytical places without changing numerical results, sovereign-state references, bibliographic titles, or reproducibility identifiers.
+
+### Affected Manuscript Sections
+
+- Abstract
+- Introduction
+- Data and Measurement
+- Methodology
+- Results
+- Discussion
+- Policy Implications
+- Limitations
+- Tables and Figures
+- Standalone Supplementary Materials
+
+### Related Artifacts
+
+- Rev/docs/reviewer-1-comment-9-consolidated-proposal.md
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.supplementary.docx
+
+### Follow-Up
+
+Apply all approved parts sequentially, regenerate the two label-only figure assets, update the standalone supplement, generate one fresh clean, and conduct one consolidated structural, semantic, and visual review before drafting the response.
+
+## KILA-D-20260829-017: Approve Reviewer 1 Comment 9 response
+
+- Event SHA-256: 361f933ebe9c9ed925f027fd3da53c8f1ba068c08acf18221dd9c32e23b02770
+- Recorded at: 2026-08-29T23:35:09+09:00
+- Revision workspace: Rev
+- Revision stage: response-review
+- Reviewer ID: reviewer-1
+- Comment ID: comment-9
+- Decision type: response-approval
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260829-016
+- Decision object: Rev/revision/response-draft.md
+- Object SHA-256: 9b751bb9f72b54bfbed9105c2777e87a9d47fe73d46a859be9b2cd73d3de1ed4
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Use country terminology carefully, do not classify Hong Kong as a country, and explain its inclusion as a separately sampled region.
+
+### Decision Context
+
+The verified Reviewer 1 Comment 9 response block was drafted from the fresh clean manuscript after the approved 27-part terminology bundle passed structural, semantic, and visual review.
+
+### Kila Recommendation
+
+Approve the response because it accurately describes the implemented terminology rule and supplies the required fresh-clean quotations with individual human-verification markers.
+
+### Options Presented
+
+- Approve the response and close the comment
+- Revise the response before closure
+
+### Human Decision
+
+Human approved the complete Reviewer 1 Comment 9 response block without requested changes.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Mark reviewer-1/comment-9 done and route the approved targeted Git checkpoint.
+
+### Affected Manuscript Sections
+
+- Response to Reviewers > Reviewer 1 > Comment 9
+
+### Related Artifacts
+
+- Rev/revision/response-draft.md
+- Rev/docs/revisionplan.md
+- Rev/revision/ZDP02l.rev.clean.docx
+
+### Follow-Up
+
+Update the Comment 9 plan row to done; report that manage-git-workflow is unavailable, so the authorized checkpoint cannot be dispatched by this procedure.
