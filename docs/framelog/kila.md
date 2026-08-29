@@ -5393,3 +5393,135 @@ Mark reviewer-1/comment-9 done and route the approved targeted Git checkpoint.
 ### Follow-Up
 
 Update the Comment 9 plan row to done; report that manage-git-workflow is unavailable, so the authorized checkpoint cannot be dispatched by this procedure.
+
+## KILA-D-20260830-001: Approve Reviewer 2 Comment 3 consolidated manuscript bundle
+
+- Event SHA-256: cc87a1cfb7872bb1d918e351ccf4902025945cba4de175b5a29c85af6a145540
+- Recorded at: 2026-08-30T07:28:56+09:00
+- Revision workspace: Rev
+- Revision stage: manuscript-revision
+- Reviewer ID: reviewer-2
+- Comment ID: comment-3
+- Decision type: manuscript-bundle-approval
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/docs/reviewer-2-comment-3-consolidated-proposal.md
+- Object SHA-256: caea2cd741cf0d3a78c4b71c22be0f2a4b75f6ac65b843570a73004ea1f7e0e3
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Replace unsupported sequential-regression mediation language with a proper path analysis reporting direct and indirect associations, and do not claim partial or full mediation without valid evidence.
+
+### Decision Context
+
+The complete nine-part residual-wording proposal was presented after validating that the formal parallel path model, direct and indirect estimates, Table 4, and cross-sectional interpretation safeguards already exist through Reviewer 1 Comment 1.
+
+### Kila Recommendation
+
+Approve all nine bounded residual-wording changes while retaining the validated path model and numerical results unchanged.
+
+### Options Presented
+
+- Approve the complete nine-part bundle
+- Request revisions to the bundle before execution
+
+### Human Decision
+
+Human approved the complete Reviewer 2 Comment 3 nine-part bundle exactly as proposed, including the identified prior-part re-edit routing for part-07.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Apply nine minimal true tracked changes that align the Abstract, Introduction, measurement sections, Primary OLS wording, and two subsection headings with the validated noncausal parallel path analysis.
+
+### Affected Manuscript Sections
+
+- Abstract
+- Introduction
+- Data and Measurement
+- Methodology
+- Results
+
+### Related Artifacts
+
+- Rev/docs/reviewer-2-comment-3-consolidated-proposal.md
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Apply parts 01-09 sequentially, generate one fresh clean manuscript, and conduct one consolidated review before drafting the response.
+
+## KILA-D-20260830-002: Approve reviewer-2 comment-3 response
+
+- Event SHA-256: 289546f1b885f211a3b132f2f94b5922350cad3c2100d364720ce120104aa49a
+- Recorded at: 2026-08-30T08:19:33+09:00
+- Revision workspace: Rev
+- Revision stage: response-review
+- Reviewer ID: reviewer-2
+- Comment ID: comment-3
+- Decision type: implementation-acceptance
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260830-001
+- Decision object: Rev/revision/response-draft.md
+- Object SHA-256: 948d890c49cdb0f84de2bda7a424514874365f7dd8121c2db09ac9b708f8ebb9
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Reviewer 2 requested a proper SEM or path analysis with tested direct and indirect effects and cautioned against unsupported partial or full mediation claims.
+
+### Decision Context
+
+The manuscript bundle and its verified response block have passed fresh-clean, exact-quotation, and write-boundary checks and are awaiting final human response approval.
+
+### Kila Recommendation
+
+Approve the verified response block and close Reviewer 2 / Comment 3 because the parallel path analysis, cautious interpretation, and nine-location wording bundle are implemented and verified.
+
+### Options Presented
+
+- Approve the verified response and close the comment.
+- Request response revisions before closure.
+
+### Human Decision
+
+The human approves the Reviewer 2 / Comment 3 response and accepts the implemented manuscript-response package as adequate.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Preserve the approved response text, mark Reviewer 2 / Comment 3 done, and advance to the next executable revision-plan item.
+
+### Affected Manuscript Sections
+
+- Response to Reviewer 2 / Comment 3
+
+### Related Artifacts
+
+- Rev/revision/response-draft.md
+- Rev/docs/revisionplan.md
+- Rev/revision/ZDP02l.rev.clean.docx
+
+### Follow-Up
+
+Mark the plan row done, append the procedure execution log, and select the next executable comment; use manage-git-workflow for any Git checkpoint when available.

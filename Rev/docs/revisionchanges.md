@@ -7652,3 +7652,773 @@ Figure 3. Share of rural residence by analytical place
   1. `replace`
      - Before: "country"
      - After: "analytical place"
+
+## reviewer-2/comment-3
+
+### part-01a
+
+- Location: Abstract, opening paragraph, first sentence
+- Reason: Replace residual causal-mechanism framing with the approved statistical-pathway wording.
+- Kila decisions: KILA-D-20260830-001
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T22:37:34Z
+- Author: Kila
+- Markup SHA-256 before: `a55a8ff7ad9d6e9b33c57f1a4e5611b43c28cd00eeb3cd1a17609cfee2e6939e`
+- Markup SHA-256 after: `62c78024c69b9b29dba73941c51c3f8914f54e996ec56b35ada76a39047035c0`
+- Revision IDs: `2465, 2466, 2467, 2468`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260830T073734466845.reviewer-2-comment-3.part-01a.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+The Rural Happiness Paradox, which questions whether rural residents report comparable or higher life satisfaction than urban dwellers, along with its underlying mechanisms, remains globally underexplored.
+~~~~
+
+- After:
+
+~~~~text
+The Rural Happiness Paradox, which questions whether rural residents report comparable or higher life satisfaction than urban dwellers, along with its potential statistical pathways, remains globally underexplored.
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "underlying"
+     - After: "potential"
+  2. `replace`
+     - Before: "mechanisms"
+     - After: "statistical pathways"
+
+### part-01b
+
+- Location: Abstract, opening paragraph, second sentence
+- Reason: Describe the study as investigating potential statistical pathways rather than mechanisms.
+- Kila decisions: KILA-D-20260830-001
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T22:37:43Z
+- Author: Kila
+- Markup SHA-256 before: `62c78024c69b9b29dba73941c51c3f8914f54e996ec56b35ada76a39047035c0`
+- Markup SHA-256 after: `d71ac96ee26d459e5bdfc408a61b50e8af6816d8db1dc65fe8073a95ea4c4640`
+- Revision IDs: `2469, 2470`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260830T073743604759.reviewer-2-comment-3.part-01b.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+This study investigates its prevalence and mechanisms using extensive survey data from the Global Flourishing Study (GFS), covering 22 countries and Hong Kong as a region (23 analytical places).
+~~~~
+
+- After:
+
+~~~~text
+This study investigates its prevalence and potential statistical pathways using extensive survey data from the Global Flourishing Study (GFS), covering 22 countries and Hong Kong as a region (23 analytical places).
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "mechanisms"
+     - After: "potential statistical pathways"
+
+### part-02a
+
+- Location: Introduction, literature-gap paragraph, third limitation sentence
+- Reason: Name the missing method as path decomposition rather than generic mechanism decomposition.
+- Kila decisions: KILA-D-20260830-001
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T22:37:59Z
+- Author: Kila
+- Markup SHA-256 before: `d71ac96ee26d459e5bdfc408a61b50e8af6816d8db1dc65fe8073a95ea4c4640`
+- Markup SHA-256 after: `d9b82ffa7bc2db3136a2b3ea1a462ec49614663100e021b69fbc753924434808`
+- Revision IDs: `2471, 2472, 2473, 2474`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260830T073759460078.reviewer-2-comment-3.part-02a.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `4dc24241e26ab6183f0b6161c94260c36032c814a98259890184cf3be04ecae5`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Third, existing studies often lack a systematic mechanism decomposition strategy (Chaplitskaya et al., 2024).
+~~~~
+
+- After:
+
+~~~~text
+Third, existing studies often lack a formal path-decomposition strategy (Chaplitskaya et al., 2024).
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "systematic"
+     - After: "formal"
+  2. `replace`
+     - Before: "mechanism decomposition"
+     - After: "path-decomposition"
+
+### part-02b
+
+- Location: Introduction, literature-gap paragraph, sentence beginning 'In many cases'
+- Reason: Distinguish direct estimation of conditional indirect associations from a sequential framework.
+- Kila decisions: KILA-D-20260830-001
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T22:37:59Z
+- Author: Kila
+- Markup SHA-256 before: `d9b82ffa7bc2db3136a2b3ea1a462ec49614663100e021b69fbc753924434808`
+- Markup SHA-256 after: `75be8798b565250535c4195e0df0aead5d5cfa66fb3ea3f579018e949ac7b606`
+- Revision IDs: `2475, 2476, 2477, 2478, 2479, 2480, 2481, 2482, 2483, 2484, 2485, 2486, 2487, 2488, 2489, 2490`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260830T073800132254.reviewer-2-comment-3.part-02b.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `4dc24241e26ab6183f0b6161c94260c36032c814a98259890184cf3be04ecae5`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+In many cases, explanatory variables are introduced without a clear sequential framework that distinguishes baseline rural-urban differences from the contribution of specific mechanisms.
+~~~~
+
+- After:
+
+~~~~text
+In many cases, explanatory variables are introduced without a model that directly estimates conditional indirect associations through specific pathways.
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "clear sequential framework"
+     - After: "model"
+  2. `replace`
+     - Before: "distinguishes"
+     - After: "directly"
+  3. `replace`
+     - Before: "baseline"
+     - After: "estimates"
+  4. `replace`
+     - Before: "rural-urban"
+     - After: "conditional"
+  5. `replace`
+     - Before: "differences"
+     - After: "indirect"
+  6. `replace`
+     - Before: "from"
+     - After: "associations"
+  7. `replace`
+     - Before: "the contribution of"
+     - After: "through"
+  8. `replace`
+     - Before: "mechanisms"
+     - After: "pathways"
+
+### part-02c
+
+- Location: Introduction, literature-gap paragraph, numbered study-aim sentence
+- Reason: Frame the third study aim as a measurable statistical pathway.
+- Kila decisions: KILA-D-20260830-001
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T22:38:00Z
+- Author: Kila
+- Markup SHA-256 before: `75be8798b565250535c4195e0df0aead5d5cfa66fb3ea3f579018e949ac7b606`
+- Markup SHA-256 after: `9a895d7e7fa111936210cba7953b48b0b6ec7c5ff077df3253189cbf26937705`
+- Revision IDs: `2491, 2492, 2493, 2494, 2495, 2496, 2497, 2498, 2499, 2500, 2501, 2502, 2503`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260830T073800820267.reviewer-2-comment-3.part-02c.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `4dc24241e26ab6183f0b6161c94260c36032c814a98259890184cf3be04ecae5`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Specifically, we examine (1) whether rural residents report different levels of life satisfaction than urban residents across analytical places, (2) whether rural populations experience greater economic insecurity, and (3) whether differences in social support and community relationships help explain the observed well-being patterns.
+~~~~
+
+- After:
+
+~~~~text
+Specifically, we examine (1) whether rural residents report different levels of life satisfaction than urban residents across analytical places, (2) whether rural populations experience greater economic insecurity, and (3) whether social support and community relationships form a measurable statistical pathway linking rural residence to life satisfaction.
+~~~~
+
+- Minimal tracked fragments:
+  1. `delete`
+     - Before: "differences in "
+     - After: ""
+  2. `replace`
+     - Before: "help"
+     - After: "form"
+  3. `replace`
+     - Before: "explain"
+     - After: "a"
+  4. `replace`
+     - Before: "the"
+     - After: "measurable"
+  5. `replace`
+     - Before: "observed"
+     - After: "statistical"
+  6. `replace`
+     - Before: "well-being"
+     - After: "pathway"
+  7. `replace`
+     - Before: "patterns"
+     - After: "linking rural residence to life satisfaction"
+
+### part-02d
+
+- Location: Introduction, literature-gap paragraph, final sentence
+- Reason: State the study aim in terms of candidate pathways and conditional direct and indirect associations.
+- Kila decisions: KILA-D-20260830-001
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T22:38:01Z
+- Author: Kila
+- Markup SHA-256 before: `9a895d7e7fa111936210cba7953b48b0b6ec7c5ff077df3253189cbf26937705`
+- Markup SHA-256 after: `37e560af911b724d77b517db6f8bb0ee03c124178889162b2cf4e15eef909fe7`
+- Revision IDs: `2504, 2505, 2506, 2507, 2508, 2509, 2510, 2511, 2512, 2513, 2514, 2515`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260830T073801501304.reviewer-2-comment-3.part-02d.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `4dc24241e26ab6183f0b6161c94260c36032c814a98259890184cf3be04ecae5`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+By integrating these mechanisms within a consistent empirical framework, the study aims to provide a more systematic examination of the processes underlying the Rural Happiness Paradox.
+~~~~
+
+- After:
+
+~~~~text
+By evaluating these candidate pathways within a consistent empirical framework, the study aims to provide a more systematic assessment of conditional direct and indirect associations related to the Rural Happiness Paradox.
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "integrating"
+     - After: "evaluating"
+  2. `replace`
+     - Before: "mechanisms"
+     - After: "candidate pathways"
+  3. `replace`
+     - Before: "examination"
+     - After: "assessment"
+  4. `replace`
+     - Before: "the"
+     - After: "conditional"
+  5. `replace`
+     - Before: "processes"
+     - After: "direct"
+  6. `replace`
+     - Before: "underlying"
+     - After: "and indirect associations related to"
+
+### part-03a
+
+- Location: Introduction, study-scope paragraph, sentence beginning 'Specifically'
+- Reason: Describe economic insecurity and social support as candidate sets of statistical pathways.
+- Kila decisions: KILA-D-20260830-001
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T22:38:16Z
+- Author: Kila
+- Markup SHA-256 before: `37e560af911b724d77b517db6f8bb0ee03c124178889162b2cf4e15eef909fe7`
+- Markup SHA-256 after: `d9c8a7e15b721612ab490dd4b565833a01764ff985a05d4ae47937b7c5fe56cb`
+- Revision IDs: `2516, 2517, 2518, 2519, 2520, 2521, 2522, 2523, 2524, 2525, 2526, 2527, 2528, 2529`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260830T073816634707.reviewer-2-comment-3.part-03a.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Specifically, we investigate two key mechanisms hypothesized to contribute to or mitigate rural-urban well-being disparities: economic insecurity and social support (An et al., 2025; Chaplitskaya et al., 2024; Tsurumi et al., 2021).
+~~~~
+
+- After:
+
+~~~~text
+Specifically, we investigate two candidate sets of statistical pathways associated with rural-urban well-being disparities: economic insecurity and social support (An et al., 2025; Chaplitskaya et al., 2024; Tsurumi et al., 2021).
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "key"
+     - After: "candidate"
+  2. `replace`
+     - Before: "mechanisms"
+     - After: "sets"
+  3. `replace`
+     - Before: "hypothesized"
+     - After: "of"
+  4. `replace`
+     - Before: "to"
+     - After: "statistical"
+  5. `replace`
+     - Before: "contribute"
+     - After: "pathways"
+  6. `replace`
+     - Before: "to"
+     - After: "associated"
+  7. `replace`
+     - Before: "or mitigate"
+     - After: "with"
+
+### part-03b
+
+- Location: Introduction, study-scope paragraph, economic-security sentence
+- Reason: Describe estimation of conditional indirect associations rather than explaining a gap causally.
+- Kila decisions: KILA-D-20260830-001
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T22:38:17Z
+- Author: Kila
+- Markup SHA-256 before: `d9c8a7e15b721612ab490dd4b565833a01764ff985a05d4ae47937b7c5fe56cb`
+- Markup SHA-256 after: `2cd08728d3d5abeb91e9f5dc474b81bba77d9f2277c2d426f133c2e32ab32e37`
+- Revision IDs: `2530, 2531, 2532, 2533, 2534, 2535`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260830T073817284693.reviewer-2-comment-3.part-03b.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+We examine whether rural populations systematically experience greater financial precarity, measured by indicators such as income security feelings, expense worry, and within-place income percentile, and if these economic disadvantages explain any observed life satisfaction gaps.
+~~~~
+
+- After:
+
+~~~~text
+We examine whether rural populations systematically experience greater financial precarity, measured by indicators such as income security feelings, expense worry, and within-place income percentile, and estimate the conditional indirect associations through these economic-security measures.
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "if"
+     - After: "estimate the conditional indirect associations through"
+  2. `replace`
+     - Before: "economic"
+     - After: "economic-security"
+  3. `replace`
+     - Before: "disadvantages explain any observed life satisfaction gaps"
+     - After: "measures"
+
+### part-03c
+
+- Location: Introduction, study-scope paragraph, social-capital sentence
+- Reason: Report the conditional indirect association through the Social Capital Index without causal buffer language.
+- Kila decisions: KILA-D-20260830-001
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T22:38:17Z
+- Author: Kila
+- Markup SHA-256 before: `2cd08728d3d5abeb91e9f5dc474b81bba77d9f2277c2d426f133c2e32ab32e37`
+- Markup SHA-256 after: `6dff3d743dc3781cc4edeb1079edf488e9548825104069004abbdde80d9e9e3d`
+- Revision IDs: `2536, 2537, 2538, 2539, 2540, 2541, 2542, 2543, 2544, 2545, 2546, 2547, 2548, 2549, 2550`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260830T073817953081.reviewer-2-comment-3.part-03c.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Concurrently, we explore the role of social capital, operationalized as a social support index (Yip et al., 2007; Yu et al., 2022; Zhang et al., 2026), to determine whether it can buffer or exacerbate these disparities.
+~~~~
+
+- After:
+
+~~~~text
+Concurrently, we estimate the conditional indirect association through social capital, operationalized as the Social Capital Index (Yip et al., 2007; Yu et al., 2022; Zhang et al., 2026).
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "explore"
+     - After: "estimate"
+  2. `replace`
+     - Before: "role"
+     - After: "conditional"
+  3. `replace`
+     - Before: "of"
+     - After: "indirect association through"
+  4. `replace`
+     - Before: "a"
+     - After: "the"
+  5. `replace`
+     - Before: "social"
+     - After: "Social"
+  6. `replace`
+     - Before: "support"
+     - After: "Capital"
+  7. `replace`
+     - Before: "index"
+     - After: "Index"
+  8. `delete`
+     - Before: ", to determine whether it can buffer or exacerbate these disparities"
+     - After: ""
+
+### part-04a
+
+- Location: Introduction, contribution paragraph, second contribution sentence
+- Reason: Rename the empirical framework as pathway-based rather than mechanism-based.
+- Kila decisions: KILA-D-20260830-001
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T22:38:30Z
+- Author: Kila
+- Markup SHA-256 before: `6dff3d743dc3781cc4edeb1079edf488e9548825104069004abbdde80d9e9e3d`
+- Markup SHA-256 after: `79a3877c8463fbb10ad75e80aebd8b10d4c0f42a856592b99922f14f513165ba`
+- Revision IDs: `2551, 2552`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260830T073830433944.reviewer-2-comment-3.part-04a.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Second, the study develops a mechanism-based empirical framework that jointly examines the roles of economic insecurity and social support.
+~~~~
+
+- After:
+
+~~~~text
+Second, the study develops a pathway-based empirical framework that jointly examines the roles of economic insecurity and social support.
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "mechanism-based"
+     - After: "pathway-based"
+
+### part-04b
+
+- Location: Introduction, contribution paragraph, sentence beginning 'By incorporating'
+- Reason: Identify the validated parallel path framework rather than a sequential modeling strategy.
+- Kila decisions: KILA-D-20260830-001
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T22:38:30Z
+- Author: Kila
+- Markup SHA-256 before: `79a3877c8463fbb10ad75e80aebd8b10d4c0f42a856592b99922f14f513165ba`
+- Markup SHA-256 after: `bf89d5ff84224b938f2da8ac582a04bd920cdda27abe87fe5b24d20d8a16f36f`
+- Revision IDs: `2553, 2554, 2555, 2556, 2557, 2558, 2559, 2560, 2561, 2562`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260830T073831090270.reviewer-2-comment-3.part-04b.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+By incorporating both mechanisms within a sequential modeling strategy, the analysis provides a clearer assessment of how economic disadvantage and social relationships are associated with rural–urban differences in life satisfaction.
+~~~~
+
+- After:
+
+~~~~text
+By jointly modeling both sets of measures within a parallel path framework, the analysis provides a clearer assessment of how economic disadvantage and social relationships are associated with rural–urban differences in life satisfaction.
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "incorporating"
+     - After: "jointly modeling"
+  2. `replace`
+     - Before: "mechanisms"
+     - After: "sets of measures"
+  3. `replace`
+     - Before: "sequential"
+     - After: "parallel"
+  4. `replace`
+     - Before: "modeling"
+     - After: "path"
+  5. `replace`
+     - Before: "strategy"
+     - After: "framework"
+
+### part-05
+
+- Location: Data and Measurement > Economic Insecurity Measures, opening sentence
+- Reason: Remove an unsupported positive mediation claim and identify the measures as candidate statistical pathways.
+- Kila decisions: KILA-D-20260830-001
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T22:38:31Z
+- Author: Kila
+- Markup SHA-256 before: `bf89d5ff84224b938f2da8ac582a04bd920cdda27abe87fe5b24d20d8a16f36f`
+- Markup SHA-256 after: `92f189496c6dd3f5b61a5caeff3526817e8a0af43e0b948ca1b50aeb1f649818`
+- Revision IDs: `2563, 2564, 2565, 2566, 2567, 2568, 2569`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260830T073831752180.reviewer-2-comment-3.part-05.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Economic insecurity is a crucial mediating mechanism (Akter & Basher, 2014; Mahmud & Riley, 2021; Su et al., 2023).
+~~~~
+
+- After:
+
+~~~~text
+Economic insecurity is examined as a set of candidate statistical pathways (Akter & Basher, 2014; Mahmud & Riley, 2021; Su et al., 2023).
+~~~~
+
+- Minimal tracked fragments:
+  1. `insert`
+     - Before: ""
+     - After: "examined as "
+  2. `replace`
+     - Before: "crucial"
+     - After: "set"
+  3. `replace`
+     - Before: "mediating"
+     - After: "of"
+  4. `replace`
+     - Before: "mechanism"
+     - After: "candidate statistical pathways"
+
+### part-06
+
+- Location: Data and Measurement > Social Support and Control Variables, opening sentence
+- Reason: Describe social support as a correlate rather than an empirically established mechanism.
+- Kila decisions: KILA-D-20260830-001
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T22:38:32Z
+- Author: Kila
+- Markup SHA-256 before: `92f189496c6dd3f5b61a5caeff3526817e8a0af43e0b948ca1b50aeb1f649818`
+- Markup SHA-256 after: `58ea97759b5312b829c0e8dcc56a300f86dc40a7c0dc5d538e4a3c9fea29eebc`
+- Revision IDs: `2570, 2571, 2572, 2573, 2574, 2575, 2576, 2577`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260830T073832409927.reviewer-2-comment-3.part-06.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Social support, a key mechanism for understanding well-being, is captured by a standardized Social Capital Index (Yip et al., 2007; Yu et al., 2022; Zhang et al., 2026).
+~~~~
+
+- After:
+
+~~~~text
+Social support, an important correlate of well-being, is captured by a standardized Social Capital Index (Yip et al., 2007; Yu et al., 2022; Zhang et al., 2026).
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "a"
+     - After: "an"
+  2. `replace`
+     - Before: "key"
+     - After: "important"
+  3. `replace`
+     - Before: "mechanism"
+     - After: "correlate"
+  4. `replace`
+     - Before: "for understanding"
+     - After: "of"
+
+### part-07
+
+- Location: Methodology > Primary OLS Specifications for Life Satisfaction, Income Security Feelings variable-role sentence
+- Reason: Re-edit the prior inserted variable-role label so it denotes a statistical pathway rather than a mechanism.
+- Kila decisions: KILA-D-20260830-001
+- Mode: `reedit`
+- Revises prior parts: reviewer-1/comment-6#part-01
+- Timestamp: 2026-08-29T22:40:31Z
+- Author: Kila
+- Markup SHA-256 before: `58ea97759b5312b829c0e8dcc56a300f86dc40a7c0dc5d538e4a3c9fea29eebc`
+- Markup SHA-256 after: `241f7687c24c08a75ad6168927058d056b3311fc8e069f5f95e95e47613445c3`
+- Revision IDs: `496`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260830T074031738576.reviewer-2-comment-3.part-07.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+economic insecurity mechanism variable
+~~~~
+
+- After:
+
+~~~~text
+economic-security pathway variable
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "economic"
+     - After: "economic-security"
+  2. `replace`
+     - Before: "insecurity mechanism"
+     - After: "pathway"
+
+### part-08
+
+- Location: Methodology, subsection heading before the parallel path specification
+- Reason: Name the section for the model actually estimated rather than an unsupported generic mechanism analysis.
+- Kila decisions: KILA-D-20260830-001
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T22:40:41Z
+- Author: Kila
+- Markup SHA-256 before: `241f7687c24c08a75ad6168927058d056b3311fc8e069f5f95e95e47613445c3`
+- Markup SHA-256 after: `d7f9f6a3b1bec3fd40f2f470105edc8f86d292f3557ced19e46e512acfb4a1f3`
+- Revision IDs: `2578, 2579`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260830T074041338819.reviewer-2-comment-3.part-08.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Mechanism Analysis
+~~~~
+
+- After:
+
+~~~~text
+Parallel Path Analysis
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "Mechanism"
+     - After: "Parallel Path"
+
+### part-09
+
+- Location: Results, subsection heading before the parallel path estimates
+- Reason: Label the Results subsection by the reported conditional direct and indirect associations rather than causal mechanisms explaining the gap.
+- Kila decisions: KILA-D-20260830-001
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-29T22:40:49Z
+- Author: Kila
+- Markup SHA-256 before: `d7f9f6a3b1bec3fd40f2f470105edc8f86d292f3557ced19e46e512acfb4a1f3`
+- Markup SHA-256 after: `80ce915badd0f291ffeafd6e8bca9fa30119ebe574d5d8564cae9d52841d0973`
+- Revision IDs: `2580, 2581, 2582, 2583`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260830T074050034983.reviewer-2-comment-3.part-09.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Mechanisms Explaining the Rural-Urban Gap
+~~~~
+
+- After:
+
+~~~~text
+Conditional Direct and Indirect Associations for the Rural-Urban Gap
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "Mechanisms"
+     - After: "Conditional"
+  2. `replace`
+     - Before: "Explaining"
+     - After: "Direct and Indirect Associations for"
+
+### part-01c
+
+- Location: Abstract, final sentence
+- Reason: Replace causal/mechanistic framing with a descriptive statement of conditional association.
+- Kila decisions: KILA-D-20260830-001
+- Mode: Microsoft Word native Track Changes after the controlled editor safely blocked the complex run boundary
+- Revises prior parts: none
+- Timestamp: 2026-08-30T07:49:00+09:00
+- Word revision author: Chao Li
+- Markup SHA-256 before: `80ce915badd0f291ffeafd6e8bca9fa30119ebe574d5d8564cae9d52841d0973`
+- Markup SHA-256 after: `62496bcbe1524a3d8d777bf479629e0d6b2cde7d50eea2d5ccaf7eedc2ee8cce`
+- Target revision IDs after Word save: deletion `124`; insertion `125`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260830T075221+0900.reviewer-2-comment-3.part-01c.word-native.docx`
+- Paragraph properties preserved: `true` (implicit paragraph properties before and after)
+- Implementation: The controlled tracked-edit writer refused the approved replacement because the changed span crossed a complex Word run. Under the human-approved consolidated Word-native exception, the agent operated Microsoft Word only on a temporary copy, enabled Track Changes, and replaced the uniquely matched exact sentence. The candidate was promoted only after structural and accepted-view checks passed.
+- Revision verification: Word retained all `2,178` existing revision wrappers, added one native deletion and one native insertion, and renumbered existing revision IDs during save. The final markup has `2,180` numeric, unique revision IDs, uses `w:delText` for deletions, retains Track Changes, and preserves all `12` `m:oMath` objects.
+- Semantic verification: accepting revisions produced `683` document/table paragraphs before and after; only Abstract paragraph `3` changed. The old sentence occurs zero times and the approved sentence occurs once. Active and deleted field-instruction counts remain `178` and `38`, all `542` field characters remain, all `9` tables and embedded media remain unchanged, and the response draft SHA-256 remains `9b751bb9f72b54bfbed9105c2777e87a9d47fe73d46a859be9b2cd73d3de1ed4`.
+- Non-target Word-save verification: `word/endnotes.xml` and `word/footnotes.xml` are identical after removing volatile Word RSID metadata. The settings change consists of volatile RSID refreshes and removal of the pre-existing hidden-markup view flag; Track Changes remains enabled. No package member was added or removed.
+- Before:
+
+~~~~text
+Overall, this research clarifies the complex interplay of economic precarity and social capital in shaping rural-urban well-being disparities across diverse global settings.
+~~~~
+
+- After:
+
+~~~~text
+Overall, this research characterizes how economic precarity and social capital are conditionally associated with rural-urban well-being disparities across diverse global settings.
+~~~~
+
+- Tracked replacement:
+  1. `replace`
+     - Before: "Overall, this research clarifies the complex interplay of economic precarity and social capital in shaping rural-urban well-being disparities across diverse global settings."
+     - After: "Overall, this research characterizes how economic precarity and social capital are conditionally associated with rural-urban well-being disparities across diverse global settings."
