@@ -9024,3 +9024,107 @@ Figure 6. Place-specific rural-urban life satisfaction coefficients grouped by U
 - The five-location bundle uses the `1`–`5` location quotation tier and quotes all five revised text locations: Methodology, Results, Discussion, Figure 6 title, and Figure 6 note. Every quotation is enclosed in straight double quotation marks and is followed immediately by its own `(Lines/Pages: human verification required)` marker.
 - Each quoted string occurs exactly once in the fresh clean manuscript. The response states that the drawing itself was replaced with the 23-place UN M49 grouped forest plot and accurately limits the regional grouping to descriptive organization rather than a modeled historical or cultural explanation.
 - The formal markup, fresh clean, Supplementary Materials document, and Kila log were unchanged during response drafting. The comment remains `human_review_required` pending explicit approval of this response.
+
+# Reviewer 1 / Comment 8
+
+## Approved bundle
+
+- Human approval: complete three-part bundle approved and recorded as `KILA-D-20260830-021`.
+- Proposal: `Rev/docs/reviewer-1-comment-8-consolidated-proposal.md`.
+- Validated analysis source: `reports/comment8_unadjusted_place_gaps/supplementary_table_s5.csv`, SHA-256 `7afe5f6ba814481343c9ddd400b2793320dc88a15a0d952b20a25c7fd48c2ae2`.
+
+### part-02 — standalone Supplementary Materials contents paragraph
+
+- Artifact: `Rev/revision/ZDP02l.supplementary.docx`.
+- Location: opening contents paragraph immediately before `Supplementary Tables`.
+- Reason: identify the approved unadjusted 23-place comparison and make Table S5 discoverable.
+- Kila decision: `KILA-D-20260830-021`.
+- Mode: agent-authored standalone Supplementary Materials exact paragraph replacement.
+- Revises prior parts: `reviewer-1/comment-7#part-18` and `reviewer-2/comment-5#part-04`.
+- Timestamp: `2026-08-30T20:13:17+0900`.
+- Supplement SHA-256 before: `4373da1d47eac5a319eb51c38bd8a82230187119882e503371b522e8c32ee1ae`.
+- Supplement SHA-256 after: `e876f937a70c4ec3632f7cd62f8f5ac740e4a5ca9580dbeb987a04174b93c8e0`.
+- Recovery copy: `/private/tmp/ZDP02l.supplementary.before-r1c8.docx`.
+- Before:
+
+~~~~text
+These supplementary tables and figure report ordinal-model robustness analyses for life satisfaction, sample-alignment diagnostics, and exploratory analytical-place pathway heterogeneity. Table S1 presents the prespecified four-category analysis, Table S2 reports sensitivity on the original 0–10 scale, Table S3 documents sample construction, variable-level missingness, and exact model denominators, and Table S4 reports place-specific direct and indirect associations, global heterogeneity tests, and survey-weighted sensitivity diagnostics. Figure S1 displays the place-specific indirect-association estimates.
+~~~~
+
+- After:
+
+~~~~text
+These supplementary tables and figure report ordinal-model robustness analyses for life satisfaction, sample-alignment diagnostics, unadjusted analytical-place rural-urban differences, and exploratory analytical-place pathway heterogeneity. Table S1 presents the prespecified four-category analysis, Table S2 reports sensitivity on the original 0–10 scale, Table S3 documents sample construction, variable-level missingness, and exact model denominators, and Table S4 reports place-specific direct and indirect associations, global heterogeneity tests, and survey-weighted sensitivity diagnostics. Table S5 reports unadjusted survey-weighted rural and urban life-satisfaction means and rural-minus-urban differences across all 23 analytical places. Figure S1 displays the place-specific indirect-association estimates.
+~~~~
+
+### part-03 — standalone Supplementary Table S5
+
+- Artifact: `Rev/revision/ZDP02l.supplementary.docx`.
+- Location: after the Table S4 inference paragraph and before the `Supplementary Figure` heading.
+- Reason: provide the complete unadjusted rural-urban comparison requested by the reviewer without adding a redundant main-text figure.
+- Kila decision: `KILA-D-20260830-021`.
+- Mode: agent-authored standalone Supplementary Materials table append using the existing Table S4 visual law.
+- Timestamp: `2026-08-30T20:13:17+0900`.
+- Title: `Table S5. Survey-weighted unadjusted rural-urban differences in life satisfaction across analytical places`.
+- Object: one `25 × 7` table comprising a title row, a repeated header row, and 23 analytical-place rows, followed by the approved Notes paragraph.
+- Numerical source: `reports/comment8_unadjusted_place_gaps/supplementary_table_s5.csv`, SHA-256 `7afe5f6ba814481343c9ddd400b2793320dc88a15a0d952b20a25c7fd48c2ae2`.
+- Builder: `scripts/update_comment8_supplement.py`, SHA-256 `37b07443453d1255aef9eeb4c9135996a1e6cc46644d069ca276cbb78701157a`.
+- Geometry and style: fixed `9360` DXA table width; seven explicit grid/cell widths; Times New Roman; existing Supplement `Table` paragraph style; title/header rows repeat; every row uses `cantSplit`; all cells are vertically centered with the same margins and horizontal-rule convention as Table S4.
+- Structural verification: the output is a valid DOCX with zero insertion, deletion, or move wrappers; all 23 CSV rows and every displayed value match exactly; the preceding seven tables are canonical-XML identical to the pre-edit supplement; all ten embedded-media hashes are unchanged.
+- Visual verification: the updated Supplement renders to nine US Letter pages. All nine pages were inspected at original detail. Table S5 occupies page 8, all 23 rows and the complete Notes paragraph are visible, and no clipping, overlap, missing glyph, broken border, cramped cell, or awkward split is present. Existing Tables S1–S4 and Figure S1 remain visually intact.
+
+### Bundle progress after standalone Supplement update
+
+- Parts `02` and `03` are complete and verified (`2/3`).
+- Part `01` dry run was attempted with `edit-markup-docx` `mode: reedit` and blocked safely: `Confirmed re-edit span does not map to existing inserted text`.
+- Part `01` therefore remains the already-disclosed Word-native Track Changes exception. No markup write occurred; markup SHA-256 remains `0d13214ee02ba75141c80d4a40ca42e61c5395a7781059ca657aed18e0903e9e`.
+- Fresh-clean regeneration, consolidated manuscript review, response drafting, and comment closure remain deferred until the human reports the Part 01 Word save.
+
+### part-01 — main Results cross-reference and descriptive summary
+
+- Artifact: `Rev/revision/ZDP02l.rev.markup.docx`.
+- Location: Results > Cross-Place Heterogeneity, second paragraph, opening sentence.
+- Reason: link the new unadjusted 23-place display from the main Results, report its overall range and sign count, and distinguish it from the adjusted coefficients in Figure 6.
+- Kila decisions: `KILA-D-20260830-021`; implementation confirmation and evaluation `KILA-D-20260830-022`.
+- Mode: approved human-owned Word-native tracked replacement after the controlled prior-insertion re-edit dry run blocked safely.
+- Revises prior part: `reviewer-2/comment-6#part-02`.
+- Timestamp: `2026-08-30T20:22:57+0900` human save confirmed; consolidated verification completed `2026-08-30T20:29:41+0900`.
+- Markup SHA-256 before: `0d13214ee02ba75141c80d4a40ca42e61c5395a7781059ca657aed18e0903e9e`.
+- Markup SHA-256 after: `0dfdfcbdd6e3d6e78a1f0e1c522e2c60ef9394cb1e9ef1cc25691227e2cb588b`.
+- Before:
+
+~~~~text
+Figure 6 groups the 23 analytical places by UN M49 geographic region and orders estimates by effect size within each region.
+~~~~
+
+- After:
+
+~~~~text
+Supplementary Table S5 reports the unadjusted survey-weighted rural and urban life-satisfaction means and rural-minus-urban differences for all 23 analytical places on the same locked common sample. The unadjusted differences range from -0.282 to +0.529 points, with 14 positive and 9 negative values. Figure 6 groups the corresponding adjusted place-specific coefficients by UN M49 geographic region and orders them by effect size within each region.
+~~~~
+
+- Protected following sentence preserved exactly: `Because the plotted estimates come from separate survey-weighted place regressions on the locked common sample, we treat the figure as descriptive and do not use it to classify individual places by statistical significance.`
+- Paragraph properties preserved: `true`.
+- EndNote fields and hyperlinks: none in the edited paragraph; global clean field and hyperlink signatures remained unchanged.
+
+### Consolidated execution receipt
+
+- Bundle status: Parts `01`–`03` are implemented and verified (`3/3`). Part 01 is the approved human-owned Word-native tracked replacement; Parts 02–03 are the agent-owned standalone Supplementary Materials update.
+- Formal markup: `Rev/revision/ZDP02l.rev.markup.docx`; SHA-256 `0dfdfcbdd6e3d6e78a1f0e1c522e2c60ef9394cb1e9ef1cc25691227e2cb588b`; size `1,501,522` bytes; `1,059` insertion and `1,293` deletion wrappers remain present.
+- Formal clean: `Rev/revision/ZDP02l.rev.clean.docx`; SHA-256 `5af6708a32ee3b6837b7a9d0be4c849d9a0a9be72e76d1b48cd2e141681fd201`; size `1,259,980` bytes; regenerated from the formal markup with revisions accepted only in the clean copy.
+- Clean reproducibility: two independent generations produced byte-identical payloads for all `33` DOCX package members; whole-file ZIP hashes differed only because of archive timestamps.
+- Clean structure: zero revisions; `9` tables; `7` drawings; `178` field beginnings; `11` nonempty OMML objects; `57` hyperlinks; and `13` media objects.
+- Semantic verification: the approved Part 01 passage occurs exactly once in the fresh clean; the protected next sentence is unchanged; clean versus the preceding formal clean changes only body paragraph `79`; all nine table text matrices, all 13 media hashes, paragraph properties, field instructions, and hyperlink signatures are unchanged.
+- Standalone Supplementary Materials: `Rev/revision/ZDP02l.supplementary.docx`; SHA-256 `e876f937a70c4ec3632f7cd62f8f5ac740e4a5ca9580dbeb987a04174b93c8e0`; zero revisions; the opening contents paragraph and complete 23-place Table S5 occur exactly as approved.
+- Visual QA: all `58` clean pages and all `82` markup pages were reviewed through contact sheets. Clean page `25` and markup page `35`, which contain Part 01, received additional 220-dpi full-resolution inspection. No clipping, overlap, missing glyph, malformed field, table defect, drawing defect, or new style drift was found. The nine-page standalone Supplement had already passed full-page review, including complete Table S5 on page `8`.
+- Source immutability: clean generation and visual review did not modify the formal markup; its SHA-256 remained `0dfdfcbdd6e3d6e78a1f0e1c522e2c60ef9394cb1e9ef1cc25691227e2cb588b`.
+- Next gate: update and human-review only the Reviewer 1 / Comment 8 response block; the comment remains open until that response is explicitly approved.
+
+### Response-draft receipt
+
+- Only the Reviewer 1 / Comment 8 response block in `Rev/revision/response-draft.md` was replaced under the verified-comment workflow exception; the pre-edit SHA-256 was `b1edda7b02917d2f3e40a4d7f45c61af303076a7459bf99e4ef131f4c45293f5` and the post-edit SHA-256 is `af286dd87b76dd6773e8dd9b317c1fef1ab69685507f8a347e1e822953f3b082`.
+- The three-location bundle uses the `1`–`5` location quotation tier and quotes all three revised locations: the main Results paragraph, the standalone Supplementary Materials contents paragraph, and the Table S5 title.
+- Every quotation is enclosed in straight double quotation marks and is followed by its own `(Lines/Pages: human verification required)` marker; the target block contains exactly three quotations, three markers, and no Markdown blockquote prefix.
+- The Results quotation occurs verbatim in the fresh clean manuscript (SHA-256 `5af6708a32ee3b6837b7a9d0be4c849d9a0a9be72e76d1b48cd2e141681fd201`). The two supplementary quotations occur verbatim in the separately verified current Supplementary Materials document (SHA-256 `e876f937a70c4ec3632f7cd62f8f5ac740e4a5ca9580dbeb987a04174b93c8e0`).
+- The Reviewer 1 / Comment 8 text remains verbatim, the placeholder is absent from the target block, and Git diff confirms that no other response block changed.
+- The formal markup, fresh clean, and Supplementary Materials DOCX files were unchanged during response drafting. The comment remains `human_review_required` pending explicit approval of this response.

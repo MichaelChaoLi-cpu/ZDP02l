@@ -6746,3 +6746,197 @@ Reviewer 2 Comment 6 can be marked done; the approved response and verified manu
 ### Follow-Up
 
 Mark Reviewer 2 Comment 6 done, append the execution log, then route to the next dependency-ready comment.
+
+## KILA-D-20260830-021: Approve supplementary unadjusted place-gap table
+
+- Event SHA-256: 203e1eb703554c8c9bf08b8d6ef5a87716edadd357d25d7400dcb8ce3e52e4ac
+- Recorded at: 2026-08-30T20:06:05+09:00
+- Revision workspace: Rev
+- Revision stage: proposal-review
+- Reviewer ID: reviewer-1
+- Comment ID: comment-8
+- Decision type: display-and-analysis-scope
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/docs/reviewer-1-comment-8-consolidated-proposal.md
+- Object SHA-256: 443604f5fddfcbd661f3f195e4bc15961838d4b47ba8883173fae9c8fc18642b
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Add a table or figure showing unadjusted rural-urban differences across countries and regions.
+
+### Decision Context
+
+The current manuscript has adjusted place-specific coefficients in Figure 6 but no current 23-place display of unadjusted rural-urban life-satisfaction differences. A validated analysis on the locked common sample produced survey-weighted rural and urban means, raw differences, and HC3 intervals for all 23 analytical places.
+
+### Kila Recommendation
+
+Add one standalone Supplementary Table S5 and a concise Results cross-reference; do not add another main-text figure.
+
+### Options Presented
+
+- Add Supplementary Table S5 plus a Results cross-reference and retain the current main figure set.
+- Add a new main-text figure instead of a supplementary table.
+
+### Human Decision
+
+Approved the complete three-part bundle: add the Results cross-reference and summary, update the Supplementary Materials contents paragraph, and add Supplementary Table S5; no new main-text figure.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The revision will show unadjusted survey-weighted rural and urban means and rural-minus-urban differences for all 23 analytical places on the locked common sample while avoiding an additional potentially redundant main-text figure.
+
+### Affected Manuscript Sections
+
+- Results > Cross-Place Heterogeneity
+- Standalone Supplementary Materials
+
+### Related Artifacts
+
+- Rev/docs/reviewer-1-comment-8-consolidated-proposal.md
+- reports/comment8_unadjusted_place_gaps/supplementary_table_s5.csv
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.supplementary.docx
+
+### Follow-Up
+
+Apply the approved Results re-edit if structurally safe, author Supplementary Table S5, regenerate a fresh clean, and perform one consolidated semantic and visual review.
+
+## KILA-D-20260830-022: Confirm Reviewer 1 Comment 8 Results Word operation
+
+- Event SHA-256: e898013615c043623d2d202846b6e1ffb250a6efedb89b24141711a862ced681
+- Recorded at: 2026-08-30T20:22:57+09:00
+- Revision workspace: Rev
+- Revision stage: implementation-review
+- Reviewer ID: reviewer-1
+- Comment ID: comment-8
+- Decision type: word-operation-completion
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260830-021
+- Decision object: None recorded
+- Object SHA-256: None recorded
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Add an unadjusted rural-urban comparison across analytical places and link it from the main Results.
+
+### Decision Context
+
+Part 01 required a Word-native Track Changes operation because the safe re-edit dry run could not map the approved target wholly to one prior insertion. Parts 02 and 03 were already complete in the standalone Supplementary Materials.
+
+### Kila Recommendation
+
+Verify the reported Word save from a newly generated clean and complete one consolidated three-part review.
+
+### Options Presented
+
+- Confirm the exact approved Part 01 Word operation was completed and saved.
+
+### Human Decision
+
+Reported that Reviewer 1 Comment 8 Part 01 was completed in Word and saved.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The saved markup should now contain the approved Supplementary Table S5 cross-reference and descriptive range/count summary, completing the three-part bundle pending machine verification.
+
+### Affected Manuscript Sections
+
+- Results > Cross-Place Heterogeneity
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.supplementary.docx
+
+### Follow-Up
+
+Generate a fresh clean, verify all three approved parts and visual layout, and update only the Reviewer 1 Comment 8 response if all gates pass.
+
+## KILA-D-20260830-023: Approve Reviewer 1 Comment 8 response and implementation
+
+- Event SHA-256: 85f1d0ee7226a1eafde6305a72cafd5caed6711eccb9ddfbbadcd11da0aba1b4
+- Recorded at: 2026-08-30T20:36:20+09:00
+- Revision workspace: Rev
+- Revision stage: response-review
+- Reviewer ID: reviewer-1
+- Comment ID: comment-8
+- Decision type: implementation-approval
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260830-022
+- Decision object: Rev/revision/response-draft.md
+- Object SHA-256: af286dd87b76dd6773e8dd9b317c1fef1ab69685507f8a347e1e822953f3b082
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Add an unadjusted rural-urban comparison across analytical places and link it from the main Results.
+
+### Decision Context
+
+The approved three-part bundle has been implemented, regenerated into a fresh clean manuscript, verified structurally and visually, and represented in a targeted response block with three exact quotations and three human-verification markers.
+
+### Kila Recommendation
+
+Accept the verified response and complete Reviewer 1 Comment 8.
+
+### Options Presented
+
+- Approve the Reviewer 1 Comment 8 response and verified three-part implementation.
+
+### Human Decision
+
+Approved the Reviewer 1 Comment 8 response and the verified three-part implementation without revision.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Close Reviewer 1 Comment 8 as fully addressed and advance to the next dependency-ready reviewer comment.
+
+### Affected Manuscript Sections
+
+- Results > Cross-Place Heterogeneity
+- Standalone Supplementary Materials
+- Response to Reviewer 1, Comment 8
+
+### Related Artifacts
+
+- Rev/revision/response-draft.md
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/revision/ZDP02l.supplementary.docx
+- Rev/docs/revisionchanges.md
+
+### Follow-Up
+
+Mark reviewer-1/comment-8 done, validate the plan, and route the next executable item; use manage-git-workflow for the authorized checkpoint when available.

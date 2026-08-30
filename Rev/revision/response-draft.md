@@ -280,9 +280,17 @@ The comment resulted in 19 distinct manuscript and supplementary locations (the 
 a. The authors may consider adding a table/figure of the unadjusted differences between rural and urban residents across countries/regions.
 
 **Response:**
-[Response pending.]
+Thank you for this helpful suggestion. We added Supplementary Table S5, which reports survey-weighted unadjusted rural and urban life-satisfaction means and rural-minus-urban differences for all 23 analytical places on the locked common complete-case sample (N = 183,685). The table also reports HC3 confidence intervals from survey-weighted OLS regressions with rural residence as the only predictor and no covariates. The revised Results summarizes the range and direction of the unadjusted differences and distinguishes them from the adjusted place-specific coefficients in Figure 6. Because this comment changes three distinct locations across the main manuscript and standalone Supplementary Materials, all three locations are quoted below.
 
-"[Exact revised text quoted from the fresh clean manuscript]"
+"Supplementary Table S5 reports the unadjusted survey-weighted rural and urban life-satisfaction means and rural-minus-urban differences for all 23 analytical places on the same locked common sample. The unadjusted differences range from -0.282 to +0.529 points, with 14 positive and 9 negative values. Figure 6 groups the corresponding adjusted place-specific coefficients by UN M49 geographic region and orders them by effect size within each region."
+
+(Lines/Pages: human verification required)
+
+"These supplementary tables and figure report ordinal-model robustness analyses for life satisfaction, sample-alignment diagnostics, unadjusted analytical-place rural-urban differences, and exploratory analytical-place pathway heterogeneity. Table S1 presents the prespecified four-category analysis, Table S2 reports sensitivity on the original 0–10 scale, Table S3 documents sample construction, variable-level missingness, and exact model denominators, and Table S4 reports place-specific direct and indirect associations, global heterogeneity tests, and survey-weighted sensitivity diagnostics. Table S5 reports unadjusted survey-weighted rural and urban life-satisfaction means and rural-minus-urban differences across all 23 analytical places. Figure S1 displays the place-specific indirect-association estimates."
+
+(Lines/Pages: human verification required)
+
+"Table S5. Survey-weighted unadjusted rural-urban differences in life satisfaction across analytical places"
 
 (Lines/Pages: human verification required)
 
