@@ -182,9 +182,25 @@ The ten changed manuscript locations fall in the 6–10-location quotation tier;
 a. Overall, there are a lot of details, such as the description of data preprocessing, that could be deleted to keep the manuscript concise. It might be better to include some of them (together with the corresponding figures/tables) in the appendix or supplementary materials.
 
 **Response:**
-[Response pending.]
+Thank you for this suggestion. We have substantially condensed the Data and Measurement and Methodology sections while retaining the information needed to understand the sample, measures, estimands, and robustness checks. Specifically, we deleted raw missing-code implementation detail, shortened the sample-construction and outcome-measure descriptions, removed repeated survey-weight and place-specific setup text, and consolidated the descriptions of the primary and place-specific estimators. Detailed sample construction, missingness, and sensitivity-model denominators are now directed to Supplementary Table S3 rather than repeated in the main text. We retained the core model specifications, Equation (1), and the prespecified robustness checks because they remain necessary for interpreting the analyses.
 
-"[Exact revised text quoted from the fresh clean manuscript]"
+"After preprocessing, the dataset contains 207,919 respondents across 23 analytical places. Missing values are not imputed. The primary OLS specifications and parallel path model use a prespecified common complete-case sample of 183,685 respondents (88.3% of the processed dataset). Table 1 reports variable-specific descriptive Ns, while Supplementary Table S3 documents sample construction, missingness, and exact sensitivity-model denominators."
+
+(Lines/Pages: human verification required)
+
+"Life Satisfaction is the primary outcome and is measured on a 0-10 scale, with higher values indicating greater overall satisfaction with life (Gross-Manos & Shimoni, 2020; Li et al., 2026; Tsurumi et al., 2021; Wang et al., 2015). It captures respondents’ cognitive evaluation of their lives rather than transient emotional states (Diener et al., 2018; Oswald & Wu, 2010). This conceptualization follows subjective well-being research that distinguishes evaluative from affective components and treats life satisfaction as a comprehensive judgment of life circumstances (Gross-Manos & Shimoni, 2020; Wang et al., 2015; Wei et al., 2024). Table 1 reports the variable-specific N and rural-urban descriptive statistics."
+
+(Lines/Pages: human verification required)
+
+"Happiness and Wellbeing Today serve as alternative well-being outcomes for robustness checks. Both are measured on a 0–10 scale, with higher values indicating greater self-reported happiness or current well-being, respectively. Table 1 reports their rural-urban descriptive statistics, while Table 5 and Supplementary Table S3 report the exact model denominators. These measures assess whether the adjusted rural-residence pattern is similar across related facets of subjective well-being."
+
+(Lines/Pages: human verification required)
+
+"The primary analysis uses ordinary least squares (OLS) to estimate the association between rural residence and life satisfaction while adjusting for prespecified covariates and place fixed effects (Fanfan et al., 2025; Hu et al., 2025; Lankila et al., 2013). OLS is retained because its coefficient is directly interpretable in scale points and the approach is widely used in prior well-being research."
+
+(Lines/Pages: human verification required)
+
+"For each analytical place, survey-weighted OLS regresses Life Satisfaction on Rural Residence while adjusting for: Age, Gender, Marital Status, Employment, and Education (Fanfan et al., 2025; Hu et al., 2025; Lankila et al., 2013). The 23 place-specific estimates are treated as descriptive and use HC3 confidence intervals; all places contain rural and urban respondents and at least 1,310 complete observations. The multilevel robustness model complements these estimates by partially pooling rural associations through correlated place random intercepts and rural random slopes. For Figure 2, places are grouped by UN M49 continental region and ordered by coefficient within region. Region is used only to organize the display, not as a modeled moderator or evidence of shared historical or cultural mechanisms."
 
 (Lines/Pages: human verification required)
 

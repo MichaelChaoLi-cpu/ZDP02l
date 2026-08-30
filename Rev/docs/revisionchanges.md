@@ -9356,3 +9356,70 @@ A focused comparison illustrates this heterogeneity in both adjusted and unadjus
 - Target isolation: only the Reviewer 1 / Comment 13 response block differs from the preceding response draft. The exact reviewer text remains byte-identical to `Rev/docs/structuredcomments.md`; every other response block is unchanged.
 - Artifact immutability: formal markup remains SHA-256 `7d3ab05b8de5090a6bc5cd16214321e9cb1e385e436764634b7df0eec94e11b5`; fresh clean remains SHA-256 `869c7d62fe4100b8901ec109b77afea95f0ebf9be26cffecd2ba9e6a212a0cd4`; and standalone Supplement remains SHA-256 `d6970a88760d55bdf45b04015400cb533d8b3c27a7c94563a0880dc5581b1f1d`.
 - Next gate: explicit human review of the Reviewer 1 / Comment 13 response. The approval phrase is `认可 reviewer-1/comment-13 response`.
+
+## reviewer-1/comment-5
+
+### part-01
+
+- Location: Data and Measurement > Data Source and Sample, final two sentences of opening paragraph
+- Reason: Delete unnecessary raw missing-code preprocessing detail while retaining the analytically relevant sample and missingness policy in the next paragraph and Supplementary Table S3.
+- Kila decisions: KILA-D-20260830-033
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-30T14:46:16Z
+- Author: Kila
+- Markup SHA-256 before: `7d3ab05b8de5090a6bc5cd16214321e9cb1e385e436764634b7df0eec94e11b5`
+- Markup SHA-256 after: `9acc1ced16cc17da1a29defb2646d369d6a9bd29686c3166231c6af4d5f5717d`
+- Revision IDs: `2825`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260830T234616682705.reviewer-1-comment-5.part-01.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Data preprocessing involved several critical steps to prepare the raw GFS microdata for analysis. Initially, missing codes, e.g., -98, 98, 99, were harmonized to NaN values.
+~~~~
+
+- After:
+
+~~~~text
+
+~~~~
+
+- Minimal tracked fragments:
+  1. `delete`
+     - Before: "Data preprocessing involved several critical steps to prepare the raw GFS microdata for analysis. Initially, missing codes, e.g., -98, 98, 99, were harmonized to NaN values."
+     - After: ""
+
+### consolidated-human-word-operation-receipt
+
+- Location: Data and Measurement and Methodology, approved narrowed Parts `02–04`, `07–08`, and `10–11`
+- Reason: Record the human-owned Word implementation of the approved concision bundle and the final EndNote-only correction without altering the five withdrawn parts.
+- Kila decisions: `KILA-D-20260830-033`; `KILA-D-20260831-001`; `KILA-D-20260831-002`
+- Mode: `human Word operation receipt`
+- Revises prior parts: `reviewer-1/comment-5#parts-02–04`, `#parts-07–08`, and `#parts-10–11`
+- Timestamp: 2026-08-31T07:53:26+09:00
+- Author: Human, verified by agent
+- Markup SHA-256 after human save: `2258bebf89f21aa61f147653d061fe36b68db9dd96527b2967f7131b4ecf232a`
+- Fresh clean SHA-256: `e9883c9250e0d84e1d72d6f39475bfac2018b3e950b91cfc16c9e3d2b1c2ec23`
+- Verified active changes: Parts `02–04`, `07–08`, and `10–11` are reflected in the accepted clean; Part `01` remains complete.
+- Verified retained scope: Parts `05`, `06`, `09`, `12`, and `13` remain present, including Equation (1), its lead-in, and its definition paragraph.
+- EndNote verification: `(Diener et al., 2018; Oswald & Wu, 2010)` is field-backed and Oswald and Wu (2010) is present in the bibliography.
+- Heading decision: no `Place-Level Heterogeneity` heading paragraph was deleted; the current structure is retained after the human corrected the agent's earlier diagnosis.
+- Visual verification: the 52-page clean and 82-page markup were rendered and reviewed in full; no clipping, overlap, missing glyphs, broken table/figure, or unintended style drift was identified.
+
+### response-receipt
+
+- Location: `Rev/revision/response-draft.md`, Reviewer 1 / Comment 5 block only
+- Mode: `verified-comment exception`
+- Fresh-clean basis: `e9883c9250e0d84e1d72d6f39475bfac2018b3e950b91cfc16c9e3d2b1c2ec23`
+- Response SHA-256 before: `a9ab030a811dbfd1192cbcd6955864544bb9a6e95e9fca7bac6849b4535d96dc`
+- Response SHA-256 after: `e410f84a5d0139e71812e5a2858a95b3f9f4a43c987b13a32d5b021fc077b39b`
+- Distinct implemented locations: `8`
+- Representative exact quotations: `5`
+- Verification: every quotation occurs verbatim in the fresh-clean extraction, uses straight double quotation marks, has its own `(Lines/Pages: human verification required)` marker, and has no Markdown blockquote prefix.

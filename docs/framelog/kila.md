@@ -7528,3 +7528,265 @@ Reviewer 1 Comment 13 can be marked done with former Figure 5 removed as redunda
 ### Follow-Up
 
 Mark the plan row done and route the next dependency-ready comment.
+
+## KILA-D-20260830-033: Approve Reviewer 1 Comment 5 consolidated concision bundle
+
+- Event SHA-256: 0efd56d700a1ec3def401bc7e1539997d927feeba46acba8cff5ede5500a6998
+- Recorded at: 2026-08-30T23:45:22+09:00
+- Revision workspace: Rev
+- Revision stage: manuscript-bundle-approval
+- Reviewer ID: reviewer-1
+- Comment ID: comment-5
+- Decision type: concision-and-organization-bundle-approval
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/docs/reviewer-1-comment-5-consolidated-proposal.md
+- Object SHA-256: fd0375d370daf9e0fe65ce6df09618c581a93b435da136c1e40c85c214eff1a3
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Shorten Data and Measurement and Methodology, remove unnecessary preprocessing detail, place supporting detail in supplementary materials where appropriate, and separate measurement definitions, descriptive results, and methodology.
+
+### Decision Context
+
+The current Data and Measurement and Methodology sections were audited against the latest fresh clean, existing Table S3, prior tracked edits, EndNote fields, and formula/table objects. The complete proposal contains 13 parts and discloses every known overlap and human-owned operation before manuscript writing.
+
+### Kila Recommendation
+
+Approve the complete 13-part bundle, retain essential measurement and estimator definitions, use existing Supplementary Table S3 for detailed sample information, and consolidate all known unsafe Word operations into one opening.
+
+### Options Presented
+
+- Approve the complete 13-part consolidated bundle.
+
+### Human Decision
+
+The human approved the complete Reviewer 1 Comment 5 consolidated 13-part bundle.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The main manuscript will become shorter and better organized while preserving essential sample, measurement, estimator, sensitivity, and interpretation information; existing Supplementary Table S3 will carry detailed sample and missingness information.
+
+### Affected Manuscript Sections
+
+- Data and Measurement
+- Methodology
+- Supplementary Materials
+
+### Related Artifacts
+
+- Rev/docs/reviewer-1-comment-5-consolidated-proposal.md
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/revision/ZDP02l.supplementary.docx
+- Rev/docs/revisionchanges.md
+
+### Follow-Up
+
+Apply safe tracked parts sequentially, consolidate all disclosed Word-native overlaps and protected objects into one checklist, then perform one fresh-clean and visual review.
+
+## KILA-D-20260831-001: Narrow Reviewer 1 Comment 5 bundle to avoid broad replacement
+
+- Event SHA-256: 542c8cf0a80ee890f2e2440d7a4be8b754b3d174f5c79bdd85ce225e46faeb96
+- Recorded at: 2026-08-31T07:34:55+09:00
+- Revision workspace: Rev
+- Revision stage: manuscript-bundle-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-5
+- Decision type: bundle-scope-revision
+- Source skill: execute-procedure
+- Entry type: revision
+- Supersedes: KILA-D-20260830-033
+- Relates to: none
+- Decision object: Rev/docs/reviewer-1-comment-5-word-checklist.md
+- Object SHA-256: 3ffd7365d6c0ca6258f6a7f1a58c78c371715eaf2366bad03ad137d9f7715ec9
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Shorten and reorganize Data and Measurement and Methodology without over-replacing the manuscript.
+
+### Decision Context
+
+After approving the 13-part concision bundle and completing Part 01, the human reviewed the planned scope and chose to retain five current manuscript passages or objects rather than replace or delete them.
+
+### Kila Recommendation
+
+Withdraw Parts 05, 06, 09, 12, and 13; preserve their current accepted-view text and object structure; continue only Parts 01–04, 07–08, and 10–11.
+
+### Options Presented
+
+- Retain Parts 05, 06, 09, 12, and 13 and execute the narrower eight-part scope.
+
+### Human Decision
+
+The human withdrew Parts 05, 06, 09, 12, and 13 from the approved bundle and directed that their current manuscript content be retained. The active scope is Parts 01–04, 07–08, and 10–11; Part 01 is already complete.
+
+### Human-Provided Rationale
+
+Avoid whole-text replacement.
+
+### Expected Revision Effect
+
+The revision will address the reviewer's concision and organization concern through eight bounded parts while preserving the rural-residence paragraphs, generic OLS equation, four-category residence robustness paragraph, and final sensitivity paragraph.
+
+### Affected Manuscript Sections
+
+- Data and Measurement
+- Methodology
+
+### Related Artifacts
+
+- Rev/docs/reviewer-1-comment-5-consolidated-proposal.md
+- Rev/docs/reviewer-1-comment-5-word-checklist.md
+- Rev/docs/revisionplan.md
+- Rev/revision/ZDP02l.rev.markup.docx
+
+### Follow-Up
+
+Update the proposal and checklist to the narrower scope, then complete the seven remaining Word-native parts in one opening.
+
+## KILA-D-20260831-002: Confirm narrowed Comment 5 Word save and retain heading structure
+
+- Event SHA-256: 78ba3b7410c4031eb62f85472c22d66015a9bebdbda4d8d6e32f6d1e51368e61
+- Recorded at: 2026-08-31T07:53:26+09:00
+- Revision workspace: Rev
+- Revision stage: manuscript-bundle-execution
+- Reviewer ID: reviewer-1
+- Comment ID: comment-5
+- Decision type: implementation-scope-confirmation
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260831-001
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: 2258bebf89f21aa61f147653d061fe36b68db9dd96527b2967f7131b4ecf232a
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Reviewer requested a more concise Data and Measurement and Methodology presentation.
+
+### Decision Context
+
+Post-save review of the narrowed Reviewer 1 Comment 5 bundle after the human corrected the agent assessment of the Place-Level Heterogeneity spacing.
+
+### Kila Recommendation
+
+Retain the user-verified heading structure, verify the EndNote correction from a fresh clean, and do not perform any broad replacement.
+
+### Options Presented
+
+- Delete the allegedly empty heading paragraph.
+- Retain the heading structure and treat the earlier visual assessment as mistaken.
+
+### Human Decision
+
+The human rejected the proposed heading-paragraph deletion as an agent misreading, retained that structure, and reported the narrowed Word correction save complete.
+
+### Human-Provided Rationale
+
+The human stated that the empty Heading 2 diagnosis was incorrect.
+
+### Expected Revision Effect
+
+No heading deletion; preserve Parts 05, 06, 09, 12, and 13 and verify only the completed narrow citation-field correction and the approved active parts.
+
+### Affected Manuscript Sections
+
+- Data and Measurement
+- Methodology
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/reviewer-1-comment-5-word-checklist.md
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Regenerate a fresh clean, verify the narrowed bundle without deleting the heading structure, and draft the targeted response if adequate.
+
+## KILA-D-20260831-003: Approve Reviewer 1 Comment 5 response and implementation
+
+- Event SHA-256: a6565c1e4fc51ed743f7e843dbd84b3787ff3dbcad5019ca606dff2b77e1d88f
+- Recorded at: 2026-08-31T08:03:39+09:00
+- Revision workspace: Rev
+- Revision stage: response-approval
+- Reviewer ID: reviewer-1
+- Comment ID: comment-5
+- Decision type: response-and-implementation-approval
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260831-002
+- Decision object: Rev/revision/response-draft.md
+- Object SHA-256: e410f84a5d0139e71812e5a2858a95b3f9f4a43c987b13a32d5b021fc077b39b
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Reviewer requested concision in Data and Measurement and Methodology, including removal or relocation of unnecessary preprocessing detail.
+
+### Decision Context
+
+Final human review of the verified Reviewer 1 Comment 5 response after the narrowed concision bundle, EndNote restoration, retained heading structure, and fresh-clean verification.
+
+### Kila Recommendation
+
+Accept the verified response and implementation, close the comment, and route the next dependency-ready plan item.
+
+### Options Presented
+
+- Approve the completed response and implementation.
+
+### Human Decision
+
+The human approved the Reviewer 1 Comment 5 response and thereby accepted the verified narrowed implementation.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Close Reviewer 1 Comment 5 as done without further manuscript or response changes.
+
+### Affected Manuscript Sections
+
+- Data and Measurement
+- Methodology
+- Response to Reviewer 1
+
+### Related Artifacts
+
+- Rev/revision/response-draft.md
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+
+### Follow-Up
+
+Mark reviewer-1/comment-5 done, preserve all artifacts, and select the next dependency-ready comment.
