@@ -8567,3 +8567,250 @@ These supplementary tables and figure report ordinal-model robustness analyses f
 - Visual verification: the final `58`-page clean and `78`-page markup were inspected in full through contact sheets; affected clean pages `21`, `26`, and `37` and affected markup pages `26`, `35`, `53`, and `54` were inspected at original detail. The final `8`-page Supplementary Materials document was inspected page by page at original detail. No new clipping, overlap, missing glyph, field-display breakage, table defect, figure defect, or style drift was found.
 - Source immutability: markup SHA-256, size, and mtime remained unchanged throughout fresh-clean generation and all subsequent review.
 - Response: only the Reviewer 2 / Comment 5 response block in `Rev/revision/response-draft.md` changed; final SHA-256 `676117d5129184bcd924331e95672a383125533b22bd0425bf2afad3d45f2e23`. Reconstructing that block's prior placeholder reproduces the exact pre-edit response SHA-256 `948d890c49cdb0f84de2bda7a424514874365f7dd8121c2db09ac9b708f8ebb9`, proving all other response bytes are unchanged. The block contains five exact quotations and five independent line/page markers, with no Markdown block quote.
+
+## reviewer-1/comment-4
+
+### part-01
+
+- Location: Methodology, first-stage pathway heading.
+- Reason: Integrate the former economic-insecurity-only presentation into the parallel path model.
+- Kila decisions: `KILA-D-20260830-009`.
+- Mode: approved confirmed re-edit, isolated true tracked replacement with source reuse.
+- Timestamp: `2026-08-30T15:09:31+0900`.
+- Author: Kila.
+- Markup SHA-256 before consolidated operation: `2c0d99295807614ea9eb03b1ffffd01ce50b8b3ec7c169bb862d5679f94f8ffa`.
+- Markup SHA-256 after consolidated operation: `392718e26e6986261972b37533658fd1798237f6ef6d03aa92a902290504b143`.
+- Revision IDs: `2753`–`2755`.
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260830T140649+0900.reviewer-1-comment-4.word-native.docx`.
+- Paragraph properties preserved: `true` (`Heading 2`).
+- Before:
+
+~~~~text
+Economic Insecurity Analysis
+~~~~
+
+- After:
+
+~~~~text
+Parallel Path Analysis: First-Stage Equations
+~~~~
+
+### part-02
+
+- Location: Methodology, complete first-stage-equations paragraph.
+- Reason: Present all four first-stage equations symmetrically, including the Social Capital Index equation requested by the reviewer.
+- Kila decisions: `KILA-D-20260830-009`.
+- Mode: approved confirmed re-edit of prior tracked spans; the exact Microsoft Word paragraph from the validated field-preserving candidate was transplanted into the untouched source package and its revisions were renumbered.
+- Revises prior parts: `reviewer-1/comment-6#part-04`, `reviewer-1/comment-7#part-08`, and the Comment 9 terminology bundle.
+- Timestamp: `2026-08-30T15:09:31+0900`.
+- Author: Chao Li for the Word-native tracked paragraph; isolated package authoring by Kila.
+- Revision IDs: `2589`–`2620`.
+- Paragraph properties preserved: `true` (`Normal`).
+- EndNote fields preserved: `true`; both active citation fields retain the source field-character, instruction, and field-data signatures.
+- Before:
+
+~~~~text
+Separate OLS models are estimated to systematically assess the association between rural residence and each of the three economic insecurity indicators (Fanfan et al., 2025; Hu et al., 2025; Lankila et al., 2013). This approach allows for a detailed examination of how rural residence, operationalized by the rural-urban residence variable (Gross-Manos & Shimoni, 2020; Hammond et al., 2026; Lankila et al., 2013), relates to different facets of financial well-being. These facets include subjective feelings of income security, worry about expenses, and objective income standing. Each model is designed to isolate the unique relationship between rurality and a specific economic outcome, thereby providing a granular understanding of potential disparities. The primary objective of these models is to systematically assess and quantify whether rural respondents experience greater economic insecurity or financial disadvantage compared to their urban counterparts. To this end, the analysis employs Income Security Feelings, Expense Worry, and Within-Place Income Percentile as dependent variables. It is important to note that higher values for these indicators denote greater financial security. Therefore, a consistent negative association between rural residence and these indicators would empirically confirm the presence and magnitude of economic hardship within rural populations. Each economic-security outcome is regressed on Rural-Urban Residence, Age, Gender, Marital Status, Employment, and Education, with place fixed effects. All three models use the same common complete-case sample (N = 183,685) and place-clustered CR2/Satterthwaite inference, so their rural-residence estimates are directly comparable.
+~~~~
+
+- After:
+
+~~~~text
+The parallel path model includes four first-stage equations in which Rural-Urban Residence predicts Income Security Feelings, Expense Worry, Within-Place Income Percentile, and the Social Capital Index (Fanfan et al., 2025; Hu et al., 2025; Lankila et al., 2013). Each pathway outcome is regressed on Rural-Urban Residence (Gross-Manos & Shimoni, 2020; Hammond et al., 2026; Lankila et al., 2013), Age, Gender, Marital Status, Employment, and Education, with place fixed effects. All four equations use the same common complete-case sample (N = 183,685) and place-clustered CR2/Satterthwaite inference. These equations are the first-stage components of the parallel path model rather than a separate outcome-analysis framework.
+~~~~
+
+### part-03
+
+- Location: Methodology, direct/indirect-associations heading.
+- Reason: Distinguish the outcome/direct-indirect component from the four first-stage equations while keeping both within one parallel path analysis.
+- Kila decisions: `KILA-D-20260830-009`.
+- Mode: approved confirmed boundary re-edit of prior tracked heading text.
+- Revises prior parts: `reviewer-2/comment-3#part-08`.
+- Timestamp: `2026-08-30T15:09:31+0900`.
+- Revision IDs: `2756`–`2757`.
+- Paragraph properties preserved: `true` (`Heading 2`).
+- Before:
+
+~~~~text
+Parallel Path Analysis
+~~~~
+
+- After:
+
+~~~~text
+Parallel Path Analysis: Direct and Indirect Associations
+~~~~
+
+### part-04
+
+- Location: Methodology, complete direct/indirect-associations paragraph.
+- Reason: State the common four-path outcome equation, inference, reported quantities, and noncausal interpretation compactly and symmetrically.
+- Kila decisions: `KILA-D-20260830-009`.
+- Mode: approved confirmed re-edit of prior tracked and field-sensitive content; the exact Microsoft Word paragraph from the validated field-preserving candidate was transplanted into the untouched source package and its revisions were renumbered.
+- Revises prior parts: `reviewer-1/comment-1#parts-01a–01e` and later terminology revisions.
+- Timestamp: `2026-08-30T15:09:31+0900`.
+- Author: Chao Li for the Word-native tracked paragraph; isolated package authoring by Kila.
+- Revision IDs: `2621`–`2737`.
+- Paragraph properties and page-break run preserved: `true`.
+- EndNote field preserved: `true`; the active citation field retains the source field-character, instruction, and field-data signature.
+- Before:
+
+~~~~text
+This analysis assesses whether economic insecurity and social capital are statistical pathways linking rural residence to life satisfaction and does not attempt to identify the underlying drivers of well-being disparities between residential areas. It estimates a parallel observed-variable path model on the prespecified common complete-case sample (N = 183,685). In the first-stage equations, Rural Residence predicts Income Security Feelings, Expense Worry, Within-Place Income Percentile, and the Social Capital Index; in the outcome equation, Life Satisfaction is regressed on Rural Residence and all four pathway variables simultaneously. The four pathways are modeled in parallel rather than as a serial causal sequence, and every equation includes the same demographic and socioeconomic controls and place fixed effects as the primary OLS specification (Fanfan et al., 2025; Hu et al., 2025; Zhao et al., 2022). We report four specific indirect associations, their total indirect association, the direct rural-residence association, and the total association. Linear path coefficients use place-clustered CR2 standard errors with Satterthwaite corrections, and uncertainty for the indirect associations is evaluated with 4,999 joint Webb six-point wild-cluster score-bootstrap draws. Because the data are cross-sectional, these quantities are interpreted as conditional direct and indirect associations, not as causal, partial-mediation, or full-mediation effects. The three economic-insecurity pathways are Income Security Feelings, Expense Worry, and Within-Place Income Percentile; the Social Capital Index is modeled as the fourth pathway.
+~~~~
+
+- After:
+
+~~~~text
+The outcome equation regresses Life Satisfaction on Rural Residence and all four pathway variables simultaneously. The pathways are modeled in parallel rather than as a serial causal sequence, and the outcome equation uses the same demographic and socioeconomic controls, place fixed effects, common complete-case sample (N = 183,685), and place-clustered CR2/Satterthwaite inference as the four first-stage equations (Fanfan et al., 2025; Hu et al., 2025; Zhao et al., 2022). We report four specific indirect associations, their total indirect association, the direct rural-residence association, and the total association; uncertainty for the indirect associations is evaluated with 4,999 joint Webb six-point wild-cluster score-bootstrap draws. Because the data are cross-sectional, these quantities are interpreted as conditional direct and indirect associations, not as causal, partial-mediation, or full-mediation effects.
+~~~~
+
+### part-05
+
+- Location: Results, life-satisfaction model heading.
+- Reason: Limit the heading's scope to the four primary life-satisfaction specifications after restoring a separate first-stage pathway subsection.
+- Kila decisions: `KILA-D-20260830-009`.
+- Mode: approved confirmed re-edit of prior tracked heading text.
+- Revises prior parts: `reviewer-1/comment-7#part-10-results-heading-scope-fix`.
+- Timestamp: `2026-08-30T15:09:31+0900`.
+- Revision IDs: `2738`–`2744`.
+- Paragraph properties preserved: `true` (`Heading 2`).
+- Before:
+
+~~~~text
+Adjusted Rural-Urban Associations with Life Satisfaction and Economic Security
+~~~~
+
+- After:
+
+~~~~text
+Adjusted Rural-Urban Associations with Life Satisfaction
+~~~~
+
+### part-06
+
+- Location: Results, accepted-empty `Heading 2` paragraph immediately before the first-stage estimates.
+- Reason: Restore an explicit Results subsection for the four first-stage pathway equations.
+- Kila decisions: `KILA-D-20260830-009`.
+- Mode: approved Word-native empty-paragraph insertion isolated into the untouched source package; the inherited paragraph-mark deletion was removed under the same approved structural exception so Word acceptance could not merge the heading with the following paragraph.
+- Revises prior parts: structural residue of `reviewer-1/comment-7#part-10-results-heading-merge`.
+- Timestamp: `2026-08-30T15:09:31+0900`.
+- Revision ID: `2758`.
+- Paragraph properties preserved: `true` (`Heading 2`); the following Results paragraph remains a separate `Normal` paragraph.
+- Before:
+
+~~~~text
+""
+~~~~
+
+- After:
+
+~~~~text
+First-Stage Pathway Associations
+~~~~
+
+### part-07
+
+- Location: Results, complete first-stage pathway paragraph.
+- Reason: Report all four first-stage equations symmetrically, use the canonical Expense Worry label, and distinguish intervals that include versus exclude zero.
+- Kila decisions: `KILA-D-20260830-009`.
+- Mode: approved confirmed re-edit of prior tracked paragraph.
+- Revises prior parts: `reviewer-1/comment-7#part-10` and later Comment 9 terminology revisions.
+- Timestamp: `2026-08-30T15:09:31+0900`.
+- Revision IDs: `2745`–`2750`.
+- Paragraph properties preserved: `true` (`Normal`).
+- Before:
+
+~~~~text
+On the common complete-case sample (N = 183,685), rural residence is associated with lower Income Security Feelings (b = -0.038; 95% CR2/Satterthwaite CI: -0.062 to -0.015) and a lower Within-Place Income Percentile (b = -0.046; -0.061 to -0.030). The Expense Security point estimate is also negative (b = -0.055), but its interval includes zero (-0.176 to 0.066) (Table 3; Figure 5). Thus, all three point estimates indicate lower economic security among rural respondents, while two of the three intervals exclude zero.
+~~~~
+
+- After:
+
+~~~~text
+On the common complete-case sample (N = 183,685), rural residence is associated with lower Income Security Feelings (b = -0.038; 95% CR2/Satterthwaite CI: -0.062 to -0.015) and a lower Within-Place Income Percentile (b = -0.046; -0.061 to -0.030). The Expense Worry estimate is -0.055 (-0.176 to 0.066), and the Social Capital Index estimate is -0.009 (-0.035 to 0.017); both intervals include zero (Table 3; Figure 5). Thus, the four first-stage equations are presented symmetrically: two economic-security intervals exclude zero, whereas the Expense Worry and Social Capital Index intervals include zero.
+~~~~
+
+### part-08
+
+- Location: Results, Table 3.
+- Reason: Expand the first-stage display from three economic-security outcomes to all four pathway outcomes and standardize the Expense Worry label.
+- Kila decisions: `KILA-D-20260830-009`.
+- Mode: approved tracked table-object replacement.
+- Revises prior parts: `reviewer-1/comment-7#part-14` and later Comment 9 terminology revisions.
+- Timestamp: `2026-08-30T15:09:31+0900`.
+- Revision IDs: `2759`–`2817`.
+- Numerical source: `Rev/revision/analysis/reviewer-1-comment-1/data/tables/Table3_adjusted_rural_economic_security.csv`; SHA-256 `0c5fa55e18c7f5430db2a9b2e3234a290fdaa690d294acacc13cde5350682b01`.
+- Before:
+
+~~~~text
+Table 3. Adjusted rural-residence associations with economic-security outcomes
+Quantity | Income Security Feelings | Expense Security | Within-Place Income Percentile
+Rural coefficient | -0.038 | -0.055 | -0.046
+95% CR2/Satterthwaite CI | [-0.062, -0.015] | [-0.176, 0.066] | [-0.061, -0.030]
+N | 183,685 | 183,685 | 183,685
+Within R² | 0.048 | 0.040 | 0.172
+Controls | Yes | Yes | Yes
+Place fixed effects | Yes | Yes | Yes
+Weighted | No | No | No
+~~~~
+
+- After:
+
+~~~~text
+Table 3. Adjusted rural-residence associations with first-stage pathway outcomes
+Quantity | Income Security Feelings | Expense Worry | Within-Place Income Percentile | Social Capital Index
+Rural coefficient | -0.038 | -0.055 | -0.046 | -0.009
+95% CR2/Satterthwaite CI | [-0.062, -0.015] | [-0.176, 0.066] | [-0.061, -0.030] | [-0.035, 0.017]
+N | 183,685 | 183,685 | 183,685 | 183,685
+Within R² | 0.048 | 0.040 | 0.172 | 0.031
+Controls | Yes | Yes | Yes | Yes
+Place fixed effects | Yes | Yes | Yes | Yes
+Weighted | No | No | No | No
+~~~~
+
+### part-09
+
+- Location: Results, Figure 5 drawing object.
+- Reason: Replace the three-outcome forest plot with the approved four-panel first-stage pathway display.
+- Kila decisions: `KILA-D-20260830-009`.
+- Mode: approved confirmed re-edit of the prior tracked drawing insertion; the earlier active inserted drawing was replaced within tracked history while its old media payload remains in the package.
+- Timestamp: `2026-08-30T15:09:31+0900`.
+- Revision ID: `2818`.
+- Before: active Figure 5 media SHA-256 `151df2913575c71dacd89800cdc9c407f7504938074f251e45cc9d6bada02a3b`, drawing extent `5486400 × 1818005` EMU.
+- After: `word/media/image14.png`, approved candidate SHA-256 `c3b267f69db36a56b8459d1dd3ca462eedf036320c830985341745bdeb933f26`, source dimensions `1784 × 1110`, drawing extent `5486400 × 3413623` EMU.
+
+### part-10
+
+- Location: Results, Figure 5 caption.
+- Reason: Make the caption explicitly cover all four first-stage pathway equations and their common inference specification.
+- Kila decisions: `KILA-D-20260830-009`.
+- Mode: approved confirmed re-edit of prior tracked caption text.
+- Timestamp: `2026-08-30T15:09:31+0900`.
+- Revision IDs: `2751`–`2752`.
+- Paragraph properties preserved: `true` (`Figure Caption`).
+- Before:
+
+~~~~text
+Figure 5. Rural-urban coefficients for economic insecurity outcomes
+~~~~
+
+- After:
+
+~~~~text
+Figure 5. Rural-residence coefficients from the four first-stage pathway equations. Error bars show 95% CR2/Satterthwaite confidence intervals.
+~~~~
+
+### Consolidated execution receipt
+
+- Approval: all `10/10` parts executed under `KILA-D-20260830-009`.
+- Formal markup: `Rev/revision/ZDP02l.rev.markup.docx`; SHA-256 `392718e26e6986261972b37533658fd1798237f6ef6d03aa92a902290504b143`; size `1,779,066` bytes; modification time `1788069369`; valid DOCX ZIP/XML; Track Changes enabled; `2,305` revisions (`1,047` insertions and `1,258` deletions); all revision IDs numeric and unique; `12` OMML objects; `216` field begins.
+- Package isolation: relative to the exact pre-edit backup, only `word/document.xml` and `word/_rels/document.xml.rels` changed and `word/media/image14.png` was added. `word/endnotes.xml`, `word/footnotes.xml`, and `word/settings.xml` are byte-identical. The active field signature is identical before and after the tracked edit.
+- Formal clean: `Rev/revision/ZDP02l.rev.clean.docx`; SHA-256 `1e8d4146e0fbcb182ec411b43b49ce8247a1831c85120a58ffa14aaa29cf43bf`; size `1,565,928` bytes; regenerated from the formal markup and accepted only in the clean copy. The deterministic acceptance pass removed the tracked-deleted superseded Table 3 and the one inherited empty OMML shell under established guards.
+- Clean structure: zero revisions; Track Changes off; `178` active field begins/instructions; `11` nonempty OMML objects; `9` package-level tables (`7` logical populated tables and `2` inherited blank ghost tables); `7` drawings; `14` media payloads.
+- Reproducibility: two independent clean generations produced byte-identical payloads for all `34` DOCX package members.
+- Verification: all eight semantic exact-text guards passed; all superseded target fragments are absent from the accepted clean; Table 3 values match the locked CSV; embedded Figure 5 matches the approved image SHA-256 exactly.
+- Visual QA: all `57` clean pages and all `80` markup pages were reviewed. Clean pages `18`, `22`, `23`, `41`, and `49`, and markup pages `61` and `71`, received full-resolution inspection. No clipping, overlap, missing glyph, malformed field, heading merge, table/figure defect, blank page, or new style drift was found.
+- No-change ledger: Table 4, the direct/indirect Results estimates, Discussion, Figure 4, Table 2, Supplementary Materials, and the response draft were not modified during the manuscript operation.
+- Response: only the Reviewer 1 / Comment 4 response block in `Rev/revision/response-draft.md` changed; final SHA-256 `356d669abc95fda852be835823e256acdefa584127b5ddd69e65c56d4755434e`. Reconstructing that block's former placeholder reproduces the exact pre-edit response SHA-256 `4ef360bd27ba15227ff56879539e12cfc956464c1b517c01a2c15566f514bf77`, proving all other response bytes are unchanged. The ten-location bundle uses the 6–10-location quotation tier: five representative exact fresh-clean quotations cover the integrated first-stage Methodology, the direct/indirect component, Results, Table 3, and Figure 5; every quotation occurs exactly once in the fresh clean and has its own immediately following human-verification marker.
+- Next gate: the human reviews and explicitly approves the `reviewer-1/comment-4` response; the comment remains open until that approval.

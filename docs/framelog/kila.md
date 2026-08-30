@@ -5933,3 +5933,278 @@ Reviewer 1 Comment 3 is marked done; its manuscript and response artifacts remai
 ### Follow-Up
 
 Update the revision plan to done, preserve all verified artifacts, and route to the next dependency-ready reviewer comment.
+
+## KILA-D-20260830-009: Approve Reviewer 1 Comment 4 integrated parallel-path presentation
+
+- Event SHA-256: 38ea08542439464ad3842e5207e6a655f2a1dbc2db5004c247c94deac90eb22f
+- Recorded at: 2026-08-30T13:58:39+09:00
+- Revision workspace: Rev
+- Revision stage: revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-4
+- Decision type: pathway-presentation-integration
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/docs/reviewer-1-comment-4-consolidated-proposal.md
+- Object SHA-256: 5a22405888353b5ceca875086a6d34406aeabb2d11cb167063a3e96f1adbbfe9
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Integrate the former standalone economic-insecurity analysis into the mechanism analysis and present a comparable Social Capital Index outcome equation.
+
+### Decision Context
+
+The validated parallel path model already contains the Social Capital Index as its fourth first-stage outcome, but Methodology, Results, Table 3, and Figure 5 present the first-stage equations asymmetrically and the legacy Figure 5 uses obsolete model-specific/HC3 values.
+
+### Kila Recommendation
+
+Present all four first-stage equations symmetrically within the existing parallel path model, update the paired Methodology and Results headings and prose, replace Table 3 and Figure 5 with validated common-sample CR2 outputs, and leave the already-correct direct/indirect results, Table 4, Discussion, and supplement unchanged.
+
+### Options Presented
+
+- Approve the complete ten-part integration bundle, including the listed prior-tracked re-edits, live EndNote-field preservation, empty-heading insertion, tracked Table 3 replacement, and tracked Figure 5 drawing replacement.
+
+### Human Decision
+
+The human approved the complete Reviewer 1 Comment 4 ten-part consolidated bundle and all explicitly listed Word-native exception operations.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Integrate four first-stage pathway equations into one coherent parallel-path presentation, add the Social Capital Index symmetrically, and align Table 3 and Figure 5 with the validated common-sample CR2/Satterthwaite estimates.
+
+### Affected Manuscript Sections
+
+- Methodology > Parallel Path Analysis
+- Results > Adjusted Rural-Urban Associations
+- Table 3
+- Figure 5
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/revisionchanges.md
+- reports/comment4_parallel_path_presentation/table3_pathway_outcomes.csv
+- reports/comment4_parallel_path_presentation/figure5_candidate.png
+
+### Follow-Up
+
+Execute the ten approved parts in order, regenerate one fresh clean, validate the fields/table/figure and full-document render, then update only the Reviewer 1 Comment 4 response block for human review.
+
+## KILA-D-20260830-010: Approve Reviewer 1 Comment 4 response and implementation
+
+- Event SHA-256: 7629b0eacbad828a8be47122a6748b134e15efac2b77bc4ba0726ad78a02a88d
+- Recorded at: 2026-08-30T15:32:59+09:00
+- Revision workspace: Rev
+- Revision stage: revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-4
+- Decision type: implementation-evaluation
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260830-009
+- Decision object: Rev/revision/response-draft.md
+- Object SHA-256: 356d669abc95fda852be835823e256acdefa584127b5ddd69e65c56d4755434e
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Integrate the former standalone economic-insecurity analysis into the mechanism analysis and present a comparable Social Capital Index first-stage equation.
+
+### Decision Context
+
+The approved ten-part integrated parallel-path presentation, fresh-clean review, Table 3 and Figure 5 validation, and targeted response block are complete and awaiting final human review.
+
+### Kila Recommendation
+
+Accept the verified response and close Reviewer 1 Comment 4 while preserving the completed ten-part tracked implementation.
+
+### Options Presented
+
+- Approve the verified response and close the comment.
+
+### Human Decision
+
+The human approves the completed Reviewer 1 Comment 4 response and confirms that the integrated four-pathway implementation adequately addresses the reviewer request.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Reviewer 1 Comment 4 is marked done; the verified manuscript, table, figure, clean copy, and response remain unchanged, and workflow routing advances to the next dependency-ready comment.
+
+### Affected Manuscript Sections
+
+- Response to Reviewer 1 / Comment 4
+- Methodology > Parallel Path Analysis
+- Results > First-Stage Pathway Associations
+- Table 3
+- Figure 5
+
+### Related Artifacts
+
+- Rev/revision/response-draft.md
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/docs/revisionchanges.md
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Update the revision plan to done, preserve all verified artifacts, and route to the next dependency-ready reviewer comment.
+
+## KILA-D-20260830-011: Approve Reviewer 2 Comment 2 shared coverage
+
+- Event SHA-256: 341112ef4d98c610590cccd55fa131bdee5665de313e48ddf5d5a60968451dbb
+- Recorded at: 2026-08-30T15:54:56+09:00
+- Revision workspace: Rev
+- Revision stage: revision
+- Reviewer ID: reviewer-2
+- Comment ID: comment-2
+- Decision type: shared-coverage-strategy
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/docs/reviewer-2-comment-2-consolidated-proposal.md
+- Object SHA-256: 9a745d5702a0241c868f2475805896093a5110cd26fd8729dc19216c4a27933f
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Clarify where the former rural coefficient sign reversal occurred and eliminate the dual use of Income Security Feelings as both a control and a mechanism variable.
+
+### Decision Context
+
+The current four-model common-sample manuscript already removes the superseded sign-reversal narrative, assigns Income Security Feelings uniquely to the economic-security pathway block, and separates descriptive OLS coefficient movement from formal conditional indirect associations.
+
+### Kila Recommendation
+
+Retain the eight already implemented manuscript locations as complete coverage, make no new Word edit, regenerate and verify one fresh clean, and update only the Reviewer 2 Comment 2 response block.
+
+### Options Presented
+
+- Approve the zero-new-edit eight-location shared-coverage bundle.
+- Identify a residual manuscript location requiring a new revision.
+
+### Human Decision
+
+The human approves the consolidated shared-coverage bundle: zero new Word parts and eight already implemented manuscript locations will address Reviewer 2 Comment 2.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Preserve the current markup unchanged, verify the eight locations in a newly regenerated clean copy, and draft only the targeted Reviewer 2 Comment 2 response for human review.
+
+### Affected Manuscript Sections
+
+- Data and Measurement
+- Methodology
+- Tables 2-4
+- Results
+- Discussion
+
+### Related Artifacts
+
+- Rev/docs/reviewer-2-comment-2-consolidated-proposal.md
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/revision/response-draft.md
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Regenerate the clean manuscript from unchanged markup, verify all eight shared-coverage locations, and update only the selected response block.
+
+## KILA-D-20260830-012: Approve Reviewer 2 Comment 2 response
+
+- Event SHA-256: 7cefd014f9b13b82803374b6fc96bcfcf2a74e61d5ebcb623eebbb48167d8b95
+- Recorded at: 2026-08-30T16:18:07+09:00
+- Revision workspace: Rev
+- Revision stage: revision
+- Reviewer ID: reviewer-2
+- Comment ID: comment-2
+- Decision type: implementation-evaluation
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260830-011
+- Decision object: Rev/revision/response-draft.md
+- Object SHA-256: c44977fdc697585a8f666674b24550047b1bbc8e03f2cebfb660d8f641360429
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Clarify the former sign-reversal interpretation and eliminate the dual role assigned to Income Security Feelings.
+
+### Decision Context
+
+The approved zero-new-edit shared-coverage bundle has been verified in a regenerated clean manuscript, and the bounded Reviewer 2 Comment 2 response contains five exact fresh-clean quotations with individual human-verification markers.
+
+### Kila Recommendation
+
+Accept the verified response, preserve the unchanged manuscript artifacts, close Reviewer 2 Comment 2, and route to the next dependency-ready comment.
+
+### Options Presented
+
+- Approve the completed response and close the comment.
+- Request a targeted response revision before closure.
+
+### Human Decision
+
+The human approves the completed Reviewer 2 Comment 2 response and confirms that the verified shared-coverage implementation adequately addresses the reviewer request.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Reviewer 2 Comment 2 is marked done; the verified manuscript, clean copy, and response remain unchanged, and workflow routing advances to the next dependency-ready comment.
+
+### Affected Manuscript Sections
+
+- Response to Reviewer 2 / Comment 2
+- Data and Measurement
+- Methodology
+- Results and Tables 2-4
+- Discussion
+
+### Related Artifacts
+
+- Rev/revision/response-draft.md
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Update the revision plan to done, preserve all verified artifacts, and route to the next dependency-ready reviewer comment.

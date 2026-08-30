@@ -157,10 +157,23 @@ Thank you for this helpful suggestion. We agree that the previous six-step prese
 c. The authors conducted an independent “Economic Insecurity Analysis”, where three measures were used as dependent variables. If this strategy is reasonable, which I highly doubt, why don’t fit a similar model for the social capital index (which is listed as a separate mechanism by the authors)? In addition, why don’t integrate this independent analysis into the “Mechanism Analysis” subsection?
 
 **Response:**
-[Response pending.]
+Thank you for identifying this asymmetry. We agree that presenting the three economic-security equations as an independent analysis obscured their relationship to the Social Capital Index equation and the broader pathway model. The revised Methodology therefore integrates all four first-stage equations under the parallel path analysis: Rural-Urban Residence predicts Income Security Feelings, Expense Worry, Within-Place Income Percentile, and the Social Capital Index using the same common sample, controls, place fixed effects, and place-clustered inference. The outcome equation and the conditional direct and indirect associations remain a distinct component of the same parallel path model, rather than a separate mechanism framework. The revised Results now reports the four first-stage estimates symmetrically, and Table 3 and Figure 5 have been expanded from three economic-security outcomes to all four pathway outcomes.
 
-"[Exact revised text quoted from the fresh clean manuscript]"
+The ten changed manuscript locations fall in the 6–10-location quotation tier; the following five representative quotations cover the integrated first-stage Methodology, the direct/indirect component, the corresponding Results, Table 3, and Figure 5:
 
+"The parallel path model includes four first-stage equations in which Rural-Urban Residence predicts Income Security Feelings, Expense Worry, Within-Place Income Percentile, and the Social Capital Index (Fanfan et al., 2025; Hu et al., 2025; Lankila et al., 2013). Each pathway outcome is regressed on Rural-Urban Residence (Gross-Manos & Shimoni, 2020; Hammond et al., 2026; Lankila et al., 2013), Age, Gender, Marital Status, Employment, and Education, with place fixed effects. All four equations use the same common complete-case sample (N = 183,685) and place-clustered CR2/Satterthwaite inference. These equations are the first-stage components of the parallel path model rather than a separate outcome-analysis framework."
+(Lines/Pages: human verification required)
+
+"The outcome equation regresses Life Satisfaction on Rural Residence and all four pathway variables simultaneously. The pathways are modeled in parallel rather than as a serial causal sequence, and the outcome equation uses the same demographic and socioeconomic controls, place fixed effects, common complete-case sample (N = 183,685), and place-clustered CR2/Satterthwaite inference as the four first-stage equations (Fanfan et al., 2025; Hu et al., 2025; Zhao et al., 2022). We report four specific indirect associations, their total indirect association, the direct rural-residence association, and the total association; uncertainty for the indirect associations is evaluated with 4,999 joint Webb six-point wild-cluster score-bootstrap draws. Because the data are cross-sectional, these quantities are interpreted as conditional direct and indirect associations, not as causal, partial-mediation, or full-mediation effects."
+(Lines/Pages: human verification required)
+
+"On the common complete-case sample (N = 183,685), rural residence is associated with lower Income Security Feelings (b = -0.038; 95% CR2/Satterthwaite CI: -0.062 to -0.015) and a lower Within-Place Income Percentile (b = -0.046; -0.061 to -0.030). The Expense Worry estimate is -0.055 (-0.176 to 0.066), and the Social Capital Index estimate is -0.009 (-0.035 to 0.017); both intervals include zero (Table 3; Figure 5). Thus, the four first-stage equations are presented symmetrically: two economic-security intervals exclude zero, whereas the Expense Worry and Social Capital Index intervals include zero."
+(Lines/Pages: human verification required)
+
+"Table 3. Adjusted rural-residence associations with first-stage pathway outcomes"
+(Lines/Pages: human verification required)
+
+"Figure 5. Rural-residence coefficients from the four first-stage pathway equations. Error bars show 95% CR2/Satterthwaite confidence intervals."
 (Lines/Pages: human verification required)
 
 ## Comment 5
@@ -473,9 +486,27 @@ The paper argues that the rural disadvantage (β = −0.109 in M1) becomes a rur
 This mixing of roles hides where the real explanatory power comes from.
 
 **Response:**
-[Response pending.]
+Thank you for identifying this inconsistency. We agree that the former six-model specification assigned Income Security Feelings two different roles and described the coefficient transition incorrectly. The revised Data and Measurement, Methodology, Results, Tables 2–4, and Discussion now separate the two analyses clearly. Income Security Feelings enters M3 only as one of the three economic-security pathway variables, not as a baseline socioeconomic control. The common-sample rural-residence estimates are positive throughout M1–M4 (+0.026, +0.027, +0.064, and +0.065), so the revised sequence contains no negative-to-positive sign reversal. The main coefficient change occurs when the economic-security block is added in M3, whereas adding the Social Capital Index in M4 changes the estimate only slightly. We report this OLS movement descriptively and use the parallel path model, rather than the OLS sequence, to estimate the conditional indirect association through Income Security Feelings.
 
-"[Exact revised text quoted from the fresh clean manuscript]"
+The revised text reads (five representative quotations from eight covered locations):
+
+"Economic insecurity is examined as a set of candidate statistical pathways (Akter & Basher, 2014; Mahmud & Riley, 2021; Su et al., 2023). It is assessed using three distinct indicators from the GFS: Income Security Feelings, Expense Worry, and Within-Place Income Percentile (An et al., 2025; Godoy et al., 2024; Lu & Horlu, 2017)."
+
+(Lines/Pages: human verification required)
+
+"Model 2 (M2) adds Age, Gender, Marital Status, Employment Status, and Education Level as demographic and socioeconomic controls. Model 3 (M3) adds Income Security Feelings, Expense Worry, and Within-Place Income Percentile as the three economic-security measures. Income Security Feelings is classified as an economic-security pathway variable rather than a baseline socioeconomic control (An et al., 2025; Wei et al., 2024; Zhang et al., 2025). Model 4 (M4) adds the Social Capital Index to the M3 specification."
+
+(Lines/Pages: human verification required)
+
+"Table 2 presents the four primary OLS specifications, which are visually summarized in Figure 4. All four models use the same common complete-case sample (N = 183,685), include place fixed effects, and use place-clustered CR2/Satterthwaite inference. The rural-residence coefficient is +0.026 in M1 (95% CI: -0.096 to 0.148), +0.027 in M2 (-0.074 to 0.129), +0.064 in M3 (-0.010 to 0.139), and +0.065 in M4 (0.001 to 0.129). The main coefficient change occurs when Income Security Feelings, Expense Worry, and Within-Place Income Percentile are added as the economic-security block in M3; adding the Social Capital Index in M4 changes the estimate only slightly. This nested sequence is descriptive and is not interpreted as mediation evidence."
+
+(Lines/Pages: human verification required)
+
+"The revised estimates do not support a persistent negative rural association (Chaplitskaya et al., 2024; Counted et al., 2024; Lu et al., 2025). The rural coefficient is +0.026 in M1, +0.027 in M2, +0.064 in M3, and +0.065 in M4. The main change occurs when the three economic-security measures are added; adding the Social Capital Index changes the estimate only slightly. This sequence is descriptive rather than a mediation test. The place-level and multilevel analyses show substantial heterogeneity, so the pooled positive association should not be interpreted as a universal rural benefit or as evidence that rural settings are inherently superior (Chaplitskaya et al., 2024; Counted et al., 2024; Gross-Manos & Shimoni, 2020)."
+
+(Lines/Pages: human verification required)
+
+"Economic insecurity remains a plausible pathway in prior research (Akter & Basher, 2014; Lu & Horlu, 2017; Mahmud & Riley, 2021). In the present parallel path model, the Income Security Feelings specific indirect association is -0.019 (95% CR2 delta-method CI: -0.032 to -0.006). The corresponding estimates for Expense Worry and Within-Place Income Percentile are -0.009 and -0.001, and both intervals include zero. The results therefore provide the strongest evidence for a conditional indirect association through Income Security Feelings, not for a single aggregate economic mechanism that explains the rural-urban association. The OLS coefficient change when the economic-security block is added is reported descriptively and is not treated as mediation evidence."
 
 (Lines/Pages: human verification required)
 
