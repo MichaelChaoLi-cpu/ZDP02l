@@ -130,9 +130,25 @@ Finally, the revised *Limitations and Future Studies* section makes clear that p
 b. The steps in the “Sequential Model Specifications for Life Satisfaction” appear too cumbersome and can be downsized with updated framing. For instance, it might be better to include country level fixed effects in all models rather than only adding them in M4 and later models.
 
 **Response:**
-[Response pending.]
+Thank you for this helpful suggestion. We agree that the previous six-step presentation was unnecessarily cumbersome. The revised Methodology now presents four primary OLS specifications (M1–M4) on one common sample, includes place fixed effects in every model from M1 onward, and distinguishes the descriptive nested OLS sequence from the parallel path analysis. Table 2, Figure 4, Results, and Discussion are synchronized with the same four-model sequence and inferential framework. Because these revisions had already been implemented and verified through overlapping comments, no duplicate Word edit was needed for this comment. Across the six distinct manuscript locations, the following five representative passages document the revision:
 
-"[Exact revised text quoted from the fresh clean manuscript]"
+"Subsequent sections describe the four nested OLS specifications used to track the adjusted rural-urban association; formal conditional direct and indirect associations are estimated separately in the parallel path model."
+
+(Lines/Pages: human verification required)
+
+"Four primary OLS models, M1 through M4, are estimated on the prespecified common complete-case sample (N = 183,685; 23 analytical places), with place fixed effects included in every specification. Holding respondents constant across M1–M4 ensures that coefficient changes reflect added covariate blocks rather than changes in the analyzed sample."
+
+(Lines/Pages: human verification required)
+
+"Figure 4. Rural-residence coefficients across the four primary OLS specifications. Error bars show 95% CR2/Satterthwaite confidence intervals."
+
+(Lines/Pages: human verification required)
+
+"Table 2 presents the four primary OLS specifications, which are visually summarized in Figure 4. All four models use the same common complete-case sample (N = 183,685), include place fixed effects, and use place-clustered CR2/Satterthwaite inference. The rural-residence coefficient is +0.026 in M1 (95% CI: -0.096 to 0.148), +0.027 in M2 (-0.074 to 0.129), +0.064 in M3 (-0.010 to 0.139), and +0.065 in M4 (0.001 to 0.129). The main coefficient change occurs when Income Security Feelings, Expense Worry, and Within-Place Income Percentile are added as the economic-security block in M3; adding the Social Capital Index in M4 changes the estimate only slightly. This nested sequence is descriptive and is not interpreted as mediation evidence."
+
+(Lines/Pages: human verification required)
+
+"The revised estimates do not support a persistent negative rural association (Chaplitskaya et al., 2024; Counted et al., 2024; Lu et al., 2025). The rural coefficient is +0.026 in M1, +0.027 in M2, +0.064 in M3, and +0.065 in M4. The main change occurs when the three economic-security measures are added; adding the Social Capital Index changes the estimate only slightly. This sequence is descriptive rather than a mediation test. The place-level and multilevel analyses show substantial heterogeneity, so the pooled positive association should not be interpreted as a universal rural benefit or as evidence that rural settings are inherently superior (Chaplitskaya et al., 2024; Counted et al., 2024; Gross-Manos & Shimoni, 2020)."
 
 (Lines/Pages: human verification required)
 
