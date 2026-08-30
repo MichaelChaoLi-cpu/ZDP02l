@@ -6208,3 +6208,274 @@ Reviewer 2 Comment 2 is marked done; the verified manuscript, clean copy, and re
 ### Follow-Up
 
 Update the revision plan to done, preserve all verified artifacts, and route to the next dependency-ready reviewer comment.
+
+## KILA-D-20260830-013: Approve Reviewer 2 Comment 1 shared-coverage resolution
+
+- Event SHA-256: f7739f6e84976dfea76d3cd4886f5893e4b06135173b6fc88ff7cf0af7314fb8
+- Recorded at: 2026-08-30T16:42:46+09:00
+- Revision workspace: Rev
+- Revision stage: manuscript-revision
+- Reviewer ID: reviewer-2
+- Comment ID: comment-1
+- Decision type: interpretation-boundary
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/docs/reviewer-2-comment-1-consolidated-proposal.md
+- Object SHA-256: 95004755b4bec54bafc813019f0cbf9515d2c0383d721ce2f244b9d582e1679c
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Correct the coefficient-direction interpretation in Results and Discussion and remove the unsupported mediation claim based on the former M4-to-M5 attenuation narrative.
+
+### Decision Context
+
+The reviewer correctly identified that the superseded six-model manuscript described the M4-to-M5 rural-coefficient movement in the wrong direction and then used that error in an economic-insecurity mediation narrative. The current manuscript already replaces the sequence with four common-sample place-fixed-effects OLS models and a separate parallel path model.
+
+### Kila Recommendation
+
+Accept the criticism of the superseded manuscript and use nine already implemented, verified manuscript locations as complete shared coverage; add no new Word part, analysis, table, figure, supplement, EndNote exception, or human-owned object operation; regenerate a fresh clean and update only the response block.
+
+### Options Presented
+
+- Approve the zero-new-edit nine-location shared-coverage bundle.
+- Request exact revisions to the consolidated bundle before execution.
+- Reject the proposed shared-coverage resolution.
+
+### Human Decision
+
+The human approves the zero-new-edit nine-location shared-coverage bundle for Reviewer 2 Comment 1 and authorizes fresh-clean verification followed by a targeted response update.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The unchanged markup is regenerated as a fresh clean; nine shared locations are reverified; only Reviewer 2 Comment 1 in the response draft is updated and then presented for human review.
+
+### Affected Manuscript Sections
+
+- Methodology
+- Results
+- Tables 2 and 4
+- Figures 4 and 6
+- Discussion
+
+### Related Artifacts
+
+- Rev/docs/reviewer-2-comment-1-consolidated-proposal.md
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/revision/response-draft.md
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Regenerate and verify a fresh clean from unchanged markup, then update only the Reviewer 2 Comment 1 response block with five representative exact quotations and await human approval.
+
+## KILA-D-20260830-014: Approve Reviewer 2 Comment 1 response and implementation
+
+- Event SHA-256: dbd099646e8963ab74f5ec9c67186862a8d30b424e4801083c1dad7c3319df99
+- Recorded at: 2026-08-30T16:58:16+09:00
+- Revision workspace: Rev
+- Revision stage: manuscript-revision
+- Reviewer ID: reviewer-2
+- Comment ID: comment-1
+- Decision type: implementation-assessment
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260830-013
+- Decision object: Rev/revision/response-draft.md
+- Object SHA-256: d2f9c1333449adc65e3a5241c656e9d85039549852b8d841553b808614e1b836
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Correct the superseded coefficient-direction interpretation and unsupported mediation claim, and provide an accurate verified response.
+
+### Decision Context
+
+The approved zero-new-edit shared-coverage strategy has been implemented: unchanged markup was regenerated as a verified fresh clean, all nine locations were rechecked, and only the target response block was updated with five exact quotations.
+
+### Kila Recommendation
+
+Accept the verified response and close Reviewer 2 Comment 1.
+
+### Options Presented
+
+- Approve the response and complete the comment.
+- Request exact response revisions before completion.
+
+### Human Decision
+
+The human approves the Reviewer 2 Comment 1 response and confirms that the zero-new-edit shared-coverage implementation adequately addresses the reviewer.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Reviewer 2 Comment 1 is marked done; the verified manuscript, fresh clean, and approved response are preserved.
+
+### Affected Manuscript Sections
+
+- Methodology
+- Results
+- Tables 2 and 4
+- Figures 4 and 6
+- Discussion
+
+### Related Artifacts
+
+- Rev/docs/reviewer-2-comment-1-consolidated-proposal.md
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/revision/response-draft.md
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Update the revision plan to done and route to the next dependency-ready reviewer comment.
+
+## KILA-D-20260830-015: Approve Reviewer 2 Comment 4 two-part Discussion correction
+
+- Event SHA-256: bb6e5c7b56999b231bf1b4c62fc421ffd14e0033efc1af477d73c5f719d926a2
+- Recorded at: 2026-08-30T17:17:45+09:00
+- Revision workspace: Rev
+- Revision stage: manuscript-revision
+- Reviewer ID: reviewer-2
+- Comment ID: comment-4
+- Decision type: social-capital-interpretation-and-prior-insertion-reedit
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/docs/reviewer-2-comment-4-consolidated-proposal.md
+- Object SHA-256: 31db569959ab14c30fe584e3379592a6ded55a2ad9ba19a9103a2e09f897b537
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Reviewer 2 asks the authors to align the social-capital narrative with Table 1 and reconsider rural buffer or compensatory claims.
+
+### Decision Context
+
+The current manuscript already rejects a rural social-capital buffer in Results, Discussion, Policy Implications, and Conclusion, but the Discussion heading retains mitigating language and one sentence does not explicitly state the slightly lower rural descriptive mean in Table 1.
+
+### Kila Recommendation
+
+Approve exactly two Discussion edits: replace the mitigating-factor heading with a correlational heading and revise one sentence to report the Table 1 direction while retaining the imprecise adjusted and indirect results. Permit a confirmed safe re-edit of reviewer-1/comment-1#part-42 only if dry-run isolation and EndNote fingerprint preservation pass.
+
+### Options Presented
+
+- Approve the complete two-part bundle with the disclosed prior-insertion and EndNote safeguard.
+
+### Human Decision
+
+The human approved the complete Reviewer 2 / Comment 4 two-part bundle, including the disclosed confirmed-safe re-edit of reviewer-1/comment-1#part-42 under the exact dry-run and EndNote-preservation boundary.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The Discussion heading no longer implies a supported buffering mechanism, and the second social-capital paragraph explicitly reconciles Table 1 with the adjusted and indirect uncertainty without changing analysis, tables, figures, or the supplement.
+
+### Affected Manuscript Sections
+
+- Discussion
+
+### Related Artifacts
+
+- Rev/docs/reviewer-2-comment-4-consolidated-proposal.md
+- Rev/docs/revisionplan.md
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/revisionchanges.md
+
+### Follow-Up
+
+Run one dry-run and tracked edit for each approved part in order; then generate one fresh clean, perform consolidated semantic and visual review, and update only the Reviewer 2 / Comment 4 response block.
+
+## KILA-D-20260830-016: Approve Reviewer 2 Comment 4 response and implementation
+
+- Event SHA-256: a1ab3b7e6d3bf3e914964f8c16b93832dea2bc023e85eb1242bb59ff9e314d62
+- Recorded at: 2026-08-30T17:44:09+09:00
+- Revision workspace: Rev
+- Revision stage: response-approval
+- Reviewer ID: reviewer-2
+- Comment ID: comment-4
+- Decision type: implementation-approval
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260830-015
+- Decision object: Rev/revision/response-draft.md
+- Object SHA-256: f1bc18f0dc46e86a4bc48b829c7dac1918f195df1c0b1d81104c8ca6e8bc3269
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+The reviewer requires the social-capital Discussion to match Table 1 and to withdraw unsupported rural-buffer or compensatory claims.
+
+### Decision Context
+
+The approved two-part Discussion revision, fresh-clean verification, protected-field checks, and targeted Reviewer 2 Comment 4 response are complete and awaiting final human evaluation.
+
+### Kila Recommendation
+
+Approve the verified response if it accurately represents the implemented evidence boundary and exact revised text.
+
+### Options Presented
+
+- Approve the verified response and full implementation
+
+### Human Decision
+
+The human approves the completed Reviewer 2 Comment 4 response and thereby confirms the two-part manuscript implementation is acceptable.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Close Reviewer 2 Comment 4, preserve the evidence boundary that social capital is a correlate rather than a demonstrated rural buffer, and route the workflow to the next dependency-ready comment.
+
+### Affected Manuscript Sections
+
+- Discussion
+- Response to Reviewer 2
+
+### Related Artifacts
+
+- Rev/docs/reviewer-2-comment-4-consolidated-proposal.md
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/docs/revisionchanges.md
+- Rev/revision/response-draft.md
+
+### Follow-Up
+
+Mark Reviewer 2 Comment 4 done in the revision plan, append the closure execution record, and route to Reviewer 2 Comment 6.

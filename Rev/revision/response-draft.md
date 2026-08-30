@@ -473,9 +473,27 @@ The same increase is also visible in Figure 6. The coefficient only returns to +
 The authors write: “its size decreased after including income security feelings, expense worries, and income percentile in M5”. However, both the table and figure clearly show an increase. This is likely not a typo but a serious interpretation error, because the entire discussion about economic insecurity as a main mediating mechanism is based on this incorrect direction of change.
 
 **Response:**
-[Response pending.]
+Thank you for identifying this important inconsistency. We agree that the former M4-to-M5 interpretation was incorrect: in the superseded six-model sequence, the rural-residence coefficient increased from +0.060 to +0.063 after the economic-security measures were added; it did not decrease. We therefore removed the incorrect attenuation claim and no longer use movement across the OLS sequence as evidence of mediation. The revised manuscript reports a prespecified common-sample four-model OLS sequence in the correct direction: +0.026 in M1, +0.027 in M2, +0.064 in M3, and +0.065 in M4. The main change occurs when the economic-security block is added in M3, whereas adding the Social Capital Index in M4 changes the estimate only slightly. We describe these coefficient movements rather than interpreting them as mediation; formal conditional direct and indirect associations are estimated separately with the parallel observed-variable path model. The former mechanism-sequence Table 4 and Figure 6 have also been replaced: current Table 4 reports path-model associations, Figure 4 displays the four-model OLS sequence, and current Figure 6 reports place-level heterogeneity.
 
-"[Exact revised text quoted from the fresh clean manuscript]"
+The revised text and display captions read (five representative quotations from nine verified manuscript locations):
+
+"Table 2 presents the four primary OLS specifications, which are visually summarized in Figure 4. All four models use the same common complete-case sample (N = 183,685), include place fixed effects, and use place-clustered CR2/Satterthwaite inference. The rural-residence coefficient is +0.026 in M1 (95% CI: -0.096 to 0.148), +0.027 in M2 (-0.074 to 0.129), +0.064 in M3 (-0.010 to 0.139), and +0.065 in M4 (0.001 to 0.129). The main coefficient change occurs when Income Security Feelings, Expense Worry, and Within-Place Income Percentile are added as the economic-security block in M3; adding the Social Capital Index in M4 changes the estimate only slightly. This nested sequence is descriptive and is not interpreted as mediation evidence."
+
+(Lines/Pages: human verification required)
+
+"Table 4. Conditional direct and indirect associations from the parallel observed-variable path model"
+
+(Lines/Pages: human verification required)
+
+"Figure 4. Rural-residence coefficients across the four primary OLS specifications. Error bars show 95% CR2/Satterthwaite confidence intervals."
+
+(Lines/Pages: human verification required)
+
+"Figure 6. Place-level forest plot and composite rural-urban comparison"
+
+(Lines/Pages: human verification required)
+
+"Economic insecurity remains a plausible pathway in prior research (Akter & Basher, 2014; Lu & Horlu, 2017; Mahmud & Riley, 2021). In the present parallel path model, the Income Security Feelings specific indirect association is -0.019 (95% CR2 delta-method CI: -0.032 to -0.006). The corresponding estimates for Expense Worry and Within-Place Income Percentile are -0.009 and -0.001, and both intervals include zero. The results therefore provide the strongest evidence for a conditional indirect association through Income Security Feelings, not for a single aggregate economic mechanism that explains the rural-urban association. The OLS coefficient change when the economic-security block is added is reported descriptively and is not treated as mediation evidence."
 
 (Lines/Pages: human verification required)
 
@@ -549,10 +567,12 @@ The claim that rural areas have higher social capital is therefore not supported
 In particular, the idea that social capital works as a “buffer” or “compensatory” mechanism for rural areas needs to be reconsidered.
 
 **Response:**
-[Response pending.]
+Thank you for identifying this inconsistency. We agree that the previous Discussion overstated the rural social-capital pattern and used unsupported buffer language. We revised the subsection heading and narrative to align the interpretation with Table 1 and the formal pathway estimates. The descriptive mean Social Capital Index is slightly lower among rural respondents than urban respondents (-0.006 versus 0.007; rural-urban difference = -0.013). In the adjusted first-stage equation, the rural-residence association with the Social Capital Index is imprecise (-0.009; 95% CI: -0.035 to 0.017), and the index-specific indirect association is also imprecise (-0.008; 95% CI: -0.029 to 0.014). We therefore no longer characterize social capital as an empirically demonstrated rural buffer or compensatory mechanism. Instead, we retain social capital as a correlate of life satisfaction while explicitly distinguishing that broader association from the unsupported rural-buffer claim.
 
-"[Exact revised text quoted from the fresh clean manuscript]"
+"Social Capital as a Correlate of Life Satisfaction"
+(Lines/Pages: human verification required)
 
+"In this dataset, however, the descriptive mean Social Capital Index is slightly lower among rural than urban respondents (-0.006 versus 0.007; rural-urban difference = -0.013), and both the adjusted rural-residence association and the index-specific indirect association are imprecise."
 (Lines/Pages: human verification required)
 
 ## Comment 5

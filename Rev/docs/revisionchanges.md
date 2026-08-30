@@ -8814,3 +8814,103 @@ Figure 5. Rural-residence coefficients from the four first-stage pathway equatio
 - No-change ledger: Table 4, the direct/indirect Results estimates, Discussion, Figure 4, Table 2, Supplementary Materials, and the response draft were not modified during the manuscript operation.
 - Response: only the Reviewer 1 / Comment 4 response block in `Rev/revision/response-draft.md` changed; final SHA-256 `356d669abc95fda852be835823e256acdefa584127b5ddd69e65c56d4755434e`. Reconstructing that block's former placeholder reproduces the exact pre-edit response SHA-256 `4ef360bd27ba15227ff56879539e12cfc956464c1b517c01a2c15566f514bf77`, proving all other response bytes are unchanged. The ten-location bundle uses the 6–10-location quotation tier: five representative exact fresh-clean quotations cover the integrated first-stage Methodology, the direct/indirect component, Results, Table 3, and Figure 5; every quotation occurs exactly once in the fresh clean and has its own immediately following human-verification marker.
 - Next gate: the human reviews and explicitly approves the `reviewer-1/comment-4` response; the comment remains open until that approval.
+
+## reviewer-2/comment-4
+
+### part-01
+
+- Location: Discussion, Heading 2 immediately before the paragraph beginning 'Social capital is positively associated with life satisfaction'
+- Reason: Remove the residual implication that social capital is an empirically supported mitigating or buffering mechanism and align the heading with the validated correlational evidence.
+- Kila decisions: KILA-D-20260830-015
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-30T08:19:44Z
+- Author: Codex
+- Markup SHA-256 before: `392718e26e6986261972b37533658fd1798237f6ef6d03aa92a902290504b143`
+- Markup SHA-256 after: `3a96afb49572f1c7653515ac51d50296fa23bceddbf2871c5bec9340090dccd1`
+- Revision IDs: `2819, 2820, 2821, 2822, 2823, 2824`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260830T171944183213.reviewer-2-comment-4.part-01.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Social Support as a Mitigating Factor
+~~~~
+
+- After:
+
+~~~~text
+Social Capital as a Correlate of Life Satisfaction
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "Support"
+     - After: "Capital"
+  2. `replace`
+     - Before: "Mitigating"
+     - After: "Correlate"
+  3. `replace`
+     - Before: "Factor"
+     - After: "of Life Satisfaction"
+
+### part-02
+
+- Location: Discussion, second paragraph under 'Social Capital as a Correlate of Life Satisfaction'
+- Reason: State the exact Table 1 direction while retaining the adjusted and indirect uncertainty boundary, so the Discussion no longer implies higher rural social capital.
+- Kila decisions: KILA-D-20260830-015
+- Mode: `reedit`
+- Revises prior parts: reviewer-1/comment-1#part-42
+- Timestamp: 2026-08-30T08:21:21Z
+- Author: Codex
+- Markup SHA-256 before: `3a96afb49572f1c7653515ac51d50296fa23bceddbf2871c5bec9340090dccd1`
+- Markup SHA-256 after: `53c91a4985baf1e2fd0d3faf5a259c50fa910dbc3cae27dfa0dfeb2021bbcbf6`
+- Revision IDs: `1313`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260830T172122057139.reviewer-2-comment-4.part-02.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+In this dataset, however, rural respondents do not exhibit a precisely higher Social Capital Index score, and the Social Capital Index indirect association is imprecise.
+~~~~
+
+- After:
+
+~~~~text
+In this dataset, however, the descriptive mean Social Capital Index is slightly lower among rural than urban respondents (-0.006 versus 0.007; rural-urban difference = -0.013), and both the adjusted rural-residence association and the index-specific indirect association are imprecise.
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "rural"
+     - After: "the"
+  2. `replace`
+     - Before: "respondents"
+     - After: "descriptive"
+  3. `replace`
+     - Before: "do not exhibit a precisely higher"
+     - After: "mean"
+  4. `replace`
+     - Before: "score"
+     - After: "is slightly lower among rural than urban respondents (-0.006 versus 0.007; rural-urban difference = -0.013)"
+  5. `insert`
+     - Before: ""
+     - After: " and both the adjusted rural-residence association"
+  6. `replace`
+     - Before: "Social Capital Index"
+     - After: "index-specific"
+  7. `replace`
+     - Before: "is"
+     - After: "are"
