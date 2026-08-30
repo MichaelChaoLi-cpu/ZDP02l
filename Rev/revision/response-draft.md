@@ -130,7 +130,7 @@ Finally, the revised *Limitations and Future Studies* section makes clear that p
 b. The steps in the “Sequential Model Specifications for Life Satisfaction” appear too cumbersome and can be downsized with updated framing. For instance, it might be better to include country level fixed effects in all models rather than only adding them in M4 and later models.
 
 **Response:**
-Thank you for this helpful suggestion. We agree that the previous six-step presentation was unnecessarily cumbersome. The revised Methodology now presents four primary OLS specifications (M1–M4) on one common sample, includes place fixed effects in every model from M1 onward, and distinguishes the descriptive nested OLS sequence from the parallel path analysis. Table 2, Figure 4, Results, and Discussion are synchronized with the same four-model sequence and inferential framework. Because these revisions had already been implemented and verified through overlapping comments, no duplicate Word edit was needed for this comment. Across the six distinct manuscript locations, the following five representative passages document the revision:
+Thank you for this helpful suggestion. We agree that the previous six-step presentation was unnecessarily cumbersome. The revised Methodology now presents four primary OLS specifications (M1–M4) on one common sample, includes place fixed effects in every model from M1 onward, and distinguishes the descriptive nested OLS sequence from the parallel path analysis. Table 2, Results, and Discussion are synchronized with the same four-model sequence and inferential framework. The previously redundant coefficient figure has been removed because Table 2 provides the complete numerical evidence. Because these revisions had already been implemented and verified through overlapping comments, no duplicate Word edit was needed for this comment. Across the six distinct manuscript locations, the following five representative passages document the revision:
 
 "Subsequent sections describe the four nested OLS specifications used to track the adjusted rural-urban association; formal conditional direct and indirect associations are estimated separately in the parallel path model."
 
@@ -140,11 +140,11 @@ Thank you for this helpful suggestion. We agree that the previous six-step prese
 
 (Lines/Pages: human verification required)
 
-"Figure 4. Rural-residence coefficients across the four primary OLS specifications. Error bars show 95% CR2/Satterthwaite confidence intervals."
+"Table 2. Primary OLS specifications for life satisfaction"
 
 (Lines/Pages: human verification required)
 
-"Table 2 presents the four primary OLS specifications, which are visually summarized in Figure 4. All four models use the same common complete-case sample (N = 183,685), include place fixed effects, and use place-clustered CR2/Satterthwaite inference. The rural-residence coefficient is +0.026 in M1 (95% CI: -0.096 to 0.148), +0.027 in M2 (-0.074 to 0.129), +0.064 in M3 (-0.010 to 0.139), and +0.065 in M4 (0.001 to 0.129). The main coefficient change occurs when Income Security Feelings, Expense Worry, and Within-Place Income Percentile are added as the economic-security block in M3; adding the Social Capital Index in M4 changes the estimate only slightly. This nested sequence is descriptive and is not interpreted as mediation evidence."
+"Table 2 presents the four primary OLS specifications. All four models use the same common complete-case sample (N = 183,685), include place fixed effects, and use place-clustered CR2/Satterthwaite inference. The rural-residence coefficient is +0.026 in M1 (95% CI: -0.096 to 0.148), +0.027 in M2 (-0.074 to 0.129), +0.064 in M3 (-0.010 to 0.139), and +0.065 in M4 (0.001 to 0.129). The main coefficient change occurs when Income Security Feelings, Expense Worry, and Within-Place Income Percentile are added as the economic-security block in M3; adding the Social Capital Index in M4 changes the estimate only slightly. This nested sequence is descriptive and is not interpreted as mediation evidence."
 
 (Lines/Pages: human verification required)
 
@@ -157,9 +157,9 @@ Thank you for this helpful suggestion. We agree that the previous six-step prese
 c. The authors conducted an independent “Economic Insecurity Analysis”, where three measures were used as dependent variables. If this strategy is reasonable, which I highly doubt, why don’t fit a similar model for the social capital index (which is listed as a separate mechanism by the authors)? In addition, why don’t integrate this independent analysis into the “Mechanism Analysis” subsection?
 
 **Response:**
-Thank you for identifying this asymmetry. We agree that presenting the three economic-security equations as an independent analysis obscured their relationship to the Social Capital Index equation and the broader pathway model. The revised Methodology therefore integrates all four first-stage equations under the parallel path analysis: Rural-Urban Residence predicts Income Security Feelings, Expense Worry, Within-Place Income Percentile, and the Social Capital Index using the same common sample, controls, place fixed effects, and place-clustered inference. The outcome equation and the conditional direct and indirect associations remain a distinct component of the same parallel path model, rather than a separate mechanism framework. The revised Results now reports the four first-stage estimates symmetrically, and Table 3 and Figure 5 have been expanded from three economic-security outcomes to all four pathway outcomes.
+Thank you for identifying this asymmetry. We agree that presenting the three economic-security equations as an independent analysis obscured their relationship to the Social Capital Index equation and the broader pathway model. The revised Methodology therefore integrates all four first-stage equations under the parallel path analysis: Rural-Urban Residence predicts Income Security Feelings, Expense Worry, Within-Place Income Percentile, and the Social Capital Index using the same common sample, controls, place fixed effects, and place-clustered inference. The outcome equation and the conditional direct and indirect associations remain a distinct component of the same parallel path model, rather than a separate mechanism framework. The revised Results now reports the four first-stage estimates symmetrically, and Table 3 has been expanded from three economic-security outcomes to all four pathway outcomes. The formerly redundant first-stage coefficient figure has been removed because Table 3 retains the complete estimates and intervals.
 
-The ten changed manuscript locations fall in the 6–10-location quotation tier; the following five representative quotations cover the integrated first-stage Methodology, the direct/indirect component, the corresponding Results, Table 3, and Figure 5:
+The ten changed manuscript locations fall in the 6–10-location quotation tier; the following five representative quotations cover the integrated first-stage Methodology, the direct/indirect component, the corresponding Results, Table 3, and the aligned Discussion interpretation:
 
 "The parallel path model includes four first-stage equations in which Rural-Urban Residence predicts Income Security Feelings, Expense Worry, Within-Place Income Percentile, and the Social Capital Index (Fanfan et al., 2025; Hu et al., 2025; Lankila et al., 2013). Each pathway outcome is regressed on Rural-Urban Residence (Gross-Manos & Shimoni, 2020; Hammond et al., 2026; Lankila et al., 2013), Age, Gender, Marital Status, Employment, and Education, with place fixed effects. All four equations use the same common complete-case sample (N = 183,685) and place-clustered CR2/Satterthwaite inference. These equations are the first-stage components of the parallel path model rather than a separate outcome-analysis framework."
 (Lines/Pages: human verification required)
@@ -167,13 +167,13 @@ The ten changed manuscript locations fall in the 6–10-location quotation tier;
 "The outcome equation regresses Life Satisfaction on Rural Residence and all four pathway variables simultaneously. The pathways are modeled in parallel rather than as a serial causal sequence, and the outcome equation uses the same demographic and socioeconomic controls, place fixed effects, common complete-case sample (N = 183,685), and place-clustered CR2/Satterthwaite inference as the four first-stage equations (Fanfan et al., 2025; Hu et al., 2025; Zhao et al., 2022). We report four specific indirect associations, their total indirect association, the direct rural-residence association, and the total association; uncertainty for the indirect associations is evaluated with 4,999 joint Webb six-point wild-cluster score-bootstrap draws. Because the data are cross-sectional, these quantities are interpreted as conditional direct and indirect associations, not as causal, partial-mediation, or full-mediation effects."
 (Lines/Pages: human verification required)
 
-"On the common complete-case sample (N = 183,685), rural residence is associated with lower Income Security Feelings (b = -0.038; 95% CR2/Satterthwaite CI: -0.062 to -0.015) and a lower Within-Place Income Percentile (b = -0.046; -0.061 to -0.030). The Expense Worry estimate is -0.055 (-0.176 to 0.066), and the Social Capital Index estimate is -0.009 (-0.035 to 0.017); both intervals include zero (Table 3; Figure 5). Thus, the four first-stage equations are presented symmetrically: two economic-security intervals exclude zero, whereas the Expense Worry and Social Capital Index intervals include zero."
+"On the common complete-case sample (N = 183,685), rural residence is associated with lower Income Security Feelings (b = -0.038; 95% CR2/Satterthwaite CI: -0.062 to -0.015) and a lower Within-Place Income Percentile (b = -0.046; -0.061 to -0.030). The Expense Worry estimate is -0.055 (-0.176 to 0.066), and the Social Capital Index estimate is -0.009 (-0.035 to 0.017); both intervals include zero (Table 3). Thus, the four first-stage equations are presented symmetrically: two economic-security intervals exclude zero, whereas the Expense Worry and Social Capital Index intervals include zero."
 (Lines/Pages: human verification required)
 
 "Table 3. Adjusted rural-residence associations with first-stage pathway outcomes"
 (Lines/Pages: human verification required)
 
-"Figure 5. Rural-residence coefficients from the four first-stage pathway equations. Error bars show 95% CR2/Satterthwaite confidence intervals."
+"Social capital is positively associated with life satisfaction in the outcome equation (+0.853; 95% CI: 0.750 to 0.956) (Wang et al., 2026; Yip et al., 2007; Yu et al., 2022). However, rural residence is not precisely associated with the within-place-standardized Social Capital Index (-0.009; -0.035 to 0.017), and the specific indirect association through the index is -0.008 (-0.029 to 0.014). Because that interval includes zero, the analysis does not support a distinct social-capital mediation or buffering effect for rural residents. This does not diminish the broader association between social relationships and well-being across residential settings (Chaplitskaya et al., 2024; Counted et al., 2024; Gross-Manos & Shimoni, 2020)."
 (Lines/Pages: human verification required)
 
 ## Comment 5
@@ -193,21 +193,21 @@ a. Overall, there are a lot of details, such as the description of data preproce
 b. There are some organizational issue as well: some of the focal independent and mediator variables are messed with control variables at one place or another. For instance, “Income Security Feelings” (added in M3) serves as a socioeconomic control, not as a measure of economic insecurity (added in M5): in “Data and Measurement” section, it is somehow grouped under the category “Economic Insecurity Measures”. And the measure description, descriptive results and methodology were also mixed together in ways that are quite unexpected.
 
 **Response:**
-Thank you for identifying this organizational inconsistency. We have revised the Data and Measurement, Methodology, and Results sections so that variable definitions, model roles, and empirical findings are presented separately and consistently. Income Security Feelings is now treated throughout as one of the three economic-security measures and as a pathway variable; it is no longer included in the baseline demographic and socioeconomic control block. The four primary OLS specifications now use a common complete-case sample and add the economic-security block only in M3, followed by the Social Capital Index in M4. The nested OLS sequence is explicitly described as descriptive, while indirect associations are estimated separately in the parallel path model. We also removed repeated descriptive statistics from the measurement prose, retained concise variable definitions, and directed readers to Table 1. Finally, the revised Results paragraph, Table 2, and Figure 4 now report the same four-model sequence, estimates, confidence intervals, and inferential framework.
+Thank you for identifying this organizational inconsistency. We have revised the Data and Measurement, Methodology, and Results sections so that variable definitions, model roles, and empirical findings are presented separately and consistently. Income Security Feelings is now treated throughout as one of the three economic-security measures and as a pathway variable; it is no longer included in the baseline demographic and socioeconomic control block. The four primary OLS specifications now use a common complete-case sample and add the economic-security block only in M3, followed by the Social Capital Index in M4. The nested OLS sequence is explicitly described as descriptive, while indirect associations are estimated separately in the parallel path model. We also removed repeated descriptive statistics from the measurement prose, retained concise variable definitions, and directed readers to Table 1. Finally, the revised Results paragraph and Table 2 now report the same four-model sequence, estimates, confidence intervals, and inferential framework; the redundant coefficient figure has been removed.
 
-"Four primary OLS models, M1 through M4, are estimated on the prespecified common complete-case sample, with place fixed effects included in every specification. These models progressively add demographic and socioeconomic controls, three economic-security measures, and the Social Capital Index. This nested sequence describes how the rural-residence coefficient changes as the prespecified covariate blocks are added; indirect associations are estimated separately in the parallel path model."
-
-(Lines/Pages: human verification required)
-
-"It is assessed using three distinct indicators from the GFS: Income Security Feelings, Expense Worry, and Within-Country Income Percentile (An et al., 2025; Godoy et al., 2024; Lu & Horlu, 2017). Income Security Feelings is measured on a 1–4 scale (An et al., 2025; Gautam & Andersen, 2016; Wang et al., 2015), and Expense Worry is measured on a 0–10 scale (An et al., 2025; Lu & Horlu, 2017; Wang et al., 2015)."
+"Four primary OLS models, M1 through M4, are estimated on the prespecified common complete-case sample (N = 183,685; 23 analytical places), with place fixed effects included in every specification. Holding respondents constant across M1–M4 ensures that coefficient changes reflect added covariate blocks rather than changes in the analyzed sample."
 
 (Lines/Pages: human verification required)
 
-"In the first-stage equations, Rural Residence predicts Income Security Feelings, Expense Worry, Within-Country Income Percentile, and the Social Capital Index; in the outcome equation, Life Satisfaction is regressed on Rural Residence and all four pathway variables simultaneously. The four pathways are modeled in parallel rather than as a serial causal sequence, and every equation includes the same demographic and socioeconomic controls and place fixed effects as the primary OLS specification (Fanfan et al., 2025; Hu et al., 2025; Zhao et al., 2022)."
+"It is assessed using three distinct indicators from the GFS: Income Security Feelings, Expense Worry, and Within-Place Income Percentile (An et al., 2025; Godoy et al., 2024; Lu & Horlu, 2017). Income Security Feelings is measured on a 1–4 scale (An et al., 2025; Gautam & Andersen, 2016; Wang et al., 2015), and Expense Worry is measured on a 0–10 scale (An et al., 2025; Lu & Horlu, 2017; Wang et al., 2015)."
 
 (Lines/Pages: human verification required)
 
-"To this end, the analysis employs Income Security Feelings, Expense Worry, and Within-Country Income Percentile as dependent variables."
+"The parallel path model includes four first-stage equations in which Rural-Urban Residence predicts Income Security Feelings, Expense Worry, Within-Place Income Percentile, and the Social Capital Index (Fanfan et al., 2025; Hu et al., 2025; Lankila et al., 2013). Each pathway outcome is regressed on Rural-Urban Residence (Gross-Manos & Shimoni, 2020; Hammond et al., 2026; Lankila et al., 2013), Age, Gender, Marital Status, Employment, and Education, with place fixed effects. All four equations use the same common complete-case sample (N = 183,685) and place-clustered CR2/Satterthwaite inference. These equations are the first-stage components of the parallel path model rather than a separate outcome-analysis framework."
+
+(Lines/Pages: human verification required)
+
+"Table 1 reports descriptive statistics for these measures and Within-Place Income Percentile by rural-urban residence."
 
 (Lines/Pages: human verification required)
 
@@ -223,7 +223,7 @@ Thank you for identifying this organizational inconsistency. We have revised the
 
 (Lines/Pages: human verification required)
 
-"Table 2 presents the four primary OLS specifications, which are visually summarized in Figure 4. All four models use the same common complete-case sample (N = 183,685), include place fixed effects, and use place-clustered CR2/Satterthwaite inference. The rural-residence coefficient is +0.026 in M1 (95% CI: -0.096 to 0.148), +0.027 in M2 (-0.074 to 0.129), +0.064 in M3 (-0.010 to 0.139), and +0.065 in M4 (0.001 to 0.129). The main coefficient change occurs when Income Security Feelings, Expense Worry, and Within-Country Income Percentile are added as the economic-security block in M3; adding the Social Capital Index in M4 changes the estimate only slightly. This nested sequence is descriptive and is not interpreted as mediation evidence."
+"Table 2 presents the four primary OLS specifications. All four models use the same common complete-case sample (N = 183,685), include place fixed effects, and use place-clustered CR2/Satterthwaite inference. The rural-residence coefficient is +0.026 in M1 (95% CI: -0.096 to 0.148), +0.027 in M2 (-0.074 to 0.129), +0.064 in M3 (-0.010 to 0.139), and +0.065 in M4 (0.001 to 0.129). The main coefficient change occurs when Income Security Feelings, Expense Worry, and Within-Place Income Percentile are added as the economic-security block in M3; adding the Social Capital Index in M4 changes the estimate only slightly. This nested sequence is descriptive and is not interpreted as mediation evidence."
 
 (Lines/Pages: human verification required)
 
@@ -231,7 +231,7 @@ Thank you for identifying this organizational inconsistency. We have revised the
 
 (Lines/Pages: human verification required)
 
-"Figure 4. Rural-residence coefficients across the four primary OLS specifications. Error bars show 95% CR2/Satterthwaite confidence intervals."
+"The revised estimates do not support a persistent negative rural association (Chaplitskaya et al., 2024; Counted et al., 2024; Lu et al., 2025). The rural coefficient is +0.026 in M1, +0.027 in M2, +0.064 in M3, and +0.065 in M4. The main change occurs when the three economic-security measures are added; adding the Social Capital Index changes the estimate only slightly. This sequence is descriptive rather than a mediation test. The place-level and multilevel analyses show substantial heterogeneity, so the pooled positive association should not be interpreted as a universal rural benefit or as evidence that rural settings are inherently superior (Chaplitskaya et al., 2024; Counted et al., 2024; Gross-Manos & Shimoni, 2020)."
 
 (Lines/Pages: human verification required)
 
@@ -240,7 +240,7 @@ Thank you for identifying this organizational inconsistency. We have revised the
 c. If I am not mistaken, the sample sizes are somehow inconsistent across models/tables (?). Is it due to missing values in the data? Anyway, this may make the comparison of results across models/tables questionable.
 
 **Response:**
-Thank you for identifying this sample-comparability issue. We audited missingness and every model denominator, clarified the distinction between the processed source, variable-specific descriptive samples, the locked primary complete-case sample, and outcome-specific sensitivity samples, and aligned the related Methods, Results, Tables 1, 3, 5, and 6, Figure 7, and Supplementary Table S3. The four primary OLS specifications, the parallel path model, the three economic-security models, and the weighted/unweighted M4 comparison now use the same prespecified complete-case sample (N = 183,685), so comparisons within those model sequences are not driven by changing respondents. Alternative-outcome models report their exact complete-case Ns and include a same-respondent three-outcome sensitivity (N = 183,128). Supplementary Table S3 documents the complete construction sequence and overlapping variable-level missingness. This revision addresses the source of the apparent inconsistency while retaining variable-specific descriptive denominators where appropriate.
+Thank you for identifying this sample-comparability issue. We audited missingness and every model denominator, clarified the distinction between the processed source, variable-specific descriptive samples, the locked primary complete-case sample, and outcome-specific sensitivity samples, and aligned the related Methods, Results, Tables 1, 3, 5, and 6, Figure 3, and Supplementary Table S3. The four primary OLS specifications, the parallel path model, the four first-stage pathway equations, and the weighted/unweighted M4 comparison now use the same prespecified complete-case sample (N = 183,685), so comparisons within those model sequences are not driven by changing respondents. Alternative-outcome models report their exact complete-case Ns and include a same-respondent three-outcome sensitivity (N = 183,128). Supplementary Table S3 documents the complete construction sequence and overlapping variable-level missingness. This revision addresses the source of the apparent inconsistency while retaining variable-specific descriptive denominators where appropriate.
 
 The comment resulted in 19 distinct manuscript and supplementary locations (the approved 18-part bundle plus one Results heading scope correction); under the response quotation tier, the following 10 passages are representative of the revised Data and Measurement, Methodology, Results, table-note, and figure-note locations:
 
@@ -250,19 +250,19 @@ The comment resulted in 19 distinct manuscript and supplementary locations (the 
 "Four primary OLS models, M1 through M4, are estimated on the prespecified common complete-case sample (N = 183,685; 23 analytical places), with place fixed effects included in every specification. Holding respondents constant across M1–M4 ensures that coefficient changes reflect added covariate blocks rather than changes in the analyzed sample."
 (Lines/Pages: human verification required)
 
-"Each economic-security outcome is regressed on Rural-Urban Residence, Age, Gender, Marital Status, Employment, and Education, with place fixed effects. All three models use the same common complete-case sample (N = 183,685) and place-clustered CR2/Satterthwaite inference, so their rural-residence estimates are directly comparable."
+"The parallel path model includes four first-stage equations in which Rural-Urban Residence predicts Income Security Feelings, Expense Worry, Within-Place Income Percentile, and the Social Capital Index (Fanfan et al., 2025; Hu et al., 2025; Lankila et al., 2013). Each pathway outcome is regressed on Rural-Urban Residence (Gross-Manos & Shimoni, 2020; Hammond et al., 2026; Lankila et al., 2013), Age, Gender, Marital Status, Employment, and Education, with place fixed effects. All four equations use the same common complete-case sample (N = 183,685) and place-clustered CR2/Satterthwaite inference. These equations are the first-stage components of the parallel path model rather than a separate outcome-analysis framework."
 (Lines/Pages: human verification required)
 
 "To assess whether the primary rural-urban association is consistent across related measures of subjective well-being, we conduct robustness checks using alternative outcomes. The fully adjusted M4 specification is re-estimated with Happiness and Wellbeing Today replacing Life Satisfaction while retaining the same covariates and place fixed effects. Each model uses the exact complete-case sample for its outcome and all M4 predictors (Happiness N = 183,938; Wellbeing Today N = 183,924), with the corresponding N reported in Table 5. A three-outcome matched complete-case sensitivity (N = 183,128) holds respondents constant across Life Satisfaction, Happiness, and Wellbeing Today. These models test the adjusted rural-residence association only; they do not estimate the indirect associations examined in the parallel path model."
 (Lines/Pages: human verification required)
 
-"On the common complete-case sample (N = 183,685), rural residence is associated with lower Income Security Feelings (b = -0.038; 95% CR2/Satterthwaite CI: -0.062 to -0.015) and a lower Within-Country Income Percentile (b = -0.046; -0.061 to -0.030). The Expense Security point estimate is also negative (b = -0.055), but its interval includes zero (-0.176 to 0.066) (Table 3; Figure 5). Thus, all three point estimates indicate lower economic security among rural respondents, while two of the three intervals exclude zero."
+"On the common complete-case sample (N = 183,685), rural residence is associated with lower Income Security Feelings (b = -0.038; 95% CR2/Satterthwaite CI: -0.062 to -0.015) and a lower Within-Place Income Percentile (b = -0.046; -0.061 to -0.030). The Expense Worry estimate is -0.055 (-0.176 to 0.066), and the Social Capital Index estimate is -0.009 (-0.035 to 0.017); both intervals include zero (Table 3). Thus, the four first-stage equations are presented symmetrically: two economic-security intervals exclude zero, whereas the Expense Worry and Social Capital Index intervals include zero."
 (Lines/Pages: human verification required)
 
-"In separate fully adjusted alternative-outcome OLS models, the rural-residence point estimate is +0.052 for Happiness (95% CR2/Satterthwaite CI: -0.007 to 0.111; N = 183,938) and +0.028 for Wellbeing Today (-0.033 to 0.090; N = 183,924) (Table 5; Figure 7a). Both point estimates are positive, but their intervals include zero. On the same three-outcome matched sample (N = 183,128), the corresponding estimates are +0.052 (-0.007 to 0.111) and +0.028 (-0.034 to 0.090), while the Life Satisfaction estimate is +0.065 (0.002 to 0.129). The direction of the three estimates is therefore stable to denominator alignment, but only the Life Satisfaction interval excludes zero. These checks concern the adjusted rural-residence coefficient and do not evaluate the indirect pathways estimated for Life Satisfaction."
+"In separate fully adjusted alternative-outcome OLS models, the rural-residence point estimate is +0.052 for Happiness (95% CR2/Satterthwaite CI: -0.007 to 0.111; N = 183,938) and +0.028 for Wellbeing Today (-0.033 to 0.090; N = 183,924) (Table 5; Figure 3a)."
 (Lines/Pages: human verification required)
 
-"Survey-weighted estimation provides a further sensitivity check using exactly the same common sample as the unweighted M4 model (N = 183,685; Table 6; Figure 7c). The weighted rural-residence coefficient is +0.063 (95% CR2/Satterthwaite CI: 0.010 to 0.116), close to the unweighted estimate of +0.065 (0.001 to 0.129). Because only the weights change, this comparison is not confounded by a change in respondents, and the direction and interval conclusion are unchanged."
+"Survey-weighted estimation provides a further sensitivity check using exactly the same common sample as the unweighted M4 model (N = 183,685; Table 6; Figure 3c). The weighted rural-residence coefficient is +0.063 (95% CR2/Satterthwaite CI: 0.010 to 0.116), close to the unweighted estimate of +0.065 (0.001 to 0.129). Because only the weights change, this comparison is not confounded by a change in respondents, and the direction and interval conclusion are unchanged."
 (Lines/Pages: human verification required)
 
 "Notes. Each row uses respondents with observed rural-urban residence and that row’s variable, so descriptive Ns vary across variables. The Social Capital Index row uses the primary common complete-case sample (N = 183,685). These descriptive denominators are not model Ns; exact analysis Ns are reported in each model table and Supplementary Table S3."
@@ -280,9 +280,9 @@ The comment resulted in 19 distinct manuscript and supplementary locations (the 
 a. The authors may consider adding a table/figure of the unadjusted differences between rural and urban residents across countries/regions.
 
 **Response:**
-Thank you for this helpful suggestion. We added Supplementary Table S5, which reports survey-weighted unadjusted rural and urban life-satisfaction means and rural-minus-urban differences for all 23 analytical places on the locked common complete-case sample (N = 183,685). The table also reports HC3 confidence intervals from survey-weighted OLS regressions with rural residence as the only predictor and no covariates. The revised Results summarizes the range and direction of the unadjusted differences and distinguishes them from the adjusted place-specific coefficients in Figure 6. Because this comment changes three distinct locations across the main manuscript and standalone Supplementary Materials, all three locations are quoted below.
+Thank you for this helpful suggestion. We added Supplementary Table S5, which reports survey-weighted unadjusted rural and urban life-satisfaction means and rural-minus-urban differences for all 23 analytical places on the locked common complete-case sample (N = 183,685). The table also reports HC3 confidence intervals from survey-weighted OLS regressions with rural residence as the only predictor and no covariates. The revised Results summarizes the range and direction of the unadjusted differences and distinguishes them from the adjusted place-specific coefficients in Figure 2. Because this comment changes three distinct locations across the main manuscript and standalone Supplementary Materials, all three locations are quoted below.
 
-"Supplementary Table S5 reports the unadjusted survey-weighted rural and urban life-satisfaction means and rural-minus-urban differences for all 23 analytical places on the same locked common sample. The unadjusted differences range from -0.282 to +0.529 points, with 14 positive and 9 negative values. Figure 6 groups the corresponding adjusted place-specific coefficients by UN M49 geographic region and orders them by effect size within each region."
+"Supplementary Table S5 reports the unadjusted survey-weighted rural and urban life-satisfaction means and rural-minus-urban differences for all 23 analytical places on the same locked common sample. The unadjusted differences range from -0.282 to +0.529 points, with 14 positive and 9 negative values. Figure 2 groups the corresponding adjusted place-specific coefficients by UN M49 geographic region and orders them by effect size within each region."
 
 (Lines/Pages: human verification required)
 
@@ -301,7 +301,7 @@ b. Please be extremely careful about the term “country” in the manuscript. H
 **Response:**
 Thank you for identifying this important terminology issue. We completed an occurrence-by-occurrence audit of the Abstract, main text, headings, tables, figure captions and labels, and standalone Supplementary Materials. The revised manuscript uses countries and regions for the collective scope, place for analytical and model units, and country only for genuine sovereign-state contexts. It now states explicitly that the sample contains 22 countries plus Hong Kong as a region, yielding 23 analytical places, while retaining `COUNTRY` only as the original source-data field name. We also synchronized the within-place income label and the place terminology in the tables, figures, and Supplementary Materials. Because this comment affected 46 distinct locations, the following 15 quotations represent the required sample across the Abstract, Introduction, Methods, Results, Discussion, tables, and figure captions.
 
-"This study investigates its prevalence and mechanisms using extensive survey data from the Global Flourishing Study (GFS), covering 22 countries and Hong Kong as a region (23 analytical places)."
+"This study investigates its prevalence and potential statistical pathways using extensive survey data from the Global Flourishing Study (GFS), covering 22 countries and Hong Kong as a region (23 analytical places)."
 (Lines/Pages: human verification required)
 
 "To address these gaps, the present study uses survey data spanning countries and regions to conduct a structured comparative analysis of rural-urban well-being differences."
@@ -328,7 +328,7 @@ Thank you for identifying this important terminology issue. We completed an occu
 "To systematically explore how the rural-urban life satisfaction association varies across analytical places, an OLS regression analysis is conducted separately by place."
 (Lines/Pages: human verification required)
 
-"A place-level forest plot (Figure 6) reveals this substantial variation in the rural-urban life satisfaction gap."
+"A place-level forest plot (Figure 2) reveals this substantial variation in the rural-urban life satisfaction gap."
 (Lines/Pages: human verification required)
 
 "This study provides an assessment across countries and regions of rural-urban differences in life satisfaction and of four measured statistical pathways linking rural residence to life satisfaction."
@@ -340,10 +340,10 @@ Thank you for identifying this important terminology issue. We completed an occu
 "Within-Place Income Percentile (0–1)"
 (Lines/Pages: human verification required)
 
-"Figure 3. Share of rural residence by analytical place"
+"Figure 1. Share of rural residence by analytical place"
 (Lines/Pages: human verification required)
 
-"Figure 6. Place-level forest plot and composite rural-urban comparison"
+"Figure 2. Place-specific rural-urban life satisfaction coefficients grouped by UN M49 geographic region."
 (Lines/Pages: human verification required)
 
 ## Comment 10
@@ -376,9 +376,45 @@ The revised *Results* section reads:
 d. Tables and figures appear somewhat redundant in certain places, such as Figure 4 and Table 2. Please review them carefully and consider excluding some tables/figures from the manuscript, including but not limited to Figures 1, 2, and 5.
 
 **Response:**
-[Response pending.]
+Thank you for this helpful suggestion. We completed a display-by-display audit of the main manuscript and Supplementary Materials, assessing whether each table or figure contributed distinct numerical or visual evidence. We removed the former Figures 1 and 2 because their descriptive information is stated concisely in the text, removed the former Figure 4 because Table 2 retains the complete four-model OLS estimates and intervals, and removed the former Figure 5 because Table 3 retains the complete first-stage pathway estimates and intervals. We retained all six main tables because each reports nonredundant numerical results, and we retained the former Figures 3, 6, and 7 because they uniquely show rural-residence composition, grouped place-specific heterogeneity, and integrated robustness checks, respectively. These retained figures are renumbered consecutively as Figures 1–3. All in-text references, captions, and the standalone Supplementary Materials have been synchronized with the final display set. The main manuscript therefore now contains six tables and three figures, while Supplementary Tables S1–S5 and Supplementary Figure S1 remain unchanged in substantive content. Across the 20 revised or removed locations, the following 10 representative quotations document the retained textual evidence and final display set:
 
-"[Exact revised text quoted from the fresh clean manuscript]"
+"The distribution of these scores is generally left-skewed."
+
+(Lines/Pages: human verification required)
+
+"Table 2 presents the four primary OLS specifications. All four models use the same common complete-case sample (N = 183,685), include place fixed effects, and use place-clustered CR2/Satterthwaite inference. The rural-residence coefficient is +0.026 in M1 (95% CI: -0.096 to 0.148), +0.027 in M2 (-0.074 to 0.129), +0.064 in M3 (-0.010 to 0.139), and +0.065 in M4 (0.001 to 0.129). The main coefficient change occurs when Income Security Feelings, Expense Worry, and Within-Place Income Percentile are added as the economic-security block in M3; adding the Social Capital Index in M4 changes the estimate only slightly. This nested sequence is descriptive and is not interpreted as mediation evidence."
+
+(Lines/Pages: human verification required)
+
+"On the common complete-case sample (N = 183,685), rural residence is associated with lower Income Security Feelings (b = -0.038; 95% CR2/Satterthwaite CI: -0.062 to -0.015) and a lower Within-Place Income Percentile (b = -0.046; -0.061 to -0.030). The Expense Worry estimate is -0.055 (-0.176 to 0.066), and the Social Capital Index estimate is -0.009 (-0.035 to 0.017); both intervals include zero (Table 3). Thus, the four first-stage equations are presented symmetrically: two economic-security intervals exclude zero, whereas the Expense Worry and Social Capital Index intervals include zero."
+
+(Lines/Pages: human verification required)
+
+"Supplementary Table S5 reports the unadjusted survey-weighted rural and urban life-satisfaction means and rural-minus-urban differences for all 23 analytical places on the same locked common sample. The unadjusted differences range from -0.282 to +0.529 points, with 14 positive and 9 negative values. Figure 2 groups the corresponding adjusted place-specific coefficients by UN M49 geographic region and orders them by effect size within each region."
+
+(Lines/Pages: human verification required)
+
+"In separate fully adjusted alternative-outcome OLS models, the rural-residence point estimate is +0.052 for Happiness (95% CR2/Satterthwaite CI: -0.007 to 0.111; N = 183,938) and +0.028 for Wellbeing Today (-0.033 to 0.090; N = 183,924) (Table 5; Figure 3a)."
+
+(Lines/Pages: human verification required)
+
+"Survey-weighted estimation provides a further sensitivity check using exactly the same common sample as the unweighted M4 model (N = 183,685; Table 6; Figure 3c)."
+
+(Lines/Pages: human verification required)
+
+"In the adjusted place regressions, rural-residence coefficients are positive in Kenya (+0.489, 95% CI: 0.226 to 0.752), Tanzania (+0.390, 0.158 to 0.623), and Poland (+0.209, 0.093 to 0.326), but negative in Israel (-0.252, -0.414 to -0.091) and Japan (-0.186, -0.260 to -0.112) (Figure 2); the corresponding unadjusted rural-minus-urban differences in Supplementary Table S5 have the same directions."
+
+(Lines/Pages: human verification required)
+
+"Figure 1. Share of rural residence by analytical place"
+
+(Lines/Pages: human verification required)
+
+"Figure 2. Place-specific rural-urban life satisfaction coefficients grouped by UN M49 geographic region."
+
+(Lines/Pages: human verification required)
+
+"Figure 3. Sample-aligned robustness checks."
 
 (Lines/Pages: human verification required)
 
@@ -387,7 +423,7 @@ d. Tables and figures appear somewhat redundant in certain places, such as Figur
 e. Not sure about the category “Unknown-25” in Figure 3.
 
 **Response:**
-Thank you for noting this labeling issue. We verified that source country code 25 corresponds to China, corrected the shared place-name crosswalk, and regenerated Figure 3. The revised figure now displays `China` and no longer contains the `Unknown-25` label.
+Thank you for noting this labeling issue. We verified that source country code 25 corresponds to China, corrected the shared place-name crosswalk, and regenerated Figure 1. The revised figure now displays `China` and no longer contains the `Unknown-25` label.
 
 The revised figure reads:
 
@@ -395,7 +431,7 @@ The revised figure reads:
 
 (Lines/Pages: human verification required)
 
-"Figure 3. Share of rural residence by country"
+"Figure 1. Share of rural residence by analytical place"
 
 (Lines/Pages: human verification required)
 
@@ -404,9 +440,17 @@ The revised figure reads:
 f. The reference line crossed the subtitle in Figure 5.
 
 **Response:**
-[Response pending.]
+Thank you for identifying this presentation issue. During the consolidated display audit, we determined that former Figure 5 duplicated the complete first-stage pathway evidence already reported in Table 3 and the Results. We therefore removed the figure and its caption rather than applying a cosmetic correction, and the Results now refers only to Table 3. Table 3 retains all four rural-residence coefficients, their 95% CR2/Satterthwaite confidence intervals, the common sample size, within R², controls, place fixed effects, and weighting status. Thus, the reference-line problem is eliminated without loss of analytical information. These actions were implemented and verified as part of the consolidated display-set revision for Reviewer 1, Comment 11, so no duplicate manuscript edit was required for this comment. The three shared-coverage evidence locations are quoted below:
 
-"[Exact revised text quoted from the fresh clean manuscript]"
+"The parallel path model includes four first-stage equations in which Rural-Urban Residence predicts Income Security Feelings, Expense Worry, Within-Place Income Percentile, and the Social Capital Index (Fanfan et al., 2025; Hu et al., 2025; Lankila et al., 2013). Each pathway outcome is regressed on Rural-Urban Residence (Gross-Manos & Shimoni, 2020; Hammond et al., 2026; Lankila et al., 2013), Age, Gender, Marital Status, Employment, and Education, with place fixed effects. All four equations use the same common complete-case sample (N = 183,685) and place-clustered CR2/Satterthwaite inference. These equations are the first-stage components of the parallel path model rather than a separate outcome-analysis framework."
+
+(Lines/Pages: human verification required)
+
+"On the common complete-case sample (N = 183,685), rural residence is associated with lower Income Security Feelings (b = -0.038; 95% CR2/Satterthwaite CI: -0.062 to -0.015) and a lower Within-Place Income Percentile (b = -0.046; -0.061 to -0.030). The Expense Worry estimate is -0.055 (-0.176 to 0.066), and the Social Capital Index estimate is -0.009 (-0.035 to 0.017); both intervals include zero (Table 3). Thus, the four first-stage equations are presented symmetrically: two economic-security intervals exclude zero, whereas the Expense Worry and Social Capital Index intervals include zero."
+
+(Lines/Pages: human verification required)
+
+"Table 3. Adjusted rural-residence associations with first-stage pathway outcomes"
 
 (Lines/Pages: human verification required)
 
@@ -415,9 +459,21 @@ f. The reference line crossed the subtitle in Figure 5.
 g. Are there any differences between Figures 4 and 6?
 
 **Response:**
-[Response pending.]
+Thank you for raising this question. The two former figures addressed different estimands. Former Figure 4 showed the pooled rural-residence coefficient across the four nested OLS specifications on the common sample, whereas former Figure 6 showed separate adjusted rural-residence coefficients across 23 analytical places. Nevertheless, former Figure 4 added no information beyond Table 2 and the accompanying Results paragraph, which report the complete model sequence, coefficients, confidence intervals, sample size, fixed-effects specification, and added covariate blocks. We therefore removed former Figure 4 as redundant. We retained former Figure 6 because it provides distinct adjusted cross-place heterogeneity evidence that is not reproduced in a main-text table; following the final display audit, it is renumbered as Figure 2. These actions were implemented and verified as part of the consolidated display-set revision for Reviewer 1, Comment 11, so no duplicate manuscript edit was required for this comment. The four shared-coverage locations are quoted below:
 
-"[Exact revised text quoted from the fresh clean manuscript]"
+"Table 2 presents the four primary OLS specifications. All four models use the same common complete-case sample (N = 183,685), include place fixed effects, and use place-clustered CR2/Satterthwaite inference. The rural-residence coefficient is +0.026 in M1 (95% CI: -0.096 to 0.148), +0.027 in M2 (-0.074 to 0.129), +0.064 in M3 (-0.010 to 0.139), and +0.065 in M4 (0.001 to 0.129). The main coefficient change occurs when Income Security Feelings, Expense Worry, and Within-Place Income Percentile are added as the economic-security block in M3; adding the Social Capital Index in M4 changes the estimate only slightly. This nested sequence is descriptive and is not interpreted as mediation evidence."
+
+(Lines/Pages: human verification required)
+
+"Supplementary Table S5 reports the unadjusted survey-weighted rural and urban life-satisfaction means and rural-minus-urban differences for all 23 analytical places on the same locked common sample. The unadjusted differences range from -0.282 to +0.529 points, with 14 positive and 9 negative values. Figure 2 groups the corresponding adjusted place-specific coefficients by UN M49 geographic region and orders them by effect size within each region. Because the plotted estimates come from separate survey-weighted place regressions on the locked common sample, we treat the figure as descriptive and do not use it to classify individual places by statistical significance. Point estimates vary in sign within Africa, the Americas, Asia, and Europe; Oceania contains only Australia. Thus, the display does not reveal a uniform region-wide pattern, and it cannot by itself identify historical or cultural explanations for cross-place heterogeneity."
+
+(Lines/Pages: human verification required)
+
+"Figure 2. Place-specific rural-urban life satisfaction coefficients grouped by UN M49 geographic region."
+
+(Lines/Pages: human verification required)
+
+"(Note: Points are survey-weighted OLS estimates from separate place regressions on the locked common sample (N = 183,685), adjusted for Age, Gender, Marital Status, Employment, and Education; bars show 95% HC3 confidence intervals. Places are ordered by coefficient within region. Region is a descriptive display grouping, not a modeled contextual moderator.)"
 
 (Lines/Pages: human verification required)
 
@@ -481,11 +537,11 @@ The same increase is also visible in Figure 6. The coefficient only returns to +
 The authors write: “its size decreased after including income security feelings, expense worries, and income percentile in M5”. However, both the table and figure clearly show an increase. This is likely not a typo but a serious interpretation error, because the entire discussion about economic insecurity as a main mediating mechanism is based on this incorrect direction of change.
 
 **Response:**
-Thank you for identifying this important inconsistency. We agree that the former M4-to-M5 interpretation was incorrect: in the superseded six-model sequence, the rural-residence coefficient increased from +0.060 to +0.063 after the economic-security measures were added; it did not decrease. We therefore removed the incorrect attenuation claim and no longer use movement across the OLS sequence as evidence of mediation. The revised manuscript reports a prespecified common-sample four-model OLS sequence in the correct direction: +0.026 in M1, +0.027 in M2, +0.064 in M3, and +0.065 in M4. The main change occurs when the economic-security block is added in M3, whereas adding the Social Capital Index in M4 changes the estimate only slightly. We describe these coefficient movements rather than interpreting them as mediation; formal conditional direct and indirect associations are estimated separately with the parallel observed-variable path model. The former mechanism-sequence Table 4 and Figure 6 have also been replaced: current Table 4 reports path-model associations, Figure 4 displays the four-model OLS sequence, and current Figure 6 reports place-level heterogeneity.
+Thank you for identifying this important inconsistency. We agree that the former M4-to-M5 interpretation was incorrect: in the superseded six-model sequence, the rural-residence coefficient increased from +0.060 to +0.063 after the economic-security measures were added; it did not decrease. We therefore removed the incorrect attenuation claim and no longer use movement across the OLS sequence as evidence of mediation. The revised manuscript reports a prespecified common-sample four-model OLS sequence in the correct direction: +0.026 in M1, +0.027 in M2, +0.064 in M3, and +0.065 in M4. The main change occurs when the economic-security block is added in M3, whereas adding the Social Capital Index in M4 changes the estimate only slightly. We describe these coefficient movements rather than interpreting them as mediation; formal conditional direct and indirect associations are estimated separately with the parallel observed-variable path model. The former mechanism-sequence Table 4 and Figure 6 have also been replaced: current Table 4 reports path-model associations, Table 2 reports the complete four-model OLS sequence, and final Figure 2 reports place-level heterogeneity. The redundant former OLS coefficient figure has been removed.
 
 The revised text and display captions read (five representative quotations from nine verified manuscript locations):
 
-"Table 2 presents the four primary OLS specifications, which are visually summarized in Figure 4. All four models use the same common complete-case sample (N = 183,685), include place fixed effects, and use place-clustered CR2/Satterthwaite inference. The rural-residence coefficient is +0.026 in M1 (95% CI: -0.096 to 0.148), +0.027 in M2 (-0.074 to 0.129), +0.064 in M3 (-0.010 to 0.139), and +0.065 in M4 (0.001 to 0.129). The main coefficient change occurs when Income Security Feelings, Expense Worry, and Within-Place Income Percentile are added as the economic-security block in M3; adding the Social Capital Index in M4 changes the estimate only slightly. This nested sequence is descriptive and is not interpreted as mediation evidence."
+"Table 2 presents the four primary OLS specifications. All four models use the same common complete-case sample (N = 183,685), include place fixed effects, and use place-clustered CR2/Satterthwaite inference. The rural-residence coefficient is +0.026 in M1 (95% CI: -0.096 to 0.148), +0.027 in M2 (-0.074 to 0.129), +0.064 in M3 (-0.010 to 0.139), and +0.065 in M4 (0.001 to 0.129). The main coefficient change occurs when Income Security Feelings, Expense Worry, and Within-Place Income Percentile are added as the economic-security block in M3; adding the Social Capital Index in M4 changes the estimate only slightly. This nested sequence is descriptive and is not interpreted as mediation evidence."
 
 (Lines/Pages: human verification required)
 
@@ -493,11 +549,11 @@ The revised text and display captions read (five representative quotations from 
 
 (Lines/Pages: human verification required)
 
-"Figure 4. Rural-residence coefficients across the four primary OLS specifications. Error bars show 95% CR2/Satterthwaite confidence intervals."
+"Table 3. Adjusted rural-residence associations with first-stage pathway outcomes"
 
 (Lines/Pages: human verification required)
 
-"Figure 6. Place-level forest plot and composite rural-urban comparison"
+"Figure 2. Place-specific rural-urban life satisfaction coefficients grouped by UN M49 geographic region."
 
 (Lines/Pages: human verification required)
 
@@ -524,7 +580,7 @@ The revised text reads (five representative quotations from eight covered locati
 
 (Lines/Pages: human verification required)
 
-"Table 2 presents the four primary OLS specifications, which are visually summarized in Figure 4. All four models use the same common complete-case sample (N = 183,685), include place fixed effects, and use place-clustered CR2/Satterthwaite inference. The rural-residence coefficient is +0.026 in M1 (95% CI: -0.096 to 0.148), +0.027 in M2 (-0.074 to 0.129), +0.064 in M3 (-0.010 to 0.139), and +0.065 in M4 (0.001 to 0.129). The main coefficient change occurs when Income Security Feelings, Expense Worry, and Within-Place Income Percentile are added as the economic-security block in M3; adding the Social Capital Index in M4 changes the estimate only slightly. This nested sequence is descriptive and is not interpreted as mediation evidence."
+"Table 2 presents the four primary OLS specifications. All four models use the same common complete-case sample (N = 183,685), include place fixed effects, and use place-clustered CR2/Satterthwaite inference. The rural-residence coefficient is +0.026 in M1 (95% CI: -0.096 to 0.148), +0.027 in M2 (-0.074 to 0.129), +0.064 in M3 (-0.010 to 0.139), and +0.065 in M4 (0.001 to 0.129). The main coefficient change occurs when Income Security Feelings, Expense Worry, and Within-Place Income Percentile are added as the economic-security block in M3; adding the Social Capital Index in M4 changes the estimate only slightly. This nested sequence is descriptive and is not interpreted as mediation evidence."
 
 (Lines/Pages: human verification required)
 
@@ -620,21 +676,21 @@ All five global tests indicate substantial cross-place heterogeneity: Q ranges f
 The forest plot only lists countries ordered by effect size. It does not show whether similar countries behave in similar ways. It would be useful to group countries by shared characteristics (history, culture). This could reveal meaningful patterns in the results.
 
 **Response:**
-Thank you for this helpful suggestion. We revised Figure 6 to group all 23 analytical places by the five continental regions in the United Nations M49 classification (Africa, the Americas, Asia, Europe, and Oceania), while ordering coefficients within each region. The revised plot reports the same survey-weighted place-specific OLS estimates with 95% HC3 confidence intervals and no longer includes the methodological note inside the figure. We also revised the Methodology, Results, Discussion, and caption to explain the grouping rule and its limits. In particular, the grouping is used descriptively rather than as a modeled contextual moderator: the available data do not contain harmonized measures of history, culture, institutions, or policy that would support attributing the observed heterogeneity to those mechanisms. The revised text reads:
+Thank you for this helpful suggestion. We revised Figure 2 to group all 23 analytical places by the five continental regions in the United Nations M49 classification (Africa, the Americas, Asia, Europe, and Oceania), while ordering coefficients within each region. The revised plot reports the same survey-weighted place-specific OLS estimates with 95% HC3 confidence intervals and no longer includes the methodological note inside the figure. We also revised the Methodology, Results, Discussion, and caption to explain the grouping rule and its limits. In particular, the grouping is used descriptively rather than as a modeled contextual moderator: the available data do not contain harmonized measures of history, culture, institutions, or policy that would support attributing the observed heterogeneity to those mechanisms. The revised text reads:
 
 "This approach compares place-specific coefficients while highlighting their uncertainty and the context-dependent nature of the association. For display, the 23 analytical places are grouped by the five continental regions in the United Nations M49 classification—Africa, the Americas, Asia, Europe, and Oceania—and ordered by coefficient within region. The plotted 95% confidence intervals use HC3 standard errors. Region membership is used only to organize the figure; it is not modeled as a contextual moderator and does not identify shared historical or cultural mechanisms."
 
 (Lines/Pages: human verification required)
 
-"Figure 6 groups the 23 analytical places by UN M49 geographic region and orders estimates by effect size within each region. Because the plotted estimates come from separate survey-weighted place regressions on the locked common sample, we treat the figure as descriptive and do not use it to classify individual places by statistical significance. Point estimates vary in sign within Africa, the Americas, Asia, and Europe; Oceania contains only Australia. Thus, the display does not reveal a uniform region-wide pattern, and it cannot by itself identify historical or cultural explanations for cross-place heterogeneity."
+"Supplementary Table S5 reports the unadjusted survey-weighted rural and urban life-satisfaction means and rural-minus-urban differences for all 23 analytical places on the same locked common sample. The unadjusted differences range from -0.282 to +0.529 points, with 14 positive and 9 negative values. Figure 2 groups the corresponding adjusted place-specific coefficients by UN M49 geographic region and orders them by effect size within each region. Because the plotted estimates come from separate survey-weighted place regressions on the locked common sample, we treat the figure as descriptive and do not use it to classify individual places by statistical significance. Point estimates vary in sign within Africa, the Americas, Asia, and Europe; Oceania contains only Australia. Thus, the display does not reveal a uniform region-wide pattern, and it cannot by itself identify historical or cultural explanations for cross-place heterogeneity."
 
 (Lines/Pages: human verification required)
 
-"Figure 6 groups the place-specific coefficients by UN M49 geographic region and orders them by effect size within each region. The coexistence of positive and negative point estimates within Africa, the Americas, Asia, and Europe does not indicate a simple region-wide pattern; Oceania contains only one sampled place. Because the analysis does not include harmonized place-level measures of history, culture, institutions, or policy, the grouped display should be interpreted as descriptive rather than as evidence that regional or cultural membership explains the observed heterogeneity."
+"Figure 2 groups the place-specific coefficients by UN M49 geographic region and orders them by effect size within each region. The coexistence of positive and negative point estimates within Africa, the Americas, Asia, and Europe does not indicate a simple region-wide pattern; Oceania contains only one sampled place. Because the analysis does not include harmonized place-level measures of history, culture, institutions, or policy, the grouped display should be interpreted as descriptive rather than as evidence that regional or cultural membership explains the observed heterogeneity."
 
 (Lines/Pages: human verification required)
 
-"Figure 6. Place-specific rural-urban life satisfaction coefficients grouped by UN M49 geographic region."
+"Figure 2. Place-specific rural-urban life satisfaction coefficients grouped by UN M49 geographic region."
 
 (Lines/Pages: human verification required)
 
@@ -662,7 +718,7 @@ Minor comments
 The country labelled “Unknown_25” must be identified and corrected.
 
 **Response:**
-Thank you for identifying this issue. We verified that source country code 25 corresponds to China, corrected the shared place-name crosswalk, and regenerated Figure 3. The revised figure now displays `China` and no longer contains the `Unknown_25` label.
+Thank you for identifying this issue. We verified that source country code 25 corresponds to China, corrected the shared place-name crosswalk, and regenerated Figure 1. The revised figure now displays `China` and no longer contains the `Unknown_25` label.
 
 The revised figure reads:
 
@@ -670,7 +726,7 @@ The revised figure reads:
 
 (Lines/Pages: human verification required)
 
-"Figure 3. Share of rural residence by country"
+"Figure 1. Share of rural residence by analytical place"
 
 (Lines/Pages: human verification required)
 
@@ -722,7 +778,7 @@ The discussion should compare countries where rural areas show advantages (e.g.,
 **Response:**
 Thank you for this helpful suggestion. We have added an explicit evidence-based comparison in the Discussion using the adjusted place-regression coefficients for the five places highlighted by the reviewer and noting that the corresponding unadjusted differences in Supplementary Table S5 have the same directions. The surrounding Discussion retains the existing boundary that these descriptive cross-place contrasts do not identify regional or cultural mechanisms.
 
-"A focused comparison illustrates this heterogeneity in both adjusted and unadjusted estimates. In the adjusted place regressions, rural-residence coefficients are positive in Kenya (+0.489, 95% CI: 0.226 to 0.752), Tanzania (+0.390, 0.158 to 0.623), and Poland (+0.209, 0.093 to 0.326), but negative in Israel (-0.252, -0.414 to -0.091) and Japan (-0.186, -0.260 to -0.112) (Figure 6); the corresponding unadjusted rural-minus-urban differences in Supplementary Table S5 have the same directions."
+"A focused comparison illustrates this heterogeneity in both adjusted and unadjusted estimates. In the adjusted place regressions, rural-residence coefficients are positive in Kenya (+0.489, 95% CI: 0.226 to 0.752), Tanzania (+0.390, 0.158 to 0.623), and Poland (+0.209, 0.093 to 0.326), but negative in Israel (-0.252, -0.414 to -0.091) and Japan (-0.186, -0.260 to -0.112) (Figure 2); the corresponding unadjusted rural-minus-urban differences in Supplementary Table S5 have the same directions."
 
 (Lines/Pages: human verification required)
 

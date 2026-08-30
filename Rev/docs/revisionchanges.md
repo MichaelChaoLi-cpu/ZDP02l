@@ -9187,3 +9187,172 @@ A focused comparison illustrates this heterogeneity in both adjusted and unadjus
 - The one distinct manuscript location uses the `1`–`5` quotation tier and is quoted in full. The quotation occurs exactly once in the fresh clean manuscript, uses straight double quotation marks, is followed by its own `(Lines/Pages: human verification required)` marker, and has no Markdown blockquote prefix.
 - The exact Reviewer 2 / Comment 11 text remains unchanged, the placeholder is absent from the target block, and every other response block is byte-identical to the preceding committed response draft.
 - The formal markup and fresh clean were unchanged during response drafting. The comment remains `human_review_required` pending explicit human approval of this response.
+# Reviewer 1 / Comment 11
+
+## Parts 01–20 interim implementation receipt
+
+- Approval: complete 20-part final display-set bundle approved under `KILA-D-20260830-028`.
+- Human save confirmation: Parts 01–19 were reported complete and saved in Microsoft Word; the implementation confirmation is recorded as evaluation `KILA-D-20260830-029`.
+- Formal markup before: SHA-256 `055bea59c9b01034f9f4bb83e87bc52649166d064e2edaf396c712a0486ce40e`.
+- Formal markup after human save: SHA-256 `7d3ab05b8de5090a6bc5cd16214321e9cb1e385e436764634b7df0eec94e11b5`; size `1,474,002` bytes; modification time `2026-08-30 22:26:14 JST`.
+- Word structure: valid ZIP/XML; Track Changes enabled; `1,075` insertion and `1,330` deletion wrappers; all `2,405` revision IDs are numeric and unique; `12` drawings remain recoverable in markup history; `10` package-level tables; `57` hyperlinks; `178` active field beginnings/instructions in the accepted view; and `11` nonempty OMML objects after the established clean-only finalizer.
+
+### part-01
+
+- Location: Data and Measurement > Life Satisfaction Outcome.
+- Mode: human-applied Word-native tracked replacement.
+- Before: `The distribution of these scores, visualized as Figure 1, shows a general left skew.`
+- After: `The distribution of these scores is generally left-skewed.`
+
+### part-02
+
+- Location: Data and Measurement > Rural-Urban Residence.
+- Mode: human-applied Word-native tracked deletion.
+- Before: `The distribution of each category is illustrated as Figure 2.`
+- After: empty; the complete sentence and following space are removed.
+
+### part-03
+
+- Location: Data and Measurement > Rural-Urban Residence.
+- Mode: human-applied Word-native tracked re-edit.
+- Before: `It is important to note that the ratio of rural residence varies considerably across the analytical places included in the study (Figure 3).`
+- After: `It is important to note that the ratio of rural residence varies considerably across the analytical places included in the study (Figure 1).`
+
+### part-04
+
+- Location: Results > Adjusted Rural-Urban Associations with Life Satisfaction.
+- Mode: human-applied Word-native tracked re-edit.
+- Before: `Table 2 presents the four primary OLS specifications, which are visually summarized in Figure 4.`
+- After: `Table 2 presents the four primary OLS specifications.`
+
+### part-05
+
+- Location: Results > First-Stage Pathway Associations.
+- Mode: human-applied Word-native tracked re-edit.
+- Before: `The Expense Worry estimate is -0.055 (-0.176 to 0.066), and the Social Capital Index estimate is -0.009 (-0.035 to 0.017); both intervals include zero (Table 3; Figure 5).`
+- After: `The Expense Worry estimate is -0.055 (-0.176 to 0.066), and the Social Capital Index estimate is -0.009 (-0.035 to 0.017); both intervals include zero (Table 3).`
+
+### part-06
+
+- Location: Results > Cross-Place Heterogeneity, opening paragraph.
+- Mode: human-applied Word-native tracked re-edit.
+- Before: `A place-level forest plot (Figure 6) reveals this substantial variation in the rural-urban life satisfaction gap.`
+- After: `A place-level forest plot (Figure 2) reveals this substantial variation in the rural-urban life satisfaction gap.`
+
+### part-07
+
+- Location: Results > Cross-Place Heterogeneity, paragraph beginning `Supplementary Table S5 reports...`.
+- Mode: human-applied Word-native tracked re-edit.
+- Before: `Figure 6 groups the corresponding adjusted place-specific coefficients by UN M49 geographic region and orders them by effect size within each region.`
+- After: `Figure 2 groups the corresponding adjusted place-specific coefficients by UN M49 geographic region and orders them by effect size within each region.`
+
+### part-08
+
+- Location: Results > Robustness of Findings, alternative-outcome sentence.
+- Mode: human-applied Word-native tracked re-edit.
+- Before: `In separate fully adjusted alternative-outcome OLS models, the rural-residence point estimate is +0.052 for Happiness (95% CR2/Satterthwaite CI: -0.007 to 0.111; N = 183,938) and +0.028 for Wellbeing Today (-0.033 to 0.090; N = 183,924) (Table 5; Figure 7a).`
+- After: `In separate fully adjusted alternative-outcome OLS models, the rural-residence point estimate is +0.052 for Happiness (95% CR2/Satterthwaite CI: -0.007 to 0.111; N = 183,938) and +0.028 for Wellbeing Today (-0.033 to 0.090; N = 183,924) (Table 5; Figure 3a).`
+
+### part-09
+
+- Location: Results > Robustness of Findings, survey-weight paragraph.
+- Mode: human-applied Word-native tracked re-edit.
+- Before: `Survey-weighted estimation provides a further sensitivity check using exactly the same common sample as the unweighted M4 model (N = 183,685; Table 6; Figure 7c).`
+- After: `Survey-weighted estimation provides a further sensitivity check using exactly the same common sample as the unweighted M4 model (N = 183,685; Table 6; Figure 3c).`
+
+### part-10
+
+- Location: Discussion > Context-Dependent Nature of the Rural Happiness Paradox.
+- Mode: human-applied Word-native tracked re-edit.
+- Before: `Figure 6 groups the place-specific coefficients by UN M49 geographic region and orders them by effect size within each region.`
+- After: `Figure 2 groups the place-specific coefficients by UN M49 geographic region and orders them by effect size within each region.`
+
+### part-11
+
+- Location: Discussion > Context-Dependent Nature, five-place comparison.
+- Mode: human-applied Word-native tracked re-edit.
+- Before fragment: `(Figure 6); the corresponding unadjusted rural-minus-urban differences in Supplementary Table S5 have the same directions.`
+- After fragment: `(Figure 2); the corresponding unadjusted rural-minus-urban differences in Supplementary Table S5 have the same directions.`
+
+### part-12
+
+- Location: Discussion > Context-Dependent Nature, future-research paragraph.
+- Mode: human-applied Word-native tracked re-edit.
+- Before: `Place-specific estimates for rural residence vary widely in both magnitude and direction (Figure 6), calling for comparative studies.`
+- After: `Place-specific estimates for rural residence vary widely in both magnitude and direction (Figure 2), calling for comparative studies.`
+
+### parts-13–19 — consolidated main figure-set Word operation
+
+- Mode: human-applied Word-native drawing deletions and caption re-edits with Track Changes retained.
+- Part 13 before: drawing plus `Figure 1. Distribution of life satisfaction scores`; after: both deleted from the accepted view.
+- Part 14 before: drawing plus `Figure 2. Rural-urban respondent count`; after: both deleted from the accepted view.
+- Part 15 before: `Figure 3. Share of rural residence by analytical place`; after: `Figure 1. Share of rural residence by analytical place`; retained drawing SHA-256 `ccbc5a11e85f10dfecfe83b971bb102429a38b8f03b73cc2bb32d7476a63753d`.
+- Part 16 before: drawing plus `Figure 4. Rural-residence coefficients across the four primary OLS specifications. Error bars show 95% CR2/Satterthwaite confidence intervals.`; after: both deleted from the accepted view.
+- Part 17 before: drawing plus `Figure 5. Rural-residence coefficients from the four first-stage pathway equations. Error bars show 95% CR2/Satterthwaite confidence intervals.`; after: both deleted from the accepted view.
+- Part 18 before: `Figure 6. Place-specific rural-urban life satisfaction coefficients grouped by UN M49 geographic region.`; after: `Figure 2. Place-specific rural-urban life satisfaction coefficients grouped by UN M49 geographic region.`; retained drawing SHA-256 `74bb0e486d68713df35ea8bf3964698200f67ce19fd5fde74c11c554f97f3c8b`; complete Note preserved.
+- Part 19 before: `Figure 7. Sample-aligned robustness checks.`; after: `Figure 3. Sample-aligned robustness checks.`; retained drawing SHA-256 `09cf2ac44c9277c08dcbd7d7c8808be84ab9444d27bff02757b45c7af8b3cbbb`; complete Note preserved.
+
+### part-20 — standalone Supplementary Materials
+
+- Artifact: `Rev/revision/ZDP02l.supplementary.docx`.
+- Location: Table S5 Note on p. 8.
+- Mode: approved agent-authored exact OOXML text replacement with atomic same-path promotion.
+- Timestamp: `2026-08-30T22:29:00+0900`.
+- Supplement SHA-256 before: `e876f937a70c4ec3632f7cd62f8f5ac740e4a5ca9580dbeb987a04174b93c8e0`.
+- Supplement SHA-256 after: `d6970a88760d55bdf45b04015400cb533d8b3c27a7c94563a0880dc5581b1f1d`.
+- Before: `Rows follow the same UN M49 region and within-region place order as Figure 6.`
+- After: `Rows follow the same UN M49 region and within-region place order as Figure 2.`
+- Verification: exact new sentence occurs once and old sentence zero times; package ZIP/XML is valid; every non-target package member is preserved; the nine-page Supplement renders without clipping, overlap, missing glyph, broken table, or figure defect.
+
+## Interim consolidated verification and supplemental layout exception
+
+- Fresh clean: regenerated from the exact human-saved markup by accepting revisions only in a staged clean copy and applying the established bounded finalizer for the superseded Table 3 and inherited empty OMML shell; SHA-256 `869c7d62fe4100b8901ec109b77afea95f0ebf9be26cffecd2ba9e6a212a0cd4`; size `1,234,923` bytes.
+- Source immutability: the source markup SHA-256, size, and mtime remain `7d3ab05b8de5090a6bc5cd16214321e9cb1e385e436764634b7df0eec94e11b5`, `1,474,002`, and epoch `1788096374` throughout clean generation and review.
+- Clean structure: zero revision or move wrappers; Track Changes off; `9` package-level tables comprising six logical main display tables plus inherited non-display/blank structures; exactly `3` active drawings; `178` field beginnings/instructions; `11` nonempty OMML objects; and `57` hyperlinks.
+- Semantic verification: every approved new text target in Parts 01–12 occurs exactly once; every superseded target occurs zero times; all four deleted captions occur zero times; the three final captions occur once each; Part 20 occurs once in the standalone Supplement; and all 28 protected EndNote field beginnings remain in the five affected narrative paragraphs.
+- Drawing verification: the three active drawing relationships resolve exactly to the retained Figure 1, Figure 2, and Figure 3 media hashes listed above.
+- Visual verification: all `55` fresh-clean pages, all `82` markup pages, and all `9` Supplement pages were reviewed through contact sheets; final figure pages and detected empty pages were inspected at original resolution. Tables, retained drawings, captions, Notes, prose, references, fields, formulas, and Supplement layout show no clipping, overlap, missing glyph, broken border, or unintended content loss.
+- Supplemental exception: the clean render contains three unnecessary near-empty pages in the Figures section because the Word-native drawing deletions left `17` empty paragraphs in accepted view: six before final Figure 1, ten between final Figures 1 and 2 (including one page-break-only paragraph), and one page-break-only paragraph between final Figures 2 and 3.
+- Correction bundle: `Rev/docs/reviewer-1-comment-11-post-save-layout-correction.md` defines one consolidated three-part human Word operation. No response block is synchronized until that correction is saved and the new clean render passes.
+
+## Final formatting disposition and response-draft receipt
+
+- Human formatting decision: after reviewing the disclosed accepted-clean layout, the human explicitly chose to retain the three near-empty pages in the Figures section. This is a formatting-only acceptance; no additional Word edit, clean regeneration, or Kila decision record is required.
+- Artifact immutability: the formal markup remains SHA-256 `7d3ab05b8de5090a6bc5cd16214321e9cb1e385e436764634b7df0eec94e11b5`; the fresh clean remains SHA-256 `869c7d62fe4100b8901ec109b77afea95f0ebf9be26cffecd2ba9e6a212a0cd4`; and the standalone Supplement remains SHA-256 `d6970a88760d55bdf45b04015400cb533d8b3c27a7c94563a0880dc5581b1f1d`.
+- Response-draft change: `Rev/revision/response-draft.md` changed from SHA-256 `f39c97b561a20073c96ede354566c65a4c3c552ae95ed769d8f7c9a0d51d5545` to `e7f0524ae22a969221a1b733c70ef70027342586718904f75d04d137e4901adb`.
+- Target response: Reviewer 1 / Comment 11 now explains the full display audit, deletion of former Figures 1, 2, 4, and 5, retention of Tables 1–6 and former Figures 3, 6, and 7, final renumbering to Figures 1–3, and synchronization of all main-text and Supplement references.
+- Quotation tier: the approved 20-location bundle uses the `11`–`20` tier and therefore includes exactly `10` representative quotations. All 10 are exact excerpts from the fresh clean manuscript, use straight double quotation marks, have no Markdown blockquote prefix, and are each followed by `(Lines/Pages: human verification required)`.
+- Prior-response synchronization: the 12 previously completed response blocks listed in the approved consistency map were synchronized for the final display set: Reviewer 1 / Comments 3, 4, 6, 7, 8, 9, and 12, and Reviewer 2 / Comments 1, 2, 6, 8, and 11. Their response-authored figure references and affected quotations now match the fresh clean manuscript.
+- Verification: all quotations in the 12 synchronized blocks and the new Comment 11 block are exact excerpts from the current fresh clean manuscript or standalone Supplement. The reviewer-provided text in all 13 affected blocks remains byte-identical to `Rev/docs/structuredcomments.md`; no stale response-authored references to deleted or renumbered figures remain. Historical old-number references in reviewer text and explicit descriptions of former figures are intentionally retained.
+- Scope boundary: Reviewer 1 / Comments 13 and 14 remain separate pending response items. No response for either comment was drafted in this step, and no manuscript, Supplement, Kila, Git, or DVC mutation occurred.
+- Next gate: explicit human review of the Reviewer 1 / Comment 11 response. The approval phrase is `认可 reviewer-1/comment-11 response`.
+
+# Reviewer 1 / Comment 14
+
+## Shared-coverage response-draft receipt
+
+- Shared manuscript implementation: no duplicate Word edit is required. The four disclosed locations were implemented and verified within the completed Reviewer 1 / Comment 11 display-set bundle under `KILA-D-20260830-028`: removal of the former Figure 4 Results cross-reference, drawing, and caption, plus retention and final renumbering of former Figure 6 as Figure 2.
+- Response authorization: the human instructed the workflow to continue while the selected plan row was `response_draft_required`; the verified-comment workflow therefore updated exactly one response block.
+- Response-draft SHA-256 before: `e7f0524ae22a969221a1b733c70ef70027342586718904f75d04d137e4901adb`.
+- Response-draft SHA-256 after: `0a833f6377da604310b067e10c5e5a682bf7241a13bdb06876aa83868ad14e07`.
+- Response position: the former figures had different estimands, but different retention value. Former Figure 4 showed the pooled M1–M4 OLS sequence and was removed because Table 2 and Results retain the complete numerical evidence; former Figure 6 showed adjusted 23-place heterogeneity and was retained as final Figure 2 because no main-text table duplicates that display.
+- Quotation tier: `4` shared-coverage locations fall in the `1`–`5` tier, so all four final evidence locations are quoted: the Table 2 Results paragraph, the adjusted-versus-unadjusted Cross-Place Heterogeneity paragraph, the final Figure 2 caption, and its complete Note.
+- Exactness verification: all four quotations occur verbatim in the fresh clean manuscript, SHA-256 `869c7d62fe4100b8901ec109b77afea95f0ebf9be26cffecd2ba9e6a212a0cd4`; each uses straight double quotation marks, each has its own immediately following `(Lines/Pages: human verification required)` marker, and none uses a Markdown blockquote prefix.
+- Target isolation: only the Reviewer 1 / Comment 14 response block differs from the preceding response draft. The exact reviewer text remains byte-identical to `Rev/docs/structuredcomments.md`; every other response block is unchanged.
+- Artifact immutability: formal markup remains SHA-256 `7d3ab05b8de5090a6bc5cd16214321e9cb1e385e436764634b7df0eec94e11b5`; fresh clean remains SHA-256 `869c7d62fe4100b8901ec109b77afea95f0ebf9be26cffecd2ba9e6a212a0cd4`; and standalone Supplement remains SHA-256 `d6970a88760d55bdf45b04015400cb533d8b3c27a7c94563a0880dc5581b1f1d`.
+- Next gate: explicit human review of the Reviewer 1 / Comment 14 response. The approval phrase is `认可 reviewer-1/comment-14 response`.
+
+# Reviewer 1 / Comment 13
+
+## Shared-coverage response-draft receipt
+
+- Shared manuscript implementation: no duplicate Word edit is required. The three disclosed operations were implemented and verified within the completed Reviewer 1 / Comment 11 display-set bundle under `KILA-D-20260830-028`: removal of the former Figure 5 reference from Results, deletion of the drawing, and deletion of its caption.
+- Response authorization: the human instructed the workflow to continue while the selected plan row was `response_draft_required`; the verified-comment workflow therefore updated exactly one response block.
+- Response-draft SHA-256 before: `0a833f6377da604310b067e10c5e5a682bf7241a13bdb06876aa83868ad14e07`.
+- Response-draft SHA-256 after: `a9ab030a811dbfd1192cbcd6955864544bb9a6e95e9fca7bac6849b4535d96dc`.
+- Response position: former Figure 5 was removed rather than cosmetically corrected because it duplicated the complete first-stage pathway evidence already preserved in Table 3 and Results. The reference-line problem is therefore eliminated without loss of analytical information.
+- Quotation tier: `3` shared-coverage locations fall in the `1`–`5` tier, so all three final evidence locations are quoted: the integrated first-stage Methodology paragraph, the Table 3 Results paragraph, and the Table 3 title.
+- Exactness verification: all three quotations occur verbatim in the fresh clean manuscript, SHA-256 `869c7d62fe4100b8901ec109b77afea95f0ebf9be26cffecd2ba9e6a212a0cd4`; each uses straight double quotation marks, each has its own immediately following `(Lines/Pages: human verification required)` marker, and none uses a Markdown blockquote prefix.
+- Target isolation: only the Reviewer 1 / Comment 13 response block differs from the preceding response draft. The exact reviewer text remains byte-identical to `Rev/docs/structuredcomments.md`; every other response block is unchanged.
+- Artifact immutability: formal markup remains SHA-256 `7d3ab05b8de5090a6bc5cd16214321e9cb1e385e436764634b7df0eec94e11b5`; fresh clean remains SHA-256 `869c7d62fe4100b8901ec109b77afea95f0ebf9be26cffecd2ba9e6a212a0cd4`; and standalone Supplement remains SHA-256 `d6970a88760d55bdf45b04015400cb533d8b3c27a7c94563a0880dc5581b1f1d`.
+- Next gate: explicit human review of the Reviewer 1 / Comment 13 response. The approval phrase is `认可 reviewer-1/comment-13 response`.

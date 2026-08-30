@@ -7067,3 +7067,464 @@ Reviewer 2 Comment 11 can be marked done with the five-place comparison and the 
 ### Follow-Up
 
 Mark the plan row done and route the next dependency-ready comment.
+
+## KILA-D-20260830-026: Remove Figure 5 as a redundant display
+
+- Event SHA-256: 18598651967074dbfb6dc04f09ddb190ceabecf984e0bd96e717ac11de67213c
+- Recorded at: 2026-08-30T21:38:56+09:00
+- Revision workspace: Rev
+- Revision stage: display-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-13
+- Decision type: figure-removal
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: None recorded
+- Object SHA-256: None recorded
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+The reviewer reported that the reference line crosses the subtitle in Figure 5.
+
+### Decision Context
+
+Figure 5 repeats the four first-stage coefficients and confidence intervals already reported in Table 3, and the current four-panel layout is sparse in addition to the reviewer-identified reference-line collision. This decision revisits the Figure 5 display previously approved under KILA-D-20260830-009.
+
+### Kila Recommendation
+
+Delete Figure 5 and its caption, retain Table 3 as the complete numerical display, and remove or update every live manuscript cross-reference to Figure 5.
+
+### Options Presented
+
+- Delete Figure 5 as redundant and rely on Table 3 for the coefficients and uncertainty.
+
+### Human Decision
+
+The human selected direct deletion of Figure 5 because the coefficients are available from the table and the figure is unnecessary.
+
+### Human-Provided Rationale
+
+The figure is unnecessary because the coefficients can be obtained from the other table.
+
+### Expected Revision Effect
+
+The manuscript removes the subtitle collision and display redundancy without losing any coefficient, confidence interval, or model information.
+
+### Affected Manuscript Sections
+
+- Results; Figure 5; Response to Reviewer 1
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/revision/response-draft.md
+- reports/comment4_parallel_path_presentation/table3_pathway_outcomes.csv
+
+### Follow-Up
+
+Audit every live Figure 5 reference and present one exact supplemental deletion bundle before any Word write.
+
+## KILA-D-20260830-027: Remove Figure 4 and retain Figure 6
+
+- Event SHA-256: b749427e34fdee2cb1517628ca5466c37d825226b8e3d0e49f1f8e37c5f6c5e8
+- Recorded at: 2026-08-30T21:47:54+09:00
+- Revision workspace: Rev
+- Revision stage: display-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-14
+- Decision type: figure-disposition
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/docs/reviewer-1-comment-14-consolidated-proposal.md
+- Object SHA-256: e5e950e03a7e81aceb5ed6f02d0e27d3a3c997e6d04fc02524be9e8b74a31962
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+The reviewer asked whether Figures 4 and 6 differ.
+
+### Decision Context
+
+Figure 4 and Figure 6 show different estimands, but Figure 4 duplicates the complete pooled M1-M4 evidence already retained in Table 2 and Results, whereas Figure 6 uniquely displays adjusted 23-place heterogeneity.
+
+### Kila Recommendation
+
+Remove Figure 4, retain Figure 6, and implement the deletion and all renumbering once in Reviewer 1 Comment 11 final display-set bundle.
+
+### Options Presented
+
+- Remove Figure 4; retain Figure 6; defer deletion and renumbering to the final display-set bundle.
+
+### Human Decision
+
+The human approved removal of Figure 4 and retention of Figure 6 under the consolidated disposition strategy.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The manuscript will eliminate the pooled-OLS display duplicated by Table 2 while preserving the distinct adjusted place-heterogeneity evidence and avoiding repeated renumbering.
+
+### Affected Manuscript Sections
+
+- Results; Figure 4; Figure 6; Response to Reviewer 1
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/revision/response-draft.md
+- Rev/revision/Figure4.primary_ols.png
+- reports/comment6_geographic_forest/figure6_grouped_candidate.png
+
+### Follow-Up
+
+Move the exact Figure 4 deletion, Figure 6 retention, renumbering, manuscript references, and response reconciliation into Reviewer 1 Comment 11 final display-set bundle.
+
+## KILA-D-20260830-028: Approve final six-table and three-figure display set
+
+- Event SHA-256: 380ee3fdec847af679da2bd02ac22da2590cf2d28b91e2f84a22e408f2874a4d
+- Recorded at: 2026-08-30T22:09:10+09:00
+- Revision workspace: Rev
+- Revision stage: display-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-11
+- Decision type: display-set
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/docs/reviewer-1-comment-11-consolidated-proposal.md
+- Object SHA-256: a550e117b5fa65d085b2f611c38c223670459cb3945b8faaa2b7910bc8cdde07
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+The reviewer asked the authors to review redundant tables and figures, explicitly identifying Figure 4 and Table 2 and suggesting exclusion of Figures 1, 2, and 5.
+
+### Decision Context
+
+The complete audit found that all six main tables have distinct numerical functions; current Figures 1, 2, 4, and 5 are redundant; current Figures 3, 6, and 7 retain distinct composition, heterogeneity, and robustness functions; all supplementary displays remain distinct.
+
+### Kila Recommendation
+
+Retain Tables 1 through 6, delete current Figures 1, 2, 4, and 5, renumber current Figures 3, 6, and 7 as Figures 1, 2, and 3, retain all supplementary displays, update every live reference once, and reconcile response quotations after fresh-clean verification.
+
+### Options Presented
+
+- Approve the consolidated 20-part final display-set bundle with one Word-native main-manuscript operation and one agent-owned supplementary reference update.
+
+### Human Decision
+
+The human approved the complete 20-part final display-set bundle, including all retain/delete decisions, continuous figure renumbering, known confirmed re-edits, drawing deletions, EndNote-field protection, supplementary synchronization, and the post-verification response-consistency map.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The main manuscript will contain six nonredundant tables and three nonredundant figures, with continuous numbering and synchronized manuscript, supplement, and response references.
+
+### Affected Manuscript Sections
+
+- Data and Measurement
+- Results
+- Discussion
+- Main figure set
+- Supplementary Table S5
+- Response to Reviewers
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.supplementary.docx
+- Rev/revision/response-draft.md
+
+### Follow-Up
+
+Prepare one exact consolidated Word checklist for Parts 01 through 19, wait for the same-path save receipt, apply Part 20 to the standalone supplement, regenerate one fresh clean, and perform one consolidated semantic and visual review before any response write.
+
+## KILA-D-20260830-029: Confirm consolidated display-set Word save
+
+- Event SHA-256: 66bce4b55935427213f41c9a6f0da7281ad8fd3f1855da016914647920dfc635
+- Recorded at: 2026-08-30T22:28:22+09:00
+- Revision workspace: Rev
+- Revision stage: display-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-11
+- Decision type: implementation-confirmation
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260830-028
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: 7d3ab05b8de5090a6bc5cd16214321e9cb1e385e436764634b7df0eec94e11b5
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Reduce redundant manuscript displays and retain a concise final set of six main tables and three main figures.
+
+### Decision Context
+
+The human reports that the approved reviewer-1/comment-11 Parts 01-19 consolidated Word operation was completed and saved in the revision markup manuscript.
+
+### Kila Recommendation
+
+Verify the saved markup against the approved 19-part checklist, apply approved Supplement Part 20, regenerate a fresh clean copy, and synchronize verified response references.
+
+### Options Presented
+
+- Accept the reported save for verification against the approved bundle.
+
+### Human Decision
+
+The human confirms that Parts 01-19 were completed in Word and saved.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The main manuscript should retain Tables 1-6 and renumber the retained figures as Figures 1-3, with deleted display references removed or redirected.
+
+### Affected Manuscript Sections
+
+- Abstract
+- Methods
+- Results
+- Discussion
+- Conclusions
+- Tables and figures
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/reviewer-1-comment-11-word-checklist.md
+- Rev/docs/reviewer-1-comment-11-consolidated-proposal.md
+
+### Follow-Up
+
+Verify all 19 saved main-manuscript parts, apply Supplement Part 20, regenerate fresh clean, perform consolidated semantic and visual review, and prepare the verified response.
+
+## KILA-D-20260830-030: Approve Reviewer 1 Comment 11 response and implementation
+
+- Event SHA-256: cdb225018258fae99352ab9ab0da4ecf43281dd31df6e5b445323ef674aa0387
+- Recorded at: 2026-08-30T23:03:49+09:00
+- Revision workspace: Rev
+- Revision stage: response-review
+- Reviewer ID: reviewer-1
+- Comment ID: comment-11
+- Decision type: implementation-approval
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260830-028
+- Decision object: Rev/revision/response-draft.md
+- Object SHA-256: e7f0524ae22a969221a1b733c70ef70027342586718904f75d04d137e4901adb
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+The reviewer requested careful removal of redundant tables and figures, specifically including the Figure 4 and Table 2 overlap and former Figures 1, 2, and 5.
+
+### Decision Context
+
+The approved 20-part final display-set bundle, consolidated Word save, Supplement synchronization, fresh-clean semantic and visual verification, intentional retention of the three near-empty figure-section pages, and exact Reviewer 1 Comment 11 response have all passed their gates.
+
+### Kila Recommendation
+
+Approve the verified response and close Reviewer 1 Comment 11.
+
+### Options Presented
+
+- Approve the response and complete the implementation.
+
+### Human Decision
+
+The human approved the Reviewer 1 Comment 11 response and the complete implementation.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Reviewer 1 Comment 11 can be marked done with the final six-table and three-figure main display set, synchronized references, and response position fixed.
+
+### Affected Manuscript Sections
+
+- Data and Measurement; Results; Discussion; Figures; Supplementary Materials; Response to Reviewer 1
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/revision/ZDP02l.supplementary.docx
+- Rev/revision/response-draft.md
+- Rev/docs/revisionchanges.md
+- Rev/docs/reviewer-1-comment-11-consolidated-proposal.md
+
+### Follow-Up
+
+Mark the plan row done and route the next dependency-ready comment.
+
+## KILA-D-20260830-031: Approve Reviewer 1 Comment 14 response and implementation
+
+- Event SHA-256: 8f2c2630e1b193b834447d1553deb45b7789cff3c4d567a63dabcf4a87d3ee36
+- Recorded at: 2026-08-30T23:21:06+09:00
+- Revision workspace: Rev
+- Revision stage: response-review
+- Reviewer ID: reviewer-1
+- Comment ID: comment-14
+- Decision type: implementation-approval
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260830-027
+- Decision object: Rev/revision/response-draft.md
+- Object SHA-256: 0a833f6377da604310b067e10c5e5a682bf7241a13bdb06876aa83868ad14e07
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+The reviewer asked whether former Figures 4 and 6 differed.
+
+### Decision Context
+
+The approved former Figure 4 deletion and former Figure 6 retention strategy, shared implementation through Reviewer 1 Comment 11, fresh-clean verification, and exact four-quotation Reviewer 1 Comment 14 response have all passed their gates.
+
+### Kila Recommendation
+
+Approve the verified response and close Reviewer 1 Comment 14.
+
+### Options Presented
+
+- Approve the response and complete the shared implementation.
+
+### Human Decision
+
+The human approved the Reviewer 1 Comment 14 response and the complete shared implementation.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Reviewer 1 Comment 14 can be marked done with the distinct estimands clarified, former Figure 4 removed as redundant, and former Figure 6 retained as final Figure 2.
+
+### Affected Manuscript Sections
+
+- Results; Figures; Response to Reviewer 1
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/revision/response-draft.md
+- Rev/docs/revisionchanges.md
+- Rev/docs/reviewer-1-comment-14-consolidated-proposal.md
+
+### Follow-Up
+
+Mark the plan row done and route the next dependency-ready comment.
+
+## KILA-D-20260830-032: Approve Reviewer 1 Comment 13 response and implementation
+
+- Event SHA-256: a776907b0f563df82156e6bc07943ff7fd72a1d4d785ee706b27a6b065c1cdec
+- Recorded at: 2026-08-30T23:31:23+09:00
+- Revision workspace: Rev
+- Revision stage: response-review
+- Reviewer ID: reviewer-1
+- Comment ID: comment-13
+- Decision type: implementation-approval
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260830-026
+- Decision object: Rev/revision/response-draft.md
+- Object SHA-256: a9ab030a811dbfd1192cbcd6955864544bb9a6e95e9fca7bac6849b4535d96dc
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+The reviewer reported that the reference line crossed the subtitle in former Figure 5.
+
+### Decision Context
+
+The approved former Figure 5 deletion, shared implementation through Reviewer 1 Comment 11, fresh-clean verification, and exact three-quotation Reviewer 1 Comment 13 response have all passed their gates.
+
+### Kila Recommendation
+
+Approve the verified response and close Reviewer 1 Comment 13.
+
+### Options Presented
+
+- Approve the response and complete the shared implementation.
+
+### Human Decision
+
+The human approved the Reviewer 1 Comment 13 response and the complete shared implementation.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Reviewer 1 Comment 13 can be marked done with former Figure 5 removed as redundant and Table 3 retaining the complete coefficient evidence.
+
+### Affected Manuscript Sections
+
+- Results; Figures; Response to Reviewer 1
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/revision/response-draft.md
+- Rev/docs/revisionchanges.md
+- Rev/docs/reviewer-1-comment-13-deletion-strategy.md
+
+### Follow-Up
+
+Mark the plan row done and route the next dependency-ready comment.
