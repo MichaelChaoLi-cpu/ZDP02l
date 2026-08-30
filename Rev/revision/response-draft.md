@@ -720,9 +720,9 @@ The revised *Results* section reads:
 The discussion should compare countries where rural areas show advantages (e.g., Poland, Tanzania, Kenya) with those where they show disadvantages (e.g., Israel, Japan).
 
 **Response:**
-[Response pending.]
+Thank you for this helpful suggestion. We have added an explicit evidence-based comparison in the Discussion using the adjusted place-regression coefficients for the five places highlighted by the reviewer and noting that the corresponding unadjusted differences in Supplementary Table S5 have the same directions. The surrounding Discussion retains the existing boundary that these descriptive cross-place contrasts do not identify regional or cultural mechanisms.
 
-"[Exact revised text quoted from the fresh clean manuscript]"
+"A focused comparison illustrates this heterogeneity in both adjusted and unadjusted estimates. In the adjusted place regressions, rural-residence coefficients are positive in Kenya (+0.489, 95% CI: 0.226 to 0.752), Tanzania (+0.390, 0.158 to 0.623), and Poland (+0.209, 0.093 to 0.326), but negative in Israel (-0.252, -0.414 to -0.091) and Japan (-0.186, -0.260 to -0.112) (Figure 6); the corresponding unadjusted rural-minus-urban differences in Supplementary Table S5 have the same directions."
 
 (Lines/Pages: human verification required)
 

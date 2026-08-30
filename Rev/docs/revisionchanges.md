@@ -9128,3 +9128,62 @@ Supplementary Table S5 reports the unadjusted survey-weighted rural and urban li
 - The Results quotation occurs verbatim in the fresh clean manuscript (SHA-256 `5af6708a32ee3b6837b7a9d0be4c849d9a0a9be72e76d1b48cd2e141681fd201`). The two supplementary quotations occur verbatim in the separately verified current Supplementary Materials document (SHA-256 `e876f937a70c4ec3632f7cd62f8f5ac740e4a5ca9580dbeb987a04174b93c8e0`).
 - The Reviewer 1 / Comment 8 text remains verbatim, the placeholder is absent from the target block, and Git diff confirms that no other response block changed.
 - The formal markup, fresh clean, and Supplementary Materials DOCX files were unchanged during response drafting. The comment remains `human_review_required` pending explicit approval of this response.
+
+## reviewer-2/comment-11
+
+### part-01
+
+- Location: Discussion > Context-Dependent Nature of Rural-Urban Well-being, beginning of the second paragraph before 'This pronounced heterogeneity suggests...'
+- Reason: Directly compare the five reviewer-named places using validated adjusted estimates and same-direction unadjusted differences while preserving the existing boundary against regional or cultural causal inference.
+- Kila decisions: KILA-D-20260830-024
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-30T12:05:15Z
+- Author: Kila
+- Markup SHA-256 before: `0dfdfcbdd6e3d6e78a1f0e1c522e2c60ef9394cb1e9ef1cc25691227e2cb588b`
+- Markup SHA-256 after: `055bea59c9b01034f9f4bb83e87bc52649166d064e2edaf396c712a0486ce40e`
+- Revision IDs: `2764`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260830T210515324631.reviewer-2-comment-11.part-01.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+This pronounced heterogeneity suggests a complex interaction of macro-level factors that shape the context-dependent impact of the residential environment on well-being 
+~~~~
+
+- After:
+
+~~~~text
+A focused comparison illustrates this heterogeneity in both adjusted and unadjusted estimates. In the adjusted place regressions, rural-residence coefficients are positive in Kenya (+0.489, 95% CI: 0.226 to 0.752), Tanzania (+0.390, 0.158 to 0.623), and Poland (+0.209, 0.093 to 0.326), but negative in Israel (-0.252, -0.414 to -0.091) and Japan (-0.186, -0.260 to -0.112) (Figure 6); the corresponding unadjusted rural-minus-urban differences in Supplementary Table S5 have the same directions. This pronounced heterogeneity suggests a complex interaction of macro-level factors that shape the context-dependent impact of the residential environment on well-being 
+~~~~
+
+- Minimal tracked fragments:
+  1. `insert`
+     - Before: ""
+     - After: "A focused comparison illustrates this heterogeneity in both adjusted and unadjusted estimates. In the adjusted place regressions, rural-residence coefficients are positive in Kenya (+0.489, 95% CI: 0.226 to 0.752), Tanzania (+0.390, 0.158 to 0.623), and Poland (+0.209, 0.093 to 0.326), but negative in Israel (-0.252, -0.414 to -0.091) and Japan (-0.186, -0.260 to -0.112) (Figure 6); the corresponding unadjusted rural-minus-urban differences in Supplementary Table S5 have the same directions. "
+
+### Consolidated execution receipt
+
+- Bundle status: Part `01` is implemented and verified (`1/1`) under `KILA-D-20260830-024`.
+- Formal markup: `Rev/revision/ZDP02l.rev.markup.docx`; SHA-256 `055bea59c9b01034f9f4bb83e87bc52649166d064e2edaf396c712a0486ce40e`; size `1,483,283` bytes. The approved operation creates one insertion only, revision ID `2764`; no original text is deleted.
+- Recovery copy: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260830T210515324631.reviewer-2-comment-11.part-01.docx`.
+- Formal fresh clean: `Rev/revision/ZDP02l.rev.clean.docx`; SHA-256 `e6f4cdc23634238d7681f807329c3762c34bd9bc381cc9e0d15f7446d9bbfde2`; size `1,260,265` bytes; regenerated from the formal markup by accepting revisions only in temporary copied artifacts and applying the established manuscript-specific finalizer for the superseded Table 3 and inherited empty OMML shell.
+- Clean reproducibility: two independent finalizations produced byte-identical payloads for all `33` DOCX package members; whole-file ZIP hashes differ only because of regenerated container metadata.
+- Clean structure: zero revision or move wrappers; Track Changes off; `9` tables; `7` drawings; `178` field beginnings; `11` nonempty OMML objects; `57` hyperlinks; and `13` media objects.
+- Semantic and numerical verification: the exact two-sentence insertion occurs once, immediately before the preserved `This pronounced heterogeneity suggests...` sentence. Compared with the preceding formal clean, only body paragraph `105` changes, by exact prefix insertion. All five displayed estimates and interval endpoints match `reports/comment6_geographic_forest/place_estimates_by_un_m49_region.csv` after three-decimal rounding. The preceding regional/cultural interpretation boundary remains unchanged.
+- Preservation verification: all nine table matrices, all 13 media payload hashes, active field instructions, hyperlink elements, `document.xml.rels`, `endnotes.xml`, and `endnotes.xml.rels` match the preceding formal clean. Paragraph properties are preserved and the source markup SHA-256 remains unchanged throughout clean generation and review.
+- Visual QA: all `58` clean pages and all `82` markup pages were reviewed through contact sheets. Clean page `32` and markup page `50`, which contain Part 01, were additionally inspected at original resolution. The insertion wraps naturally, remains inside the text area, and introduces no clipping, overlap, missing glyph, field-display defect, table/drawing defect, or style drift.
+- Next gate: human review of the single updated Reviewer 2 / Comment 11 response block; the comment remains open until that response is explicitly approved.
+
+### Response-draft receipt
+
+- Only the Reviewer 2 / Comment 11 response block in `Rev/revision/response-draft.md` differs from the preceding committed response draft; SHA-256 changed from `af286dd87b76dd6773e8dd9b317c1fef1ab69685507f8a347e1e822953f3b082` to `f39c97b561a20073c96ede354566c65a4c3c552ae95ed769d8f7c9a0d51d5545`.
+- The one distinct manuscript location uses the `1`–`5` quotation tier and is quoted in full. The quotation occurs exactly once in the fresh clean manuscript, uses straight double quotation marks, is followed by its own `(Lines/Pages: human verification required)` marker, and has no Markdown blockquote prefix.
+- The exact Reviewer 2 / Comment 11 text remains unchanged, the placeholder is absent from the target block, and every other response block is byte-identical to the preceding committed response draft.
+- The formal markup and fresh clean were unchanged during response drafting. The comment remains `human_review_required` pending explicit human approval of this response.
