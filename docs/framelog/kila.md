@@ -6479,3 +6479,270 @@ Close Reviewer 2 Comment 4, preserve the evidence boundary that social capital i
 ### Follow-Up
 
 Mark Reviewer 2 Comment 4 done in the revision plan, append the closure execution record, and route to Reviewer 2 Comment 6.
+
+## KILA-D-20260830-017: Approve UN M49 grouped Figure 6 bundle
+
+- Event SHA-256: a65834bc465cc884159e6a2080762efa075b48ab2dbb761c13411686b1f53616
+- Recorded at: 2026-08-30T18:31:45+09:00
+- Revision workspace: Rev
+- Revision stage: revision-execution
+- Reviewer ID: reviewer-2
+- Comment ID: comment-6
+- Decision type: geographic-grouping-and-display
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/docs/reviewer-2-comment-6-consolidated-proposal.md
+- Object SHA-256: bfe242b6f02c1255e2d7a246cd3a069dc704fa3e4fc8a77742d14c8ba4c7a919
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Group the country/place forest plot by shared geographic or cultural characteristics so potentially meaningful patterns can be assessed.
+
+### Decision Context
+
+The current Figure 6 sorts 22 place estimates by effect size and omits China, while the validated manuscript sample contains 23 analytical places. The complete proposal supplies a reproducible 23-place grouped forest plot and five exact Word operations.
+
+### Kila Recommendation
+
+Use the predefined UN M49 continental geographic regions, sort coefficients within region, retain pooled OLS as primary, and interpret the grouping descriptively without cultural or causal claims.
+
+### Options Presented
+
+- Approve the complete five-part UN M49 geographic-grouping bundle.
+- Revise the grouping scheme or exact text before implementation.
+- Retain the effect-size-only display and answer without regrouping.
+
+### Human Decision
+
+Approved the complete five-part UN M49 geographic-grouping bundle, including the 23-place grouped forest plot, four exact text/caption replacements, and the descriptive non-moderator interpretation boundary.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Figure 6 will show all 23 analytical places grouped by a documented geographic standard, and the manuscript will report the within-region mixed-sign pattern without attributing it to culture or causality.
+
+### Affected Manuscript Sections
+
+- Methodology > Place-Level Heterogeneity
+- Results > Cross-Place Heterogeneity
+- Discussion > Context-Dependent Nature of Rural-Urban Well-being
+- Figure 6
+
+### Related Artifacts
+
+- Rev/docs/reviewer-2-comment-6-consolidated-proposal.md
+- scripts/run_comment6_geographic_forest.py
+- reports/comment6_geographic_forest/figure6_grouped_candidate.png
+
+### Follow-Up
+
+Prepare one consolidated Word checklist; the human applies Parts 01–05 in one markup opening with Track Changes on, saves the same markup path, and reports completion for fresh-clean review.
+
+## KILA-D-20260830-018: Confirm Reviewer 2 Comment 6 Word operation saved
+
+- Event SHA-256: a46dd11ec748dde7e22afdb2feeee54acf5248e9954ae028a3968641100f63fb
+- Recorded at: 2026-08-30T19:06:15+09:00
+- Revision workspace: Rev
+- Revision stage: revision-execution
+- Reviewer ID: reviewer-2
+- Comment ID: comment-6
+- Decision type: human-word-operation-confirmation
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260830-017
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: 0ef282ac80cacd811c11231ee3b59dc89e17068858ba61d768183ed15ae52ad9
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Apply and save the four approved text/caption replacements and the updated grouped Figure 6 drawing with Track Changes on.
+
+### Decision Context
+
+The approved five-part UN M49 geographic-grouping bundle required one human Word opening because four text/caption targets crossed prior tracked fragments, two paragraphs contained protected EndNote fields, and Figure 6 was a human-owned drawing replacement.
+
+### Kila Recommendation
+
+Proceed to a fresh-clean provenance check, consolidated structural and visual verification, and then the targeted Reviewer 2 Comment 6 response block if all five parts pass.
+
+### Options Presented
+
+- Confirm the complete consolidated Word operation was applied and saved.
+
+### Human Decision
+
+The human reported that the complete Reviewer 2 Comment 6 consolidated Word operation was completed and saved.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+The saved markup should contain all four approved text/caption replacements and the updated 23-place UN M49 grouped Figure 6 without the small note below the x-axis.
+
+### Affected Manuscript Sections
+
+- Methodology > Place-Level Heterogeneity
+- Results > Cross-Place Heterogeneity
+- Discussion > Context-Dependent Nature of Rural-Urban Well-being
+- Figure 6
+
+### Related Artifacts
+
+- Rev/docs/reviewer-2-comment-6-word-checklist.md
+- reports/comment6_geographic_forest/figure6_grouped_candidate.png
+- Rev/revision/ZDP02l.rev.markup.docx
+
+### Follow-Up
+
+Generate a fresh clean from the saved markup, verify the five-part bundle structurally, semantically, numerically, and visually, then update only Reviewer 2 Comment 6 in the response draft if adequate.
+
+## KILA-D-20260830-019: Confirm Reviewer 2 Comment 6 post-save corrections
+
+- Event SHA-256: 3d7b6e4ff3acabd294ced3b27f86037fd038936170ff07622ee152fe79272485
+- Recorded at: 2026-08-30T19:25:26+09:00
+- Revision workspace: Rev
+- Revision stage: revision-execution
+- Reviewer ID: reviewer-2
+- Comment ID: comment-6
+- Decision type: human-word-correction-confirmation
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260830-018
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: 9d94ee93eb60b7819bad2315651f161e445285d6a288d711cafe80d4a89d84af
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Correct the Methodology wording and replace the old Figure 6 Results paragraph while retaining the intentional Figure 6 caption-note structure.
+
+### Decision Context
+
+The prior post-save review left one Methodology word and one Results paragraph correction. The human retained the intentional split caption-note structure and completed the remaining two Word corrections with Track Changes on.
+
+### Kila Recommendation
+
+Regenerate a fresh clean, verify all five Comment 6 locations including the adjusted Results paragraph structure, then update only the Reviewer 2 Comment 6 response block if all checks pass.
+
+### Options Presented
+
+- Confirm the two bounded post-save corrections were completed and saved.
+
+### Human Decision
+
+The human reported that the Reviewer 2 Comment 6 post-save corrections were completed and saved, with the Results content adjusted at the paragraph level.
+
+### Human-Provided Rationale
+
+The Results section was adjusted at the paragraph level.
+
+### Expected Revision Effect
+
+The final accepted manuscript contains the approved Methodology wording and UN M49 grouped-plot Results interpretation while retaining the intentional Figure 6 caption-note structure.
+
+### Affected Manuscript Sections
+
+- Methodology > Place-Level Heterogeneity
+- Results > Cross-Place Heterogeneity
+- Figure 6 caption and note
+
+### Related Artifacts
+
+- Rev/docs/reviewer-2-comment-6-post-save-corrections.md
+- Rev/revision/ZDP02l.rev.markup.docx
+
+### Follow-Up
+
+Generate and verify a fresh clean, then draft only Reviewer 2 Comment 6 response if the complete gate passes.
+
+## KILA-D-20260830-020: Approve Reviewer 2 Comment 6 response and implementation
+
+- Event SHA-256: 0c9eedef84daf95d744dcf8e37c1ea95cd2327d05a2e7d79c8df1fcc7eba925f
+- Recorded at: 2026-08-30T19:48:31+09:00
+- Revision workspace: Rev
+- Revision stage: response-review
+- Reviewer ID: reviewer-2
+- Comment ID: comment-6
+- Decision type: implementation-evaluation
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260830-019
+- Decision object: Rev/revision/response-draft.md
+- Object SHA-256: b1edda7b02917d2f3e40a4d7f45c61af303076a7459bf99e4ef131f4c45293f5
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Group the place forest plot by shared geography or culture and explain any resulting pattern without unsupported inference.
+
+### Decision Context
+
+The five-part UN M49 geographic-grouping revision, final punctuation correction, fresh-clean verification, and targeted five-quotation response have all passed the workflow gates and await explicit human acceptance.
+
+### Kila Recommendation
+
+Approve the verified response and close Reviewer 2 Comment 6.
+
+### Options Presented
+
+- Approve the response and complete implementation.
+- Request an exact response or manuscript revision.
+
+### Human Decision
+
+The human explicitly approved the Reviewer 2 Comment 6 response, thereby accepting the verified five-part manuscript implementation and its descriptive UN M49 interpretation boundary.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Reviewer 2 Comment 6 can be marked done; the approved response and verified manuscript implementation become the closed checkpoint for subsequent revision work.
+
+### Affected Manuscript Sections
+
+- Response to Reviewer 2 > Comment 6
+- Methodology > Place-Level Heterogeneity
+- Results > Cross-Place Heterogeneity
+- Discussion > Context-Dependent Nature of Rural-Urban Well-being
+- Figure 6
+
+### Related Artifacts
+
+- Rev/revision/response-draft.md
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/docs/revisionchanges.md
+
+### Follow-Up
+
+Mark Reviewer 2 Comment 6 done, append the execution log, then route to the next dependency-ready comment.

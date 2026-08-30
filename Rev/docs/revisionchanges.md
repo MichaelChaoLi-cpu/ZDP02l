@@ -8914,3 +8914,113 @@ In this dataset, however, the descriptive mean Social Capital Index is slightly 
   7. `replace`
      - Before: "is"
      - After: "are"
+
+## reviewer-2/comment-6
+
+### part-01
+
+- Location: Methodology > Place-Level Heterogeneity, second paragraph, final sentence block.
+- Reason: Group all 23 analytical places by a reproducible geographic classification while preserving an explicitly descriptive interpretation boundary.
+- Kila decisions: `KILA-D-20260830-017`, `KILA-D-20260830-018`, `KILA-D-20260830-019`.
+- Mode: approved human-owned Word-native tracked replacement with four protected EndNote fields retained in the paragraph.
+- Timestamp: `2026-08-30T19:30:38+0900`.
+- Before:
+
+~~~~text
+This approach identifies specific places where rural residents may experience an advantage, a disadvantage, or no significant difference in life satisfaction compared to their urban counterparts, thereby highlighting the context-dependent nature of this relationship.
+~~~~
+
+- After:
+
+~~~~text
+This approach compares place-specific coefficients while highlighting their uncertainty and the context-dependent nature of the association. For display, the 23 analytical places are grouped by the five continental regions in the United Nations M49 classification—Africa, the Americas, Asia, Europe, and Oceania—and ordered by coefficient within region. The plotted 95% confidence intervals use HC3 standard errors. Region membership is used only to organize the figure; it is not modeled as a contextual moderator and does not identify shared historical or cultural mechanisms.
+~~~~
+
+### part-02
+
+- Location: Results > Cross-Place Heterogeneity, second paragraph.
+- Reason: Describe the UN M49 grouping, preserve the uncertainty-focused reading, and avoid unsupported history/culture explanations or significance classification of individual places.
+- Kila decisions: `KILA-D-20260830-017`, `KILA-D-20260830-018`, `KILA-D-20260830-019`.
+- Mode: approved human-owned Word-native tracked paragraph replacement followed by one punctuation-only tracked correction.
+- Timestamp: `2026-08-30T19:30:38+0900`.
+- Before:
+
+~~~~text
+Figure 6 reveals a wide spectrum of these gaps across places. Because the plotted estimates come from separate place regressions, we treat the figure as descriptive and do not use it to classify individual places by statistical significance. Consistent with the multilevel results reported above, the descriptive estimates vary in magnitude and direction, with some places reporting lower life satisfaction. This diversity underscores that the paradox's manifestation varies considerably across sampled settings.
+~~~~
+
+- After:
+
+~~~~text
+Figure 6 groups the 23 analytical places by UN M49 geographic region and orders estimates by effect size within each region. Because the plotted estimates come from separate survey-weighted place regressions on the locked common sample, we treat the figure as descriptive and do not use it to classify individual places by statistical significance. Point estimates vary in sign within Africa, the Americas, Asia, and Europe; Oceania contains only Australia. Thus, the display does not reveal a uniform region-wide pattern, and it cannot by itself identify historical or cultural explanations for cross-place heterogeneity.
+~~~~
+
+### part-03
+
+- Location: Discussion > Context-Dependent Nature of Rural-Urban Well-being, first paragraph after the protected opening sentence.
+- Reason: Replace country-significance examples and unsupported cultural inference with the bounded descriptive interpretation warranted by the grouped plot.
+- Kila decisions: `KILA-D-20260830-017`, `KILA-D-20260830-018`, `KILA-D-20260830-019`.
+- Mode: approved human-owned Word-native tracked replacement; the two EndNote fields in the preserved opening sentence remain intact.
+- Timestamp: `2026-08-30T19:30:38+0900`.
+- Before:
+
+~~~~text
+This large variation is visually confirmed by the forest plot Figure 6, which displays place-specific beta estimates for rural residence ranging from significant positive to significant negative associations with life satisfaction. The sorting by effect size in Figure 6 clearly highlights places with the strongest rural advantages and disadvantages. For instance, while nations such as Poland, Tanzania, and Kenya exhibit a significant rural advantage, others, like Israel and Japan, show a pronounced rural disadvantage. This demonstrates that the impact of residential environment on subjective well-being is highly context-dependent, challenging any universal claims about inherent rural benefits or disadvantages.
+~~~~
+
+- After:
+
+~~~~text
+Figure 6 groups the place-specific coefficients by UN M49 geographic region and orders them by effect size within each region. The coexistence of positive and negative point estimates within Africa, the Americas, Asia, and Europe does not indicate a simple region-wide pattern; Oceania contains only one sampled place. Because the analysis does not include harmonized place-level measures of history, culture, institutions, or policy, the grouped display should be interpreted as descriptive rather than as evidence that regional or cultural membership explains the observed heterogeneity.
+~~~~
+
+### part-04
+
+- Location: Figure 6 caption immediately below the drawing.
+- Reason: Identify the UN M49 grouping and move the complete estimator, sample, adjustment, interval, ordering, and interpretation information into the caption rather than the plot area.
+- Kila decisions: `KILA-D-20260830-017`, `KILA-D-20260830-018`, `KILA-D-20260830-019`.
+- Mode: approved human-owned Word-native tracked caption replacement; the human intentionally retained a separate caption-title paragraph and Note paragraph.
+- Timestamp: `2026-08-30T19:30:38+0900`.
+- Before:
+
+~~~~text
+Figure 6. Place-level forest plot and composite rural-urban comparison
+~~~~
+
+- After:
+
+~~~~text
+Figure 6. Place-specific rural-urban life satisfaction coefficients grouped by UN M49 geographic region.
+
+(Note: Points are survey-weighted OLS estimates from separate place regressions on the locked common sample (N = 183,685), adjusted for Age, Gender, Marital Status, Employment, and Education; bars show 95% HC3 confidence intervals. Places are ordered by coefficient within region. Region is a descriptive display grouping, not a modeled contextual moderator.)
+~~~~
+
+### part-05
+
+- Location: Figure 6 drawing object.
+- Reason: Replace the prior two-panel map/forest plot with the approved 23-place forest plot grouped by UN M49 region and remove the small methodological text from within the drawing.
+- Kila decisions: `KILA-D-20260830-017`, `KILA-D-20260830-018`, `KILA-D-20260830-019`.
+- Mode: approved human-owned Word-native tracked drawing replacement.
+- Timestamp: `2026-08-30T19:30:38+0900`.
+- Before: two-panel map and effect-size-ordered forest plot titled `Place-level forest plot and composite rural-urban comparison`.
+- After: `word/media/image10.png`, approved candidate SHA-256 `74bb0e486d68713df35ea8bf3964698200f67ce19fd5fde74c11c554f97f3c8b`, source dimensions `1620 × 1944`, drawing extent `5486400 × 6578600` EMU.
+
+### Consolidated execution receipt
+
+- Approval and human saves: Parts `01`–`05` were approved under `KILA-D-20260830-017`; the first consolidated Word save was confirmed under `KILA-D-20260830-018`; the bounded Methodology/Results correction save was confirmed under `KILA-D-20260830-019`; the final one-character punctuation correction was non-substantive and therefore did not create another Kila decision.
+- Formal markup: `Rev/revision/ZDP02l.rev.markup.docx`; SHA-256 `0d13214ee02ba75141c80d4a40ca42e61c5395a7781059ca657aed18e0903e9e`; size `1,501,401` bytes; modification time `1788085838`; Track Changes remains enabled; `1,058` insertion and `1,291` deletion wrappers are present.
+- Formal clean: `Rev/revision/ZDP02l.rev.clean.docx`; SHA-256 `144e544c85c9f114f46e978422718088ad2f230a87dc0dbf5f2544d544cbe7de`; size `1,259,858` bytes; regenerated from the formal markup with revisions accepted only in the clean copy.
+- Clean structure: zero revisions; Track Changes off; `9` tables; `7` drawings; `178` field beginnings; `11` nonempty OMML objects; and `57` hyperlinks.
+- Reproducibility: two independent clean generations produced identical payloads for all `33` DOCX package members; whole-file ZIP hashes differ only because of archive timestamps.
+- Verification: the approved Methodology, Results, Discussion, caption title, and caption note each occur exactly once; the four superseded target texts, the double-period Results ending, and the superseded Table 3 are absent. The field signature and EndNote relationship file match the preceding formal clean.
+- Figure verification: the active Figure 6 image is `word/media/image10.png`; its SHA-256, `1620 × 1944` dimensions, and drawing extent exactly match the approved asset. The plot contains all 23 analytical places grouped as Africa, the Americas, Asia, Europe, and Oceania, and contains no bottom methodological note.
+- Visual QA: all `58` clean pages and all `82` markup pages were reviewed through contact sheets; clean pages `20`, `25`, `32`, and `51` and markup pages `20`, `30`, `50`, `74`, and `75` received full-resolution inspection. No clipping, overlap, missing glyph, malformed field, caption defect, drawing defect, or new style drift was found. The deleted legacy drawing remains visible only as the expected crossed-out tracked-deletion object in markup and is absent from clean.
+- No-change ledger: the Supplementary Materials document and all response blocks remain unchanged at this point. The source markup SHA-256, size, and modification time were unchanged by clean generation and verification.
+- Next gate: build and human-review only the Reviewer 2 / Comment 6 response block; the comment remains open until that response is explicitly approved.
+
+### Response-draft receipt
+
+- Only the Reviewer 2 / Comment 6 response block in `Rev/revision/response-draft.md` was replaced; the pre-edit SHA-256 was `f1bc18f0dc46e86a4bc48b829c7dac1918f195df1c0b1d81104c8ca6e8bc3269` and the post-edit SHA-256 is `b1edda7b02917d2f3e40a4d7f45c61af303076a7459bf99e4ef131f4c45293f5`.
+- The five-location bundle uses the `1`–`5` location quotation tier and quotes all five revised text locations: Methodology, Results, Discussion, Figure 6 title, and Figure 6 note. Every quotation is enclosed in straight double quotation marks and is followed immediately by its own `(Lines/Pages: human verification required)` marker.
+- Each quoted string occurs exactly once in the fresh clean manuscript. The response states that the drawing itself was replaced with the 23-place UN M49 grouped forest plot and accurately limits the regional grouping to descriptive organization rather than a modeled historical or cultural explanation.
+- The formal markup, fresh clean, Supplementary Materials document, and Kila log were unchanged during response drafting. The comment remains `human_review_required` pending explicit approval of this response.

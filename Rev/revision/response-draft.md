@@ -612,9 +612,25 @@ All five global tests indicate substantial cross-place heterogeneity: Q ranges f
 The forest plot only lists countries ordered by effect size. It does not show whether similar countries behave in similar ways. It would be useful to group countries by shared characteristics (history, culture). This could reveal meaningful patterns in the results.
 
 **Response:**
-[Response pending.]
+Thank you for this helpful suggestion. We revised Figure 6 to group all 23 analytical places by the five continental regions in the United Nations M49 classification (Africa, the Americas, Asia, Europe, and Oceania), while ordering coefficients within each region. The revised plot reports the same survey-weighted place-specific OLS estimates with 95% HC3 confidence intervals and no longer includes the methodological note inside the figure. We also revised the Methodology, Results, Discussion, and caption to explain the grouping rule and its limits. In particular, the grouping is used descriptively rather than as a modeled contextual moderator: the available data do not contain harmonized measures of history, culture, institutions, or policy that would support attributing the observed heterogeneity to those mechanisms. The revised text reads:
 
-"[Exact revised text quoted from the fresh clean manuscript]"
+"This approach compares place-specific coefficients while highlighting their uncertainty and the context-dependent nature of the association. For display, the 23 analytical places are grouped by the five continental regions in the United Nations M49 classification—Africa, the Americas, Asia, Europe, and Oceania—and ordered by coefficient within region. The plotted 95% confidence intervals use HC3 standard errors. Region membership is used only to organize the figure; it is not modeled as a contextual moderator and does not identify shared historical or cultural mechanisms."
+
+(Lines/Pages: human verification required)
+
+"Figure 6 groups the 23 analytical places by UN M49 geographic region and orders estimates by effect size within each region. Because the plotted estimates come from separate survey-weighted place regressions on the locked common sample, we treat the figure as descriptive and do not use it to classify individual places by statistical significance. Point estimates vary in sign within Africa, the Americas, Asia, and Europe; Oceania contains only Australia. Thus, the display does not reveal a uniform region-wide pattern, and it cannot by itself identify historical or cultural explanations for cross-place heterogeneity."
+
+(Lines/Pages: human verification required)
+
+"Figure 6 groups the place-specific coefficients by UN M49 geographic region and orders them by effect size within each region. The coexistence of positive and negative point estimates within Africa, the Americas, Asia, and Europe does not indicate a simple region-wide pattern; Oceania contains only one sampled place. Because the analysis does not include harmonized place-level measures of history, culture, institutions, or policy, the grouped display should be interpreted as descriptive rather than as evidence that regional or cultural membership explains the observed heterogeneity."
+
+(Lines/Pages: human verification required)
+
+"Figure 6. Place-specific rural-urban life satisfaction coefficients grouped by UN M49 geographic region."
+
+(Lines/Pages: human verification required)
+
+"(Note: Points are survey-weighted OLS estimates from separate place regressions on the locked common sample (N = 183,685), adjusted for Age, Gender, Marital Status, Employment, and Education; bars show 95% HC3 confidence intervals. Places are ordered by coefficient within region. Region is a descriptive display grouping, not a modeled contextual moderator.)"
 
 (Lines/Pages: human verification required)
 
