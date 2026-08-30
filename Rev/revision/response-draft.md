@@ -515,9 +515,27 @@ The study shows strong differences between countries (Figure 7), but does not te
 This is an important limitation. The mediation mechanisms may differ depending on national context.
 
 **Response:**
-[Response pending.]
+Thank you for highlighting this important limitation. We agree that the pooled parallel path model alone cannot establish that the conditional pathways have the same magnitudes or directions in every sampled context. We therefore retain the pooled OLS path model as the primary, readily interpretable specification and add an exploratory place-stratified extension for all 23 analytical places (22 countries and Hong Kong as a region) on the locked common complete-case sample (N = 183,685). The unweighted place-specific models match the primary OLS estimator, and survey-weighted models provide a sensitivity analysis. Within each place, uncertainty uses 4,999 joint respondent-level Rademacher wild-score bootstrap draws with partial-leverage HC3 focal-coefficient influences and the same multiplier across equations. Across places, we summarize heterogeneity in the four specific indirect associations and their total using Cochran's Q, REML τ², and I², with Benjamini-Hochberg FDR adjustment across the five global tests.
 
-"[Exact revised text quoted from the fresh clean manuscript]"
+All five global tests indicate substantial cross-place heterogeneity: Q ranges from 175.18 to 197.35 with 22 degrees of freedom, every FDR-adjusted q value is below 0.001, and I² ranges from 87.4% to 88.9%. Every specific indirect-association estimate varies in sign across places, and the total indirect association ranges from -0.219 to +0.163 points. The survey-weighted and unweighted place estimates remain positively correlated (r = 0.80 to 0.97 across the five quantities). We report the complete place-specific direct and indirect estimates and their intervals in Supplementary Table S4 and present a compact descriptive heatmap in Supplementary Figure S1. We do not rank places by isolated statistical significance or interpret these cross-sectional conditional associations as causal mediation effects. The revised Limitations section explicitly states that the analysis documents whether the pathways vary, not why they vary.
+
+"To examine whether the conditional pathways also vary across contexts, we re-estimate the same parallel path system separately within each of the 23 analytical places on the locked common sample. The unweighted place-stratified analysis matches the pooled primary OLS estimator, and survey-weighted estimates provide a sensitivity analysis. Within-place uncertainty is obtained from 4,999 joint respondent-level Rademacher wild-score bootstrap draws based on partial-leverage HC3 focal-coefficient influences, with the same respondent multiplier used across all equations. Cross-place heterogeneity in the four specific indirect associations and their total is summarized with Cochran's Q, REML τ², and I², and the five global tests use Benjamini-Hochberg false-discovery-rate adjustment."
+
+(Lines/Pages: human verification required)
+
+"In an exploratory extension of the pooled primary path model, all four specific indirect associations and their total vary substantially across analytical places (Supplementary Table S4; Supplementary Figure S1). The five Cochran Q statistics range from 175.18 to 197.35 with 22 degrees of freedom, and all five tests remain below the 0.05 threshold after Benjamini-Hochberg adjustment (all FDR-adjusted q < 0.001); corresponding I² values range from 87.4% to 88.9%. Each specific indirect-association estimate varies in sign across places, and the total indirect association ranges from -0.219 to +0.163 points. Survey-weighted sensitivity estimates are positively correlated with the unweighted estimates (r = 0.80 to 0.97 across the five quantities). These results indicate that the pooled conditional pathways do not have uniform magnitudes or directions across the sampled contexts."
+
+(Lines/Pages: human verification required)
+
+"The exploratory place-stratified path analysis documents whether the conditional indirect associations vary but does not explain why they vary. Because the analysis is cross-sectional, exploratory, and multiplicity-sensitive, it should not be used to rank individual places or infer causal mechanisms."
+
+(Lines/Pages: human verification required)
+
+"Table S4. Exploratory analytical-place direct and indirect associations and cross-place heterogeneity"
+
+(Lines/Pages: human verification required)
+
+"Figure S1. Exploratory analytical-place heterogeneity in the four specific indirect associations and their total. Cells show unweighted place-specific point estimates in life-satisfaction points from the parallel path system on the locked common complete-case sample (N = 183,685). Blue indicates positive and red indicates negative conditional indirect associations. The figure is descriptive and does not classify individual places by statistical significance; 95% intervals and global heterogeneity statistics are reported in Supplementary Table S4."
 
 (Lines/Pages: human verification required)
 

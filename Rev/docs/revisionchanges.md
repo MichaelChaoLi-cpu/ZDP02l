@@ -8422,3 +8422,148 @@ Overall, this research characterizes how economic precarity and social capital a
   1. `replace`
      - Before: "Overall, this research clarifies the complex interplay of economic precarity and social capital in shaping rural-urban well-being disparities across diverse global settings."
      - After: "Overall, this research characterizes how economic precarity and social capital are conditionally associated with rural-urban well-being disparities across diverse global settings."
+
+## reviewer-2/comment-5
+
+### part-01
+
+- Location: Methodology > Place-Level Heterogeneity, the empty paragraph immediately before `Robustness Checks`.
+- Reason: Define the approved exploratory place-stratified pathway analysis and its inference while retaining pooled OLS as the primary model.
+- Kila decisions: `KILA-D-20260830-003`, `KILA-D-20260830-004`, `KILA-D-20260830-005`.
+- Mode: Microsoft Word native Track Changes insertion into an existing empty paragraph; the approved Word-generated `w:ins` element was transplanted into the untouched source package to avoid unrelated Word-save reserialization.
+- Revises prior parts: none.
+- Timestamp: `2026-08-30T09:47:00Z`.
+- Word revision author: Chao Li.
+- Markup SHA-256 before consolidated operation: `62496bcbe1524a3d8d777bf479629e0d6b2cde7d50eea2d5ccaf7eedc2ee8cce`.
+- Markup SHA-256 after consolidated operation: `2c0d99295807614ea9eb03b1ffffd01ce50b8b3ec7c169bb862d5679f94f8ffa`.
+- Revision ID: `2586`.
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260830T094526+0900.reviewer-2-comment-5.word-native.docx`.
+- Paragraph properties preserved: `true`.
+- Before:
+
+~~~~text
+""
+~~~~
+
+- After:
+
+~~~~text
+To examine whether the conditional pathways also vary across contexts, we re-estimate the same parallel path system separately within each of the 23 analytical places on the locked common sample. The unweighted place-stratified analysis matches the pooled primary OLS estimator, and survey-weighted estimates provide a sensitivity analysis. Within-place uncertainty is obtained from 4,999 joint respondent-level Rademacher wild-score bootstrap draws based on partial-leverage HC3 focal-coefficient influences, with the same respondent multiplier used across all equations. Cross-place heterogeneity in the four specific indirect associations and their total is summarized with Cochran's Q, REML τ², and I², and the five global tests use Benjamini-Hochberg false-discovery-rate adjustment.
+~~~~
+
+### part-02
+
+- Location: Results > Cross-Place Heterogeneity, the empty paragraph immediately before `Robustness of Findings`.
+- Reason: Report the global pathway-heterogeneity tests and their survey-weighted sensitivity without classifying individual places by significance.
+- Kila decisions: `KILA-D-20260830-003`, `KILA-D-20260830-004`, `KILA-D-20260830-005`.
+- Mode: Microsoft Word native Track Changes insertion into an existing empty paragraph; the approved Word-generated `w:ins` element was transplanted into the untouched source package to avoid unrelated Word-save reserialization.
+- Revises prior parts: none.
+- Timestamp: `2026-08-30T09:47:00Z`.
+- Word revision author: Chao Li.
+- Markup SHA-256 before consolidated operation: `62496bcbe1524a3d8d777bf479629e0d6b2cde7d50eea2d5ccaf7eedc2ee8cce`.
+- Markup SHA-256 after consolidated operation: `2c0d99295807614ea9eb03b1ffffd01ce50b8b3ec7c169bb862d5679f94f8ffa`.
+- Revision ID: `2587`.
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260830T094526+0900.reviewer-2-comment-5.word-native.docx`.
+- Paragraph properties preserved: `true`.
+- Before:
+
+~~~~text
+""
+~~~~
+
+- After:
+
+~~~~text
+In an exploratory extension of the pooled primary path model, all four specific indirect associations and their total vary substantially across analytical places (Supplementary Table S4; Supplementary Figure S1). The five Cochran Q statistics range from 175.18 to 197.35 with 22 degrees of freedom, and all five tests remain below the 0.05 threshold after Benjamini-Hochberg adjustment (all FDR-adjusted q < 0.001); corresponding I² values range from 87.4% to 88.9%. Each specific indirect-association estimate varies in sign across places, and the total indirect association ranges from -0.219 to +0.163 points. Survey-weighted sensitivity estimates are positively correlated with the unweighted estimates (r = 0.80 to 0.97 across the five quantities). These results indicate that the pooled conditional pathways do not have uniform magnitudes or directions across the sampled contexts.
+~~~~
+
+### part-03
+
+- Location: Limitations and Future Studies, the empty paragraph immediately before `Conclusion`.
+- Reason: State the exact evidentiary boundary of the exploratory place-stratified analysis.
+- Kila decisions: `KILA-D-20260830-003`, `KILA-D-20260830-004`, `KILA-D-20260830-005`.
+- Mode: Microsoft Word native Track Changes insertion into an existing empty paragraph; the approved Word-generated `w:ins` element was transplanted into the untouched source package to avoid unrelated Word-save reserialization.
+- Revises prior parts: none.
+- Timestamp: `2026-08-30T09:47:00Z`.
+- Word revision author: Chao Li.
+- Markup SHA-256 before consolidated operation: `62496bcbe1524a3d8d777bf479629e0d6b2cde7d50eea2d5ccaf7eedc2ee8cce`.
+- Markup SHA-256 after consolidated operation: `2c0d99295807614ea9eb03b1ffffd01ce50b8b3ec7c169bb862d5679f94f8ffa`.
+- Revision ID: `2588`.
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260830T094526+0900.reviewer-2-comment-5.word-native.docx`.
+- Paragraph properties preserved: `true`.
+- Before:
+
+~~~~text
+""
+~~~~
+
+- After:
+
+~~~~text
+The exploratory place-stratified path analysis documents whether the conditional indirect associations vary but does not explain why they vary. Because the analysis is cross-sectional, exploratory, and multiplicity-sensitive, it should not be used to rank individual places or infer causal mechanisms.
+~~~~
+
+### parts 01–03 consolidated technical verification
+
+- The controlled tracked-edit writer refused all three targets because their exact `before` value was an empty paragraph; the human-approved exception is recorded as `KILA-D-20260830-005`.
+- Microsoft Word was used only on isolated temporary copies with Track Changes enabled. Two failed attempts were closed without saving and did not change the live markup.
+- The successful Word candidate added exactly three insertions. To preserve the original package, only those three Word-native `w:ins` elements were transplanted into the original `word/document.xml`, with unique revision IDs `2586`–`2588`; every other package member remained byte-identical.
+- Final markup verification: valid ZIP/XML; Track Changes enabled; `2,183` numeric unique revision wrappers; all deletion payloads use `w:delText`; all `12` `m:oMath` objects preserved; the only top-level paragraph XML differences from the backup are paragraph indices `59`, `80`, and `116`.
+- Endnote hyperlinks preserved: `true`; hyperlink count `0`; no endnote relationship part was added or removed.
+
+### part-04 — standalone Supplementary Materials introduction
+
+- Artifact: `Rev/revision/ZDP02l.supplementary.docx`.
+- Reason: Expand the contents statement to identify the new exploratory Table S4 and Figure S1.
+- Kila decisions: `KILA-D-20260830-003`, `KILA-D-20260830-004`.
+- Mode: agent-authored standalone Supplementary Materials exact paragraph replacement.
+- Revises prior parts: `reviewer-1/comment-7#part-18`.
+- Supplement SHA-256 before: `1bc27a98f6da7a8c739f2ec451ed137c48f01cb1a9f574ef61dc1ac397c1c64f`.
+- Supplement SHA-256 after: `4373da1d47eac5a319eb51c38bd8a82230187119882e503371b522e8c32ee1ae`.
+- Backup: `Rev/revision/.kila-backups/ZDP02l.supplementary.20260830T095914+0900.reviewer-2-comment-5.docx`.
+- Before:
+
+~~~~text
+These supplementary tables report ordinal-model robustness analyses for life satisfaction and sample-alignment diagnostics. Table S1 presents the prespecified four-category analysis, Table S2 reports sensitivity on the original 0–10 scale, and Table S3 documents sample construction, variable-level missingness, and exact model denominators.
+~~~~
+
+- After:
+
+~~~~text
+These supplementary tables and figure report ordinal-model robustness analyses for life satisfaction, sample-alignment diagnostics, and exploratory analytical-place pathway heterogeneity. Table S1 presents the prespecified four-category analysis, Table S2 reports sensitivity on the original 0–10 scale, Table S3 documents sample construction, variable-level missingness, and exact model denominators, and Table S4 reports place-specific direct and indirect associations, global heterogeneity tests, and survey-weighted sensitivity diagnostics. Figure S1 displays the place-specific indirect-association estimates.
+~~~~
+
+### part-05 — standalone Supplementary Table S4
+
+- Artifact: `Rev/revision/ZDP02l.supplementary.docx`.
+- Reason: Provide all 23-place direct and indirect estimates, interval estimates, global heterogeneity tests, and survey-weighted sensitivity diagnostics.
+- Kila decisions: `KILA-D-20260830-003`, `KILA-D-20260830-004`.
+- Mode: agent-authored standalone Supplementary Materials table append, using the existing S1–S3 visual law and validated CSV outputs as the sole numerical sources.
+- Before: no Table S4 object after the Table S3 notes.
+- After: `Table S4. Exploratory analytical-place direct and indirect associations and cross-place heterogeneity`, comprising Panel A (`23` place-specific economic-security rows), Panel B (`23` place-specific social-capital/direct/total rows), Panel C (`5` global heterogeneity rows), and Panel D (`5` survey-weighted correspondence rows), followed by the approved Notes and Inference paragraphs.
+- Numerical sources: `reports/comment5_place_path_heterogeneity/place_path_effects.csv` and `reports/comment5_place_path_heterogeneity/path_heterogeneity_tests.csv`.
+- Verification: every displayed cell equals the corresponding CSV-derived formatted value; Tables S1–S3 are canonical-XML identical to the pre-edit supplement; the supplement has zero tracked revision or move wrappers.
+
+### part-06 — standalone Supplementary Figure S1
+
+- Artifact: `Rev/revision/ZDP02l.supplementary.docx`.
+- Reason: Show the direction and magnitude of the five place-specific indirect-association quantities without significance-based place ranking.
+- Kila decisions: `KILA-D-20260830-003`, `KILA-D-20260830-004`.
+- Mode: agent-authored standalone Supplementary Materials figure append.
+- Before: no Supplementary Figure object after Table S4.
+- After: `Figure S1. Exploratory analytical-place heterogeneity in the four specific indirect associations and their total.` The approved heatmap appears at `6.0` inches wide under a `Supplementary Figure` heading, followed by the exact approved caption.
+- Source asset: `reports/comment5_place_path_heterogeneity/figure_place_path_heterogeneity.png`; SHA-256 `bd4d5134cf5219d08ab6cd118a32f095de198faafdaa0465c899b5048bed6a5e`; `2762 × 3029` pixels.
+- Verification: the embedded PNG payload is byte-identical to the source asset. The final eight-page Letter render was inspected page by page; Table S4 and Figure S1 have no clipping, overlap, missing text, border defect, distorted aspect ratio, or style drift. The Table S4 notes and Figure S1 caption were explicitly left-aligned to match the existing supplement.
+
+### reviewer-2/comment-5 consolidated execution receipt
+
+- Timestamp: `2026-08-30T10:15:14+0900`.
+- Approved scope: all `6/6` parts in `Rev/docs/reviewer-2-comment-5-consolidated-proposal.md`, plus the technical implementation exception recorded as `KILA-D-20260830-005`.
+- Final markup: `Rev/revision/ZDP02l.rev.markup.docx`; SHA-256 `2c0d99295807614ea9eb03b1ffffd01ce50b8b3ec7c169bb862d5679f94f8ffa`; size `1,702,398` bytes; mtime epoch `1788051049`.
+- Markup structure: valid ZIP/XML; Track Changes enabled; `2,183` valid unique revision wrappers (`988` insertions and `1,195` deletions); deletion text uses `w:delText`; all `12` `m:oMath` objects preserved; only target top-level paragraphs `59`, `80`, and `116` differ from the pre-operation backup.
+- Fresh clean: regenerated from that exact markup and promoted to `Rev/revision/ZDP02l.rev.clean.docx`; SHA-256 `bdcdb9e93665afdca4f9bf5c6cfa3b6bb391463d8e92a76f2f5b619440cc1bb1`.
+- Clean structure: zero tracked revision or move wrappers; no `w:trackRevisions`; `178` field beginnings and instructions; `11` nonempty `m:oMath` objects; `9` tables. Compared with the prior clean, only paragraphs `59`, `80`, and `116` change, from empty to the three approved texts.
+- Standalone Supplementary Materials: `Rev/revision/ZDP02l.supplementary.docx`; SHA-256 `4373da1d47eac5a319eb51c38bd8a82230187119882e503371b522e8c32ee1ae`; zero revision or move wrappers; `7` tables and one inline figure. Tables S1–S3 are canonical-XML identical to the source, all Table S4 cells match the validated CSV outputs, and the embedded Figure S1 PNG is byte-identical to the analysis asset.
+- Visual verification: the final `58`-page clean and `78`-page markup were inspected in full through contact sheets; affected clean pages `21`, `26`, and `37` and affected markup pages `26`, `35`, `53`, and `54` were inspected at original detail. The final `8`-page Supplementary Materials document was inspected page by page at original detail. No new clipping, overlap, missing glyph, field-display breakage, table defect, figure defect, or style drift was found.
+- Source immutability: markup SHA-256, size, and mtime remained unchanged throughout fresh-clean generation and all subsequent review.
+- Response: only the Reviewer 2 / Comment 5 response block in `Rev/revision/response-draft.md` changed; final SHA-256 `676117d5129184bcd924331e95672a383125533b22bd0425bf2afad3d45f2e23`. Reconstructing that block's prior placeholder reproduces the exact pre-edit response SHA-256 `948d890c49cdb0f84de2bda7a424514874365f7dd8121c2db09ac9b708f8ebb9`, proving all other response bytes are unchanged. The block contains five exact quotations and five independent line/page markers, with no Markdown block quote.

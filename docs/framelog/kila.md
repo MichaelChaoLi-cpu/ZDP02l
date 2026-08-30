@@ -5525,3 +5525,273 @@ Preserve the approved response text, mark Reviewer 2 / Comment 3 done, and advan
 ### Follow-Up
 
 Mark the plan row done, append the procedure execution log, and select the next executable comment; use manage-git-workflow for any Git checkpoint when available.
+
+## KILA-D-20260830-003: Select exploratory analytical-place path heterogeneity analysis
+
+- Event SHA-256: 8014d7821b6bd2b718fe77b75a7c0bd1369540f1841d7d16326bf0aaffb1a1d6
+- Recorded at: 2026-08-30T08:41:02+09:00
+- Revision workspace: Rev
+- Revision stage: analysis-strategy
+- Reviewer ID: reviewer-2
+- Comment ID: comment-5
+- Decision type: analysis-model-selection
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/docs/reviewer-2-comment-5-strategy-proposal.md
+- Object SHA-256: eb9c98f6c147db8df9eb6b25c21e54bf9a62363ff24de5801b4a16b0fc61a749
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Assess whether the four economic-insecurity and social-capital pathways differ across countries or analytical places.
+
+### Decision Context
+
+The reviewer requested country-level mediation analysis because pooled mechanisms may differ by national context. A feasibility audit confirmed that the locked common sample supports the same place-specific path system across all 23 analytical places, while the existing multilevel robustness model does not vary the four indirect pathways.
+
+### Kila Recommendation
+
+Retain the pooled OLS parallel path model as primary and add an explicitly exploratory 23-place multi-group path analysis with joint robust inference, global heterogeneity tests, survey-weighted sensitivity, and supplementary reporting.
+
+### Options Presented
+
+- Option 1: exploratory multi-group analytical-place path analysis (recommended)
+- Option 2: multilevel random-slope pathway model
+- Option 3: limitation-only response
+
+### Human Decision
+
+Human selected Option 1. The pooled OLS parallel path model remains primary, and the revision will add the exploratory 23-place pathway-heterogeneity analysis as a supplementary robustness analysis.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Generate and validate place-specific direct and indirect association estimates, test cross-place heterogeneity, prepare a supplementary table and figure, then present one consolidated manuscript-change bundle for approval.
+
+### Affected Manuscript Sections
+
+- Methodology
+- Results
+- Limitations and Future Studies
+- Supplementary Materials
+
+### Related Artifacts
+
+- Rev/docs/reviewer-2-comment-5-strategy-proposal.md
+- Rev/docs/revisionplan.md
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.SupplementaryMaterials.docx
+
+### Follow-Up
+
+Implement the approved analysis reproducibly, validate all outputs, and present the complete seven-location revision bundle before any Word modification.
+
+## KILA-D-20260830-004: Approve Reviewer 2 Comment 5 consolidated six-part bundle
+
+- Event SHA-256: fb4966d45a0992e4632b715c658573aeb5dd9990741454752654063946f247f7
+- Recorded at: 2026-08-30T09:10:58+09:00
+- Revision workspace: Rev
+- Revision stage: manuscript-bundle-approval
+- Reviewer ID: reviewer-2
+- Comment ID: comment-5
+- Decision type: manuscript-and-supplement-bundle-approval
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/docs/reviewer-2-comment-5-consolidated-proposal.md
+- Object SHA-256: 5b9af20e06330335f92b0da6f3a56afc91c227144adae89a6c12ae5a128686a6
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Address the concern that economic-insecurity and social-capital pathways may differ across countries or analytical places.
+
+### Decision Context
+
+Following the analytical-place pathway strategy recorded in KILA-D-20260830-003, the exploratory 23-place analysis and its six-part manuscript and standalone-supplement implementation bundle were fully specified and validated before Word editing.
+
+### Kila Recommendation
+
+Apply the exact approved three main-manuscript insertions, update the standalone supplement introduction, and add Table S4 and Figure S1; retain pooled OLS as primary and keep the new analysis exploratory.
+
+### Options Presented
+
+- Approve the complete six-part bundle, including the disclosed supplement-introduction re-edit.
+
+### Human Decision
+
+Human approved the complete Reviewer 2 Comment 5 six-part bundle, including all three main-manuscript insertions, the disclosed Supplementary Materials introduction re-edit, Table S4, and Figure S1.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Implement the exact approved text and supplementary objects, regenerate a fresh clean manuscript, verify all affected pages and numbers, and draft the corresponding response block for human review.
+
+### Affected Manuscript Sections
+
+- Methodology
+- Results
+- Limitations and Future Studies
+- Supplementary Materials
+
+### Related Artifacts
+
+- Rev/docs/reviewer-2-comment-5-consolidated-proposal.md
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.supplementary.docx
+- reports/comment5_place_path_heterogeneity/path_heterogeneity_tests.csv
+- reports/comment5_place_path_heterogeneity/figure_place_path_heterogeneity.png
+
+### Follow-Up
+
+Apply the six approved parts, perform one consolidated fresh-clean and visual review, then update only the Reviewer 2 Comment 5 response block.
+
+## KILA-D-20260830-005: Authorize Word-native empty-paragraph implementation for Reviewer 2 Comment 5
+
+- Event SHA-256: 446a1babe5290009b70b11d215d7ef05b5b495578481a36fc22711f2e4110e15
+- Recorded at: 2026-08-30T09:18:47+09:00
+- Revision workspace: Rev
+- Revision stage: manuscript-bundle-execution
+- Reviewer ID: reviewer-2
+- Comment ID: comment-5
+- Decision type: technical-exception-authorization
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260830-004
+- Decision object: Rev/docs/reviewer-2-comment-5-consolidated-proposal.md
+- Object SHA-256: 5b9af20e06330335f92b0da6f3a56afc91c227144adae89a6c12ae5a128686a6
+- Implementation owner: agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Authorize one consolidated Word-native Track Changes operation for the three already-approved empty-paragraph insertions without changing their wording or locations.
+
+### Decision Context
+
+The approved main-manuscript parts 01 through 03 target exact empty Word paragraphs that the controlled tracked-revision editor cannot address because it requires a non-empty before span.
+
+### Kila Recommendation
+
+Use Microsoft Word native Track Changes only for the three approved empty-paragraph insertions, preserve all EndNote structures, and keep Supplement parts 04 through 06 on the normal agent-owned document path.
+
+### Options Presented
+
+- Authorize the consolidated Word-native empty-paragraph exception.
+
+### Human Decision
+
+Human authorized the consolidated Word-native empty-paragraph exception for Reviewer 2 Comment 5.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Insert the three approved manuscript paragraphs with native tracked insertions, then complete the approved standalone supplement update and one consolidated clean and visual review.
+
+### Affected Manuscript Sections
+
+- Methodology
+- Results
+- Limitations and Future Studies
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/revisionchanges.md
+- Rev/revision/ZDP02l.supplementary.docx
+
+### Follow-Up
+
+Execute all six approved parts and draft the verified response block for human review.
+
+## KILA-D-20260830-006: Approve Reviewer 2 Comment 5 implementation and response
+
+- Event SHA-256: c7145be6ff22e9f61c8b5f5fb56404ec9f25289e2100244ba9697091ae4a3793
+- Recorded at: 2026-08-30T10:21:42+09:00
+- Revision workspace: Rev
+- Revision stage: response-review
+- Reviewer ID: reviewer-2
+- Comment ID: comment-5
+- Decision type: implementation-acceptance
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260830-004
+- Decision object: Rev/revision/response-draft.md
+- Object SHA-256: 676117d5129184bcd924331e95672a383125533b22bd0425bf2afad3d45f2e23
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Evaluate whether the completed response and implementation adequately address the reviewer's concern that economic insecurity and social-capital pathways may differ across sampled national contexts.
+
+### Decision Context
+
+The approved six-part manuscript and standalone Supplementary Materials implementation, fresh-clean review, and targeted response block have passed structural, numerical, visual, and quotation verification and are awaiting the human's final assessment.
+
+### Kila Recommendation
+
+Approve the verified response and close Reviewer 2 Comment 5 while retaining pooled OLS as primary and the place-stratified analysis as exploratory.
+
+### Options Presented
+
+- Approve the completed implementation and response.
+
+### Human Decision
+
+Human approved the completed Reviewer 2 Comment 5 response and thereby accepted the verified six-part implementation.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Mark Reviewer 2 Comment 5 done, preserve all verified artifacts unchanged, and advance to the next executable reviewer item.
+
+### Affected Manuscript Sections
+
+- Methodology
+- Results
+- Limitations and Future Studies
+- Supplementary Materials
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/revision/ZDP02l.supplementary.docx
+- Rev/revision/response-draft.md
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Close Reviewer 2 Comment 5 in the revision plan and route to the next executable item; use the prescribed Git checkpoint only if the required workflow skill is available.
