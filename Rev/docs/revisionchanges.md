@@ -10088,3 +10088,37 @@ Investigating these context-specific factors is important for moving beyond gene
 - All Parts 01–09 and 11–13 occur once in the final clean; Part 10's deleted text occurs zero times. Exact phrases `global evidence` and `adjusting for country-specific factors` occur zero times.
 - Structural verification: valid DOCX package/XML, Track Changes enabled, `218` field beginnings, `158` instruction-text nodes, `10` table wrappers, `12` drawing wrappers, `14` OMML nodes when counting `oMath` and `oMathPara`, and `12` media files.
 - Visual verification: all `83` markup pages and `52` fresh-clean pages were rendered and inspected; no clipping, overlap, missing glyph, broken field, missing object, or unintended page-break defect was found.
+
+## Reviewer 1 / Comment 16 — Human paragraph consolidation and shared-coverage closure
+
+- Decision records: `KILA-D-20260831-013` (superseded proposed rewrite) and `KILA-D-20260831-014` (final no-further-rewrite scope and direct-response decision).
+- Human save: Microsoft Word with Track Changes enabled; saved at `2026-08-31 11:28:48 +0900`.
+- Location: Discussion > Policy Implications, first and second paragraphs.
+- Mode: human-applied tracked paragraph-mark deletion and bridge-space insertion; machine-verified as one distinct structural location.
+- Reason: improve concision and flow by consolidating the two already approved, evidence-bounded economic-security and social-capital paragraphs without another substantive rewrite.
+- Shared coverage: the retained wording comes from `reviewer-1/comment-1#parts-43–44` and is consistent with the final claim boundary locked by `reviewer-1/comment-15`.
+- Markup SHA-256 before human save: `76de8249a414a3b8f4e03dd8512d47985ce3242bf7821c982c7e95c1c9e3cbb4`.
+- Markup SHA-256 after human save: `79181fc879e1c3d41536b0e6eeee00a090820cc23ddd3ca511128bbcb586f504`.
+- Human revision IDs: paragraph-mark deletion `1653`; bridge-space insertion `1656`.
+- Fresh-clean method: accepted all `1,126` insertions and `1,461` deletions only in a copied clean artifact, then applied one exact guarded clean-only merge for deleted paragraph mark `1653`, because the generic acceptance utility does not merge deleted paragraph marks.
+- Fresh-clean SHA-256: `a4d85e9e4115d54e8344d6364bc8ff42b315918ebf0cb995e9b115a4b6532257`; zero remaining revision wrappers.
+- Markup immutability during clean generation and review: source SHA-256 remained `79181fc879e1c3d41536b0e6eeee00a090820cc23ddd3ca511128bbcb586f504`, size `1,480,241`, mtime epoch `1788143328`.
+- EndNote/package verification: the source retains `218` field beginnings and `158` instruction-text nodes; the accepted clean retains `158` active field beginnings. The paragraph consolidation changes no citation field, table, figure, OMML object, or media payload.
+- Visual verification: all `52` clean pages and `83` markup pages were inspected through full-document contact sheets; affected clean pages `31–32` and markup pages `53–55` were inspected at original detail. No clipping, overlap, broken field display, abnormal spacing, missing glyph, or unintended page-break defect was found.
+- Before:
+
+~~~~text
+Economic security is policy-relevant because rural residence is associated with lower Income Security Feelings and within-place income rank, and the Income Security Feelings indirect pathway has an interval excluding zero. These associations suggest that locally appropriate efforts to reduce financial precarity may be relevant, but the cross-sectional analysis cannot establish that any specific intervention will increase life satisfaction. Policy design should therefore be guided by local evidence on employment, financial resources, and social protection rather than by a universal prescription.
+
+The results do not show that stronger rural social capital eliminated a disadvantage or acted as a buffer: rural residence is not precisely associated with the Social Capital Index, and the Social Capital Index indirect interval includes zero. Community-oriented initiatives may still be valuable where locally supported, but they should not be presented as a mechanism proven by these data. More generally, the observed cross-place heterogeneity argues for context-specific rather than uniform rural policy responses.
+~~~~
+
+- After:
+
+~~~~text
+Economic security is policy-relevant because rural residence is associated with lower Income Security Feelings and within-place income rank, and the Income Security Feelings indirect pathway has an interval excluding zero. These associations suggest that locally appropriate efforts to reduce financial precarity may be relevant, but the cross-sectional analysis cannot establish that any specific intervention will increase life satisfaction. Policy design should therefore be guided by local evidence on employment, financial resources, and social protection rather than by a universal prescription. The results do not show that stronger rural social capital eliminated a disadvantage or acted as a buffer: rural residence is not precisely associated with the Social Capital Index, and the Social Capital Index indirect interval includes zero. Community-oriented initiatives may still be valuable where locally supported, but they should not be presented as a mechanism proven by these data. More generally, the observed cross-place heterogeneity argues for context-specific rather than uniform rural policy responses.
+~~~~
+
+- Minimal tracked fragments:
+  1. Delete the paragraph mark between `universal prescription.` and `The results do not show` (revision `1653`).
+  2. Insert one bridge space at the same boundary (revision `1656`).

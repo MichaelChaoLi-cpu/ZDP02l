@@ -545,9 +545,9 @@ Thank you for this helpful comment. We reviewed claim strength throughout the In
 i. The “Policy Implications” subsection is too long and, in some places, appears to make claims that extend beyond the evidence directly supported by the study. The author(s) may consider shortening it and framing the implications more cautiously.
 
 **Response:**
-[Response pending.]
+Thank you for this helpful comment. We agree that the policy discussion should remain proportionate to the evidence. The Policy Implications subsection has already been substantially streamlined during the revision, and we have now consolidated its first two paragraphs to improve concision and flow. The revised wording links the implications directly to the observed economic-security and social-capital results, explicitly states that the cross-sectional analysis cannot establish intervention effects, and frames policy responses as locally evaluated and context-specific rather than universal.
 
-"[Exact revised text quoted from the fresh clean manuscript]"
+"Economic security is policy-relevant because rural residence is associated with lower Income Security Feelings and within-place income rank, and the Income Security Feelings indirect pathway has an interval excluding zero. These associations suggest that locally appropriate efforts to reduce financial precarity may be relevant, but the cross-sectional analysis cannot establish that any specific intervention will increase life satisfaction. Policy design should therefore be guided by local evidence on employment, financial resources, and social protection rather than by a universal prescription. The results do not show that stronger rural social capital eliminated a disadvantage or acted as a buffer: rural residence is not precisely associated with the Social Capital Index, and the Social Capital Index indirect interval includes zero. Community-oriented initiatives may still be valuable where locally supported, but they should not be presented as a mechanism proven by these data. More generally, the observed cross-place heterogeneity argues for context-specific rather than uniform rural policy responses."
 
 (Lines/Pages: human verification required)
 

@@ -8407,3 +8407,194 @@ Close Reviewer 1 / Comment 15 and route the next dependency-ready policy-implica
 ### Follow-Up
 
 Mark Reviewer 1 / Comment 15 done, route Reviewer 1 / Comment 16, and use the project-approved Git workflow only when explicitly available.
+
+## KILA-D-20260831-013: Merge Policy Implications into one approximately 200-word paragraph
+
+- Event SHA-256: dc2fa1b1095cbec09fdf915d7a78a813ed5ead4490407f37e3998ef31f385fe5
+- Recorded at: 2026-08-31T11:20:53+09:00
+- Revision workspace: Rev
+- Revision stage: proposal-review
+- Reviewer ID: reviewer-1
+- Comment ID: comment-16
+- Decision type: policy-section-consolidation
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/docs/reviewer-1-comment-16-consolidated-proposal.md
+- Object SHA-256: 9d7243e8d939ea4797b0cc412ede146c98ab30f2991a7b32ec7569e88c6d6b3a
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Reviewer asks the authors to shorten Policy Implications and frame claims more cautiously because the subsection is too long and sometimes extends beyond direct study evidence.
+
+### Decision Context
+
+The initial agent proposal reduced Policy Implications from three paragraphs and 315 words to two paragraphs and 95 words. The human judged that result too short and requested retention of part of the third paragraph in a single merged paragraph of about 200 words.
+
+### Kila Recommendation
+
+Merge the evidence-supported content of all three current paragraphs into one approximately 200-word paragraph, preserving economic-security, social-capital, and place-heterogeneity implications while deleting repetition and prescriptive overclaiming.
+
+### Options Presented
+
+- Initial two-paragraph 95-word proposal.
+- Human-selected single approximately 200-word merged paragraph retaining part of the third paragraph.
+
+### Human Decision
+
+The human selected one consolidated paragraph of approximately 200 words that merges material from all three current paragraphs and retains an evidence-bounded portion of the third paragraph.
+
+### Human-Provided Rationale
+
+A single paragraph of about 200 words is a more appropriate length; the third paragraph should not be deleted entirely because part of its contextual-policy content remains useful.
+
+### Expected Revision Effect
+
+Shorten the subsection substantially without making it skeletal, retain the three substantive policy themes, and remove repeated literature summaries and unsupported mandatory intervention language.
+
+### Affected Manuscript Sections
+
+- Discussion > Policy Implications
+
+### Related Artifacts
+
+- Rev/docs/reviewer-1-comment-16-consolidated-proposal.md
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Replace the initial proposal with one exact whole-section replacement of approximately 200 words, update the plan row, and return the revised bundle for exact wording approval before any Word edit.
+
+## KILA-D-20260831-014: Close Comment 16 without further manuscript revision
+
+- Event SHA-256: b8f30981c42d55121437ef653fc8fa37a8b081f1ed31b950b543a5635bd68b76
+- Recorded at: 2026-08-31T11:30:38+09:00
+- Revision workspace: Rev
+- Revision stage: proposal-review
+- Reviewer ID: reviewer-1
+- Comment ID: comment-16
+- Decision type: policy-section-scope-finalization
+- Source skill: execute-procedure
+- Entry type: revision
+- Supersedes: KILA-D-20260831-013
+- Relates to: none
+- Decision object: Rev/docs/reviewer-1-comment-16-consolidated-proposal.md
+- Object SHA-256: 5ef34e64589f261c0cb7387d7c3ce7f7f4ef957907e96354917de0ce44c5b84d
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Reviewer asks the authors to shorten Policy Implications and frame claims more cautiously because the subsection is too long and sometimes extends beyond direct study evidence.
+
+### Decision Context
+
+After reviewing the revised approximately 200-word proposal, the human determined that Policy Implications has already undergone intensive revision and should not receive another substantive rewrite. The human reports having merged the first and second paragraphs in Word and requests a direct reviewer response.
+
+### Kila Recommendation
+
+Treat the human's saved consolidation of the first two paragraphs and the existing cautious wording as sufficient shared coverage from earlier revisions; make no further manuscript edit and proceed to a response only after fresh-clean verification.
+
+### Options Presented
+
+- Apply the proposed 198-word whole-section rewrite.
+- Human-selected no-further-rewrite strategy: retain the already revised wording, accept the human merger of paragraphs 1 and 2, and respond directly.
+
+### Human Decision
+
+The human rejected any further substantive adjustment for Comment 16, selected the existing intensively revised Policy Implications wording as adequate, and directed that the saved merger of paragraphs 1 and 2 be treated as the final manuscript state before drafting the response.
+
+### Human-Provided Rationale
+
+This subsection has already been revised extensively and does not require another adjustment.
+
+### Expected Revision Effect
+
+Avoid over-editing the manuscript, preserve previously approved evidence boundaries, verify the human paragraph merger in a fresh clean copy, and answer the reviewer directly from the final text.
+
+### Affected Manuscript Sections
+
+- Discussion > Policy Implications
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/reviewer-1-comment-16-consolidated-proposal.md
+- Rev/revision/response-draft.md
+
+### Follow-Up
+
+Verify the reported Word save by regenerating a fresh clean copy, review the final Policy Implications text and layout, then update only Reviewer 1 / Comment 16's response block if adequate.
+
+## KILA-D-20260831-015: Approve Reviewer 1 Comment 16 response and implementation
+
+- Event SHA-256: c2b05a45e7347ae0310c827f5765c5a12c5001ef561efbb24305d3e13eecd70b
+- Recorded at: 2026-08-31T11:45:21+09:00
+- Revision workspace: Rev
+- Revision stage: revision-response-review
+- Reviewer ID: reviewer-1
+- Comment ID: comment-16
+- Decision type: response-and-implementation-approval
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260831-014
+- Decision object: Rev/revision/response-draft.md
+- Object SHA-256: 0146b940ae094ecf01e67a6be6231ebb63cdc5e30966ccb2052d8edc307cb63e
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+The reviewer requested a shorter Policy Implications subsection with claims kept within the evidence.
+
+### Decision Context
+
+The human paragraph consolidation in Policy Implications was verified in a fresh clean manuscript, and the corresponding response block was awaiting final human review.
+
+### Kila Recommendation
+
+Approve the verified response and implementation, close Reviewer 1 Comment 16, and route the next dependency-ready policy comment.
+
+### Options Presented
+
+- Approve the verified response and implementation.
+
+### Human Decision
+
+The human approved the Reviewer 1 Comment 16 response and accepted the verified paragraph consolidation and evidence-boundary implementation.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Close Reviewer 1 Comment 16 and satisfy the policy-section prerequisite for Reviewer 2 Comment 12.
+
+### Affected Manuscript Sections
+
+- Discussion > Policy Implications
+
+### Related Artifacts
+
+- Rev/revision/response-draft.md
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/docs/revisionchanges.md
+
+### Follow-Up
+
+Mark reviewer-1/comment-16 done and route reviewer-2/comment-12.
