@@ -56,11 +56,9 @@ The reviewers recommend performing robustness checks, including alternative mode
 Overall, this study is very interesting and clearly written. The author(s) provided a cross-region analysis of the rural-urban differences in subjective well-being and made valuable contributions to the literature. Please find below some comments/suggestions.
 
 **Response:**
-[Response pending.]
+Thank you for your positive assessment of the study’s contribution and clarity, and for the thoughtful and constructive suggestions that follow. We appreciate your recognition of the value of examining rural-urban differences in subjective well-being across regions and countries.
 
-"[Exact revised text quoted from the fresh clean manuscript]"
-
-(Lines/Pages: human verification required)
+In response to your detailed comments, we have substantially revised the manuscript. The main changes include replacing the former sequential mechanism interpretation with a parallel observed-variable path model; estimating the primary OLS sequence on a common sample with place fixed effects and place-clustered inference; adding multilevel and outcome-scale robustness analyses; clarifying variable roles, sample construction, and geographic terminology; and adding the requested place-level descriptive evidence. We have also streamlined the Methods, tables and figures, Policy Implications, and Limitations and Future Studies sections, while narrowing coverage and causal claims to what the data directly support. The point-by-point responses below describe these revisions and provide exact revised-text quotations for each corresponding issue.
 
 ## Comment 1
 
@@ -556,9 +554,13 @@ Thank you for this helpful comment. We agree that the policy discussion should r
 j. The “Limitations and Future Studies” subsection is also too long.
 
 **Response:**
-[Response pending.]
+Thank you for this helpful comment. We agree and have shortened the Limitations and Future Studies subsection from 337 to 224 words. Specifically, we condensed the repeated longitudinal and quasi-experimental examples, removed the repeated definition of the binary rural-urban classification, and streamlined the recommendation for future spatial measures, while retaining the central limitations concerning observational design, unmeasured place-level context, measurement, and exploratory place-specific analysis.
 
-"[Exact revised text quoted from the fresh clean manuscript]"
+"A further limitation is that, although the multilevel robustness model partially pools place-specific rural associations, the analysis includes only 23 places and lacks harmonized place-level covariates; it therefore cannot identify which contextual factors generate the observed heterogeneity. Longitudinal or quasi-experimental designs could provide stronger evidence on temporal ordering and causal effects."
+
+(Lines/Pages: human verification required)
+
+"Another limitation concerns the definition of rural-urban residence. While common in large-scale surveys, this binary approach may oversimplify the diverse range of residential environments and their subtle influences on well-being. Future research could use more detailed spatial measures, such as continuous population density, accessibility to services, or residential typologies, to capture degrees of rurality and urbanity."
 
 (Lines/Pages: human verification required)
 
@@ -575,11 +577,9 @@ The article addresses an important and globally relevant question using a large 
 Major comments
 
 **Response:**
-[Response pending.]
+Thank you for this careful overall assessment and for recognizing the relevance of the research question, the breadth of the dataset, and the clarity of the study’s aims. We agree that the earlier manuscript required substantial clarification where the reported results, their interpretation, the mediation language, and the broader framing were not fully aligned. We have addressed each of these concerns in the revised manuscript and respond to every major comment individually below.
 
-"[Exact revised text quoted from the fresh clean manuscript]"
-
-(Lines/Pages: human verification required)
+In particular, we correct the interpretation of the sequential OLS estimates and now present that sequence descriptively rather than as evidence of mediation. We replace the unsupported mediation claims with a parallel observed-variable path model on a common sample, using place fixed effects and place-clustered inference, and interpret the resulting direct and indirect quantities strictly as cross-sectional conditional associations. We also add outcome-scale, multilevel, survey-weighted, variable-construction, and place-specific robustness analyses; clarify the roles and construction of the economic-security and Social Capital Index measures; narrow the study’s geographic and causal claims; and revise the tables, figures, Discussion, Policy Implications, and Limitations sections so that the presentation and conclusions match the evidence. The revised manuscript therefore does not claim a universal rural advantage or disadvantage, causal mediation, or an empirically demonstrated rural social-capital buffer. The point-by-point responses below document these revisions and provide exact revised-text quotations for each corresponding issue.
 
 ## Comment 1
 

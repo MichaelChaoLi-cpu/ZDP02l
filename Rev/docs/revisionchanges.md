@@ -10122,3 +10122,121 @@ Economic security is policy-relevant because rural residence is associated with 
 - Minimal tracked fragments:
   1. Delete the paragraph mark between `universal prescription.` and `The results do not show` (revision `1653`).
   2. Insert one bridge space at the same boundary (revision `1656`).
+
+## reviewer-1/comment-17
+
+### part-01-completion
+
+- Location: Limitations and Future Studies, paragraph beginning 'A further limitation is that...'
+- Reason: Complete the approved shortening after the approved replacement sentence was saved in Word but the three trailing example sentences remained.
+- Kila decisions: KILA-D-20260831-018, KILA-D-20260831-019
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-31T05:12:30Z
+- Author: Kila
+- Markup SHA-256 before: `523059c7675efb759915c54a05dc2ce66e6c8c5bafcb7f7026910fa02c6ae064`
+- Markup SHA-256 after: `413a881f6452cdc4f26af034c48c7a518450221372124f885a3a7500023a4c14`
+- Revision IDs: `3014`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260831T141230504104.reviewer-1-comment-17.part-01-completion.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+ Longitudinal studies, for instance, would allow researchers to track changes in life satisfaction and residential status over time, thereby offering stronger evidence for temporal precedence and shedding light on dynamic causal pathways. Similarly, quasi-experimental approaches could provide stronger insights. For example, natural experiments involving policy changes that affect rural development or migration patterns could reveal the causal impact of residential environments on subjective well-being.
+~~~~
+
+- After:
+
+~~~~text
+
+~~~~
+
+- Minimal tracked fragments:
+  1. `delete`
+     - Before: " Longitudinal studies, for instance, would allow researchers to track changes in life satisfaction and residential status over time, thereby offering stronger evidence for temporal precedence and shedding light on dynamic causal pathways. Similarly, quasi-experimental approaches could provide stronger insights. For example, natural experiments involving policy changes that affect rural development or migration patterns could reveal the causal impact of residential environments on subjective well-being."
+     - After: ""
+
+### part-03-completion
+
+- Location: Limitations and Future Studies, paragraph beginning 'Another limitation concerns...'
+- Reason: Complete the approved shortening after the condensed spatial-measure sentence was saved in Word but the old trailing sentence remained.
+- Kila decisions: KILA-D-20260831-018, KILA-D-20260831-019
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-31T05:12:38Z
+- Author: Kila
+- Markup SHA-256 before: `413a881f6452cdc4f26af034c48c7a518450221372124f885a3a7500023a4c14`
+- Markup SHA-256 after: `7e1ea27361c5777272a5479df54509f06629e59e2cc3ba5a4f411b6d92454595`
+- Revision IDs: `3015`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260831T141238522393.reviewer-1-comment-17.part-03-completion.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+ Such measures would more accurately capture varying degrees of rurality and urbanity, thereby offering a richer understanding of the rural-urban well-being relationship and its context-specific dependencies.
+~~~~
+
+- After:
+
+~~~~text
+
+~~~~
+
+- Minimal tracked fragments:
+  1. `delete`
+     - Before: " Such measures would more accurately capture varying degrees of rurality and urbanity, thereby offering a richer understanding of the rural-urban well-being relationship and its context-specific dependencies."
+     - After: ""
+
+### post-approval Word application receipt
+
+- Decisions: `KILA-D-20260831-018` and `KILA-D-20260831-019`.
+- The markup changed after bundle approval from the preceding verified SHA-256 `79181fc879e1c3d41536b0e6eeee00a090820cc23ddd3ca511128bbcb586f504` to `523059c7675efb759915c54a05dc2ce66e6c8c5bafcb7f7026910fa02c6ae064` before machine DOCX authoring.
+- Word author and timestamps: `Chao Li`, `2026-08-31T05:03:00Z`–`2026-08-31T05:05:00Z`.
+- Part 01 Word revisions `1723`–`1727` changed:
+
+~~~~text
+Future research could greatly improve this field by employing longitudinal data or quasi-experimental designs.
+~~~~
+
+  to:
+
+~~~~text
+Longitudinal or quasi-experimental designs could provide stronger evidence on temporal ordering and causal effects.
+~~~~
+
+  The three remaining example sentences were then removed by immutable machine record `part-01-completion` above.
+- Part 02 Word revision `1728` deleted:
+
+~~~~text
+The study employed a binary classification, namely Rural-Urban Residence, which distinguishes between rural areas/farms or small towns/villages and large cities or suburbs.
+~~~~
+
+  This completed the approved Part 02 without an additional machine write.
+- Part 03 Word revisions `1729`–`1730` changed:
+
+~~~~text
+To address this, future research could benefit from more detailed spatial measures, such as continuous indicators of population density, accessibility to services, or typologies of residential environments.
+~~~~
+
+  to:
+
+~~~~text
+Future research could use more detailed spatial measures, such as continuous population density, accessibility to services, or residential typologies, to capture degrees of rurality and urbanity.
+~~~~
+
+  The remaining superseded sentence was then removed by immutable machine record `part-03-completion` above.
+- Final markup SHA-256 after both completion deletions: `7e1ea27361c5777272a5479df54509f06629e59e2cc3ba5a4f411b6d92454595`.
+- Structural verification: valid DOCX ZIP/XML package, Track Changes enabled, `2,597` valid unique revision wrappers, and all deletions encoded with `w:delText`.
+- Fresh-clean verification: the accepted subsection contains four paragraphs with word counts `77`, `51`, `56`, and `40` (`224` total); all approved final text occurs once and all superseded target text occurs zero times.

@@ -8729,3 +8729,322 @@ Mark Reviewer 2 Comment 12 done, preserve the verified manuscript and response u
 ### Follow-Up
 
 Update Reviewer 2 Comment 12 to done and route Reviewer 1 Comment 17 as the next executable item.
+
+## KILA-D-20260831-018: Approve Reviewer 1 Comment 17 consolidated shortening bundle
+
+- Event SHA-256: e8500f0926d42b45777babd0beef227ae1f727fa7c15cb7d7dce0673e3dfd73e
+- Recorded at: 2026-08-31T14:07:48+09:00
+- Revision workspace: Rev
+- Revision stage: proposal-review
+- Reviewer ID: reviewer-1
+- Comment ID: comment-17
+- Decision type: limitations-shortening-scope
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/docs/reviewer-1-comment-17-consolidated-proposal.md
+- Object SHA-256: c26aa23319fec38c6dce4d1b908c41ef03f5430e22a8b340f7ef8cd76fc75d6e
+- Implementation owner: agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Reviewer 1 asks that the Limitations and Future Studies subsection be shortened.
+
+### Decision Context
+
+The Limitations and Future Studies subsection contains four paragraphs and 337 words. The consolidated proposal defines three local tracked-edit parts that reduce it to 224 words while retaining paragraph 1, paragraph 4, and the previously inserted opening of paragraph 2 as structural guards.
+
+### Kila Recommendation
+
+Approve the three-part consolidated bundle: condense future-design recommendations, remove repeated binary-classification detail, and condense the spatial-measure recommendation.
+
+### Options Presented
+
+- Approve all three parts as proposed.
+- Request an exact textual change before execution.
+
+### Human Decision
+
+The human explicitly approved reviewer-1/comment-17 consolidated 3-part bundle.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Execute the three approved parts sequentially as minimal tracked changes, regenerate and verify one fresh clean manuscript, and draft the response block.
+
+### Affected Manuscript Sections
+
+- Limitations and Future Studies
+
+### Related Artifacts
+
+- Rev/docs/reviewer-1-comment-17-consolidated-proposal.md
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/revisionchanges.md
+- Rev/revision/response-draft.md
+
+### Follow-Up
+
+Apply Parts 01-03 sequentially, then perform consolidated verification and prepare the response for human review.
+
+## KILA-D-20260831-019: Record partial Word application of Reviewer 1 Comment 17
+
+- Event SHA-256: 687a6335a2863781882d96d5d7123094fa7f712873d35662666e7529cdafb213
+- Recorded at: 2026-08-31T14:11:14+09:00
+- Revision workspace: Rev
+- Revision stage: markup-execution
+- Reviewer ID: reviewer-1
+- Comment ID: comment-17
+- Decision type: post-approval-word-state
+- Source skill: edit-markup-docx
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260831-018
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: 523059c7675efb759915c54a05dc2ce66e6c8c5bafcb7f7026910fa02c6ae064
+- Implementation owner: agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Execute the approved three-part shortening bundle without duplicating or overwriting already saved tracked changes.
+
+### Decision Context
+
+After bundle approval and before machine DOCX authoring, the markup contains human-authored tracked revisions 1723-1730 dated 2026-08-31 14:03-14:05 +0900. Part 02 is complete; Parts 01 and 03 contain their approved new sentences but each retains an old trailing passage.
+
+### Kila Recommendation
+
+Preserve the existing Word revisions, record them as part of the approved bundle, and apply only two exact residual deletions needed to reach the approved final text.
+
+### Options Presented
+
+- Preserve the partial Word application and complete only the residual deletions.
+
+### Human Decision
+
+The current tracked Word state is treated as the authoritative post-approval starting point; no completed approved text will be rewritten.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Two minimal residual deletions complete Parts 01 and 03; Part 02 remains unchanged because it is already complete.
+
+### Affected Manuscript Sections
+
+- Limitations and Future Studies
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/revisionchanges.md
+
+### Follow-Up
+
+Apply and verify two residual tracked deletions, then record all three approved parts and regenerate the fresh clean manuscript.
+
+## KILA-D-20260831-020: Approve Reviewer 1 Comment 17 response and implementation
+
+- Event SHA-256: 7b04456f96ea1c4744c938bbe5f046e29dc98906b22d8ab5e646f4f4a3d85451
+- Recorded at: 2026-08-31T14:23:42+09:00
+- Revision workspace: Rev
+- Revision stage: response-review
+- Reviewer ID: reviewer-1
+- Comment ID: comment-17
+- Decision type: response-and-implementation-approval
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260831-018
+- Decision object: Rev/revision/response-draft.md
+- Object SHA-256: 03f1c59836f6972d91e72346547de3379ca33b8512353ea74a8d547b37757976
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Reviewer 1 asks that the Limitations and Future Studies subsection be shortened.
+
+### Decision Context
+
+Reviewer 1 Comment 17 is at the human review gate after the approved three-part limitation-section shortening, fresh-clean verification, 52/84-page visual review, and a two-location exact-quotation response. The post-approval Word-state handling is recorded under KILA-D-20260831-019.
+
+### Kila Recommendation
+
+Approve the response and complete implementation because the subsection is reduced from 337 to 224 words, the retained evidence boundaries remain intact, and both response quotations match the fresh clean exactly.
+
+### Options Presented
+
+- Approve the response and complete implementation.
+- Request an exact response revision before closure.
+
+### Human Decision
+
+The human explicitly approved the Reviewer 1 Comment 17 response.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Mark Reviewer 1 Comment 17 done and route the first dependency-ready overall response.
+
+### Affected Manuscript Sections
+
+- Limitations and Future Studies
+- Response to Reviewer 1
+
+### Related Artifacts
+
+- Rev/revision/response-draft.md
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Close Reviewer 1 Comment 17 and route Reviewer 1 Overall Comment.
+
+## KILA-D-20260831-021: Approve Reviewer 1 Overall Comment response
+
+- Event SHA-256: c99546aa4f851ca65faee5de71e5aed963a2030318a53d82e94a03c3d7bab708
+- Recorded at: 2026-08-31T14:37:57+09:00
+- Revision workspace: Rev
+- Revision stage: response-review
+- Reviewer ID: reviewer-1
+- Comment ID: overall-comment
+- Decision type: response-approval
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/response-draft.md
+- Object SHA-256: 213675f15b1540cb6883a8bd48271c49ff3795a00dcd26809155f7e3dc0bc724
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Reviewer 1 gives a positive overall assessment and introduces the detailed comments and suggestions that follow.
+
+### Decision Context
+
+All 17 detailed Reviewer 1 comments are complete and response-approved. The Overall Comment response contains two concise summary paragraphs, introduces no separate manuscript claim, and avoids repeating the exact quotations already provided under the detailed comments.
+
+### Kila Recommendation
+
+Approve the concise Overall Comment response because it acknowledges the assessment and accurately summarizes the verified revision without duplicating the point-by-point responses.
+
+### Options Presented
+
+- Approve the Overall Comment response.
+- Request an exact response revision before closure.
+
+### Human Decision
+
+The human explicitly approved the Reviewer 1 Overall Comment response.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Mark Reviewer 1 Overall Comment done and route Reviewer 2 Overall Comment as the final unfinished plan item.
+
+### Affected Manuscript Sections
+
+- Response to Reviewer 1
+
+### Related Artifacts
+
+- Rev/revision/response-draft.md
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Close Reviewer 1 Overall Comment and route Reviewer 2 Overall Comment.
+
+## KILA-D-20260831-022: Approve Reviewer 2 Overall Comment response
+
+- Event SHA-256: e769d97fdcc439a78611fce3dc3a2259de694b797f1de5fdc662a6a916ee5d9c
+- Recorded at: 2026-08-31T14:47:42+09:00
+- Revision workspace: Rev
+- Revision stage: response-review
+- Reviewer ID: reviewer-2
+- Comment ID: overall-comment
+- Decision type: response-approval
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/revision/response-draft.md
+- Object SHA-256: 8edb67de3734738c07eb65283d8a0e5fbd4a6718f900eff246c94925960ea437
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Reviewer 2's overall assessment identifies methodological, interpretive, and presentation issues, including unsupported mediation claims and unclear framing.
+
+### Decision Context
+
+All 12 detailed Reviewer 2 comments are complete and response-approved. The Overall Comment response contains two concise synthesis paragraphs, introduces no separate manuscript change, and avoids repeating exact quotations already provided under the detailed comments.
+
+### Kila Recommendation
+
+Approve the concise Overall Comment response because it acknowledges the concerns and accurately summarizes the verified methodological, robustness, interpretation, scope, presentation, policy, and limitation revisions.
+
+### Options Presented
+
+- Approve the Overall Comment response.
+- Request an exact response revision before closure.
+
+### Human Decision
+
+The human explicitly approved the Reviewer 2 Overall Comment response.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Mark Reviewer 2 Overall Comment done and close all 31 reviewer-comment plan items.
+
+### Affected Manuscript Sections
+
+- Response to Reviewer 2
+
+### Related Artifacts
+
+- Rev/revision/response-draft.md
+- Rev/docs/revisionplan.md
+
+### Follow-Up
+
+Close the final reviewer-comment item and route final response front-matter and editor-response completion.
