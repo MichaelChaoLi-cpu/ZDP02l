@@ -9423,3 +9423,433 @@ Data preprocessing involved several critical steps to prepare the raw GFS microd
 - Distinct implemented locations: `8`
 - Representative exact quotations: `5`
 - Verification: every quotation occurs verbatim in the fresh-clean extraction, uses straight double quotation marks, has its own `(Lines/Pages: human verification required)` marker, and has no Markdown blockquote prefix.
+
+## reviewer-2/comment-7
+
+### part-01
+
+- Location: Manuscript title
+- Reason: State the actual 23-place analytical scope rather than imply global representativeness.
+- Kila decisions: KILA-D-20260831-004
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-30T23:37:29Z
+- Author: Kila
+- Markup SHA-256 before: `2258bebf89f21aa61f147653d061fe36b68db9dd96527b2967f7131b4ecf232a`
+- Markup SHA-256 after: `26e6166e48326fef007f5b8a1d939618b06d892e9c952e3a6a8eb8d272a1a837`
+- Revision IDs: `2930, 2931`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260831T083729513386.reviewer-2-comment-7.part-01.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+The Rural Happiness Paradox: Economic Insecurity and Social Support in Global Rural-Urban Well-being Disparities
+~~~~
+
+- After:
+
+~~~~text
+The Rural Happiness Paradox: Economic Insecurity and Social Support in Rural-Urban Well-being Disparities Across 23 Places
+~~~~
+
+- Minimal tracked fragments:
+  1. `delete`
+     - Before: "Global "
+     - After: ""
+  2. `insert`
+     - Before: ""
+     - After: " Across 23 Places"
+
+### part-02
+
+- Location: Abstract, first sentence
+- Reason: Preserve the literature-gap point without implying worldwide empirical coverage.
+- Kila decisions: KILA-D-20260831-004
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-30T23:37:34Z
+- Author: Kila
+- Markup SHA-256 before: `26e6166e48326fef007f5b8a1d939618b06d892e9c952e3a6a8eb8d272a1a837`
+- Markup SHA-256 after: `58fbe72acc53e58ca2b8ed7925b2f8d5be44399e0c670afb5d2772c27e75a9c6`
+- Revision IDs: `2932, 2933, 2934, 2935`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260831T083734567157.reviewer-2-comment-7.part-02.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+The Rural Happiness Paradox, which questions whether rural residents report comparable or higher life satisfaction than urban dwellers, along with its potential statistical pathways, remains globally underexplored.
+~~~~
+
+- After:
+
+~~~~text
+The Rural Happiness Paradox, which questions whether rural residents report comparable or higher life satisfaction than urban dwellers, along with its potential statistical pathways, remains underexplored across diverse national and regional settings.
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "globally"
+     - After: "underexplored"
+  2. `replace`
+     - Before: "underexplored"
+     - After: "across diverse national and regional settings"
+
+### part-03
+
+- Location: Abstract, final sentence
+- Reason: State the exact inferential scope in the Abstract.
+- Kila decisions: KILA-D-20260831-004
+- Mode: `reedit`
+- Revises prior parts: reviewer-2/comment-3#part-01c
+- Timestamp: 2026-08-30T23:37:39Z
+- Author: Kila
+- Markup SHA-256 before: `58fbe72acc53e58ca2b8ed7925b2f8d5be44399e0c670afb5d2772c27e75a9c6`
+- Markup SHA-256 after: `320e10dd0161e75c9190670e5cde574866ba921ad983bce4a565b01e0dea39d0`
+- Revision IDs: `125`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260831T083739511902.reviewer-2-comment-7.part-03.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Overall, this research characterizes how economic precarity and social capital are conditionally associated with rural-urban well-being disparities across diverse global settings.
+~~~~
+
+- After:
+
+~~~~text
+Overall, this research characterizes how economic precarity and social capital are conditionally associated with rural-urban well-being disparities across the 23 sampled places.
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "diverse"
+     - After: "the"
+  2. `replace`
+     - Before: "global"
+     - After: "23"
+  3. `replace`
+     - Before: "settings"
+     - After: "sampled places"
+
+### part-04
+
+- Location: Introduction, paragraph beginning 'However, the existing literature', third sentence
+- Reason: Retain the cross-setting research gap without implying that the present study is globally representative.
+- Kila decisions: KILA-D-20260831-004
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-30T23:37:46Z
+- Author: Kila
+- Markup SHA-256 before: `320e10dd0161e75c9190670e5cde574866ba921ad983bce4a565b01e0dea39d0`
+- Markup SHA-256 after: `d0b6a62f0d2162c7b7934d304ec2cab92747e4876e96d1434d4e65a1ab0fb9bb`
+- Revision IDs: `2936, 2937, 2938, 2939, 2940, 2941, 2942, 2943`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260831T083746943287.reviewer-2-comment-7.part-04.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `4dc24241e26ab6183f0b6161c94260c36032c814a98259890184cf3be04ecae5`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+As a result, current evidence provides only a fragmented understanding of rural-urban well-being differences at the global level.
+~~~~
+
+- After:
+
+~~~~text
+As a result, current evidence provides only a fragmented understanding of rural-urban well-being differences across diverse national and regional settings.
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "at"
+     - After: "across"
+  2. `replace`
+     - Before: "the"
+     - After: "diverse"
+  3. `replace`
+     - Before: "global"
+     - After: "national"
+  4. `replace`
+     - Before: "level"
+     - After: "and regional settings"
+
+### part-05
+
+- Location: Introduction, paragraph beginning 'This study directly addresses', first sentence
+- Reason: Remove the unsupported global-validity estimand while retaining the comparative objective.
+- Kila decisions: KILA-D-20260831-004
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-30T23:37:51Z
+- Author: Kila
+- Markup SHA-256 before: `d0b6a62f0d2162c7b7934d304ec2cab92747e4876e96d1434d4e65a1ab0fb9bb`
+- Markup SHA-256 after: `956fdb0a8bb472372badb5935b394482896edd4a1f40cd4be2822a638298daec`
+- Revision IDs: `2944, 2945, 2946`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260831T083751718061.reviewer-2-comment-7.part-05.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+This study directly addresses these critical gaps by leveraging extensive data spanning countries and regions from the Global Flourishing Survey (GFS) (VanderWeele, 2017; VanderWeele et al., 2025) to explore the global validity and nuanced manifestations of the Rural Happiness Paradox.
+~~~~
+
+- After:
+
+~~~~text
+This study directly addresses these critical gaps by leveraging extensive data spanning countries and regions from the Global Flourishing Survey (GFS) (VanderWeele, 2017; VanderWeele et al., 2025) to examine the Rural Happiness Paradox across sampled national and regional contexts.
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "explore the global validity and nuanced manifestations of"
+     - After: "examine"
+  2. `insert`
+     - Before: ""
+     - After: " across sampled national and regional contexts"
+
+### part-06
+
+- Location: Introduction, paragraph beginning 'This study directly addresses', second sentence
+- Reason: Describe what the design supports without implying worldwide representativeness or universal consistency.
+- Kila decisions: KILA-D-20260831-004
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-30T23:37:56Z
+- Author: Kila
+- Markup SHA-256 before: `956fdb0a8bb472372badb5935b394482896edd4a1f40cd4be2822a638298daec`
+- Markup SHA-256 after: `ed5bc08d9e0d0b3a38beef72c397a2e734a32d51f6366e2d9450a5828a92e9ca`
+- Revision IDs: `2947, 2948, 2949, 2950, 2951, 2952, 2953, 2954, 2955, 2956, 2957, 2958, 2959, 2960`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260831T083756665443.reviewer-2-comment-7.part-06.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+Analyzing a diverse sample of 22 countries and Hong Kong as a region (23 analytical places), this research moves beyond localized observations to provide robust empirical evidence on whether rural residents consistently experience comparable or higher life satisfaction across varied global contexts.
+~~~~
+
+- After:
+
+~~~~text
+Analyzing data from 22 countries and Hong Kong as a region (23 analytical places), this research moves beyond localized observations to provide comparative evidence on whether rural residents report comparable or higher life satisfaction across the sampled places.
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "a"
+     - After: "data"
+  2. `replace`
+     - Before: "diverse sample of"
+     - After: "from"
+  3. `replace`
+     - Before: "robust empirical"
+     - After: "comparative"
+  4. `replace`
+     - Before: "consistently experience"
+     - After: "report"
+  5. `replace`
+     - Before: "varied"
+     - After: "the"
+  6. `replace`
+     - Before: "global"
+     - After: "sampled"
+  7. `replace`
+     - Before: "contexts"
+     - After: "places"
+
+### part-07
+
+- Location: Introduction, paragraph beginning 'This study directly addresses', sentence beginning 'This research establishes'
+- Reason: Change a universal claim into a descriptive sampled-place claim.
+- Kila decisions: KILA-D-20260831-004
+- Mode: `replace`
+- Revises prior parts: none
+- Timestamp: 2026-08-30T23:38:02Z
+- Author: Kila
+- Markup SHA-256 before: `ed5bc08d9e0d0b3a38beef72c397a2e734a32d51f6366e2d9450a5828a92e9ca`
+- Markup SHA-256 after: `b7d4d9ceb77ec68391a5f3909c316f621f6c2a792899cf24963db78c3584f542`
+- Revision IDs: `2961, 2962, 2963, 2964, 2965, 2966`
+- Backup: `Rev/revision/.kila-backups/ZDP02l.rev.markup.20260831T083802350324.reviewer-2-comment-7.part-07.docx`
+- Paragraph properties preserved: `true`
+- Run style source SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Formula verification: not applicable
+- Endnote hyperlinks preserved: `true`
+- Endnote hyperlink count: `0`
+- Endnote hyperlink XML SHA-256: `e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855`
+- Endnote relationships SHA-256: `absent`
+- Before:
+
+~~~~text
+This research establishes overall global patterns and documents place-level variations in the rural-urban life satisfaction association.
+~~~~
+
+- After:
+
+~~~~text
+This research characterizes overall patterns across the sampled places and documents place-level variations in the rural-urban life satisfaction association.
+~~~~
+
+- Minimal tracked fragments:
+  1. `replace`
+     - Before: "establishes"
+     - After: "characterizes"
+  2. `replace`
+     - Before: "global"
+     - After: "patterns"
+  3. `replace`
+     - Before: "patterns"
+     - After: "across the sampled places"
+
+### regions-and-countries supplemental bundle — agent-owned objects and Word handoff
+
+- Scope: approved `reviewer-2/comment-7 regions-and-countries supplemental 85-part bundle`.
+- Kila decisions: `KILA-D-20260831-006`, `KILA-D-20260831-007`.
+- Approved proposal: `Rev/docs/reviewer-2-comment-7-regions-countries-supplemental-proposal.md`.
+- Approved proposal SHA-256: `fc1bca4d65dab1c50d3115603b4a037dd315483a948e61b57444a0db4a679aed`.
+- Timestamp: `2026-08-31T00:25:43Z`.
+- Author: Kila.
+- Numerical/model change: none.
+
+#### Main-manuscript dry run and protected handoff
+
+- Markup SHA-256 before and after dry run: `eef157b83f6afe3f73f30d0d520338d4b163e276af72791ab7b0b985fcabd7b0` (byte-for-byte unchanged).
+- Twenty-six canonical global-term specs were attempted in numbered order under `Rev/docs/change-specs/reviewer-2-comment-7/terminology-supplement/`.
+- Specs `01–23` and `25–26` safely blocked because their changed spans cross existing tracked insertions, fields, content controls, or unsupported run containers; spec `24` found no standalone safe match.
+- The approved `59` main paragraph/table/caption locations and Figure 2 drawing are therefore consolidated into one human-owned Word operation rather than edited through unsafe OOXML reconstruction.
+- Checklist: `Rev/docs/reviewer-2-comment-7-regions-countries-word-checklist.md`.
+- Checklist SHA-256: `d91bc88d43d728bce77729c4a4cfbc245af109cc7f48cd7f47bc455d6ca5df1c`.
+- State: `human_edit_required`.
+
+#### Main Figure 2 verified replacement asset
+
+- Source script: `scripts/run_comment6_geographic_forest.py`.
+- Visible title before: `Place-level rural–urban coefficients grouped by UN M49 region`.
+- Visible title after: `Region- and country-level rural–urban coefficients` / `grouped by UN M49 region` (two display lines to avoid clipping).
+- Asset: `reports/comment6_geographic_forest/figure6_grouped_candidate.png`.
+- Prior asset SHA-256: `74bb0e486d68713df35ea8bf3964698200f67ce19fd5fde74c11c554f97f3c8b`.
+- New asset SHA-256: `5b8cf8b73580936ce98c920a6973febf1cd248593b850f250329d896de1fec76`.
+- Dimensions before/after: `1620 × 1944` / `1620 × 1944`.
+- Verification: N=`183,685`, 23 units, estimate range, intervals, unit order, colours, and all non-title style elements are unchanged; original-resolution inspection confirms the two-line title is fully visible.
+- Drawing replacement in markup: pending the consolidated Word operation; preserve current drawing extent `5486400 × 6578600` EMU.
+
+#### Standalone Supplement locations S01–S24
+
+- Document: `Rev/revision/ZDP02l.supplementary.docx`.
+- SHA-256 before: `d6970a88760d55bdf45b04015400cb533d8b3c27a7c94563a0880dc5581b1f1d`.
+- SHA-256 after: `8f7d1d61a25320aa511288f52dfbb5000d6eaa866f30a17408652dd13d107fc9`.
+- Mode: minimal local run-text replacements in exactly `24` paragraph/table/caption objects plus replacement of the single Figure S1 image payload; no tracked-change wrappers were added to the standalone Supplement.
+- Applied visible replacements (`37` non-overlapping spans):
+  - `Within-Place Income Percentile (income_pctile)` → `Within-Region and Within-Country Income Percentile (income_pctile)`.
+  - `Within-place income percentile` → `Within-region and within-country income percentile` (`3` occurrences).
+  - `Global cross-place heterogeneity tests` → `Global cross-region and cross-country heterogeneity tests`.
+  - remaining `cross-place` → `cross-region and cross-country` (`3` table-title occurrences).
+  - quoted `analytical place` definitions → quoted `region or country` definitions (`2` occurrences), while retaining the Hong Kong-as-region statement.
+  - `23 analytical places` → `23 regions and countries`.
+  - `23 place clusters` → `23 region and country clusters` (`2` occurrences).
+  - `Analytical Place (COUNTRY)` → `Region or Country (COUNTRY)` and `Analytical place` → `Region or country` (`3` table-column occurrences), preserving source field `COUNTRY`.
+  - `each analytical place` → `each region or country`; `across analytical places` → `across regions and countries`.
+  - `analytical-place` → `region-and-country` (`6` occurrences).
+  - `Place-specific`/`place-specific` → `Region- and country-specific`/`region- and country-specific` (`6` occurrences).
+  - `place-clustered` → `region- and country-clustered` (`2` occurrences).
+  - `place estimates` → `region and country estimates`; `individual places` → `individual regions and countries`; `draws per place` → `draws per region or country`; `place order` → `region and country order`.
+- Protected source identifiers retained: `COUNTRY`, `income_pctile`; no visible technical `place` token remains in the Supplement.
+- Package verification: valid ZIP, all XML/relationship parts parse, one inline figure remains, eight tables remain, and the embedded Figure S1 payload exactly matches the verified source asset.
+- Visual verification: LibreOffice-rendered 9-page Letter PDF inspected page by page at original resolution; no clipping, overlap, table overflow, missing figure, or unintended pagination change was found.
+
+#### Supplementary Figure S1
+
+- Source script: `scripts/run_comment5_place_path_heterogeneity.py`.
+- Visible-label changes: `analytical-place` → `region-and-country`; `Within-place income percentile` → `Within-region and within-country income percentile`; `Place-specific...` → `Region- and country-specific...`.
+- Layout-only QA correction: the longer income-percentile header is wrapped over three lines; the approved raster size is normalized with white edge padding.
+- Asset: `reports/comment5_place_path_heterogeneity/figure_place_path_heterogeneity.png`.
+- Prior asset SHA-256: `bd4d5134cf5219d08ab6cd118a32f095de198faafdaa0465c899b5048bed6a5e`.
+- New asset and embedded-payload SHA-256: `1c8d5bc196afe7419c1e9cf7a8ffb9622b8cf1cde95a5670a92617868ec335b9`.
+- Dimensions before/after: `2762 × 3029` / `2762 × 3029`.
+- Verification: N=`183,685`, all 23 units, all displayed estimates, heatmap order, scale, colours, and non-label style elements are unchanged; original-resolution asset and rendered Supplement page 9 have no label overlap or clipping.
+
+### narrowed title-only human Word operation and restoration receipt
+
+- Scope decision: `KILA-D-20260831-008` supersedes the broad terminology operation approved under `KILA-D-20260831-007`. Only the manuscript title uses `Regions and Countries`; established technical `place` terminology remains unchanged elsewhere. The human also intentionally removed the redundant Abstract parenthetical.
+- Timestamp: `2026-08-31T09:48:52+0900`.
+- Author of Word revisions: Chao Li.
+- Markup SHA-256 before the human save: `eef157b83f6afe3f73f30d0d520338d4b163e276af72791ab7b0b985fcabd7b0`.
+- Markup SHA-256 after the human save: `0554cf1f1a525a394e18db651a52a969ac3ca9e460e803cb829226c94cf4b236`.
+- New human-owned revision wrappers: insertion `4` (`Regions and Countries`), deletion `6` (`Places`), and deletion `22` (` (23 analytical places)`). No other new main-document text or drawing operation was introduced by this save.
+- Title before:
+
+~~~~text
+The Rural Happiness Paradox: Economic Insecurity and Social Support in Rural-Urban Well-being Disparities Across 23 Places
+~~~~
+
+- Title after:
+
+~~~~text
+The Rural Happiness Paradox: Economic Insecurity and Social Support in Rural-Urban Well-being Disparities Across 23 Regions and Countries
+~~~~
+
+- Abstract sentence before:
+
+~~~~text
+This study investigates its prevalence and potential statistical pathways using extensive survey data from the Global Flourishing Study (GFS), covering 22 countries and Hong Kong as a region (23 analytical places).
+~~~~
+
+- Abstract sentence after:
+
+~~~~text
+This study investigates its prevalence and potential statistical pathways using extensive survey data from the Global Flourishing Study (GFS), covering 22 countries and Hong Kong as a region.
+~~~~
+
+- Previously approved scope corrections in Reviewer 2 / Comment 7 Parts `01–08` remain in the accepted view; the India/nonrepresentativeness clause and its EndNote field remain present. The main Figure 2 drawing remains the original place-labeled object.
+- Structural verification: valid DOCX package and XML; Track Changes enabled; `2,554` revision wrappers with `2,554` unique numeric IDs; deletions use `w:delText`; `218` field beginnings, `158` instruction-text nodes, and `13` OMML objects remain.
+
+### restoration of withdrawn broad-terminology objects
+
+- Standalone Supplement: reversed the prior `24`-object, `37`-span regions-and-countries transformation and restored the original Figure S1 payload. Current SHA-256: `23a026e8c5f51be872a36f878bca2d5c45a8fd3e3e5e25a460a6feaefec8d6cc`.
+- Main Figure 2 source asset: restored exactly to SHA-256 `74bb0e486d68713df35ea8bf3964698200f67ce19fd5fde74c11c554f97f3c8b`, dimensions `1620 × 1944`.
+- Supplementary Figure S1 source asset and embedded payload: restored exactly to SHA-256 `bd4d5134cf5219d08ab6cd118a32f095de198faafdaa0465c899b5048bed6a5e`, dimensions `2762 × 3029`.
+- Numerical/model change: none. N, all coefficients, intervals, units, order, colours, and non-label style elements remain unchanged.
+- Visual verification: all `83` markup pages, `52` fresh-clean pages, and `9` Supplement pages were rendered and reviewed; no new clipping, overlap, missing glyph, broken table/figure, or unintended pagination defect was found.
+
+### final fresh-clean and response receipt
+
+- Source markup SHA-256 before and after clean generation: `0554cf1f1a525a394e18db651a52a969ac3ca9e460e803cb829226c94cf4b236` (unchanged).
+- Fresh clean SHA-256: `b5d5e816a397fca7502bc3f2942d4afb406eaa4c8c4da41b6651a20247521860`.
+- Markup revisions before acceptance: `1,111` insertions and `1,443` deletions; clean revisions after acceptance: `0` insertions and `0` deletions.
+- Response SHA-256 before: `e410f84a5d0139e71812e5a2858a95b3f9f4a43c987b13a32d5b021fc077b39b`.
+- Response SHA-256 after: `5a415c05439b9040d66396cdbae5d784007757356eaa3dc324e611b3b134b27a`.
+- Distinct implemented manuscript locations: `8`.
+- Representative exact quotations: `5`.
+- Verification: only Reviewer 2 / Comment 7's response block changed; all five straight-double-quoted passages occur verbatim in the fresh clean, each has its own immediately following `(Lines/Pages: human verification required)` marker, and no Markdown blockquote prefix is present.

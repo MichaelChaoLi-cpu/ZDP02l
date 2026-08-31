@@ -722,9 +722,27 @@ The sample includes 22 countries from the GFS dataset, which cannot be considere
 Minor comments
 
 **Response:**
-[Response pending.]
+Thank you for raising this important concern. We agree that the sampled data should not be described as globally representative. We therefore revised the title and the principal scope statements in the Abstract and Introduction to identify the study's bounded national and regional coverage, and the Data Source section now states explicitly that the sample is geographically diverse but not globally representative. We also verified the final sample roster and corrected the factual premise in the comment: India is included among the sampled countries. We retain `place` only where it functions as the established technical label for an analytical unit rather than as a claim of global coverage.
 
-"[Exact revised text quoted from the fresh clean manuscript]"
+The revised manuscript reads:
+
+"The Rural Happiness Paradox: Economic Insecurity and Social Support in Rural-Urban Well-being Disparities Across 23 Regions and Countries"
+
+(Lines/Pages: human verification required)
+
+"This study investigates its prevalence and potential statistical pathways using extensive survey data from the Global Flourishing Study (GFS), covering 22 countries and Hong Kong as a region."
+
+(Lines/Pages: human verification required)
+
+"This study directly addresses these critical gaps by leveraging extensive data spanning countries and regions from the Global Flourishing Survey (GFS) (VanderWeele, 2017; VanderWeele et al., 2025) to examine the Rural Happiness Paradox across sampled national and regional contexts."
+
+(Lines/Pages: human verification required)
+
+"Analyzing data from 22 countries and Hong Kong as a region (23 analytical places), this research moves beyond localized observations to provide comparative evidence on whether rural residents report comparable or higher life satisfaction across the sampled places."
+
+(Lines/Pages: human verification required)
+
+"including India among the sampled countries; the sample is geographically diverse but not globally representative"
 
 (Lines/Pages: human verification required)
 

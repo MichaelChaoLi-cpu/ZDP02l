@@ -7790,3 +7790,421 @@ Close Reviewer 1 Comment 5 as done without further manuscript or response change
 ### Follow-Up
 
 Mark reviewer-1/comment-5 done, preserve all artifacts, and select the next dependency-ready comment.
+
+## KILA-D-20260831-004: Approve Reviewer 2 Comment 7 global-coverage and India bundle
+
+- Event SHA-256: 6fba93dc9662aa860410524451e56b29f8ee75cb4842959b25f122c8bcdd2a40
+- Recorded at: 2026-08-31T08:35:10+09:00
+- Revision workspace: Rev
+- Revision stage: manuscript-bundle-approval
+- Reviewer ID: reviewer-2
+- Comment ID: comment-7
+- Decision type: coverage-boundary-and-india-bundle-approval
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/docs/reviewer-2-comment-7-consolidated-proposal.md
+- Object SHA-256: 109621fc82d49468dd0d25d361ca6e6bdad6a1f4f020400df6aa06bbcd066362
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Avoid overstating global coverage and address the reviewer's statement that India is absent.
+
+### Decision Context
+
+The final roster and outputs show 22 countries plus Hong Kong as a region across 23 analytical places, including India, while the manuscript retains several strong global or worldwide claims.
+
+### Kila Recommendation
+
+Approve the complete 11-part bundle, state that the sample is not globally representative, clarify that India is included, and preserve proper names and statistical uses of global.
+
+### Options Presented
+
+- Approve the complete 11-part consolidated bundle.
+
+### Human Decision
+
+The human approved the complete Reviewer 2 Comment 7 consolidated 11-part global-coverage and India bundle.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Replace strong global-coverage claims with sample-bounded language, explicitly identify India as included, and preserve all non-coverage uses of global.
+
+### Affected Manuscript Sections
+
+- Title
+- Abstract
+- Introduction
+- Data Source and Sample
+- Discussion
+
+### Related Artifacts
+
+- Rev/docs/reviewer-2-comment-7-consolidated-proposal.md
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/revisionchanges.md
+
+### Follow-Up
+
+Apply all 11 approved parts sequentially with controlled tracked edits; consolidate any unsafe Word-native parts into one operation; then regenerate one fresh clean and review the full bundle.
+
+## KILA-D-20260831-005: Reconsider analytical-place terminology after Part 08
+
+- Event SHA-256: 9ec4dc7dbb568b0b72b27f9273130f7258aea4ab121133a26fcf7521289dcb51
+- Recorded at: 2026-08-31T08:48:07+09:00
+- Revision workspace: Rev
+- Revision stage: revision
+- Reviewer ID: reviewer-2
+- Comment ID: comment-7
+- Decision type: canonical-terminology-review
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260825-007
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: eef157b83f6afe3f73f30d0d520338d4b163e276af72791ab7b0b985fcabd7b0
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Avoid politically inaccurate country labels for Hong Kong while describing the 22-country plus Hong Kong sample precisely and without implying global representativeness.
+
+### Decision Context
+
+Reviewer 2 Comment 7 Part 08 has been saved by the human while Parts 09-11 remain pending; the current manuscript uses the previously locked tiered rule of countries and regions for collective scope and place for technical analytical units.
+
+### Kila Recommendation
+
+Pause remaining edits and replace the ambiguous technical place terminology only after a complete occurrence-level supplemental bundle fixes a more explicit country/region convention.
+
+### Options Presented
+
+- Retain the existing tiered rule with analytical place as the technical unit.
+- Use countries/regions for the sampled units, with exact first-use definition and context-specific grammatical forms.
+- Use analytical units after exact definition, retaining national and regional contexts in interpretive prose.
+
+### Human Decision
+
+The human reports Part 08 saved, evaluates places as too ambiguous, and asks whether it can be replaced by regions and countries; no exact canonical replacement has yet been authorized.
+
+### Human-Provided Rationale
+
+Places is considered too ambiguous.
+
+### Expected Revision Effect
+
+Pause Parts 09-11, verify the Part 08 save structurally, and obtain one exact terminology decision before preparing and applying a complete supplemental occurrence-level bundle.
+
+### Affected Manuscript Sections
+
+- Title
+- Abstract
+- Introduction
+- Data Source and Sample
+- Methodology
+- Results
+- Discussion
+- Figures and tables
+- Supplementary Materials
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/docs/reviewer-2-comment-7-consolidated-proposal.md
+
+### Follow-Up
+
+Human selects the exact canonical terminology; agent then prepares one complete supplemental bundle covering every live occurrence and prior-part overlap before any further manuscript write.
+
+## KILA-D-20260831-006: Replace place terminology with regions and countries
+
+- Event SHA-256: f75070cb363968cdf0ed1a1699fd1fe6c612d5dbd82fce3b86e3d804b1a4d2b6
+- Recorded at: 2026-08-31T08:57:12+09:00
+- Revision workspace: Rev
+- Revision stage: revision
+- Reviewer ID: reviewer-2
+- Comment ID: comment-7
+- Decision type: canonical-terminology
+- Source skill: execute-procedure
+- Entry type: revision
+- Supersedes: KILA-D-20260825-007
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: eef157b83f6afe3f73f30d0d520338d4b163e276af72791ab7b0b985fcabd7b0
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Replace place terminology throughout the manuscript and related displays with explicit regions-and-countries terminology while retaining Hong Kong as a region and avoiding global-representativeness claims.
+
+### Decision Context
+
+After the Part 08 save, the human reconsidered the tiered terminology rule that used place for technical units and rejected the agent's concern that region terminology would conflict with the UN M49 display grouping.
+
+### Kila Recommendation
+
+Use context-sensitive grammatical forms based on the human-selected regions and countries convention rather than a blind one-token substitution.
+
+### Options Presented
+
+- Replace place terminology with context-sensitive regions and countries forms. [selected]
+- Retain analytical place as the technical unit. [rejected]
+
+### Human Decision
+
+The human directs that place terminology be replaced with regions and countries and states that the proposed region-meaning ambiguity does not exist.
+
+### Human-Provided Rationale
+
+Place terminology is considered too ambiguous; the suggested conflict with geographic-region terminology is rejected.
+
+### Expected Revision Effect
+
+Replace all live technical place terminology in the main manuscript, tables, figures, and Supplement with grammatically appropriate regions-and-countries forms; retain genuine ordinary-language uses only if any are found in the complete occurrence audit.
+
+### Affected Manuscript Sections
+
+- Title
+- Abstract
+- Introduction
+- Data Source and Sample
+- Methodology
+- Results
+- Discussion
+- Tables and figures
+- Supplementary Materials
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.supplementary.docx
+- Rev/docs/reviewer-1-comment-9-consolidated-proposal.md
+
+### Follow-Up
+
+Agent performs a complete occurrence-level audit, presents one consolidated supplemental bundle with exact context-sensitive replacements and prior-part overlaps, and writes no manuscript content before bundle approval.
+
+## KILA-D-20260831-007: Approve complete regions-and-countries terminology bundle
+
+- Event SHA-256: 801d06ebe41262df586e3c3f2a93ed83c57c619d9a84da7f0b27b38f37c11310
+- Recorded at: 2026-08-31T09:11:53+09:00
+- Revision workspace: Rev
+- Revision stage: revision
+- Reviewer ID: reviewer-2
+- Comment ID: comment-7
+- Decision type: terminology-bundle-approval
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/docs/reviewer-2-comment-7-regions-countries-supplemental-proposal.md
+- Object SHA-256: fc1bca4d65dab1c50d3115603b4a037dd315483a948e61b57444a0db4a679aed
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Replace all live technical place terminology with grammatically adapted regions-and-countries terminology while preserving ordinary-language and bibliographic uses, numerical results, political classification, and protected citation/code objects.
+
+### Decision Context
+
+The human selected the regions-and-countries canonical rule under KILA-D-20260831-006. A complete occurrence-level proposal now identifies 85 visible manuscript, Supplement, and figure objects, including all known prior overlaps, protected fields, and pending Comment 7 parts.
+
+### Kila Recommendation
+
+Approve the complete 85-part supplemental bundle and execute all safe parts continuously, consolidating blocked Word-native objects once.
+
+### Options Presented
+
+- Approve reviewer-2/comment-7 regions-and-countries supplemental 85-part bundle. [selected]
+- Revise or retain selected place terminology. [rejected]
+
+### Human Decision
+
+The human approves the complete Reviewer 2 Comment 7 regions-and-countries supplemental 85-part bundle without exclusions.
+
+### Human-Provided Rationale
+
+The human previously directed that place terminology be replaced and rejected the proposed ambiguity concern.
+
+### Expected Revision Effect
+
+Apply 59 main-manuscript tracked text/table/caption changes, 24 standalone-Supplement changes, and two verified figure-label replacements; then complete one fresh-clean and full visual review before drafting the response.
+
+### Affected Manuscript Sections
+
+- Title
+- Abstract
+- Introduction
+- Data Source and Sample
+- Methodology
+- Results
+- Discussion
+- Tables and figures
+- Supplementary Materials
+
+### Related Artifacts
+
+- Rev/docs/reviewer-2-comment-7-regions-countries-supplemental-proposal.md
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.supplementary.docx
+
+### Follow-Up
+
+Execute all safe atomic parts in order, route blocked Word-native spans once, regenerate and verify Figure 2 and Figure S1, update the Supplement, regenerate one fresh clean, render all final artifacts, and draft only the Reviewer 2 Comment 7 response block.
+
+## KILA-D-20260831-008: Narrow regions-and-countries revision to titles only
+
+- Event SHA-256: 47a113a7c3671706f63094efe3727edb2f22f829cecaf71c378c5feafda6ae6c
+- Recorded at: 2026-08-31T09:36:19+09:00
+- Revision workspace: Rev
+- Revision stage: revision
+- Reviewer ID: reviewer-2
+- Comment ID: comment-7
+- Decision type: terminology-scope-revision
+- Source skill: execute-procedure
+- Entry type: revision
+- Supersedes: KILA-D-20260831-007
+- Relates to: none
+- Decision object: Rev/revision/ZDP02l.rev.markup.docx
+- Object SHA-256: 0554cf1f1a525a394e18db651a52a969ac3ca9e460e803cb829226c94cf4b236
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Reviewer 2 requested accurate scope framing for the 23-unit sample and questioned the India coverage statement.
+
+### Decision Context
+
+After completing the consolidated Word save, the human narrowed the previously approved 85-object terminology bundle and reported a separate abstract deletion.
+
+### Kila Recommendation
+
+Audit the saved markup first, retain only title or heading-level terminology changes chosen by the human, preserve the human abstract deletion, and restore non-title prose, table, caption, figure-label, and Supplement terminology to its prior form unless separately required for coverage accuracy.
+
+### Options Presented
+
+- Retain only title and heading terminology changes and preserve the human abstract deletion. [selected]
+- Keep the previously approved full 85-object terminology replacement. [rejected]
+
+### Human Decision
+
+The human revises the approved strategy: only titles or headings should use the new regions-and-countries terminology; other locations should retain their prior wording, and the human-authored abstract deletion should remain.
+
+### Human-Provided Rationale
+
+The human judges that only titles require terminology treatment and prefers the original wording elsewhere.
+
+### Expected Revision Effect
+
+Audit the Word save, preserve the abstract deletion, identify the exact title-level changes to retain, and reverse or avoid non-title terminology substitutions before final clean review and response drafting.
+
+### Affected Manuscript Sections
+
+- Title
+- Abstract
+- Headings
+- Supplementary Materials
+
+### Related Artifacts
+
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.supplementary.docx
+- Rev/docs/reviewer-2-comment-7-regions-countries-supplemental-proposal.md
+
+### Follow-Up
+
+Regenerate a fresh clean from the human save, compare it with the preceding clean and approved proposal, inventory title-level versus non-title changes, and present or execute only the minimal restoration required by the revised scope.
+
+## KILA-D-20260831-009: Approve Reviewer 2 Comment 7 response and narrowed implementation
+
+- Event SHA-256: 6ea2353d7fdbefe5e4752d38051a65329670bad179c891428a40f82473ded1c4
+- Recorded at: 2026-08-31T09:55:14+09:00
+- Revision workspace: Rev
+- Revision stage: revision
+- Reviewer ID: reviewer-2
+- Comment ID: comment-7
+- Decision type: response-and-implementation-approval
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260831-008
+- Decision object: Rev/revision/response-draft.md
+- Object SHA-256: 5a415c05439b9040d66396cdbae5d784007757356eaa3dc324e611b3b134b27a
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+The reviewer considered the 22-country sample insufficient for global representativeness, stated that India was missing, and requested weaker global-coverage language.
+
+### Decision Context
+
+The verified response reflects the final narrowed terminology scope: title-only Regions and Countries wording, retained technical place terminology elsewhere, the intentional Abstract parenthetical deletion, bounded claims of geographic coverage, and confirmed inclusion of India.
+
+### Kila Recommendation
+
+Approve the response if it accurately states the bounded sample scope, the retained technical terminology, and India's verified inclusion.
+
+### Options Presented
+
+- Approve the response and close Reviewer 2 Comment 7.
+
+### Human Decision
+
+The human approved the completed Reviewer 2 Comment 7 response and thereby accepted the verified narrowed implementation.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Close Reviewer 2 Comment 7 without further manuscript, Supplement, figure, or response changes.
+
+### Affected Manuscript Sections
+
+- Response to Reviewer 2
+- Title
+- Abstract
+- Introduction
+- Data Source
+
+### Related Artifacts
+
+- Rev/revision/response-draft.md
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/revision/ZDP02l.supplementary.docx
+
+### Follow-Up
+
+Mark reviewer-2/comment-7 done and route the next dependency-ready comment.
