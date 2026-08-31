@@ -9853,3 +9853,238 @@ This study investigates its prevalence and potential statistical pathways using 
 - Distinct implemented manuscript locations: `8`.
 - Representative exact quotations: `5`.
 - Verification: only Reviewer 2 / Comment 7's response block changed; all five straight-double-quoted passages occur verbatim in the fresh clean, each has its own immediately following `(Lines/Pages: human verification required)` marker, and no Markdown blockquote prefix is present.
+
+## reviewer-1/comment-15
+
+### consolidated human Word operation receipt
+
+- Scope: approved 13-part claim-boundary bundle plus the approved two-action post-save correction.
+- Kila decisions: `KILA-D-20260831-010`, `KILA-D-20260831-011`.
+- Approved specifications: `Rev/docs/reviewer-1-comment-15-consolidated-proposal.md` and `Rev/docs/reviewer-1-comment-15-post-save-correction.md`.
+- Author of Word revisions: Chao Li.
+- Mode: human-owned true tracked replacements/deletion in one initial save and one corrective save; no agent mutation of the markup DOCX.
+- Markup SHA-256 before the initial human operation: `0554cf1f1a525a394e18db651a52a969ac3ca9e460e803cb829226c94cf4b236`.
+- Markup SHA-256 after the initial human operation: `baa056572de78d88a910b5188cd703810e99afa66f2ae77718f32a641558a394`.
+- Final markup SHA-256 after the corrective human save: `76de8249a414a3b8f4e03dd8512d47985ce3242bf7821c982c7e95c1c9e3cbb4`.
+- Final fresh-clean SHA-256: `08a05e249253ef0d4d02491880993dd22b0e9ea9aa97d2f4db53e5473d7b6c30`.
+- Final distinct manuscript locations: `13`.
+- Revision metadata: final markup contains `1,125` insertions and `1,460` deletions; the final clean contains no revision wrappers. The final markup package has `2,585` unique numeric revision IDs.
+- Backup: not created by Codex because both manuscript saves were human-owned Word operations.
+- Protected objects: all EndNote fields, relationships, table/drawing wrappers, and OMML objects were preserved.
+
+### part-01
+
+- Location: Introduction, paragraph beginning `This study directly addresses these critical gaps`, final sentence.
+- Mode: `replace`.
+- Before:
+
+~~~~text
+This approach provides robust evidence, highlighting the context-dependent nature of this relationship across diverse socioeconomic and cultural landscapes.
+~~~~
+
+- After:
+
+~~~~text
+This approach provides comparative evidence, highlighting the context-dependent nature of this relationship across the sampled places.
+~~~~
+
+### part-02
+
+- Location: Data Source and Sample, first paragraph, second sentence.
+- Mode: `replace`.
+- Before:
+
+~~~~text
+The GFS employs standardized questionnaires and harmonized sampling strategies to ensure robust comparability across countries and regions, with data collection primarily conducted through computer-assisted personal and telephone interview.
+~~~~
+
+- After:
+
+~~~~text
+The GFS employs standardized questionnaires and harmonized sampling strategies to support comparability across countries and regions, with data collection primarily conducted through computer-assisted personal and telephone interview.
+~~~~
+
+### part-03
+
+- Location: Data and Measurement > Rural-Urban Residence, final sentence.
+- Mode: `replace`.
+- Before:
+
+~~~~text
+This coding is used for supplementary robustness checks to assess the sensitivity of the main findings to alternative rural-urban definitions and ensure the robustness of the conclusions.
+~~~~
+
+- After:
+
+~~~~text
+This coding is used for supplementary robustness checks to assess the sensitivity of the main findings to alternative rural-urban definitions.
+~~~~
+
+### part-04
+
+- Location: Methodology > Robustness Checks, survey-weighting paragraph.
+- Mode: `replace`.
+- Before:
+
+~~~~text
+We evaluate the potential impact of survey design and population representativeness on the results.
+~~~~
+
+- After:
+
+~~~~text
+We evaluate the sensitivity of the results to survey weighting.
+~~~~
+
+### part-05
+
+- Location: Methodology > Robustness Checks, sentence beginning `These post-stratification weights`.
+- Mode: `replace`; both EndNote fields retained.
+- Before:
+
+~~~~text
+These post-stratification weights (Counted et al., 2024; Mahmud & Riley, 2021; Wang et al., 2015) are designed to ensure the sample accurately reflects the demographic composition of target populations within each sampled place (Counted et al., 2024; Hammond et al., 2026; Lu et al., 2025).
+~~~~
+
+- After:
+
+~~~~text
+These post-stratification weights (Counted et al., 2024; Mahmud & Riley, 2021; Wang et al., 2015) are designed to improve alignment with the demographic composition of target populations within each sampled place (Counted et al., 2024; Hammond et al., 2026; Lu et al., 2025).
+~~~~
+
+### part-06
+
+- Location: Results > Robustness of Findings, sentence after the ordinal-model interpretation.
+- Mode: `replace`.
+- Before:
+
+~~~~text
+The main findings regarding the rural-urban life satisfaction gap remain robust when using alternative well-being outcomes.
+~~~~
+
+- After:
+
+~~~~text
+The alternative-outcome point estimates are directionally similar to the primary result, but their intervals include zero.
+~~~~
+
+### part-07
+
+- Location: Discussion, Heading 2 after the opening summary.
+- Mode: `replace`; Heading 2 style retained.
+- Before:
+
+~~~~text
+Revisiting the Rural Happiness Paradox Globally
+~~~~
+
+- After:
+
+~~~~text
+Revisiting the Rural Happiness Paradox Across Sampled Contexts
+~~~~
+
+### part-08
+
+- Location: Discussion > The Pervasive Role of Economic Insecurity, policy-oriented paragraph, first sentence.
+- Mode: `replace`.
+- Before:
+
+~~~~text
+These findings underscore the importance of policies aimed at improving economic stability and reducing financial precarity in rural areas, as such interventions could greatly enhance the subjective well-being of rural residents.
+~~~~
+
+- After:
+
+~~~~text
+These findings suggest that locally evaluated efforts to improve economic stability and reduce financial precarity may be relevant in rural settings, but the cross-sectional analysis does not establish their effects on subjective well-being.
+~~~~
+
+### part-09
+
+- Location: same policy-oriented paragraph, second sentence.
+- Mode: `replace`; ending EndNote field retained.
+- Before:
+
+~~~~text
+Specifically, interventions should focus on fostering stable employment opportunities, improving access to financial resources, and strengthening social safety nets in rural contexts (Su et al., 2023; Tang et al., 2021; Zhang et al., 2025).
+~~~~
+
+- After:
+
+~~~~text
+Potential approaches include supporting stable employment, improving access to financial resources, and strengthening social protection in rural contexts (Su et al., 2023; Tang et al., 2021; Zhang et al., 2025).
+~~~~
+
+### part-10
+
+- Location: same policy-oriented paragraph, final two legacy sentences.
+- Mode: `delete`.
+- Before:
+
+~~~~text
+Such measures would directly address a core driver of the observed well-being disparities. Consequently, targeted economic policies could play a crucial role in mitigating the disadvantages faced by rural populations and promoting more equitable life satisfaction outcomes globally.
+~~~~
+
+- After:
+
+~~~~text
+
+~~~~
+
+### part-11
+
+- Location: Discussion > Context-Dependent Nature of Rural-Urban Well-being, second paragraph, sentence after the five-place comparison.
+- Mode: `replace`; ending EndNote field retained.
+- Before:
+
+~~~~text
+This pronounced heterogeneity suggests a complex interaction of macro-level factors that shape the context-dependent impact of the residential environment on well-being (Chaplitskaya et al., 2024; Counted et al., 2024; Lu et al., 2025).
+~~~~
+
+- After:
+
+~~~~text
+This pronounced heterogeneity is consistent with context dependence in the association between residential environment and well-being, but the present analysis does not identify which macro-level factors account for it (Chaplitskaya et al., 2024; Counted et al., 2024; Lu et al., 2025).
+~~~~
+
+### part-12
+
+- Location: Discussion > Context-Dependent Nature of Rural-Urban Well-being, final paragraph, opening sentence.
+- Mode: `replace`.
+- Before:
+
+~~~~text
+The observed diverse place-level patterns underscore the need for future research to delve deeper into place-specific characteristics that drive the differing rural-urban well-being associations.
+~~~~
+
+- After:
+
+~~~~text
+The observed diverse place-level patterns underscore the need for future research to delve deeper into place-specific characteristics associated with the differing rural-urban well-being associations.
+~~~~
+
+### part-13
+
+- Location: same future-research paragraph, final sentence.
+- Mode: `replace`.
+- Before:
+
+~~~~text
+Understanding these context-specific drivers is crucial for moving beyond generalized findings and developing targeted interventions that can effectively address well-being disparities in rural and urban areas worldwide.
+~~~~
+
+- After:
+
+~~~~text
+Investigating these context-specific factors is important for moving beyond generalized findings and informing locally evaluated responses to rural-urban well-being disparities.
+~~~~
+
+### post-save correction receipt
+
+- The initial human save placed Part 08's approved replacement at the opening of the paragraph immediately preceding `The Pervasive Role of Economic Insecurity`, leaving the intended policy target unchanged.
+- Under `KILA-D-20260831-011`, the corrective save restored that preceding paragraph's sentence to: `These findings underscore the importance of considering socioeconomic and contextual factors when interpreting rural-urban well-being disparities.`
+- The same corrective save applied Part 08 at its intended policy-paragraph location. Final clean counts are one restored contextual sentence, one approved Part 08 sentence, and zero old policy sentences.
+- All Parts 01–09 and 11–13 occur once in the final clean; Part 10's deleted text occurs zero times. Exact phrases `global evidence` and `adjusting for country-specific factors` occur zero times.
+- Structural verification: valid DOCX package/XML, Track Changes enabled, `218` field beginnings, `158` instruction-text nodes, `10` table wrappers, `12` drawing wrappers, `14` OMML nodes when counting `oMath` and `oMathPara`, and `12` media files.
+- Visual verification: all `83` markup pages and `52` fresh-clean pages were rendered and inspected; no clipping, overlap, missing glyph, broken field, missing object, or unintended page-break defect was found.

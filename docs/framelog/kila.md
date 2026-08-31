@@ -8208,3 +8208,202 @@ Close Reviewer 2 Comment 7 without further manuscript, Supplement, figure, or re
 ### Follow-Up
 
 Mark reviewer-2/comment-7 done and route the next dependency-ready comment.
+
+## KILA-D-20260831-010: Approve consolidated claim-boundary revisions
+
+- Event SHA-256: 1b875d39c740364f0cb95a8422fa2ee2dbcb4a15166336219deff8a5ee42ce4c
+- Recorded at: 2026-08-31T10:35:45+09:00
+- Revision workspace: Rev
+- Revision stage: manuscript-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-15
+- Decision type: claim-boundary
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/docs/reviewer-1-comment-15-consolidated-proposal.md
+- Object SHA-256: 8b287305ef3dab276209773bac8a8f519111437e30ae6b5988b15782ad9f489a
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Reviewer asks the authors to soften overstated wording such as global evidence and adjusting for country-specific factors.
+
+### Decision Context
+
+A whole-manuscript audit identified 13 remaining statements that could overstate robustness, representativeness, causal policy effects, unmeasured macro-level explanations, or worldwide applicability; the reviewer-named exact phrases themselves are already absent.
+
+### Kila Recommendation
+
+Apply the complete 13-part sample-bounded and noncausal wording bundle while retaining proper names, statistical global tests, explicit limitations, and accurate fixed-effect wording.
+
+### Options Presented
+
+- Approve the consolidated 13-part bundle as presented.
+
+### Human Decision
+
+The human approved the complete reviewer-1/comment-15 consolidated 13-part bundle for execution.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Qualify comparative and weighting claims, accurately characterize nonsignificant alternative outcomes, remove global framing from the Discussion heading, and replace causal or worldwide policy and mechanism claims with sample-bounded associational language.
+
+### Affected Manuscript Sections
+
+- Introduction
+- Data Source
+- Data and Measurement
+- Methodology
+- Results
+- Discussion
+
+### Related Artifacts
+
+- Rev/docs/reviewer-1-comment-15-consolidated-proposal.md
+- Rev/revision/ZDP02l.rev.markup.docx
+
+### Follow-Up
+
+Dry-run and apply the 13 approved parts sequentially, consolidate any structurally blocked Word-native exceptions once, then regenerate and review a fresh clean manuscript.
+
+## KILA-D-20260831-011: Approve consolidated post-save correction for Comment 15
+
+- Event SHA-256: 7196e652334af88cf1e60a05e5a8600d761fdd55e99abd2a94e26e82e0a15576
+- Recorded at: 2026-08-31T10:53:33+09:00
+- Revision workspace: Rev
+- Revision stage: manuscript-revision
+- Reviewer ID: reviewer-1
+- Comment ID: comment-15
+- Decision type: post-save-correction
+- Source skill: execute-procedure
+- Entry type: decision
+- Supersedes: none
+- Relates to: none
+- Decision object: Rev/docs/reviewer-1-comment-15-post-save-correction.md
+- Object SHA-256: 281b77d1668548866074ed37d77c6acb4f1dabb6a029e48340f691211706bcc4
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Reviewer asks the authors to soften overstated global, robustness, representativeness, causal, and policy wording.
+
+### Decision Context
+
+The prior Word save implemented 12 approved claim-boundary parts but misplaced the Part 08 replacement in an earlier Discussion paragraph while leaving the intended policy sentence unchanged.
+
+### Kila Recommendation
+
+Restore the contextual-interpretation sentence at the wrong location and apply the already-approved Part 08 sentence at the intended economic-insecurity policy paragraph in one Word opening.
+
+### Options Presented
+
+- Approve the exact consolidated two-action post-save correction.
+
+### Human Decision
+
+The human approved both exact corrective replacements as one consolidated Word operation.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Remove the misplaced duplicate, restore the earlier contextual sentence, and place the cautious cross-sectional policy statement at its intended location without altering EndNote fields or any other manuscript content.
+
+### Affected Manuscript Sections
+
+- Discussion > Revisiting the Rural Happiness Paradox Across Sampled Contexts
+- Discussion > The Pervasive Role of Economic Insecurity
+
+### Related Artifacts
+
+- Rev/docs/reviewer-1-comment-15-post-save-correction.md
+- Rev/revision/ZDP02l.rev.markup.docx
+
+### Follow-Up
+
+Verify the 10:52 Word save against the two approved corrections using a newly generated fresh clean; if adequate, complete consolidated semantic and visual review and build only the selected response block.
+
+## KILA-D-20260831-012: Approve Reviewer 1 Comment 15 response and implementation
+
+- Event SHA-256: 74131ca7a12eb81918b53b3b63911a7da3f6f4eaa4590fa9a792198e0d1cfc82
+- Recorded at: 2026-08-31T11:05:14+09:00
+- Revision workspace: Rev
+- Revision stage: revision-response-review
+- Reviewer ID: reviewer-1
+- Comment ID: comment-15
+- Decision type: response-and-implementation-approval
+- Source skill: execute-procedure
+- Entry type: evaluation
+- Supersedes: none
+- Relates to: KILA-D-20260831-011
+- Decision object: Rev/revision/response-draft.md
+- Object SHA-256: b14a2342c04709ba077ff8be47c878568607569205b926a04423ee68f1558f03
+- Implementation owner: human+agent
+
+### Upstream Decision References
+
+- None recorded
+
+### Reviewer Request Summary
+
+Reviewer asks the authors to soften overstated global, robustness, representativeness, causal, and policy wording.
+
+### Decision Context
+
+The 13-location claim-boundary revision, corrective Word save, fresh-clean verification, full visual review, and ten-quotation response have been completed and were pending final human review.
+
+### Kila Recommendation
+
+Approve the verified response and complete implementation, then close Comment 15.
+
+### Options Presented
+
+- Approve the verified Reviewer 1 / Comment 15 response and implementation.
+
+### Human Decision
+
+The human approved the Reviewer 1 / Comment 15 response and thereby accepted the verified complete implementation.
+
+### Human-Provided Rationale
+
+Not provided
+
+### Expected Revision Effect
+
+Close Reviewer 1 / Comment 15 and route the next dependency-ready policy-implications comment without further manuscript or response changes for Comment 15.
+
+### Affected Manuscript Sections
+
+- Introduction
+- Data Source and Sample
+- Data and Measurement
+- Methodology
+- Results
+- Discussion
+
+### Related Artifacts
+
+- Rev/revision/response-draft.md
+- Rev/revision/ZDP02l.rev.markup.docx
+- Rev/revision/ZDP02l.rev.clean.docx
+- Rev/docs/revisionchanges.md
+
+### Follow-Up
+
+Mark Reviewer 1 / Comment 15 done, route Reviewer 1 / Comment 16, and use the project-approved Git workflow only when explicitly available.

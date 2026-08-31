@@ -498,9 +498,45 @@ Thank you for raising this question. The two former figures addressed different 
 h. Some claims in the manuscript appear somewhat overstated, such as “global evidence” and “adjusting for country-specific factors”, and the author(s) may consider changing the wording a little bit.
 
 **Response:**
-[Response pending.]
+Thank you for this helpful comment. We reviewed claim strength throughout the Introduction, Data Source and Measurement sections, Methodology, Results, and Discussion. We revised 13 distinct locations to bound statements to the sampled places, describe weighting and robustness analyses according to what they directly assess, and replace causal or universal wording with associational and context-specific language. The phrases “global evidence” and “adjusting for country-specific factors” no longer appear in the manuscript. No analysis, coefficient, interval, sample size, table, figure, or supplementary result was changed for this comment. Ten representative revisions are quoted below:
 
-"[Exact revised text quoted from the fresh clean manuscript]"
+"This approach provides comparative evidence, highlighting the context-dependent nature of this relationship across the sampled places."
+
+(Lines/Pages: human verification required)
+
+"The GFS employs standardized questionnaires and harmonized sampling strategies to support comparability across countries and regions, with data collection primarily conducted through computer-assisted personal and telephone interview."
+
+(Lines/Pages: human verification required)
+
+"This coding is used for supplementary robustness checks to assess the sensitivity of the main findings to alternative rural-urban definitions."
+
+(Lines/Pages: human verification required)
+
+"We evaluate the sensitivity of the results to survey weighting."
+
+(Lines/Pages: human verification required)
+
+"These post-stratification weights (Counted et al., 2024; Mahmud & Riley, 2021; Wang et al., 2015) are designed to improve alignment with the demographic composition of target populations within each sampled place (Counted et al., 2024; Hammond et al., 2026; Lu et al., 2025)."
+
+(Lines/Pages: human verification required)
+
+"The alternative-outcome point estimates are directionally similar to the primary result, but their intervals include zero."
+
+(Lines/Pages: human verification required)
+
+"Revisiting the Rural Happiness Paradox Across Sampled Contexts"
+
+(Lines/Pages: human verification required)
+
+"These findings suggest that locally evaluated efforts to improve economic stability and reduce financial precarity may be relevant in rural settings, but the cross-sectional analysis does not establish their effects on subjective well-being."
+
+(Lines/Pages: human verification required)
+
+"This pronounced heterogeneity is consistent with context dependence in the association between residential environment and well-being, but the present analysis does not identify which macro-level factors account for it (Chaplitskaya et al., 2024; Counted et al., 2024; Lu et al., 2025)."
+
+(Lines/Pages: human verification required)
+
+"Investigating these context-specific factors is important for moving beyond generalized findings and informing locally evaluated responses to rural-urban well-being disparities."
 
 (Lines/Pages: human verification required)
 
